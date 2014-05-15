@@ -3,7 +3,7 @@ jekyll-site
 
 This is a port of my wordpress blog that has been moved to [Jekyll](http://jekyllrb.com/) via the [Jekyll Imports](http://import.jekyllrb.com/) plugin. At some time in the future, this will be integrated with Jenkins.
 
-Feel free to check out the site so far: [jenntes.no-ip.org](http://jenntes.no-ip.org/)
+Feel free to check out my development site: [jenntes.no-ip.org](http://jenntes.no-ip.org/)
 
 ###Install steps:
 

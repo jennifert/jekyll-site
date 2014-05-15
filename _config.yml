@@ -1,6 +1,5 @@
 # Site settings
 title: Jennifer Tesolin's Blog
-email: jtesolin@gmail.com
 description: "A site that has many tutorials and tips for web developement."
 baseurl: ""
 url: "http://jenntesolin.com"
@@ -12,3 +11,9 @@ paginate: 10
 
 permalink: /blog/:year/:month/:day/:title/
 paginate_path: /blog/page/:num
+
+author :
+  name : Jennifer Tesolin
+  email : jtesolin@gmail.com
+  github : jennifert
+  twitter : jenntes

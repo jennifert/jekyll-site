@@ -1,0 +1,34 @@
+---
+layout: post
+title: 'Quick Tip: Wordpress and Campaign Monitor'
+categories:
+- PHP
+tags:
+- wordpress
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+  _wpas_done_all: '1'
+  _wpas_skip_2311934: '1'
+  dsq_thread_id: '1404523538'
+author:
+  login: jenntes
+  email: jtesolin@gmail.com
+  display_name: Jenn Tesolin
+  first_name: Jennifer
+  last_name: Tesolin
+---
+<p>Just a quick and easy way to integrate your campaign monitor list. <!--more--></p>
+<p><strong>Step 1: Adding a subscribe form to your site</strong></p>
+<p>The easiest way, is to use the Wordpress text widget, and then paste in the campaign monitor built form code into it. To get a form, go to your list in campaign mointor, and click "Grow your audience". Next, click "Copy/paste a form to your site". Select the list(s) that you want, and then click generate code.  This will provide the form code to put into your blog. You can later customize the settings like email confirmation, thank you note, etc.</p>
+<p><strong>Step 2: Sending alert on Publish</strong></p>
+<p>As I am newer to Wordpress, I had to add the <a title="Campaign Monitor Wrapper for PHP" href="http://campaignmonitor.github.io/createsend-php/" target="_blank">api wrapper</a> into the themes directory to access. Now use the "create a draft campaign" and "Sending a draft campaign  to send an email. This code should go into a function like below:</p>
+<pre>function email_alert()  {
+    //campaign monitor code
+}
+add_filter ( 'publish_post', 'email_alert' );
+</pre>
+<p>Resource:</p>
+<p><a href="http://wordpress.org/support/topic/add_action-with-publish_post" target="_blank">Wordpress.org support: Publish actions</a></p>

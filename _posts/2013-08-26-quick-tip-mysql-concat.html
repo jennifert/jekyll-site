@@ -1,0 +1,29 @@
+---
+layout: post
+title: 'Quick Tip: MySQL Concat'
+categories:
+- mysql
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+  cyberchimps_slider_image: ''
+  cyberchimps_slider_hidetitle: '1'
+  cyberchimps_slider_hidecaption: '1'
+author:
+  login: jenntes
+  email: jtesolin@gmail.com
+  display_name: Jenn Tesolin
+  first_name: Jennifer
+  last_name: Tesolin
+---
+<p>While working on a project, I was looking for a way to join to mysql columns without using php or .net. I came across the concat function. It basically allows you to join together 2 columns as one.</p>
+<p><!--more--></p>
+<p>Here is the code:</p>
+<p>
+<pre>
+SELECT CONCAT(firstname, ' ', lastname) As fullname FROM table1 ....
+</pre></p>
+<p>Hope it helps someone.</p>

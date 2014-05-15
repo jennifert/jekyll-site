@@ -1,0 +1,26 @@
+---
+layout: post
+title: jQuery time picker issues and .net
+categories:
+- asp.net
+- Javascript
+tags:
+- jquery
+- time picker
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+  dsq_thread_id: '1483855174'
+author:
+  login: jenntes
+  email: jtesolin@gmail.com
+  display_name: Jenn Tesolin
+  first_name: Jennifer
+  last_name: Tesolin
+---
+<p>Recently I was wrestling with an issue with a time picker plugin not firing my custom validator onChange event. Here's the problem and how it was resolved.<!--more-->Our timepicker custom validation was not firing the onChange event. The following post from Stack overflow solved my problem:</p>
+<p><a href="http://stackoverflow.com/questions/8649565/do-not-fire-custom-validate-on-onchange-event-of-a-textbox" target="_blank">http://stackoverflow.com/questions/8649565/do-not-fire-custom-validate-on-onchange-event-of-a-textbox</a></p>
+<p>The problem was that for some reason it did not like control to validate. As suggested by the above post, using a validation group in my custom validation solved the issue.</p>
+<p>&nbsp;</p>

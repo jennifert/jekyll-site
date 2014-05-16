@@ -28,6 +28,7 @@ In no particular order:
 11. Compare against the [Web Accessibility Checklist](http://a11yproject.com/checklist.html)
 12. Use html 5 markup with Shim, not divs.
 13. Look into jekyll ignore for the readme.mb file. ;)
+14. [Jekyll + lunr.js](https://github.com/slashdotdash/jekyll-lunr-js-search) site search incorporation
 
 Final: Do entire process (as mentioned in future blog posting) by scratch in order to grab new posts.
 

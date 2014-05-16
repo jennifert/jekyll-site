@@ -1,8 +1,12 @@
+---
+layout: none
+---
 /* TEAM */
-Developer: Jennifer Tesolin
-Site: jtesolin@gmail.com
-Twitter: @jenntes
-Location: Toronto, Canada
+Developer: {{ site.author.name }}
+Site: {{ site.author.email }}
+Twitter: {{ site.author.twitter }}
+Github: {{ site.author.github }}
+Location: {{ site.timezone }}
 
 /* SITE */
 Last update: 2014/04/15

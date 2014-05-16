@@ -3,6 +3,7 @@ title: Jennifer Tesolin's Blog
 description: "A site that has many tutorials and tips for web developement."
 baseurl: ""
 url: "http://jenntesolin.com"
+timezone : "America/Toronto"
 
 # Build settings
 markdown: rdiscount
@@ -15,5 +16,6 @@ paginate_path: /blog/page/:num
 author :
   name : Jennifer Tesolin
   email : jtesolin@gmail.com
+  location : Toronto (Canada)
   github : jennifert
   twitter : jenntes

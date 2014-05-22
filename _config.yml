@@ -6,9 +6,10 @@ url: "http://jenntesolin.com"
 timezone : "America/Toronto"
 
 # Build settings
-markdown: rdiscount
+markdown: kramdown
 
 paginate: 10
+paginate_path: "blog/page:num"
 
 permalink: /blog/:year/:month/:day/:title/
 paginate_path: /blog/page/:num

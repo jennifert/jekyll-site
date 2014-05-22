@@ -5,7 +5,7 @@ permalink: /blog/
 ---
 
 <article class="posts blogpage">
-    {% for post in site.posts limit:2 %}
+    {% for post in site.posts limit:11 %}
         	<h2 class="entry-title">
         		<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         	</h2>

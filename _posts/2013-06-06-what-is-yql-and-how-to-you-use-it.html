@@ -15,9 +15,9 @@ published: true
 <p>To get your feet feet with YQL, surf to the <a href="http://developer.yahoo.com/yql/console/" target="_blank">YQL Console</a>. From here you can test queries and see the resulting rest Query (also listed on teh developer console, are premade requests from other Yahoo services such as flicker).</p>
 <p><a href="http://jenntesolin.com/blog/wp-content/uploads/2013/06/Screen-Shot-2013-06-06-at-7.37.37-PM.png"><img class="alignnone size-medium wp-image-259" alt="Screen Shot 2013-06-06 at 7.37.37 PM" src="http://jenntesolin.com/blog/wp-content/uploads/2013/06/Screen-Shot-2013-06-06-at-7.37.37-PM-293x300.png" width="293" height="300" /></a></p>
 <p>In the "Your YQL statement" box, remove "Show tables" and type the below:</p>
-<pre>select * from rss where url ="http://rss.cbc.ca/lineup/technology.xml"</pre>
+<code>select * from rss where url ="http://rss.cbc.ca/lineup/technology.xml"</code>
 <p>In the text area beside the JSON radio button, replace “cbfunc” with “?” and uncheck Diagnostics. Once this is completed, click “TEST”. Copy the rest query from the "Rest Query" text input field. For the above example, my rest query is:</p>
-<pre>http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20rss%20where%20url%20%3D%22http%3A%2F%2Frss.cbc.ca%2Flineup%2Ftechnology.xml%22&amp;format=json&amp;callback=?</pre>
+<code>http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20rss%20where%20url%20%3D%22http%3A%2F%2Frss.cbc.ca%2Flineup%2Ftechnology.xml%22&amp;format=json&amp;callback=?</code>
 <p>Note: the rest query has a secure option. Just change "http" to "https".</p>
 <p>A screenshot of the output is below:</p>
 <p><a href="http://jenntesolin.com/blog/wp-content/uploads/2013/06/Screen-Shot-2013-06-06-at-7.50.04-PM.png"><img class="alignnone size-medium wp-image-261" alt="Screen Shot 2013-06-06 at 7.50.04 PM" src="http://jenntesolin.com/blog/wp-content/uploads/2013/06/Screen-Shot-2013-06-06-at-7.50.04-PM-233x300.png" width="233" height="300" /></a></p>

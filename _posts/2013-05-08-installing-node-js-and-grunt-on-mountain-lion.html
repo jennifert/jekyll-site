@@ -22,31 +22,31 @@ published: true
 <p>This section uses grunt <em>0.4.x</em></p>
 <p>This guide was made from referring to the official getting started documentation: <a href="http://gruntjs.com/getting-started" target="_blank">http://gruntjs.com/getting-started</a>. The sections referred to in this blog are: "<a href="http://gruntjs.com/getting-started#installing-the-cli" target="_blank" name="installing-the-cli">Installing the CLI</a>" and "<a href="http://gruntjs.com/getting-started#preparing-a-new-grunt-project" target="_blank" name="preparing-a-new-grunt-project">Preparing a new grunt project</a>". Grunt JS is installed by what node js refers to as NPM, or Node Package Manager. To install Grunt from NPM, you will need to use the command line.</p>
 <p>Type following command into the terminal:</p>
-<pre>sudo npm install -g grunt-cli</pre>
+<code>sudo npm install -g grunt-cli</code>
 <p>Step 2: Create a package.json file</p>
 <p>go into your project directory, and run the below command. You can use the default settings, as the text file will be edited. My output is below.</p>
-<pre>npm init</pre>
+<code>npm init</code>
 <p><a href="http://jenntesolin.com/blog/wp-content/uploads/2013/05/Screen-Shot-2013-05-07-at-10.53.38-PM.png"><img class="alignnone size-medium wp-image-182" alt="run npm init" src="http://jenntesolin.com/blog/wp-content/uploads/2013/05/Screen-Shot-2013-05-07-at-10.53.38-PM-300x158.png" width="300" height="158" /></a></p>
 <p>Open your favourite text editor, and edit the file "package.json" replace the text so it reads similar to teh below:</p>
-<pre>{
+<code>{
   "name": "demo-project",
   "version": "0.0.1",
   "author": "Jennifer Tesolin"
-}</pre>
+}</code>
 <p>Now, using the terminal, run the below command in your project directory:</p>
-<pre>npm install grunt --save-dev
-npm install</pre>
+<code>npm install grunt --save-dev
+npm install</code>
 <p>This will install grunt into your locally in your package folder. If you open your package.json, you will find a new section added:</p>
-<pre>,
+<code>,
 "devDependencies": {
     "grunt": "~0.4.1"
- }</pre>
+ }</code>
 <p><strong>Associating plugins with Grunt/package.json</strong></p>
 <p>Run the below command to use the plugin npm.</p>
-<pre>npm install grunt-contrib --save-dev</pre>
+<code>npm install grunt-contrib --save-dev</code>
 <p><strong>Create your grunt file</strong></p>
 <p>In your text editor, create a file called "Gruntfile.js" and save this into your project directory. A sample copy is below:</p>
-<pre>module.exports = function(grunt) {
+<code>module.exports = function(grunt) {
 
   // Project configuration.
   grunt.initConfig({
@@ -57,7 +57,7 @@ npm install</pre>
 
   // Default task(s).
 
-};</pre>
+};</code>
 <p>Check out the plugin's you can configure here: <a href="http://gruntjs.com/sample-gruntfile" target="_blank">http://gruntjs.com/sample-gruntfile</a>.</p>
 <p><strong>Additional sources used</strong></p>
 <p>For more grunt resources, check out the below.</p>

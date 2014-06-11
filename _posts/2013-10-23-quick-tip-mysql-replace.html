@@ -11,18 +11,18 @@ published: true
 <p>While looking for ways to improve my MySQL queries, I can across the REPLACE function.<!--more--></p>
 <p><strong>Example code:</strong><br />
 Select Statement:</p>
-<pre>
+<code>
 SELECT field1,
       REPLACE(yourstring, 'searchfor', 'stringtoreplacewith' ) AS field2,
       field3
 FROM testdb
-</pre>
+</code>
 <p>Update Statement:</p>
-<pre>
+<code>
 UPDATE testDB2
 SET aColumn = REPLACE (aColumn, 'searchfor', 'stringtoreplacewith')
 WHERE id=1
-</pre>
+</code>
 <p>Hope this helps someone.</p>
 <p><strong>References:</strong><br />
 <a href="http://stackoverflow.com/questions/5956993/mysql-string-replace" target="_blank">Stackoverflow Post: MySQL string replace</a></p>

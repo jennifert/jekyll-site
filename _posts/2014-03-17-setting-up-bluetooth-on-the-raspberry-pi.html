@@ -23,7 +23,7 @@ apt-get ​install bluetooth bluez-utils blueman bluez-compat</code></p>
 <p>If you have tried in the past to install bluetooth, but its still broken, run the below command:</p>
 <p><code>sudo dpkg --configure -a</code></p>
 <p>Unfortunately, there where problems pairing the device with the error message being:</p>
-<pre>Creating device failed: org.bluez.Error.AuthenticationRejected: Authentication Rejected</pre>
+<code>Creating device failed: org.bluez.Error.AuthenticationRejected: Authentication Rejected</code>
 <p>So following another article, it is recommended to type in:</p>
 <p><code>sudo nano /usr/bin/bluez-simple-agent</code> </p>
 <p>Now, in this file, change 'KeyboardDisplay' with 'DisplayYesNo'.</p>

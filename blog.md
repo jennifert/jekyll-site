@@ -2,6 +2,7 @@
 layout: page
 title: Blog
 permalink: /blog/
+group: "navigation"
 ---
 
 <article class="posts blogpage">

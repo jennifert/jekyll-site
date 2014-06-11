@@ -1,29 +1,25 @@
-<footer class="site-footer">
+<!-- space before footer -->
+            <div class="row">
+              <div class="col-md-12">
+                  &nbsp;
+              </div>
+            </div>
+          <!-- /.space before footer -->
 
-  <div class="wrap">
-
-    <!--<h2 class="footer-heading"></h2>-->
-
-    <div class="footer-col-1 column">
-      <ul>
-        <li><a href="mailto:{{ site.author.name }}">{{ site.author.email }}</a></li>
-        <li>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</li>
-      </ul>
-    </div>
-
-    <div class="footer-col-2 column">
-      <a href="https://github.com/{{ site.author.github }}?tab=repositories" target="_blank"><i class="fa fa-github fa-2x"></i></a>
-      <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
-      <a href="https://www.flickr.com/photos/68631186@N06/sets/" target="_blank"><i class="fa fa-flickr fa-2x"></i></a>
-      <a href="http://ca.linkedin.com/pub/jennifer-tesolin/2b/5bb/3a6" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
-       <a href="https://plus.google.com/109759985952910616281/about" target="_blank"><i class="fa fa-google-plus fa-2x"></i></a>
-    </div>
-
-    <div class="footer-col-3 column" style="text-align:right;">
-      <p class="text">{{ site.description }}</p>
-      <p class="rss-subscribe"><i class="fa fa-rss fa-2x"></i> <a href="{{ "/feed.xml" | prepend: site.baseurl }}">Subscribe to feed </a></p>
-    </div>
-
+<footer role="contentinfo" id="footer">
+  <div class="container">
+        <p class="text-muted">
+          &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+          <span class="pull-right">
+            <a href="https://github.com/{{ site.author.github }}?tab=repositories" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+            <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+            <a href="https://www.flickr.com/photos/68631186@N06/sets/" target="_blank"><i class="fa fa-flickr fa-2x"></i></a>
+            <a href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="fa fa-rss fa-2x"></i></a>
+            <a href="http://ca.linkedin.com/pub/jennifer-tesolin/2b/5bb/3a6" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a href="https://plus.google.com/109759985952910616281/about" target="_blank"><i class="fa fa-google-plus fa-2x"></i></a>
+          </span>
+        </p>
   </div>
-
 </footer>
+
+<script data-main="/js/config" src="/js/require.js"></script>

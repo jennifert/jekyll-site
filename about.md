@@ -5,8 +5,18 @@ permalink: /about/
 group: "navigation"
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Hello my name is Jennifer Tesolin, and I am a web developer based in Toronto (Canada) with over 7 years of experience in various web technologies. Some technologies I am currently learning are: mobile app development (for both android and ios), css pre-precessors, html 5 + css 3, and the lastest php and net versions.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+Currently, a lot of the projects will involve: php or asp.net, with jquery and bootstrap. My github repos at the time of writing are mostly PHP and bootstrap demos. Upcoming updates to my repos will include Grunt, as this is my tool of choice for getting my site ready for production.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Other hobbies I enjoy are travelling, visiting with family and friends, watching Anime, and tinkering with my Raspberry Pi coumputer. My Flickr account has pictures taken in my travels around the globe. Please check them out and make any comments.
+
+###Upcoming posts
+
+Some upcoming tutorials (in no particular order) are:
+
+* jekyll set-up and publishing
+* jenkins with github
+* using double twist to sync from iTunes to your Droid (my device and screenshots will be Nexus 5 and Mavericks).
+* making a bootstrap carousel that pull simages from the Flickr API
+* moving a wordpress blog

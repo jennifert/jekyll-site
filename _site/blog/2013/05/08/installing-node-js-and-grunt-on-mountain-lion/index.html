@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Installing Node JS and Grunt (on Mountain Lion)</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="A site that has many tutorials and tips for web developement.">
+    <link rel="canonical" href="http://jenntesolin.com/blog/2013/05/08/installing-node-js-and-grunt-on-mountain-lion/">
+    <link type="text/plain" rel="author" href="http://jenntesolin.com/humans.txt" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+    
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    
+    <meta name="application-name" content="Jenn Tesolin's Site"/>
+    <meta name="msapplication-TileColor" content="#000000"/>
+    <meta name="msapplication-square70x70logo" content="imgs/tiny.png"/>
+    <meta name="msapplication-square150x150logo" content="imgs/square.png"/>
+    <meta name="msapplication-wide310x150logo" content="imgs/wide.png"/>
+    <meta name="msapplication-square310x310logo" content="imgs/large.png"/>
+    <!--<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44673213-1', 'jenntesolin.com');
+  ga('send', 'pageview');
+
+</script>-->
+
+  
+</head>
+
+
+    <body>
+
+     <!--[if lt IE 8]>
+    <div class="alert alert-warning">
+      You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.    </div>
+  <![endif]-->
+
+  <header class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Jennifer Tesolin</a>
+    </div>
+
+    <nav class="collapse navbar-collapse" role="navigation">
+      <ul id="nav navbar-nav" class="nav navbar-nav">
+        
+        
+        
+  
+
+  
+    
+      <li><a href="/about/">About</a></li>
+    
+  
+
+  
+    
+      <li><a href="/blog/">Blog</a></li>
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+      </ul>
+      <form role="search" method="get" class="navbar-form navbar-right form-inline" action="http://jenntesolin.com/blog/">
+          <div class="form-group">
+            <input type="search" value="" name="s" class="form-control" placeholder="Search the blog... ">
+            <label class="hide">Search for:</label>
+          </div>
+          <button type="submit" class="btn btn-success"> <i class="fa fa-search"></i></button>
+      </form>
+    </nav>
+  </div>
+</header>
+
+    <div class="container">
+      <div class="post">
+
+  <header class="post-header">
+    <h1>Installing Node JS and Grunt (on Mountain Lion)</h1>
+    <p class="meta">May 8, 2013</p>
+  </header>
+
+  <article class="post-content">
+  <p>Node JS is a new generation of server side software. This tutorial focuses on installing the platform, and provides resources for using Grunt.<!--more--></p>
+<p>Step 1: Download the latest stable binary from <a title="Node JS web site" href="http://nodejs.org/" target="_blank">nodejs.org</a>. At the time of writing its 0.10.5. For this tutorial, I just used the default settings</p>
+<p><a href="http://jenntesolin.com/blog/wp-content/uploads/2013/05/Screen-Shot-2013-05-07-at-9.48.27-PM.png"><img class="alignnone size-medium wp-image-169" alt="Screen Shot 2013-05-07 at 9.48.27 PM" src="http://jenntesolin.com/blog/wp-content/uploads/2013/05/Screen-Shot-2013-05-07-at-9.48.27-PM-300x279.png" width="300" height="279" /></a></p>
+<p>Step 2: Verify your Path as per installer message: Make sure that <strong>/usr/local/bin</strong> is in your $PATH.</p>
+<p><a href="http://jenntesolin.com/blog/wp-content/uploads/2013/05/Screen-Shot-2013-05-07-at-9.38.02-PM.png"><img class="alignnone size-medium wp-image-167" alt="Screen Shot 2013-05-07 at 9.38.02 PM" src="http://jenntesolin.com/blog/wp-content/uploads/2013/05/Screen-Shot-2013-05-07-at-9.38.02-PM-300x211.png" width="300" height="211" /></a></p>
+<p>Note: I found this post useful: <a href="http://architectryan.com/2012/10/02/add-to-the-path-on-mac-os-x-mountain-lion/" target="_blank">architectryan.com/2012/10/02/add-to-the-path-on-mac-os-x-mountain-lion/</a>. Please note to check that the path in the installer is shown in case it differs between versions. For my install, the oath was correctly set.</p>
+<p><img class="alignnone size-medium wp-image-170" alt="Screen Shot 2013-05-07 at 9.49.53 PM" src="http://www.j-web.ca/wp-content/uploads/2013/05/Screen-Shot-2013-05-07-at-9.49.53-PM-300x191.png" width="300" height="191" /></p>
+<p><strong>GRUNT SET-UP</strong></p>
+<p>Step 1: Installing Grunt on your machine globally.</p>
+<p>This section uses grunt <em>0.4.x</em></p>
+<p>This guide was made from referring to the official getting started documentation: <a href="http://gruntjs.com/getting-started" target="_blank">http://gruntjs.com/getting-started</a>. The sections referred to in this blog are: "<a href="http://gruntjs.com/getting-started#installing-the-cli" target="_blank" name="installing-the-cli">Installing the CLI</a>" and "<a href="http://gruntjs.com/getting-started#preparing-a-new-grunt-project" target="_blank" name="preparing-a-new-grunt-project">Preparing a new grunt project</a>". Grunt JS is installed by what node js refers to as NPM, or Node Package Manager. To install Grunt from NPM, you will need to use the command line.</p>
+<p>Type following command into the terminal:</p>
+<code>sudo npm install -g grunt-cli</code>
+<p>Step 2: Create a package.json file</p>
+<p>go into your project directory, and run the below command. You can use the default settings, as the text file will be edited. My output is below.</p>
+<code>npm init</code>
+<p><a href="http://jenntesolin.com/blog/wp-content/uploads/2013/05/Screen-Shot-2013-05-07-at-10.53.38-PM.png"><img class="alignnone size-medium wp-image-182" alt="run npm init" src="http://jenntesolin.com/blog/wp-content/uploads/2013/05/Screen-Shot-2013-05-07-at-10.53.38-PM-300x158.png" width="300" height="158" /></a></p>
+<p>Open your favourite text editor, and edit the file "package.json" replace the text so it reads similar to teh below:</p>
+<code>{
+  "name": "demo-project",
+  "version": "0.0.1",
+  "author": "Jennifer Tesolin"
+}</code>
+<p>Now, using the terminal, run the below command in your project directory:</p>
+<code>npm install grunt --save-dev
+npm install</code>
+<p>This will install grunt into your locally in your package folder. If you open your package.json, you will find a new section added:</p>
+<code>,
+"devDependencies": {
+    "grunt": "~0.4.1"
+ }</code>
+<p><strong>Associating plugins with Grunt/package.json</strong></p>
+<p>Run the below command to use the plugin npm.</p>
+<code>npm install grunt-contrib --save-dev</code>
+<p><strong>Create your grunt file</strong></p>
+<p>In your text editor, create a file called "Gruntfile.js" and save this into your project directory. A sample copy is below:</p>
+<code>module.exports = function(grunt) {
+
+  // Project configuration.
+  grunt.initConfig({
+
+  });
+
+  // Load call for plugins
+
+  // Default task(s).
+
+};</code>
+<p>Check out the plugin's you can configure here: <a href="http://gruntjs.com/sample-gruntfile" target="_blank">http://gruntjs.com/sample-gruntfile</a>.</p>
+<p><strong>Additional sources used</strong></p>
+<p>For more grunt resources, check out the below.</p>
+<p><a href="https://chrome.google.com/webstore/detail/grunt-devtools/fbiodiodggnlakggeeckkjccjhhjndnb?hl=en" target="_blank">Google Chrome Grunt dev tools.</a></p>
+<p><a href="http://www.justinmccandless.com/blog/A+Tutorial+for+Getting+Started+with+Grunt" target="_blank">A tutorial for getting started with Grunt</a> for plugin section.</p>
+<p>"Developing with Grunt" by Dan Heberden (from jqueryTO conference): <a href="https://dl.dropbox.com/u/8471652/jqueryto-2013/Developing_with_Grunt_-_Dan_Heberden.m4a" target="_blank">Audio</a> | Slides.</p>
+<p><a href="http://net.tutsplus.com/tutorials/javascript-ajax/meeting-grunt-the-build-tool-for-javascript/" target="_blank">Meet Grunt: The Build Tool for JavaScript</a></p>
+<p><a href="http://dailyjs.com/2012/11/29/backbone-tutorial-1/" target="_blank">DailyJS: Backbone.js Tutorial: Build Environment</a></p>
+
+  </article>
+
+</div>
+    </div>
+
+    <!-- space before footer -->
+            <div class="row">
+              <div class="col-md-12">
+                  &nbsp;
+              </div>
+            </div>
+          <!-- /.space before footer -->
+
+<footer role="contentinfo" id="footer">
+  <div class="container">
+        <p class="text-muted">
+          &copy; 2014 Jennifer Tesolin
+          <span class="pull-right">
+            <a href="https://github.com/jennifert?tab=repositories" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+            <a href="https://twitter.com/jenntes" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+            <a href="https://www.flickr.com/photos/68631186@N06/sets/" target="_blank"><i class="fa fa-flickr fa-2x"></i></a>
+            <a href="/feed.xml"><i class="fa fa-rss fa-2x"></i></a>
+            <a href="http://ca.linkedin.com/pub/jennifer-tesolin/2b/5bb/3a6" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a href="https://plus.google.com/109759985952910616281/about" target="_blank"><i class="fa fa-google-plus fa-2x"></i></a>
+          </span>
+        </p>
+  </div>
+</footer>
+
+<script data-main="/js/config" src="/js/require.js"></script>
+
+
+    </body>
+</html>

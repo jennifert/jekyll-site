@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>What is YQL and how to you use it</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="A site that has many tutorials and tips for web developement.">
+    <link rel="canonical" href="http://jenntesolin.com/blog/2013/06/06/what-is-yql-and-how-to-you-use-it/">
+    <link type="text/plain" rel="author" href="http://jenntesolin.com/humans.txt" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+    
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    
+    <meta name="application-name" content="Jenn Tesolin's Site"/>
+    <meta name="msapplication-TileColor" content="#000000"/>
+    <meta name="msapplication-square70x70logo" content="imgs/tiny.png"/>
+    <meta name="msapplication-square150x150logo" content="imgs/square.png"/>
+    <meta name="msapplication-wide310x150logo" content="imgs/wide.png"/>
+    <meta name="msapplication-square310x310logo" content="imgs/large.png"/>
+    <!--<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44673213-1', 'jenntesolin.com');
+  ga('send', 'pageview');
+
+</script>-->
+
+  
+</head>
+
+
+    <body>
+
+     <!--[if lt IE 8]>
+    <div class="alert alert-warning">
+      You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.    </div>
+  <![endif]-->
+
+  <header class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Jennifer Tesolin</a>
+    </div>
+
+    <nav class="collapse navbar-collapse" role="navigation">
+      <ul id="nav navbar-nav" class="nav navbar-nav">
+        
+        
+        
+  
+
+  
+    
+      <li><a href="/about/">About</a></li>
+    
+  
+
+  
+    
+      <li><a href="/blog/">Blog</a></li>
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+      </ul>
+      <form role="search" method="get" class="navbar-form navbar-right form-inline" action="http://jenntesolin.com/blog/">
+          <div class="form-group">
+            <input type="search" value="" name="s" class="form-control" placeholder="Search the blog... ">
+            <label class="hide">Search for:</label>
+          </div>
+          <button type="submit" class="btn btn-success"> <i class="fa fa-search"></i></button>
+      </form>
+    </nav>
+  </div>
+</header>
+
+    <div class="container">
+      <div class="post">
+
+  <header class="post-header">
+    <h1>What is YQL and how to you use it</h1>
+    <p class="meta">Jun 6, 2013</p>
+  </header>
+
+  <article class="post-content">
+  <p>Yahoo Explains yql as: "an expressive SQL-like language that lets you query, filter, and join data across Web services. With YQL, <i>apps run faster with fewer lines of code and a smaller network footprint.</i>". <!--more--></p>
+<p>To get your feet feet with YQL, surf to the <a href="http://developer.yahoo.com/yql/console/" target="_blank">YQL Console</a>. From here you can test queries and see the resulting rest Query (also listed on teh developer console, are premade requests from other Yahoo services such as flicker).</p>
+<p><a href="http://jenntesolin.com/blog/wp-content/uploads/2013/06/Screen-Shot-2013-06-06-at-7.37.37-PM.png"><img class="alignnone size-medium wp-image-259" alt="Screen Shot 2013-06-06 at 7.37.37 PM" src="http://jenntesolin.com/blog/wp-content/uploads/2013/06/Screen-Shot-2013-06-06-at-7.37.37-PM-293x300.png" width="293" height="300" /></a></p>
+<p>In the "Your YQL statement" box, remove "Show tables" and type the below:</p>
+<code>select * from rss where url ="http://rss.cbc.ca/lineup/technology.xml"</code>
+<p>In the text area beside the JSON radio button, replace “cbfunc” with “?” and uncheck Diagnostics. Once this is completed, click “TEST”. Copy the rest query from the "Rest Query" text input field. For the above example, my rest query is:</p>
+<code>http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20rss%20where%20url%20%3D%22http%3A%2F%2Frss.cbc.ca%2Flineup%2Ftechnology.xml%22&amp;format=json&amp;callback=?</code>
+<p>Note: the rest query has a secure option. Just change "http" to "https".</p>
+<p>A screenshot of the output is below:</p>
+<p><a href="http://jenntesolin.com/blog/wp-content/uploads/2013/06/Screen-Shot-2013-06-06-at-7.50.04-PM.png"><img class="alignnone size-medium wp-image-261" alt="Screen Shot 2013-06-06 at 7.50.04 PM" src="http://jenntesolin.com/blog/wp-content/uploads/2013/06/Screen-Shot-2013-06-06-at-7.50.04-PM-233x300.png" width="233" height="300" /></a></p>
+<p><strong>The jQuery Call</strong></p>
+<p><del>Unfortunately, my blog keeps removing my html entries, so please feel free to download the source code to view the demos.</del>  Sorry, these for some reason were not brought with the move. They will be restored as soon as possible.</p>
+<ol>
+<li>Using the count yql json element to determine how many to display</li>
+<li>Display many entries</li>
+</ol>
+<p>Last note: When using jQuery, date functions do not work cross browser. For these functions, please consider using a library such as <a href="http://momentjs.com/" target="_blank">Moment.js</a>.</p>
+<p>Resources:</p>
+<p><a href="http://en.wikipedia.org/wiki/Yahoo_query_language" target="_blank">Wikipedia Page</a><br />
+<a href="http://developer.yahoo.com/yql/" target="_blank">YQL Developers Site</a><br />
+<a href="http://developer.yahoo.com/yql/console/" target="_blank">YQL Console</a><br />
+<a href="http://developer.yahoo.com/yql/guide/select_statement.html" target="_blank">DEVELOPER's Guide</a><br />
+<a href="http://net.tutsplus.com/tag/yql/ " target="_blank">NetTuts+ resources</a><br />
+<a href="http://www.ibm.com/developerworks/views/web/libraryview.jsp?search_by=cross+domain+with+JSONP" target="_blank">IBM examples</a><br />
+<a href="http://api.jquery.com/jQuery.getJSON/ " target="_blank">JQuery getJson</a><br />
+<a href="http://api.jquery.com/jQuery.noConflict/" target="_blank">More on noConflict</a></p>
+
+  </article>
+
+</div>
+    </div>
+
+    <!-- space before footer -->
+            <div class="row">
+              <div class="col-md-12">
+                  &nbsp;
+              </div>
+            </div>
+          <!-- /.space before footer -->
+
+<footer role="contentinfo" id="footer">
+  <div class="container">
+        <p class="text-muted">
+          &copy; 2014 Jennifer Tesolin
+          <span class="pull-right">
+            <a href="https://github.com/jennifert?tab=repositories" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+            <a href="https://twitter.com/jenntes" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+            <a href="https://www.flickr.com/photos/68631186@N06/sets/" target="_blank"><i class="fa fa-flickr fa-2x"></i></a>
+            <a href="/feed.xml"><i class="fa fa-rss fa-2x"></i></a>
+            <a href="http://ca.linkedin.com/pub/jennifer-tesolin/2b/5bb/3a6" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a href="https://plus.google.com/109759985952910616281/about" target="_blank"><i class="fa fa-google-plus fa-2x"></i></a>
+          </span>
+        </p>
+  </div>
+</footer>
+
+<script data-main="/js/config" src="/js/require.js"></script>
+
+
+    </body>
+</html>

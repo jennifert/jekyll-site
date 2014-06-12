@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Quick Tip: Wordpress Development Tips</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="A site that has many tutorials and tips for web developement.">
+    <link rel="canonical" href="http://jenntesolin.com/blog/2014/01/20/quick-tip-wordpress-development-tips/">
+    <link type="text/plain" rel="author" href="http://jenntesolin.com/humans.txt" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+    
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    
+    <meta name="application-name" content="Jenn Tesolin's Site"/>
+    <meta name="msapplication-TileColor" content="#000000"/>
+    <meta name="msapplication-square70x70logo" content="imgs/tiny.png"/>
+    <meta name="msapplication-square150x150logo" content="imgs/square.png"/>
+    <meta name="msapplication-wide310x150logo" content="imgs/wide.png"/>
+    <meta name="msapplication-square310x310logo" content="imgs/large.png"/>
+    <!--<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44673213-1', 'jenntesolin.com');
+  ga('send', 'pageview');
+
+</script>-->
+
+  
+</head>
+
+
+    <body>
+
+     <!--[if lt IE 8]>
+    <div class="alert alert-warning">
+      You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.    </div>
+  <![endif]-->
+
+  <header class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Jennifer Tesolin</a>
+    </div>
+
+    <nav class="collapse navbar-collapse" role="navigation">
+      <ul id="nav navbar-nav" class="nav navbar-nav">
+        
+        
+        
+  
+
+  
+    
+      <li><a href="/about/">About</a></li>
+    
+  
+
+  
+    
+      <li><a href="/blog/">Blog</a></li>
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+      </ul>
+      <form role="search" method="get" class="navbar-form navbar-right form-inline" action="http://jenntesolin.com/blog/">
+          <div class="form-group">
+            <input type="search" value="" name="s" class="form-control" placeholder="Search the blog... ">
+            <label class="hide">Search for:</label>
+          </div>
+          <button type="submit" class="btn btn-success"> <i class="fa fa-search"></i></button>
+      </form>
+    </nav>
+  </div>
+</header>
+
+    <div class="container">
+      <div class="post">
+
+  <header class="post-header">
+    <h1>Quick Tip: Wordpress Development Tips</h1>
+    <p class="meta">Jan 20, 2014</p>
+  </header>
+
+  <article class="post-content">
+  <p><strong>1. Stop wordpress updater by ftp.</strong></p>
+<p>As per the following post, "<a href="http://www.sixfive.com.au/2012/10/wordpress-needs-to-access-your-web-server-please-enter-your-ftp-credentials-to-proceed/" target="_blank">Wordpress needs access to your web server</a>", you can prevent work press for asking for your ftp credentials when requesting an update.</p>
+<p>Add the below lines to your wp.config.php file.</p>
+<p><code><br />
+....<br />
+$method = 'direct';<br />
+define('FS_METHOD','direct');</p>
+<p>/* That's all, stop editing! Happy blogging. */<br />
+...<br />
+</code></p>
+<p><strong>2. Fix any issues with your (or another) plugin</strong></p>
+<p>There is a great plugin called "<a href="http://wordpress.org/extend/plugins/log-deprecated-notices/" target="_blank">Log Deprecated Notices</a>" that aids in Wordpress development.</p>
+<p>Just turn change WP_DEBUG to 'true" and download the latest version from the above link. Once installed, it will be under: Tools > Deprecated Calls.</p>
+<p>The deprecated call and line number will be displayed, along with an alternative to fix.</p>
+<p>Note: This was only performed on a development machine. It is only recommended to do the above in a development environment.</p>
+
+  </article>
+
+</div>
+    </div>
+
+    <!-- space before footer -->
+            <div class="row">
+              <div class="col-md-12">
+                  &nbsp;
+              </div>
+            </div>
+          <!-- /.space before footer -->
+
+<footer role="contentinfo" id="footer">
+  <div class="container">
+        <p class="text-muted">
+          &copy; 2014 Jennifer Tesolin
+          <span class="pull-right">
+            <a href="https://github.com/jennifert?tab=repositories" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+            <a href="https://twitter.com/jenntes" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+            <a href="https://www.flickr.com/photos/68631186@N06/sets/" target="_blank"><i class="fa fa-flickr fa-2x"></i></a>
+            <a href="/feed.xml"><i class="fa fa-rss fa-2x"></i></a>
+            <a href="http://ca.linkedin.com/pub/jennifer-tesolin/2b/5bb/3a6" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a href="https://plus.google.com/109759985952910616281/about" target="_blank"><i class="fa fa-google-plus fa-2x"></i></a>
+          </span>
+        </p>
+  </div>
+</footer>
+
+<script data-main="/js/config" src="/js/require.js"></script>
+
+
+    </body>
+</html>

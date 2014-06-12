@@ -9,16 +9,12 @@ layout: default
       
            <!-- SITE FAVS -->
             <div class="row">
-              <div class="col-md-4">
-                <h2>About me</h2>
-                <p>I am a web developer based in Toronto, Canada. I have over 7 years of expereince in various web technologies, and some basic server administration skills. Areas of specialty include php, asp (classic and .net), as well as jquery and bootstrap. Other hobbies I enjoy are travelling and visiting with family and friends. Feel free to contact me through any of the social media outlets below.</p>
-              </div>
-              <div class="col-md-4">
+              <div class="col-md-6">
                 <h2>Asp.net 4.0 master pages with bootstrap</h2>
                 <p>A github repo that pulls together various open source asp.net with bootstrap components and having them work in an ASP.net master page.</p>
                 <p><a class="btn btn-default" target="_blank" href="https://github.com/jennifert/Boostrap-ASP_Net-MasterPages" role="button">View repo &raquo;</a></p>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-6">
                 <h2>Bootstrap movie search</h2>
                 <p>This small php application is an app that searches IMDB by using an API from <a href="http://http://www.omdbapi.com/">omdbapi.com</a>. This code is using PHP5 and Simple XML as the back-end, while the front end is created using bootstrap.</p>
                 <p><a class="btn btn-default" target="_blank" href="http://jenntesolin.com/demos/Bootstrap-IMDB/index.php" role="button">View demo &raquo;</a></p>
@@ -33,7 +29,7 @@ layout: default
               <div class="col-md-12">
                   <h2>Latest Posting:</h2>
                   <h3 class="blog-header">{{ post.title }}</h3>
-                  <p class="blog-summary"> {{ post.content | split:'<!--more-->' | first }}&hellip; </p>
+                  <p class="blog-summary"> {{ post.content | split:'<!--more-->' | first }}</p>
                   <p><a href="{{ post.url | prepend: site.baseurl }}" class="red">Read more...</a></p>
               <div>
                 <span class="badge blog-date"><time class="published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %-d, %Y" }}</time></span>

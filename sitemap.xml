@@ -7,8 +7,22 @@ layout: none
       <loc>{{ site.url }}</loc>
       <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
       <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
+      <priority>0.5</priority>
    </url>
+   {% assign pages_list = site.pages %}
+    {% assign group = 'navigation' %}
+    {% for node in pages_list %}
+    {% if group == null or group == node.group %}
+       <url>
+         <loc>{{ site.url }}{{node.url}}</loc>
+        <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    {% endif %}
+  {% endfor %}
+  {% assign pages_list = nil %}
+  {% assign group = nil %}
     {% for post in site.posts %}
       <url>
          <loc>{{ post.url | prepend: site.baseurl | prepend: site.url }}</loc>

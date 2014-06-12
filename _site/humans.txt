@@ -1,0 +1,14 @@
+/* TEAM */
+Developer: Jennifer Tesolin
+Site: jtesolin@gmail.com
+Twitter: jenntes
+Github: jennifert
+Location: America/Toronto
+
+/* SITE */
+Last update: 2014/06/11
+Language:English
+DocType: HTML5
+Standards: HTML5, CSS
+Components: HTML5 Shiv, jQuery, Jekyll, Grunt
+IDE: Sublime, Forklift, Photoshop

@@ -9,9 +9,9 @@ Github: {{ site.author.github }}
 Location: {{ site.timezone }}
 
 /* SITE */
-Last update: 2014/04/15
+Last update: 2014/06/11
 Language:English
 DocType: HTML5
-Standards: HTML5, CSS3,..
-Components: HTML5 Shiv, jQuery, etc.
+Standards: HTML5, CSS
+Components: HTML5 Shiv, jQuery, Jekyll, Grunt
 IDE: Sublime, Forklift, Photoshop

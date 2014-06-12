@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Using Require JS with Bootstrap, Google maps, and more</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="A site that has many tutorials and tips for web developement.">
+    <link rel="canonical" href="http://jenntesolin.com/blog/2013/11/06/using-require-js-with-bootstrap-google-maps-and-more/">
+    <link type="text/plain" rel="author" href="http://jenntesolin.com/humans.txt" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+    
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    
+    <meta name="application-name" content="Jenn Tesolin's Site"/>
+    <meta name="msapplication-TileColor" content="#000000"/>
+    <meta name="msapplication-square70x70logo" content="imgs/tiny.png"/>
+    <meta name="msapplication-square150x150logo" content="imgs/square.png"/>
+    <meta name="msapplication-wide310x150logo" content="imgs/wide.png"/>
+    <meta name="msapplication-square310x310logo" content="imgs/large.png"/>
+    <!--<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44673213-1', 'jenntesolin.com');
+  ga('send', 'pageview');
+
+</script>-->
+
+  
+</head>
+
+
+    <body>
+
+     <!--[if lt IE 8]>
+    <div class="alert alert-warning">
+      You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.    </div>
+  <![endif]-->
+
+  <header class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Jennifer Tesolin</a>
+    </div>
+
+    <nav class="collapse navbar-collapse" role="navigation">
+      <ul id="nav navbar-nav" class="nav navbar-nav">
+        
+        
+        
+  
+
+  
+    
+      <li><a href="/about/">About</a></li>
+    
+  
+
+  
+    
+      <li><a href="/blog/">Blog</a></li>
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+      </ul>
+      <form role="search" method="get" class="navbar-form navbar-right form-inline" action="http://jenntesolin.com/blog/">
+          <div class="form-group">
+            <input type="search" value="" name="s" class="form-control" placeholder="Search the blog... ">
+            <label class="hide">Search for:</label>
+          </div>
+          <button type="submit" class="btn btn-success"> <i class="fa fa-search"></i></button>
+      </form>
+    </nav>
+  </div>
+</header>
+
+    <div class="container">
+      <div class="post">
+
+  <header class="post-header">
+    <h1>Using Require JS with Bootstrap, Google maps, and more</h1>
+    <p class="meta">Nov 6, 2013</p>
+  </header>
+
+  <article class="post-content">
+  <p>Require JS is a JavaScript file and module loader. Its a great tool for including javascript on your website.<!--more--></p>
+<p>This post described how to move the previous Google Maps with bootstrap code into a config file for use with require JS.</p>
+<p><strong>Note: </strong><br />
+Assumes the following directory structure:<br />
+<a href="http://jenntesolin.com/blog/wp-content/uploads/2013/11/directory-structure.jpg"><img class="alignnone size-medium wp-image-466" alt="RequireJS Directory Structure" src="http://jenntesolin.com/blog/wp-content/uploads/2013/11/directory-structure-250x300.jpg" width="250" height="300" /></a></p>
+<p>Works off previous Post: <a href="http://jenntesolin.com/blog/2013/11/05/bootstrap-3-and-google-maps/" target="_blank">Bootstrap 3 and Google Maps</a></p>
+<p><strong>Step 1</strong>: Download the latest version (at the time of writing its 2.1.9)</p>
+<code>http://requirejs.org/docs/download.html#requirejs</code>
+<p><strong>Step 2</strong>: Download plugins from github<br />
+Plugins are necessary to load items such as items from the google api (maps, fonts, etc).</p>
+<code>https://github.com/millermedeiros/requirejs-plugins/</code>
+<p><strong>Step 3</strong>: Remove all current javascript, and replace with:</p>
+<code>&lt;script data-main="js/config" src="js/require.js"&gt;&lt;/script&gt;</code>
+<p>For the "data-main" use the path to the javascript config file, but do not add the ".js" extension.</p>
+<p><strong>Step 4</strong>: create a file called config.js and place in js directory.<br />
+The first part of the file is configuring the locations of the files your going to use:</p>
+<p>Javascript files should be in the same directory as require.js and config.js. When referencing a path, do not add .js extension. The below is whats minimal for Google V3 with Bootstrap 3.</p>
+<code>require.config({
+paths: {
+'jquery': 'http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.8.3',
+'jquery.bootstrap': 'http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min',
+'async': 'async',
+'goog': 'goog',
+'propertyParser' : 'propertyParser'
+},
+shim: {
+'jquery.bootstrap': ['jquery']
+}
+});</code>
+<p>Shims: will make sure jquery loads before bootstrap.</p>
+<p><strong>Step 5</strong>: Require the items under your config</p>
+<code>//require.config code from above here
+require(['jquery','jquery.bootstrap','goog!maps,3,other_params:sensor=false'], function($) {
+//jquery code will be moved here
+});</code>
+<p><strong>Step 6</strong>: Alter the jquery/bootstrap code to load maps in modal.</p>
+<code>var myLatlng = new google.maps.LatLng(43.65644,-79.380686);
+
+$(function() {
+
+//start of modal google map
+$('#mapmodals').on('shown.bs.modal', function () {
+var mapOptions = {
+center: myLatlng,
+zoom: 14,
+mapTypeControl: false,
+center:myLatlng,
+panControl:false,
+rotateControl:false,
+streetViewControl: false,
+mapTypeId: google.maps.MapTypeId.ROADMAP
+};
+map = new google.maps.Map(document.getElementById("map_canvas"),
+mapOptions);
+
+var contentString = '&lt;div id="mapInfo"&gt;'+
+'&lt;p&gt;&lt;strong&gt;Cineplex Odeon Yong &amp; Dundas&lt;/strong&gt;&lt;br&gt;'+
+'Suite 402&lt;br&gt;10 Dundas Street East&lt;br&gt;' +
+'Toronto, ON&lt;br&gt;'+
+'P: (416) 977-9262&lt;/p&gt;'+
+'&lt;a href="http://www.google.ca/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;ved=0CF4QFjAA&amp;url=http%3A%2F%2Fwww.cineplex.com%2FTheatres%2FTheatreDetails%2FCineplex-Odeon-Yonge-Dundas-Cinemas-formerly-AMC-.aspx&amp;ei=wVxnUdfWM8GtqgGc5YGoCQ&amp;usg=AFQjCNFrLpCFDXGjtGx6y1GSkSNvhdrMpA&amp;bvm=bv.45107431,d.aWM" target="_blank"&gt;Now Playing&lt;/a&gt;'+
+'&lt;/div&gt;';
+
+var infowindow = new google.maps.InfoWindow({
+content: contentString
+});
+
+var marker = new google.maps.Marker({
+position: myLatlng,
+map: map,
+title:"Cineplex Odeon Yong &amp; Dundas",
+maxWidth: 200,
+maxHeight: 200
+});
+google.maps.event.addListener(marker, 'click', function() {
+infowindow.open(map,marker);
+});
+
+google.maps.event.addDomListener(window, 'load');
+google.maps.event.trigger(map, "resize");
+map.setCenter(myLatlng);
+});
+//end of modal google map
+}); //end jquery functions</code>
+<p><strong>Full demo:</strong><br />
+View the full demo: <a href="http://jenntesolin.com/demos/requirejs.html" target="_blank">http://jenntesolin.com/demos/requirejs.html</a><br />
+View the full config file: <a href="http://jenntesolin.com/demos/js/config.js" target="_blank">http://jenntesolin.com/demos/js/config.js<br />
+V</a>iew the source code: <a href="https://github.com/jennifert/JavaScript-Demos/tree/master/RequireJs" target="_blank">https://github.com/jennifert/JavaScript-Demos/tree/master/RequireJs</a><a title="Github url" href="https://github.com/jennifert/JavaScript-Demos/blob/master/RequireJs/requirejs.html" target="_blank"><br />
+</a></p>
+<p><strong>Resources:</strong><br />
+<a href="http://requirejs.org" target="_blank">RequireJS Site</a><br />
+<a href="http://requirejs.org/docs/why.html" target="_blank">Why use Web Modules</a><br />
+<a href="http://blog.millermedeiros.com/requirejs-2-0-delayed-module-evaluation-and-google-maps/" target="_blank">How to load Google Maps with Require JS</a><br />
+<a href="https://github.com/millermedeiros/requirejs-plugins" target="_blank">RequireJS Jquery Plugins</a></p>
+
+  </article>
+
+</div>
+    </div>
+
+    <!-- space before footer -->
+            <div class="row">
+              <div class="col-md-12">
+                  &nbsp;
+              </div>
+            </div>
+          <!-- /.space before footer -->
+
+<footer role="contentinfo" id="footer">
+  <div class="container">
+        <p class="text-muted">
+          &copy; 2014 Jennifer Tesolin
+          <span class="pull-right">
+            <a href="https://github.com/jennifert?tab=repositories" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+            <a href="https://twitter.com/jenntes" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+            <a href="https://www.flickr.com/photos/68631186@N06/sets/" target="_blank"><i class="fa fa-flickr fa-2x"></i></a>
+            <a href="/feed.xml"><i class="fa fa-rss fa-2x"></i></a>
+            <a href="http://ca.linkedin.com/pub/jennifer-tesolin/2b/5bb/3a6" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a href="https://plus.google.com/109759985952910616281/about" target="_blank"><i class="fa fa-google-plus fa-2x"></i></a>
+          </span>
+        </p>
+  </div>
+</footer>
+
+<script data-main="/js/config" src="/js/require.js"></script>
+
+
+    </body>
+</html>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+      <loc>http://jenntesolin.com</loc>
+      <lastmod>2014-06-11</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   
+    
+    
+    
+  
+    
+       <url>
+         <loc>http://jenntesolin.com/about/</loc>
+        <lastmod>2014-06-11</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+  
+    
+       <url>
+         <loc>http://jenntesolin.com/blog/</loc>
+        <lastmod>2014-06-11</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+  
+    
+      <url>
+         <loc>http://jenntesolin.com/blog/2014/05/22/rebuilding-the-backend-of-my-site/</loc>
+        <lastmod>2014-05-22</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+      <url>
+         <loc>http://jenntesolin.com/blog/2014/05/14/welcome-to-jekyll/</loc>
+        <lastmod>2014-05-14</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+      <url>
+         <loc>http://jenntesolin.com/blog/2014/04/24/updated-raspberry-pi-media-server/</loc>
+        <lastmod>2014-04-24</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+      <url>
+         <loc>http://jenntesolin.com/blog/2014/03/29/removing-cdata-from-yql-queries/</loc>
+        <lastmod>2014-03-29</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+      <url>
+         <loc>http://jenntesolin.com/blog/2014/03/28/sticky-footer-with-fixed-navbar-example-with-bootstrap-3-and-emmet/</loc>
+        <lastmod>2014-03-28</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+      <url>
+         <loc>http://jenntesolin.com/blog/2014/03/18/moving-from-an-ios-device-to-android-icloud/</loc>
+        <lastmod>2014-03-18</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+      <url>
+         <loc>http://jenntesolin.com/blog/2014/03/17/upcoming-github-updates/</loc>
+        <lastmod>2014-03-17</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+      <url>
+         <loc>http://jenntesolin.com/blog/2014/03/17/setting-up-bluetooth-on-the-raspberry-pi/</loc>
+        <lastmod>2014-03-17</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+      <url>
+         <loc>http://jenntesolin.com/blog/2014/01/20/quick-tip-wordpress-development-tips/</loc>
+        <lastmod>2014-01-20</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+      <url>
+         <loc>http://jenntesolin.com/blog/2014/01/09/quick-tip-fixing-ubuntu-12-04-network-issue/</loc>
+        <lastmod>2014-01-09</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+      <url>
+         <loc>http://jenntesolin.com/blog/2013/11/07/asp-net-menu-control-styling-with-bootstrap-nav/</loc>
+        <lastmod>2013-11-07</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+      <url>
+         <loc>http://jenntesolin.com/blog/2013/11/06/using-require-js-with-bootstrap-google-maps-and-more/</loc>
+        <lastmod>2013-11-06</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+      <url>
+         <loc>http://jenntesolin.com/blog/2013/11/06/quick-tip-using-font-awesome-with-bootstrap-3/</loc>
+        <lastmod>2013-11-06</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+      <url>
+         <loc>http://jenntesolin.com/blog/2013/11/05/bootstrap-3-and-google-maps/</loc>
+        <lastmod>2013-11-05</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+      <url>
+         <loc>http://jenntesolin.com/blog/2013/10/23/quick-tip-mysql-replace/</loc>
+        <lastmod>2013-10-23</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+      <url>
+         <loc>http://jenntesolin.com/blog/2013/09/05/raspbeerri-pi-list-of-projects-and-resources/</loc>
+        <lastmod>2013-09-05</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+      <url>
+         <loc>http://jenntesolin.com/blog/2013/09/05/a-look-at-raspmbc-video-streaming/</loc>
+        <lastmod>2013-09-05</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+      <url>
+         <loc>http://jenntesolin.com/blog/2013/09/03/move-completed/</loc>
+        <lastmod>2013-09-03</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+      <url>
+         <loc>http://jenntesolin.com/blog/2013/08/26/quick-tip-mysql-concat/</loc>
+        <lastmod>2013-08-26</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+      <url>
+         <loc>http://jenntesolin.com/blog/2013/08/11/quick-tips-mysql-case/</loc>
+        <lastmod>2013-08-11</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+      <url>
+         <loc>http://jenntesolin.com/blog/2013/08/08/new-github-commit/</loc>
+        <lastmod>2013-08-08</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+      <url>
+         <loc>http://jenntesolin.com/blog/2013/07/06/quick-tips-javascript-disable-in-firefox-23-and-a-cool-notepad-shortcut/</loc>
+        <lastmod>2013-07-06</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+      <url>
+         <loc>http://jenntesolin.com/blog/2013/06/06/what-is-yql-and-how-to-you-use-it/</loc>
+        <lastmod>2013-06-06</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+      <url>
+         <loc>http://jenntesolin.com/blog/2013/05/30/great-apps-and-programs-for-web-development/</loc>
+        <lastmod>2013-05-30</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+      <url>
+         <loc>http://jenntesolin.com/blog/2013/05/25/php-and-utf8-encoding-issues-tips-and-tricks-to-resolve/</loc>
+        <lastmod>2013-05-25</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+      <url>
+         <loc>http://jenntesolin.com/blog/2013/05/24/ios-7-wishlist/</loc>
+        <lastmod>2013-05-24</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+      <url>
+         <loc>http://jenntesolin.com/blog/2013/05/23/wordpress-quicktip-display-x-number-of-posts-outside-your-blog/</loc>
+        <lastmod>2013-05-23</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+      <url>
+         <loc>http://jenntesolin.com/blog/2013/05/23/jquery-time-picker-issues-and-net/</loc>
+        <lastmod>2013-05-23</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+      <url>
+         <loc>http://jenntesolin.com/blog/2013/05/08/installing-node-js-and-grunt-on-mountain-lion/</loc>
+        <lastmod>2013-05-08</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+      <url>
+         <loc>http://jenntesolin.com/blog/2013/04/18/quick-tip-word-press-and-campaign-monitor/</loc>
+        <lastmod>2013-04-18</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+      <url>
+         <loc>http://jenntesolin.com/blog/2013/04/11/bootstrap-and-google-maps/</loc>
+        <lastmod>2013-04-11</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+      <url>
+         <loc>http://jenntesolin.com/blog/2013/04/10/bootstrap-and-asp-net-4-0-master-pages/</loc>
+        <lastmod>2013-04-10</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+      <url>
+         <loc>http://jenntesolin.com/blog/2012/11/08/japan-trip-2011/</loc>
+        <lastmod>2012-11-08</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+      <url>
+         <loc>http://jenntesolin.com/blog/2012/02/06/welcome/</loc>
+        <lastmod>2012-02-06</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+</urlset> 

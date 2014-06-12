@@ -1,7 +1,7 @@
 jekyll-site
 ===========
 
-This is a port of my wordpress blog that has been moved to [Jekyll](http://jekyllrb.com/) via the [Jekyll Imports](http://import.jekyllrb.com/) plugin. At some time in the future, this will be integrated with Jenkins.
+This is a port of my wordpress blog that has been moved to [Jekyll](http://jekyllrb.com/) via the [Jekyll Imports](http://import.jekyllrb.com/) plugin.
 
 Feel free to check out my development site: [jenntes.no-ip.org](http://jenntes.no-ip.org/)
 
@@ -29,6 +29,7 @@ Final: Do entire process (as mentioned in future blog posting) by scratch in ord
 
 ###Updates:
 June 11, 2014
+- Added deployment file for windows azure.
 - Fill in content on the about page.
 - Updated humans.txt technologies
 - added page urls to sitemap.xml (only pages in navigation)

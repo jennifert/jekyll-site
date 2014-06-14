@@ -8,7 +8,7 @@
     
       <item>
         <title>Rebuilding the backend of my site</title>
-        <description>&lt;p&gt;So I am currently in the process of moving my WordPress blog over to using the Jekyll system. I will be trying to move it over before my hosting renews - this way I can try my hosting up at github pages or windows azure.&lt;/p&gt;
+        <description>&lt;p&gt;So I am currently in the process of moving my WordPress blog over to using the Jekyll system. I will be trying to move it over before my hosting renews - this way I can try my hosting up at github pages or windows azure.&lt;!--more--&gt;&lt;/p&gt;
 
 &lt;p&gt;If anyone is interested, I have some preview links below:&lt;/p&gt;
 
@@ -17,27 +17,6 @@
         <pubDate>Thu, 22 May 2014 18:34:21 -0400</pubDate>
         <link>http://jenntesolin.com/blog/2014/05/22/rebuilding-the-backend-of-my-site/</link>
         <guid isPermaLink="true">http://jenntesolin.com/blog/2014/05/22/rebuilding-the-backend-of-my-site/</guid>
-      </item>
-    
-      <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
-To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 14 May 2014 18:34:21 -0400</pubDate>
-        <link>http://jenntesolin.com/blog/2014/05/14/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://jenntesolin.com/blog/2014/05/14/welcome-to-jekyll/</guid>
       </item>
     
       <item>
@@ -343,6 +322,26 @@ iface lo inet loopback&lt;/code&gt;&lt;/li&gt;
         <pubDate>Thu, 09 Jan 2014 00:00:00 -0500</pubDate>
         <link>http://jenntesolin.com/blog/2014/01/09/quick-tip-fixing-ubuntu-12-04-network-issue/</link>
         <guid isPermaLink="true">http://jenntesolin.com/blog/2014/01/09/quick-tip-fixing-ubuntu-12-04-network-issue/</guid>
+      </item>
+    
+      <item>
+        <title>Asp.net menu control - styling with bootstrap nav</title>
+        <description>&lt;p&gt;Thanks to an interesting post titled &quot;&lt;a href=&quot;http://techbrij.com/responsive-menu-twitter-bootstrap-asp-net&quot; target=&quot;_blank&quot;&gt;Responsive ASP.NET Menu Control With Twitter Bootstrap&lt;/a&gt;&quot;, I was able to update the Bootstrap with master pages example with asp.net menu controls instead of being hard coded.&lt;!--more--&gt;&lt;/p&gt;
+&lt;p&gt;For the menu control, you basically add the below code in lace of the div with &quot;nav-collapse collapse&quot;. The menu in this code is based off the Bootstrap Example &quot;&lt;a href=&quot;http://getbootstrap.com/2.3.2/examples/hero.html&quot;&gt;Basic marketing site&lt;/a&gt;&quot;.&lt;/p&gt;
+&lt;p&gt;Here is a link to the &lt;a href=&quot;https://github.com/jennifert/Boostrap-ASP_Net-MasterPages/blob/master/BootstrapASP.Master&quot; target=&quot;_blank&quot;&gt;raw code in GitHub&lt;/a&gt;. It starts at line 43.&lt;/p&gt;
+&lt;p&gt;The one downside to the menu control is that the control will inject inline styles.  Also, to display the search form in the menu bar, use the code from the &lt;a href=&quot;http://getbootstrap.com/2.3.2/components.html#navbar&quot; target=&quot;_blank&quot;&gt;bootstrap documentation&lt;/a&gt;, then change the &amp;lt;form&amp;gt; to a &amp;lt;span&amp;gt;.&lt;/p&gt;
+&lt;p&gt;Before:&lt;/p&gt;
+&lt;code&gt;&amp;lt;form class=&quot;navbar-search pull-left&quot;&amp;gt;
+&amp;lt;input type=&quot;text&quot; class=&quot;search-query&quot; placeholder=&quot;Search&quot;&amp;gt;
+&amp;lt;/form&amp;gt;&lt;/code&gt;
+&lt;p&gt;After:&lt;/p&gt;
+&lt;code&gt;&amp;lt;span class=&quot;navbar-search pull-left&quot;&amp;gt;
+&amp;lt;input type=&quot;text&quot; placeholder=&quot;Search&quot;&amp;gt;
+&amp;lt;/span&amp;gt;&lt;/code&gt;
+</description>
+        <pubDate>Thu, 07 Nov 2013 00:00:00 -0500</pubDate>
+        <link>http://jenntesolin.com/blog/2013/11/07/asp-net-menu-control-styling-with-bootstrap-nav/</link>
+        <guid isPermaLink="true">http://jenntesolin.com/blog/2013/11/07/asp-net-menu-control-styling-with-bootstrap-nav/</guid>
       </item>
     
   </channel>

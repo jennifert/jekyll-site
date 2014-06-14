@@ -24,9 +24,9 @@ group: "navigation"
        		</time>
        </span>
     <div class="pull-right">
-    	<span class="label label-primary">
-    		tags will be here
-    	</span>
+    	{% for tag in post.tags %}
+      <span class="label label-primary">{{ tag }}</span>
+      {% endfor %}
     </div>
     
     {% endfor %}

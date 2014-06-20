@@ -8,6 +8,7 @@ June 19, 2014:
 - clicking on tags or categories will perform search for that tag.
 - moved analytics to include code.
 - added link to search for similar tags and categories
+- Added web.config to add json mime type to windows azure.
 
 June 14, 2014:
 - Worked through major suggestions by Modern.ie

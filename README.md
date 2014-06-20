@@ -22,6 +22,8 @@ Once completed, the production url will be: [http://jenntesolin.com/](jenntesoli
 
 In no particular order:
 
+- add atom feed to style head
+- tweak if else statement for search engine.
 - fix styles in code tags for ones that wrap.
 - Fix horizontal scrolling issue.
 - work through google page speed and yslow updates.

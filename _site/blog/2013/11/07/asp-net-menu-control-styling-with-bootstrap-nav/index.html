@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Asp.net menu control - styling with bootstrap nav</title>
+    <title>Jennifer Tesolin - Asp.net menu control - styling with bootstrap nav</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="A site that has many tutorials and tips for web developement.">
     <link rel="canonical" href="http://jenntesolin.com/blog/2013/11/07/asp-net-menu-control-styling-with-bootstrap-nav/">
@@ -27,6 +27,7 @@
     <meta name="msapplication-square150x150logo" content="imgs/square.png"/>
     <meta name="msapplication-wide310x150logo" content="imgs/wide.png"/>
     <meta name="msapplication-square310x310logo" content="imgs/large.png"/>
+   
     <!--<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -92,15 +93,19 @@
 
   
 
+  
+
+  
+
 
 
       </ul>
-      <form role="search" method="get" class="navbar-form navbar-right form-inline" action="http://jenntesolin.com/blog/">
-          <div class="form-group">
-            <input type="search" value="" name="s" class="form-control" placeholder="Search the blog... ">
+      <form role="search" method="get" class="navbar-form navbar-right form-inline" action="/search.html">
+          <div class="form-group" id="searchdiv">
+            <input type="search" id="searchbox" name="searchbox" class="form-control search" placeholder="Search ... ">
             <label class="hide">Search for:</label>
           </div>
-          <button type="submit" class="btn btn-success"> <i class="fa fa-search"></i></button>
+          <button type="submit" class="btn btn-success search"> <i class="fa fa-search"></i></button>
       </form>
     </nav>
   </div>
@@ -157,7 +162,9 @@
   </div>
 </footer>
 
-<script data-main="/js/config" src="/js/require.js"></script>
+<script type="text/javascript" src="/js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
 <link rel="prefetch" href="blog/" />
 
     </body>

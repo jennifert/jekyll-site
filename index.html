@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Home
 ---
 
 
@@ -35,7 +36,7 @@ layout: default
                 <span class="badge blog-date"><time class="published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %-d, %Y" }}</time></span>
                 <div class="pull-right">
                   {% for category in post.categories %}
-                    <span class="label label-primary">{{ category }}</span>
+                    <span class="label label-primary taggedPost"><a href="/search.html?searchbox={{ category }}">{{ category }}</a></span>
                   {% endfor %}
                 </div>
 				       

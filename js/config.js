@@ -1,7 +1,9 @@
 require.config({
+  baseUrl: '/js',
+
     paths: {
-        'jquery': 'http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.11.0.min',
-        'jquery.bootstrap': 'http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min'
+        'jquery': 'jquery-1.11.1.min',
+        'jquery.bootstrap': 'bootstrap.min'
     },
     shim: { 
         'jquery.bootstrap': ['jquery']
@@ -10,7 +12,7 @@ require.config({
 
 require(['jquery','jquery.bootstrap'], function($) {
      /*fixes from bootstrap site*/
-      //fix win phone
+      /*fix win phone*/
       if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
         var msViewportStyle = document.createElement('style');
         msViewportStyle.appendChild(
@@ -21,7 +23,7 @@ require(['jquery','jquery.bootstrap'], function($) {
         document.querySelector('head').appendChild(msViewportStyle);
       }
 
-      //fix android
+      /*fix android*/
       var nua = navigator.userAgent;
       var is_android = ((nua.indexOf('Mozilla/5.0') > -1 && nua.indexOf('Android ') > -1 && nua.indexOf('AppleWebKit') > -1) && !(nua.indexOf('Chrome') > -1));
       if(is_android) {
@@ -30,37 +32,76 @@ require(['jquery','jquery.bootstrap'], function($) {
       }
       /*end fixes from bootstrap site*/
 
-    //start jquery functions
-    //declare vars
-    //var blogLink = 'https://query.yahooapis.com/v1/public/yql?q=' + encodeURIComponent('SELECT entry.title,entry.link.href,entry.published,entry.category.term,entry.summary FROM feednormalizer WHERE url= "http://jenntesolin.com/blog/feed/atom/" AND output="atom_1.0" LIMIT 1')+'&format=json&diagnostics=false&callback=?';
-    /*var flickerPhotoTag='carousel';
-    var temp='';
-    var getFlickrPhotoIdsByUsername = 'https://query.yahooapis.com/v1/public/yql?q=' + encodeURIComponent('select id from flickr.people.publicphotos where user_id="68631186@N06" and api_key="c00ac054694485d0a21931ecaf6debca";')+'&format=json&diagnostics=false&callback=?';
-    var getFlickrPictureInfoById = 'https://query.yahooapis.com/v1/public/yql?q=' + encodeURIComponent('select dateuploaded,tags,views,title,description,comments  from flickr.photos.info where photo_id="2186714153" and api_key="c00ac054694485d0a21931ecaf6debca";')+'&format=json&diagnostics=false&callback=?';
-    var getFlickrPhotoExifData = 'https://query.yahooapis.com/v1/public/yql?q=' + encodeURIComponent('select * from flickr.photos.exif where photo_id="2186714153" and api_key=“c00ac054694485d0a21931ecaf6debca";')+'&format=json&diagnostics=false&callback=?';
-    var getFlickrPhotoUrl = 'https://query.yahooapis.com/v1/public/yql?q=' + encodeURIComponent('select urls.url from flickr.photos.info where photo_id=2439864402 and api_key=“c00ac054694485d0a21931ecaf6debca";')+'&format=json&diagnostics=false&callback=?';
-    *///end variable declare
-
     jQuery.noConflict();
     jQuery(document).ready(function($){
 
-      //Call blog feed
-     /* $.getJSON(blogLink, function(data){
-        //get data
-        var title =data.query.results.feed.entry.title.content;
-        //var link =data.query.results.feed.entry.link.href;
-        var category =data.query.results.feed.entry.category.term;
-        var published=data.query.results.feed.entry.published;
-        var summary =data.query.results.feed.entry.summary.content;
+      /*  start site search */
 
-        //display
-        $('.blog-header').html(title);
-        $('.blog-summary').html(summary);
-        $('.blog-date').html(published);
-        $('.blog-category').html(category);
-        //$('.blog-link').html('<a href="'+link+'" target="_blank">Read more</a>');
-      });*/
-      //end blog feed
+      var noResultsPage = function(property, value) {
+        $('h1').text('No Results Found.').after(
+          '<p>Sorry, the term: ‘' + value + '’ has not been indexed.</p>'
+        );
+      };
+
+      var layoutResultsPage = function(property, value, posts) {
+        $('h1').text(property + ' Listing for ‘' + value + '’');
+
+        // Loop through each post to format it
+        for (var i in posts) {
+          // Create an unordered list of the post's tags
+          var tagsList = '<ul class="tags">',
+              post     = posts[i],
+              tags     = post.tags;
+
+          for (var j in tags) {
+            tagsList += ''
+              + '<li>'
+                + '<a href="/search.html?tags=' + tags[j] + '">' + tags[j] + '</a>'
+              + '</li>';
+          }
+          tagsList += '</ul>';
+
+           $('ul.results').append(
+            '<li>'
+              // Page anchor
+              + '<header>'
+                + '<h1>'
+                  + '<a href="' + post.href + '">' + post.title + '</a>'
+                + '</h1>'
+                // Post date
+                + '<h2>'
+                  + post.date.formatted
+                  + ' in <a href="/search.html?category=' + post.category + '">'
+                  +  post.category + '</a>'
+                + '</h2>'
+                // Tags
+                + tagsList
+              + '</header>'
+            + '</li>'
+          );
+        }
+      };
+
+      var map = {
+        'category' : getParam('category'),
+        'tags'     : getParam('tags'),
+        'title'     : getParam('title')
+      };
+
+      $.each(map, function(type, value) {
+        if (value !== null) {
+          $.getJSON('/search.json', function(data) {
+            posts = filterPostsByPropertyValue(data, type, value);
+            if (posts.length === 0) {
+              noResultsPage();
+            } else {
+              layoutResultsPage(type, value, posts);
+            }
+          });
+        }
+      });
+       /*  end site search */
+
     });
     //end jquery functions
 });

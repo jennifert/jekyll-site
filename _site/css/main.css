@@ -100,3 +100,7 @@ code {
     line-height: 1.4;
   }
 }
+
+
+h2.lead { font: normal normal 1.125em "Roboto",Arial,Verdana,sans-serif; color: #2a3644; margin: 0; padding-bottom: 10px; }
+.taggedPost a { color:#fff;}

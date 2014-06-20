@@ -25,7 +25,7 @@ group: "navigation"
        </span>
     <div class="pull-right">
     	{% for tag in post.tags %}
-      <span class="label label-primary">{{ tag }}</span>
+      <span class="label label-primary taggedPost"><a href="/search.html?searchbox={{ tag }}">{{ tag }}</a></span>
       {% endfor %}
     </div>
     

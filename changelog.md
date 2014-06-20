@@ -1,0 +1,49 @@
+Changelog
+===========
+
+###Updates:
+June 19, 2014:
+- built custom search engine.
+- Moved updated to this changelog file.
+- clicking on tags or categories will perform search for that tag.
+- moved analytics to include code.
+- added link to search for similar tags and categories
+
+June 14, 2014:
+- Worked through major suggestions by Modern.ie
+
+June 13, 2014
+- Tags and categories are now visual on index and main blog index
+- delete post Jekyll added at first run.
+
+June 11, 2014
+- Added .deployment file for windows azure.
+- Updated about page text
+- Updated humans.txt section: technologies
+- added page urls to sitemap.xml (only pages in navigation)
+- downloaded Google page speed and modern.ie reports to work through
+- Look into jekyll ignore for the readme.mb file (just using script to add page to group for navigation).
+- Removed _site from jekyl ignore to get ready to load in Windows Azure
+
+June 10, 2014
+- Move blog theme into Jekyll includes
+- Use html 5 markup with Shim, not divs.
+- Finish moving components from homepage over, and make blog a subpage.
+- have only code tags instead of pre.
+- Fix top date and post information
+
+May 21, 2014:
+- Go through postings, and make sure all formatting is similar and proper
+- Moved long lists of posts to sub page
+- blog items have some html elements marked up. Will still need to style them
+
+May 15, 2014: 
+- Have sitemap generating based of rss feed template (how to generate items)
+- Have some of humnas.txt being pulled from config, unfortuntley other items cannot be pulled in.
+- copied by wp-contents file into folder.
+- updated gitignore to just be _sites/
+
+May 14, 2014:
+- Inital commits and footer updates to site.
+- Created 404 page
+- imported workdpress posts

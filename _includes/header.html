@@ -21,12 +21,12 @@
         {% assign group = 'navigation' %}
         {% include pages_list.html %}
       </ul>
-      <form role="search" method="get" class="navbar-form navbar-right form-inline" action="http://jenntesolin.com/blog/">
-          <div class="form-group">
-            <input type="search" value="" name="s" class="form-control" placeholder="Search the blog... ">
+      <form role="search" method="get" class="navbar-form navbar-right form-inline" action="/search.html">
+          <div class="form-group" id="searchdiv">
+            <input type="search" id="searchbox" name="searchbox" class="form-control search" placeholder="Search ... ">
             <label class="hide">Search for:</label>
           </div>
-          <button type="submit" class="btn btn-success"> <i class="fa fa-search"></i></button>
+          <button type="submit" class="btn btn-success search"> <i class="fa fa-search"></i></button>
       </form>
     </nav>
   </div>

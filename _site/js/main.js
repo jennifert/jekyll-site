@@ -94,19 +94,12 @@
               var testCategory = $.inArray(searchedForTest, blogCategory );
               var testTags = $.inArray(searchedForTest, blogTags );
 
-              if (blogTitle.toLowerCase().indexOf(searchedForTest) > -1 ) {
-                count++;
-                displyResult(blogTitle,blogCategory,blogTags,blogLink,blogDate,blogSummary);
-              } else if (testCategory > -1 ) {
-                count++;
-                displyResult(blogTitle,blogCategory,blogTags,blogLink,blogDate,blogSummary);
-              } else if (testTags > -1 ) {
+              if ( (blogTitle.toLowerCase().indexOf(searchedForTest) > -1 )  || (testCategory > -1 ) ||  (testTags > -1 ) ) {
                 displyResult(blogTitle,blogCategory,blogTags,blogLink,blogDate,blogSummary);
                  count++;
               } else {
                   //result not found. Do NOT increment count here.
               }
-
               
             }); //end for each
               
@@ -140,7 +133,7 @@
               for (var j in blogTags) {
                 if (blogTags[j]  === null){
                 } else {  
-                  results = results + ' <span id="taggedPost" class="label label-primary">' + blogTags[j] + '</span> ';
+                  results = results + ' <span class="label label-primary taggedPost"><a href="/search.html?searchbox='+blogTags[j]+'">' + blogTags[j] + '</a></span> ';
                 }
                 
               }

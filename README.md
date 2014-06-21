@@ -22,19 +22,15 @@ Once completed, the production url will be: [http://jenntesolin.com/](jenntesoli
 
 In no particular order:
 
-- add atom feed to style head
-- tweak if else statement for search engine.
-- fix styles in code tags for ones that wrap.
 - Fix horizontal scrolling issue.
 - work through google page speed and yslow updates.
-- Create a portfolio section that includes sites and photos from flickr
 - Compare against the [Web Accessibility Checklist](http://a11yproject.com/checklist.html)
-- Add License file to source where code, inspiration, where problems were fixed from
 
 Final:
 
 - run through grunt for css and js.
 - Do entire process (as mentioned in future blog posting section below) by scratch in order to grab new posts.
+- Create a portfolio section that includes sites and photos from flickr
 
 ###Phase 2:
 

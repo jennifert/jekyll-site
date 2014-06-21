@@ -2,6 +2,14 @@ Changelog
 ===========
 
 ###Updates:
+
+June 20, 2014:
+- add atom feed to style head
+- fix styles in code tags for ones that wrap.
+- tweak if else statement for search engine.
+- made tags searchable from search page
+- made sure all items were commented correctly for open source code and found similar answers on stackoverflow.
+
 June 19, 2014:
 - built custom search engine.
 - Moved updated to this changelog file.

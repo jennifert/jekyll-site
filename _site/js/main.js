@@ -21,6 +21,7 @@
 /*extend inArray*/
 (function($){
     $.extend({
+    /*
         // Case insensative $.inArray (http://api.jquery.com/jquery.inarray/)
         // $.inArrayIn(value, array [, fromIndex])
         //  value (type: String)
@@ -30,13 +31,13 @@
         //  fromIndex (type: Number)
         //    The index of the array at which to begin the search.
         //    The default is 0, which will search the whole array
-        //from: http://stackoverflow.com/questions/3390930/any-way-to-make-jquery-inarray-case-insensitive
+        //from: http://stackoverflow.com/questions/3390930/any-way-to-make-jquery-inarray-case-insensitive*/
         inArrayIn: function(elem, arr, i){
-            // not looking for a string anyways, use default method
+            /* not looking for a string anyways, use default method*/
             if (typeof elem !== 'string'){
                 return $.inArray.apply(this, arguments);
             }
-            // confirm array is populated
+            /*confirm array is populated*/
             if (arr){
                 var len = arr.length;
                     i = i ? (i < 0 ? Math.max(0, len + i) : i) : 0;
@@ -47,7 +48,7 @@
                     }
                 }
             }
-            // stick with inArray/indexOf and return -1 on no match
+            /* stick with inArray/indexOf and return -1 on no match*/
             return -1;
         }
     });
@@ -74,15 +75,15 @@
         var getSearchResults = function(url) {
 
           var count = 0;
-          var searchedFor = getParameterByName('searchbox'); //get the query parameter from search box
+          var searchedFor = getParameterByName('searchbox'); /*get the query parameter from search box*/
           var searchedForTest = searchedFor.toLowerCase();
-          $('#searchbox').val(searchedFor); //update input field with what was searched for
+          $('#searchbox').val(searchedFor); /*update input field with what was searched for*/
 
           $.getJSON('/search.json', function(data) {
             $('div#results').append('<section class="col-xs-12 col-sm-6 col-md-12">');
             $.each(data, function(key, val){
               
-              //values to variable to use more than once.
+              /*values to variable to use more than once.*/
               var blogTitle = val.title;
               var blogCategory = val.category;
               var blogTags = val.tags;
@@ -90,7 +91,7 @@
               var blogDate = val.date;
               var blogSummary = val.summary;
 
-              //search array for
+              /*search array for*/
               var testCategory = $.inArray(searchedForTest, blogCategory );
               var testTags = $.inArray(searchedForTest, blogTags );
 
@@ -98,19 +99,19 @@
                 displyResult(blogTitle,blogCategory,blogTags,blogLink,blogDate,blogSummary);
                  count++;
               } else {
-                  //result not found. Do NOT increment count here.
+                  /*result not found. Do NOT increment count here.*/
               }
               
-            }); //end for each
+            }); /*end for each*/
               
               $('h1#searchHeader').after('<h2 class="lead"><strong class="text-danger">'+ count+'</strong> results were found for the search for <strong class="text-danger">'+ searchedFor+'</strong></h2>');
               $('div#rbuildResults').append('</section>');
 
-          }); //end json
+          }); /*end getjson*/
 
-        };//end get search results
+        };/*end get search results*/
 
-        //make display of search results
+        /*make display of search results*/
         var displyResult = function(blogTitle,blogCategory,blogTags,blogLink,blogDate,blogSummary) {
 
           var results = '<article class="posts blogpage">'+
@@ -152,4 +153,4 @@
 
 
     });
-    //end jquery functions
+    /*end jquery functions*/

@@ -6,7 +6,7 @@ url: "http://jenntesolin.com"
 timezone : "America/Toronto"
 
 # Build settings
-exclude: [Gemfile, Gemfile.lock, README.md, vendor, bin,changelog.md]
+exclude: [Gemfile, Gemfile.lock, README.md, vendor, bin,changelog.md,wordpress.xml,package.json,Gruntfile.js,node_modules]
 markdown: kramdown
 
 paginate: 10

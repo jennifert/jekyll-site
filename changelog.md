@@ -1,7 +1,11 @@
 Changelog
 ===========
 
-###Updates:
+##phase 2 Updates:
+
+- coming soon.
+
+###Phase 1 Updates:
 
 June 20, 2014:
 - add atom feed to style head

@@ -3,7 +3,10 @@ Changelog
 
 ##phase 2 Updates:
 
-- coming soon.
+July 15, 2014:
+- moved issues from read me to teh Github issues functionality.
+- Fixed some demo links
+- added plugins for youtube and flickr.
 
 ###Phase 1 Updates:
 
@@ -13,6 +16,7 @@ June 20, 2014:
 - tweak if else statement for search engine.
 - made tags searchable from search page
 - made sure all items were commented correctly for open source code and found similar answers on stackoverflow.
+- work through google page speed and yslow updates (as much as github pages would allow).
 
 June 19, 2014:
 - built custom search engine.

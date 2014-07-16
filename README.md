@@ -3,9 +3,9 @@ jekyll-site
 
 This is a port of my wordpress blog that has been moved to [Jekyll](http://jekyllrb.com/) via the [Jekyll Imports](http://import.jekyllrb.com/) plugin.
 
-Dev site link: [http://jenntes-jekyll.azurewebsites.net/](http://jenntes-jekyll.azurewebsites.net/) or [jenntes.no-ip.org](http://jenntes.no-ip.org/).
+This is a development repository.
 
-Once completed, the production url will be: [http://jenntesolin.com/](jenntesolin.com).
+The production URL is the same as before: [http://jenntesolin.com/](jenntesolin.com).
 
 
 ###Important Notes
@@ -26,15 +26,7 @@ Any updates in this phase were on and before June 20, 2014, this was to my domai
 
 ###Phase 2:
 
-These will be moved to issues tab.
-
-- Fix horizontal scrolling issue.
-- Replace any code tags to gists,like so: [this](https://workshop.avatarnewyork.com/post/jekyll-gist-tag/)
-- create a new website in azure for php demos and update links in source code.
-- Create a portfolio section that includes sites and photos from flickr
-- Compare against the [Web Accessibility Checklist](http://a11yproject.com/checklist.html)
-- run through grunt for css and js.
-- work through google page speed and yslow updates.
+Issues have been moved to [Github](https://github.com/jennifert/jekyll-site/issues).
 
 ####Blog to do:
 

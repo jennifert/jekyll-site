@@ -7,6 +7,74 @@
     <atom:link href="http://jenntesolin.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>How to use Double Twist to sync your iTunes library to a droid</title>
+        <description>&lt;p&gt;This post describes how you can sync your current iTunes media files to your android device. This tutorial was written and tested on Mac os X mavericks and a Nexus 5.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;clean-up-your-current-itunes-library&quot;&gt;Clean up your current itunes library.&lt;/h2&gt;
+
+&lt;p&gt;Before moving any media files from an iTunes library to Android to play in any player, it’s best to get unlocked copies. For me the fastest (and legal non time consuming way) was to get iTunes music match enabled. Once it has finised setting up,  &lt;a href=&quot;http://computers.tutsplus.com/tutorials/how-to-remove-drm-from-your-music-with-itunes-match--mac-59271&quot;&gt;follow this article on creating playlists&lt;/a&gt; to find locked files, and more.&lt;/p&gt;
+
+&lt;h4 id=&quot;fix-with-itunes-match-playlists&quot;&gt;Fix with iTunes Match playlists&lt;/h4&gt;
+
+&lt;p&gt;All playlists had media kind music, then in the first one added I cloud status ineligible.  For music, this means that the bit rate used to import the media was under 92 kps and a match was not found in the iTunes Library. The best way to solve this error is to reimport from your CD if you want to keep using icloud or iTunes. Its not necessary to reimport if your just removing DRM. &lt;/p&gt;
+
+&lt;p&gt;The next two playlists are similar to eachother. Once you have your playlists, select option and delete the files, but do NOT check delete from icloud. Make sure to move those files to your trash. You can then select all songs and re-download.&lt;/p&gt;
+
+&lt;p&gt;With my music from iTunes being quite large I set the music to redownload files while I was at work.&lt;/p&gt;
+
+&lt;p&gt;Once you have those files re downloaded, go to view &amp;gt; show duplicates. Make sure that they are indeed duplicates, then delete from iCloud and iTunes. Its best to delete NON purchased items.&lt;/p&gt;
+
+&lt;h4 id=&quot;remove-duplicate-songs&quot;&gt;Remove duplicate songs&lt;/h4&gt;
+
+&lt;p&gt;Next step is to find the duplicates in your music folder for iTunes using finder. &lt;/p&gt;
+
+&lt;p&gt;Note: This did not help my duplicate music problem in the double twist desktop app, but its best to check anyways. As always, make sure you have a backup&lt;/p&gt;
+
+&lt;p&gt;Once your sure your duplicates are gone, set up double twist on your computer.&lt;/p&gt;
+
+&lt;h2 id=&quot;set-up-double-twist-on-your-computer&quot;&gt;Set-Up Double Twist on your computer.&lt;/h2&gt;
+
+&lt;h4 id=&quot;download-applications-to-mobile-and-desktop-devices&quot;&gt;Download applications to mobile and desktop devices.&lt;/h4&gt;
+&lt;p&gt;You will need to download for both desktop/laptop and mobile device. The files for teh desktop can be downloaded from &lt;a href=&quot;https://www.doubletwist.com/&quot;&gt;the offical website&lt;/a&gt;. The mobile version is available from the &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.doubleTwist.androidPlayer&quot;&gt;play store&lt;/a&gt;. I just went ahead and the air sync add on since I do this often. With air sync go to mobile settings and get your four digit pin and enter on your desktop. You should now see your device their, if not, on you device select the option to broadcast. All add-ons are in app purchases.&lt;/p&gt;
+
+&lt;h4 id=&quot;set-up-desktop-app&quot;&gt;Set up desktop App&lt;/h4&gt;
+
+&lt;p&gt;Once installed, open the DoubleTwsit application. Choose your iTunes folder, the. Let it do its thing. A few times I had to close then reset program on desktop to see all playlists and files after editing in iTunes.&lt;/p&gt;
+
+&lt;p&gt;Now select your device, choose your settings and sync. Be sure to note and fix any issues. These are usually being your file is locked by apple.&lt;/p&gt;
+
+&lt;p&gt;That’s it!  It works pretty well but just note any adjustments to your playlist needs to be made in iTunes. Edits from double twist do not carry over.&lt;/p&gt;
+
+&lt;h2 id=&quot;notes&quot;&gt;Notes:&lt;/h2&gt;
+
+&lt;p&gt;Con:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;when you purchase airplay add on, you can no longer sync wired even when its disabled.&lt;/li&gt;
+  &lt;li&gt;can ONLY use Itunes playlist. They have no way to sync chnages made in phone app to the iTunes library.&lt;/li&gt;
+  &lt;li&gt;Video playlists do not go to next item.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pro:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;easy way to use a droid with your Mac.&lt;/li&gt;
+  &lt;li&gt;Will take all iTunes Playlists (as long as file is unlocked).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Bugs encountered&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;even though no duplicates are in iTunes duplicate view, the library sometimes duplicates the files  (not in playlist but in the library view in music). I had no duplicates in finder. &lt;/li&gt;
+  &lt;li&gt;hangs or sometimes crashes  on opening the desktop app.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 16 Jul 2014 15:34:21 -0400</pubDate>
+        <link>http://jenntesolin.com/blog/2014/07/16/Using-DoubleTwist-iTunes-and-Android/</link>
+        <guid isPermaLink="true">http://jenntesolin.com/blog/2014/07/16/Using-DoubleTwist-iTunes-and-Android/</guid>
+      </item>
+    
+      <item>
         <title>Rebuilding the backend of my site</title>
         <description>&lt;p&gt;So I am currently in the process of moving my WordPress blog over to using the Jekyll system. I will be trying to move it over before my hosting renews - this way I can try my hosting up at github pages or windows azure.&lt;!--more--&gt;&lt;/p&gt;
 
@@ -322,26 +390,6 @@ iface lo inet loopback&lt;/code&gt;&lt;/li&gt;
         <pubDate>Thu, 09 Jan 2014 00:00:00 -0500</pubDate>
         <link>http://jenntesolin.com/blog/2014/01/09/quick-tip-fixing-ubuntu-12-04-network-issue/</link>
         <guid isPermaLink="true">http://jenntesolin.com/blog/2014/01/09/quick-tip-fixing-ubuntu-12-04-network-issue/</guid>
-      </item>
-    
-      <item>
-        <title>Asp.net menu control - styling with bootstrap nav</title>
-        <description>&lt;p&gt;Thanks to an interesting post titled &quot;&lt;a href=&quot;http://techbrij.com/responsive-menu-twitter-bootstrap-asp-net&quot; target=&quot;_blank&quot;&gt;Responsive ASP.NET Menu Control With Twitter Bootstrap&lt;/a&gt;&quot;, I was able to update the Bootstrap with master pages example with asp.net menu controls instead of being hard coded.&lt;!--more--&gt;&lt;/p&gt;
-&lt;p&gt;For the menu control, you basically add the below code in lace of the div with &quot;nav-collapse collapse&quot;. The menu in this code is based off the Bootstrap Example &quot;&lt;a href=&quot;http://getbootstrap.com/2.3.2/examples/hero.html&quot;&gt;Basic marketing site&lt;/a&gt;&quot;.&lt;/p&gt;
-&lt;p&gt;Here is a link to the &lt;a href=&quot;https://github.com/jennifert/Boostrap-ASP_Net-MasterPages/blob/master/BootstrapASP.Master&quot; target=&quot;_blank&quot;&gt;raw code in GitHub&lt;/a&gt;. It starts at line 43.&lt;/p&gt;
-&lt;p&gt;The one downside to the menu control is that the control will inject inline styles.  Also, to display the search form in the menu bar, use the code from the &lt;a href=&quot;http://getbootstrap.com/2.3.2/components.html#navbar&quot; target=&quot;_blank&quot;&gt;bootstrap documentation&lt;/a&gt;, then change the &amp;lt;form&amp;gt; to a &amp;lt;span&amp;gt;.&lt;/p&gt;
-&lt;p&gt;Before:&lt;/p&gt;
-&lt;code&gt;&amp;lt;form class=&quot;navbar-search pull-left&quot;&amp;gt;
-&amp;lt;input type=&quot;text&quot; class=&quot;search-query&quot; placeholder=&quot;Search&quot;&amp;gt;
-&amp;lt;/form&amp;gt;&lt;/code&gt;
-&lt;p&gt;After:&lt;/p&gt;
-&lt;code&gt;&amp;lt;span class=&quot;navbar-search pull-left&quot;&amp;gt;
-&amp;lt;input type=&quot;text&quot; placeholder=&quot;Search&quot;&amp;gt;
-&amp;lt;/span&amp;gt;&lt;/code&gt;
-</description>
-        <pubDate>Thu, 07 Nov 2013 00:00:00 -0500</pubDate>
-        <link>http://jenntesolin.com/blog/2013/11/07/asp-net-menu-control-styling-with-bootstrap-nav/</link>
-        <guid isPermaLink="true">http://jenntesolin.com/blog/2013/11/07/asp-net-menu-control-styling-with-bootstrap-nav/</guid>
       </item>
     
   </channel>

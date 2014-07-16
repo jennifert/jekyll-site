@@ -4,10 +4,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Jennifer Tesolin - New Github Commit</title>
+    <title>Jennifer Tesolin - How to use Double Twist to sync your iTunes library to a droid</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="A site that has many tutorials and tips for web developement.">
-    <link rel="canonical" href="http://jenntesolin.com/blog/2013/08/08/new-github-commit/">
+    <link rel="canonical" href="http://jenntesolin.com/blog/2014/07/16/Using-DoubleTwist-iTunes-and-Android/">
     <link type="text/plain" rel="author" href="http://jenntesolin.com/humans.txt" />
 
     <!-- Custom CSS -->
@@ -114,22 +114,71 @@
       <div class="post">
 
   <header class="post-header">
-    <h1>New Github Commit</h1>
-    <p class="meta">Aug 8, 2013</p>
+    <h1>How to use Double Twist to sync your iTunes library to a droid</h1>
+    <p class="meta">Jul 16, 2014</p>
   </header>
 
   <article class="post-content">
-  <p>BootstrapPHP-imdbSearch: a demo built of that uses the IMDB API from <a href="http://www.omdbapi.com/" target="_blank">omdbapi.com/</a>. This code is using PHP5 and Simple XML as the backend.<!--more--> The front end is created using bootstrap. The folder structure on your server should be:</p>
-<p>Web Root</p>
-<blockquote><p>- index.php<br />
-- imdb.php<br />
-/css<br />
-/fonts</p></blockquote>
-<p>In other words, move files out of the app folder.</p>
-<p>View repo: <a href="https://github.com/jennifert/Bootstrap-imdbSearch" target="_blank">https://github.com/jennifert/Bootstrap-imdbSearch</a></p>
-<p>View demo site: <a href="http://bootstrap-imdbsearch.azurewebsites.net/" target="_blank">http://jenntesolin.com/demos/Bootstrap-IMDB/index.php</a><br />
-demos/<br />
-There will be a follow-up post in the future for a version using JavaScript instead of PHP.</p>
+  <p>This post describes how you can sync your current iTunes media files to your android device. This tutorial was written and tested on Mac os X mavericks and a Nexus 5.<!--more--></p>
+
+<h2 id="clean-up-your-current-itunes-library">Clean up your current itunes library.</h2>
+
+<p>Before moving any media files from an iTunes library to Android to play in any player, it’s best to get unlocked copies. For me the fastest (and legal non time consuming way) was to get iTunes music match enabled. Once it has finised setting up,  <a href="http://computers.tutsplus.com/tutorials/how-to-remove-drm-from-your-music-with-itunes-match--mac-59271">follow this article on creating playlists</a> to find locked files, and more.</p>
+
+<h4 id="fix-with-itunes-match-playlists">Fix with iTunes Match playlists</h4>
+
+<p>All playlists had media kind music, then in the first one added I cloud status ineligible.  For music, this means that the bit rate used to import the media was under 92 kps and a match was not found in the iTunes Library. The best way to solve this error is to reimport from your CD if you want to keep using icloud or iTunes. Its not necessary to reimport if your just removing DRM. </p>
+
+<p>The next two playlists are similar to eachother. Once you have your playlists, select option and delete the files, but do NOT check delete from icloud. Make sure to move those files to your trash. You can then select all songs and re-download.</p>
+
+<p>With my music from iTunes being quite large I set the music to redownload files while I was at work.</p>
+
+<p>Once you have those files re downloaded, go to view &gt; show duplicates. Make sure that they are indeed duplicates, then delete from iCloud and iTunes. Its best to delete NON purchased items.</p>
+
+<h4 id="remove-duplicate-songs">Remove duplicate songs</h4>
+
+<p>Next step is to find the duplicates in your music folder for iTunes using finder. </p>
+
+<p>Note: This did not help my duplicate music problem in the double twist desktop app, but its best to check anyways. As always, make sure you have a backup</p>
+
+<p>Once your sure your duplicates are gone, set up double twist on your computer.</p>
+
+<h2 id="set-up-double-twist-on-your-computer">Set-Up Double Twist on your computer.</h2>
+
+<h4 id="download-applications-to-mobile-and-desktop-devices">Download applications to mobile and desktop devices.</h4>
+<p>You will need to download for both desktop/laptop and mobile device. The files for teh desktop can be downloaded from <a href="https://www.doubletwist.com/">the offical website</a>. The mobile version is available from the <a href="https://play.google.com/store/apps/details?id=com.doubleTwist.androidPlayer">play store</a>. I just went ahead and the air sync add on since I do this often. With air sync go to mobile settings and get your four digit pin and enter on your desktop. You should now see your device their, if not, on you device select the option to broadcast. All add-ons are in app purchases.</p>
+
+<h4 id="set-up-desktop-app">Set up desktop App</h4>
+
+<p>Once installed, open the DoubleTwsit application. Choose your iTunes folder, the. Let it do its thing. A few times I had to close then reset program on desktop to see all playlists and files after editing in iTunes.</p>
+
+<p>Now select your device, choose your settings and sync. Be sure to note and fix any issues. These are usually being your file is locked by apple.</p>
+
+<p>That’s it!  It works pretty well but just note any adjustments to your playlist needs to be made in iTunes. Edits from double twist do not carry over.</p>
+
+<h2 id="notes">Notes:</h2>
+
+<p>Con:</p>
+
+<ul>
+  <li>when you purchase airplay add on, you can no longer sync wired even when its disabled.</li>
+  <li>can ONLY use Itunes playlist. They have no way to sync chnages made in phone app to the iTunes library.</li>
+  <li>Video playlists do not go to next item.</li>
+</ul>
+
+<p>Pro:</p>
+
+<ul>
+  <li>easy way to use a droid with your Mac.</li>
+  <li>Will take all iTunes Playlists (as long as file is unlocked).</li>
+</ul>
+
+<p>Bugs encountered</p>
+
+<ul>
+  <li>even though no duplicates are in iTunes duplicate view, the library sometimes duplicates the files  (not in playlist but in the library view in music). I had no duplicates in finder. </li>
+  <li>hangs or sometimes crashes  on opening the desktop app.</li>
+</ul>
 
   </article>
 

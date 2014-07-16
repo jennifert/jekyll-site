@@ -1,6 +1,16 @@
 [
     
     {
+      "title"    : "How to use Double Twist to sync your iTunes library to a droid",
+      "href"     : "/blog/2014/07/16/Using-DoubleTwist-iTunes-and-Android/",
+      "summary"     : "This post describes how you can sync your current iTunes media files to your android device. This tutorial was written and tested on Mac os X mavericks and a Nexus...",
+      "category" : ["tutorial", null],
+      "tags"     : ["android","iCloud", null],
+      "date"     : "Jul 16, 2014"
+    }
+    ,
+    
+    {
       "title"    : "Rebuilding the backend of my site",
       "href"     : "/blog/2014/05/22/rebuilding-the-backend-of-my-site/",
       "summary"     : "So I am currently in the process of moving my WordPress blog over to using the Jekyll system. I will be trying to move it over before my hosting renews...",
@@ -193,7 +203,7 @@
     {
       "title"    : "New Github Commit",
       "href"     : "/blog/2013/08/08/new-github-commit/",
-      "summary"     : "BootstrapPHP-imdbSearch: a demo built of that uses the IMDB API from mymovieapi.com. This code is using PHP5 and Simple XML as the backend. The front end is created using bootstrap....",
+      "summary"     : "BootstrapPHP-imdbSearch: a demo built of that uses the IMDB API from omdbapi.com/. This code is using PHP5 and Simple XML as the backend. The front end is created using bootstrap....",
       "category" : ["php","xml", null],
       "tags"     : ["simple xml", null],
       "date"     : "Aug 8, 2013"

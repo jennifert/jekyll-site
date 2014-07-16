@@ -39,7 +39,8 @@
 &lt;li&gt;&lt;a href=&quot;http://www.rasplex.com/documentation/rasplex-setup-basics.html&quot; target=&quot;_blank&quot;&gt;RasPlex Set-Up Basics Documentation Page&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Check out their YouTube Trailer&lt;/strong&gt; &lt;small&gt;(it tells it better than me)&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;iframe src=&quot;//www.youtube.com/embed/C-A4Kxq3V0I&quot; width=&quot;425&quot; height=&quot;350&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;425&quot; height=&quot;425&quot; src=&quot;http://www.youtube.com/embed/C-A4Kxq3V0I?color=white&amp;theme=light&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Thu, 24 Apr 2014 00:00:00 -0400</pubDate>
         <link>http://jenntesolin.com/blog/2014/04/24/updated-raspberry-pi-media-server/</link>
@@ -104,8 +105,7 @@ $.getJSON(blogLink, function(data){&lt;br /&gt;
 &amp;lt;!-- /.Blog --&amp;gt;&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Resources&lt;/strong&gt;&lt;br /&gt;
 &lt;a href=&quot;http://www.yqlblog.net/blog/category/tutorial/&quot; target=&quot;_blank&quot;&gt;YQL Feed Normalizer Table&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://github.com/jennifert/JavaScript-Demos/blob/master/YQL/cdata_blog_example.html&quot; target=&quot;_blank&quot;&gt;Code on GitHub&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;http://jenntesolin.com/demos/YQL/cdata_blog_example.html&quot; target=&quot;_blank&quot;&gt;Demo&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;https://github.com/jennifert/JavaScript-Demos/blob/master/YQL/cdata_blog_example.html&quot; target=&quot;_blank&quot;&gt;Code on GitHub&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 29 Mar 2014 00:00:00 -0400</pubDate>
         <link>http://jenntesolin.com/blog/2014/03/29/removing-cdata-from-yql-queries/</link>

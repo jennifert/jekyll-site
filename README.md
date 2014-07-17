@@ -22,7 +22,7 @@ sudo gem install jekyll</code></pre>
 Optional, only if your importing from wordpres sor other location:
 <pre><code>sudo gem install jekyll-import</code></pre>
 
-Also, if your a risktaker, the below command installs a pre release version. Pleas enote these are NOT stable.
+Also, if your a risk taker, the below command installs a pre release version. Please note these are NOT stable.
 
 <pre><code>gem install jekyll --pre</code></pre>
 
@@ -60,7 +60,7 @@ Any updates in this phase were on and before June 20, 2014, this was to my domai
 
 ###Phase 2:
 
-Issues have been moved to [Github](https://github.com/jennifert/jekyll-site/issues).
+Upcoming updates and bug fixes have been moved to the GitHub issues functionality. [This repository issue log](https://github.com/jennifert/jekyll-site/issues).
 
 ####Blog to do:
 

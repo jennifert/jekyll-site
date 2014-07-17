@@ -14,7 +14,7 @@ The production URL is the same as before: [http://jenntesolin.com/](jenntesolin.
 
 ###Install steps:
 <code>
-sudo gem update —system (dash dash system)
+sudo gem update --system
 sudo gem update
 sudo gem install rdiscount
 sudo gem install jekyll

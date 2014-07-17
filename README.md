@@ -13,29 +13,20 @@ The production URL is the same as before: [http://jenntesolin.com/](jenntesolin.
 - Moved away from Jenkins and now site is deploying through Azure GitHub pulls.
 
 ###Install steps:
+
 <pre><code>sudo gem update --system
-
 sudo gem update
-
 sudo gem install rdiscount
-
-sudo gem install jekyll</code></pre>
+sudo gem install jekyll
+sudo gem install jekyll-import</code></pre>
 
 - Install needed dependancies
-- Download/clone this archive and unzip.
+- Download/clone this archive and unzip
 - delete the "_site" directory
+- delete wordpress.xml if your not going to use it, or replace the file with your own
+- run: <pre><code>jekyll new sitenameruby -rubygems -e 'require "jekyll-import";    JekyllImport::Importers::WordpressDotCom.run({      "source" =&gt; "wordpress.xml"    })'</code></pre>
 - Run jekyll serve
 - Browse to: http://localhost:4000
-
-To add your own wordpress posts:
-######Press Control C to turn off server if still running
-
-- replace the "wordpress.xml" file with your own
-- run the below commands
-
-<pre><code>sudo gem install jekyll-import
-
-    jekyll new sitenameruby -rubygems -e 'require "jekyll-import";    JekyllImport::Importers::WordpressDotCom.run({      "source" =&gt; "wordpress.xml"    })'</code></pre>
 
 ###Upcoming updates:
 

@@ -3,6 +3,12 @@ Changelog
 
 ##phase 2 Updates:
 
+July 16, 2014:
+- Fixed pagination
+- made menu simpler for now
+- removed un-needed directories and fixed osme layout pages
+- updated css and js to be latest bootstrap 3.2.
+
 July 15, 2014:
 - moved issues from read me to teh Github issues functionality.
 - Fixed some demo links

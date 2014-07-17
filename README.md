@@ -16,7 +16,6 @@ The production URL is the same as before: [http://jenntesolin.com/](jenntesolin.
 
 <pre><code>sudo gem update --system
 sudo gem update
-sudo gem install rdiscount
 sudo gem install jekyll</code></pre>
 
 Optional, only if your importing from wordpres sor other location:

@@ -9,13 +9,10 @@ timezone : "America/Toronto"
 exclude: [Gemfile, Gemfile.lock, README.md, vendor, bin,changelog.md,wordpress.xml,package.json,Gruntfile.js,node_modules]
 markdown: kramdown
 
+permalink: /blog/:year/:month/:day/:title/
+
 paginate: 10
 paginate_path: "blog/page:num"
-
-permalink: /blog/:year/:month/:day/:title/
-paginate_path: /blog/page/:num
-
-
 
 author :
   name : Jennifer Tesolin

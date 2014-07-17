@@ -113,7 +113,7 @@
     {
       "title"    : "Using Require JS with Bootstrap, Google maps, and more",
       "href"     : "/blog/2013/11/06/using-require-js-with-bootstrap-google-maps-and-more/",
-      "summary"     : "Require JS is a JavaScript file and module loader. Its a great tool for including javascript on your website. This post described how to move the previous Google Maps with...",
+      "summary"     : "Require JS is a JavaScript file and module loader. Its a great tool for including javascript on your website.This post described how to move the previous Google Maps with bootstrap...",
       "category" : ["javascript", null],
       "tags"     : ["Bootstrap","Google maps","requirejs", null],
       "date"     : "Nov 6, 2013"

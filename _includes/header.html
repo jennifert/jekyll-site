@@ -16,10 +16,10 @@
     </div>
 
     <nav class="collapse navbar-collapse" role="navigation">
+      {% capture location %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}
       <ul id="nav navbar-nav" class="nav navbar-nav">
-        {% assign pages_list = site.pages %}
-        {% assign group = 'navigation' %}
-        {% include pages_list.html %}
+        <li {% if location == 'about' %}class="active" {% endif %}><a href="/about/">About</a></li>
+        <li {% if location == 'blog' %}class="active" {% endif %}><a href="/blog/">Blog</a></li>
       </ul>
       <form role="search" method="get" class="navbar-form navbar-right form-inline" action="/search.html">
           <div class="form-group" id="searchdiv">

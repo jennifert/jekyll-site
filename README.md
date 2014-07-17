@@ -10,7 +10,7 @@ The production URL is the same as before: [http://jenntesolin.com/](jenntesolin.
 
 ###Important Notes
 - To create new posts, please change the content of the wordpress.xml to ave the xml export of your site.
-- Moved away from Jenkins and now site is deploying through Azure GitHub pulls.
+- The live version will be using continous integration, but this dev version is updated on azure when files are committed.
 
 ###Install steps:
 

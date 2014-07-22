@@ -49,5 +49,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-watch');
     //grunt.loadNpmTasks('grunt-contrib-htmlmin');
-    grunt.registerTask('default', [ 'cssmin:css', 'uglify:js','concat:css', 'concat:js','htmlmin' ]);
+    //grunt.registerTask('default', [ 'cssmin:css', 'uglify:js','concat:css', 'concat:js','htmlmin' ]);
+    grunt.registerTask('default', [ 'cssmin:css', 'uglify:js','concat:css', 'concat:js' ]);
 };

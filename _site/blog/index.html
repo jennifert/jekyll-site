@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Jennifer Tesolin</title>
+    <title>Jennifer Tesolin - Blog</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="A site that has many tutorials and tips for web developement.">
     <link rel="canonical" href="http://jenntesolin.com/blog/">
@@ -42,29 +45,28 @@
 
     <body>
 
-     <!--[if lt IE 8]>
-    <div class="alert alert-warning">
-      You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.    </div>
-  <![endif]-->
-
-  <header class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="/">Jennifer Tesolin</a>
-    </div>
-
-    <nav class="collapse navbar-collapse" role="navigation">
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Jennifer Tesolin</a>
+        </div>
+        <div class="collapse navbar-collapse">
       
-      <ul id="nav navbar-nav" class="nav navbar-nav">
+      <ul class="nav navbar-nav">
         <li ><a href="/about/">About</a></li>
         <li class="active" ><a href="/blog/">Blog</a></li>
       </ul>
+
       <form role="search" method="get" class="navbar-form navbar-right form-inline" action="/search.html">
           <div class="form-group" id="searchdiv">
             <input type="search" id="searchbox" name="searchbox" class="form-control search" placeholder="Search ... ">
@@ -72,9 +74,9 @@
           </div>
           <button type="submit" class="btn btn-success search"> <i class="fa fa-search"></i></button>
       </form>
-    </nav>
-  </div>
-</header>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
 
     <div class="container">
       <article class="posts blogpage">
@@ -307,52 +309,24 @@
 </article>
 
 <!-- Pagination links -->
-
-<div class="row">
-    <div class="col-lg-12">
-            <ul class="pagination">
-                
-                    <span>&laquo; Prev</span>
-                
-
-                
-                    
-                        <li><em>1</em></li>
-                    
-                
-                    
-                        <li><a href="blog/page2">2</a></li>
-                    
-                
-                    
-                        <li><a href="blog/page3">3</a></li>
-                    
-                
-                    
-                        <li><a href="blog/page4">4</a></li>
-                    
-                
-
-                
-                    <li><a href="/blog/page2">Next &raquo;</a></li>
-                
-            </ul>
-    </div>
+<div class="pagination">
+  
+    <span class="previous">Previous</span>
+  
+  <span class="page_number ">Page: 1 of 4</span>
+  
+    <a href="/blog/page2" class="next">Next</a>
+  
 </div>
-
     </div>
 
-    <!-- space before footer -->
-            <div class="row">
-              <div class="col-md-12">
-                  &nbsp;
-              </div>
-            </div>
-          <!-- /.space before footer -->
+    <hr>
 
-<footer role="contentinfo" id="footer">
-  <div class="container">
-        <p class="text-muted">
+      <footer>
+        <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+           <p class="text-muted">
           &copy; 2014 Jennifer Tesolin
           <span class="pull-right">
             <a href="https://github.com/jennifert?tab=repositories" target="_blank"><i class="fa fa-github fa-2x"></i></a>
@@ -363,8 +337,10 @@
             <a href="https://plus.google.com/109759985952910616281/about" target="_blank"><i class="fa fa-google-plus fa-2x"></i></a>
           </span>
         </p>
-  </div>
-</footer>
+        </div>
+        </div>
+        </div>
+      </footer>
 
 <script type="text/javascript" src="/js/combined.js"></script>
 <link rel="prefetch" href="blog/" />

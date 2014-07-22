@@ -3,8 +3,13 @@ Changelog
 
 ##phase 2 Updates:
 
-July 16, 2014:
+July 21, 2014:
 - Fixed pagination
+- fixed horizontal scrolling on pages.
+- temporarly rmeoved html5 styles and extra css code. Will add back in with aria code in future build.
+- now using some pieces of html5 boilerplate
+
+July 16, 2014:
 - made menu simpler for now
 - removed un-needed directories and fixed osme layout pages
 - updated css and js to be latest bootstrap 3.2.

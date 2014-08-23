@@ -3,6 +3,9 @@ Changelog
 
 ##phase 2 Updates:
 
+August 11, 2014:
+- fixed items from WooRank.com
+
 July 21, 2014:
 - Fixed pagination
 - fixed horizontal scrolling on pages.

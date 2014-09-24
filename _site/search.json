@@ -1,6 +1,16 @@
 [
     
     {
+      "title"    : "Moving a Wordpress blog",
+      "href"     : "/blog/2014/09/24/Moving-a-WordPress-Blog/",
+      "summary"     : "This post will describe various ways to move WordPress, either to a different server or to Jekyll. Steps to make an exact copyThis includes all plugins, theses, posts, etc. download...",
+      "category" : ["tutorial", null],
+      "tags"     : ["wordpress","jekyll","php", null],
+      "date"     : "Sep 24, 2014"
+    }
+    ,
+    
+    {
       "title"    : "How to use Double Twist to sync your iTunes library to a droid",
       "href"     : "/blog/2014/07/16/Using-DoubleTwist-iTunes-and-Android/",
       "summary"     : "This post describes how you can sync your current iTunes media files to your android device. This tutorial was written and tested on Mac os X mavericks and a Nexus...",

@@ -3,6 +3,12 @@ Changelog
 
 ##phase 2 Updates:
 
+September 24, 2014:
+- Added a new post
+
+August 22, 2014:
+- fixed mminor github issues
+
 August 11, 2014:
 - fixed items from WooRank.com
 

@@ -7,10 +7,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Jennifer Tesolin - Page not found (404)</title>
+    <title>Jennifer Tesolin - Moving a Wordpress blog</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="This is Jennifer Tesolin's personal web site. Located on this site are tutorials and tips for web developers.">
-    <link rel="canonical" href="http://jenntesolin.com/404.html">
+    <link rel="canonical" href="http://jenntesolin.com/blog/2014/09/24/Moving-a-WordPress-Blog/">
     <link type="text/plain" rel="author" href="http://jenntesolin.com/humans.txt" />
 
     <!-- Custom CSS -->
@@ -65,7 +65,7 @@
       
       <ul class="nav navbar-nav">
         <li ><a href="/about/">About</a></li>
-        <li ><a href="/blog/">Blog</a></li>
+        <li class="active" ><a href="/blog/">Blog</a></li>
       </ul>
 
       <form role="search" method="get" class="navbar-form navbar-right form-inline" action="/search.html">
@@ -80,26 +80,67 @@
     </div>
 
     <div class="container">
-        <h1>404: Page not found :(</h1>
+      <div class="post">
 
-  <p>Sorry, but the page you were trying to view does not exist.</p>
+  <header class="post-header">
+    <h1>Moving a Wordpress blog</h1>
+    <p class="meta">Sep 24, 2014</p>
+  </header>
 
-<p>It looks like this was the result of either:</p>
+  <article class="post-content">
+  <p>This post will describe various ways to move WordPress, either to a different server or to Jekyll. <!--more--></p>
+
+<h2 id="steps-to-make-an-exact-copy">Steps to make an exact copy</h2>
+
+<p>This includes all plugins, theses, posts, etc.</p>
 
 <ul>
-<li>a mistyped address</li>
-<li>an out-of-date link</li>
+  <li>download a copy of the database and save somewhere. Make a copy as a backup.</li>
+  <li>do a search in the sql file for the current domain URL and replace with the new domain or ‘localhost’ </li>
+  <li>update the site location in the wp-config file.</li>
+  <li>import the sql database and add the user at the new location.</li>
+  <li>upload your wordpress files and test.</li>
 </ul>
 
-  <h2>Latest Posting:</h2>
-  <ul class="posts">
-    
-      <li>
-        <span class="post-date">Sep 24, 2014</span>
-        <a class="post-link" href="/blog/2014/09/24/Moving-a-WordPress-Blog/">Moving a Wordpress blog</a>
-      </li>
-    
-  </ul>
+<p>I have tried other various methods including web apps, but those have caused problems and have not updated some text portions.</p>
+
+<h2 id="the-safest-way-to-move-but-not-exact">The safest way to move (but not exact)</h2>
+
+<ul>
+  <li>download a copy of your themes, and plugins</li>
+  <li>download an export of your post files. If your using a multisite, you will need to do this for each blog.</li>
+  <li>download a fresh copy of Wordpress, and set up your plugins and themes.</li>
+  <li>import posts, map users making sure to check the box to download linked media.</li>
+</ul>
+
+<h2 id="moving-to-jekyll">Moving to jekyll</h2>
+
+<p>The first step is to download a copy of your upload folder, as well as a wordpress export.</p>
+
+<p>Next, make sure you have Ruby on your machine. <a href="https://www.ruby-lang.org/en/installation/">Here is an install guide.</a></p>
+
+<p>Now, run the following commands:</p>
+
+<p><code>sudo gem install jekyll
+sudo gem install jekyll-import</code></p>
+
+<p>Create a folder for your site and use the terminal to change to the folder your your site will be.  Make sure the content uploads and a copy of your wordpress export is here. for demo purspoes, I will call it: wordpress.xml.</p>
+
+<p>Once this is set up, run the below command to import your blog into wordpress:</p>
+
+<p><code>jekyll import wordpressdotcom --source wordpress.xml</code></p>
+
+<p>Finally, run the below command to build and preview the site. “–watch will allow you to make chnages and have them update in your preview site automtically.”</p>
+
+<p><code>jekyll serve --watch</code></p>
+
+<p>The default preview site is: http://localhost:4000, but this can be changed from _config.yml.</p>
+
+<p>The last step is in this process is to push your files online. Move into the root of “_site”. These are the production ready files that should be moved to your server. An upcoming post will detail how to create a github pages site.</p>
+
+  </article>
+
+</div>
     </div>
 
     <hr>

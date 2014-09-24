@@ -7,6 +7,63 @@
     <atom:link href="http://jenntesolin.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Moving a Wordpress blog</title>
+        <description>&lt;p&gt;This post will describe various ways to move WordPress, either to a different server or to Jekyll. &lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;steps-to-make-an-exact-copy&quot;&gt;Steps to make an exact copy&lt;/h2&gt;
+
+&lt;p&gt;This includes all plugins, theses, posts, etc.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;download a copy of the database and save somewhere. Make a copy as a backup.&lt;/li&gt;
+  &lt;li&gt;do a search in the sql file for the current domain URL and replace with the new domain or ‘localhost’ &lt;/li&gt;
+  &lt;li&gt;update the site location in the wp-config file.&lt;/li&gt;
+  &lt;li&gt;import the sql database and add the user at the new location.&lt;/li&gt;
+  &lt;li&gt;upload your wordpress files and test.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I have tried other various methods including web apps, but those have caused problems and have not updated some text portions.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-safest-way-to-move-but-not-exact&quot;&gt;The safest way to move (but not exact)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;download a copy of your themes, and plugins&lt;/li&gt;
+  &lt;li&gt;download an export of your post files. If your using a multisite, you will need to do this for each blog.&lt;/li&gt;
+  &lt;li&gt;download a fresh copy of Wordpress, and set up your plugins and themes.&lt;/li&gt;
+  &lt;li&gt;import posts, map users making sure to check the box to download linked media.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;moving-to-jekyll&quot;&gt;Moving to jekyll&lt;/h2&gt;
+
+&lt;p&gt;The first step is to download a copy of your upload folder, as well as a wordpress export.&lt;/p&gt;
+
+&lt;p&gt;Next, make sure you have Ruby on your machine. &lt;a href=&quot;https://www.ruby-lang.org/en/installation/&quot;&gt;Here is an install guide.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, run the following commands:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo gem install jekyll
+sudo gem install jekyll-import&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Create a folder for your site and use the terminal to change to the folder your your site will be.  Make sure the content uploads and a copy of your wordpress export is here. for demo purspoes, I will call it: wordpress.xml.&lt;/p&gt;
+
+&lt;p&gt;Once this is set up, run the below command to import your blog into wordpress:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;jekyll import wordpressdotcom --source wordpress.xml&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, run the below command to build and preview the site. “–watch will allow you to make chnages and have them update in your preview site automtically.”&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;jekyll serve --watch&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The default preview site is: http://localhost:4000, but this can be changed from _config.yml.&lt;/p&gt;
+
+&lt;p&gt;The last step is in this process is to push your files online. Move into the root of “_site”. These are the production ready files that should be moved to your server. An upcoming post will detail how to create a github pages site.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 24 Sep 2014 15:00:00 -0400</pubDate>
+        <link>http://jenntesolin.com/blog/2014/09/24/Moving-a-WordPress-Blog/</link>
+        <guid isPermaLink="true">http://jenntesolin.com/blog/2014/09/24/Moving-a-WordPress-Blog/</guid>
+      </item>
+    
+      <item>
         <title>How to use Double Twist to sync your iTunes library to a droid</title>
         <description>&lt;p&gt;This post describes how you can sync your current iTunes media files to your android device. This tutorial was written and tested on Mac os X mavericks and a Nexus 5.&lt;!--more--&gt;&lt;/p&gt;
 
@@ -363,33 +420,6 @@ define(&#39;FS_METHOD&#39;,&#39;direct&#39;);&lt;/p&gt;
         <pubDate>Mon, 20 Jan 2014 00:00:00 -0500</pubDate>
         <link>http://jenntesolin.com/blog/2014/01/20/quick-tip-wordpress-development-tips/</link>
         <guid isPermaLink="true">http://jenntesolin.com/blog/2014/01/20/quick-tip-wordpress-development-tips/</guid>
-      </item>
-    
-      <item>
-        <title>Quick Tip: Fixing Ubuntu 12.04 network issue</title>
-        <description>&lt;p&gt;While upgrading an Ubuntu virtual machine from Version 10 LTs to 12.04 LTS, I ran into networking issues with the static IP address and DNS servers. The web server was accessible on the network, however, the virtual machine was not able to ping google, or download any updates.&lt;!--more--&gt;&lt;/p&gt;
-&lt;p&gt;Errors encountered with this issue:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;waiting for 60 more seconds for ...&lt;/li&gt;
-&lt;li&gt;Booting without full network capability&lt;/li&gt;
-&lt;li&gt;Network .... not compatible with this version of Ubuntu.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;To fix this, I first I tried reconfiguring the networking, then adding DNS servers into the network interfaces with no luck. Also, tried editing various files mentioned in other posts.&lt;/p&gt;
-&lt;p&gt;Finally I ran across a post from &lt;a href=&quot;http://ubuntuforums.org/showthread.php?t=2001421&amp;amp;p=12197022#post12197022&quot; target=&quot;_blank&quot;&gt;Ask Ubuntu Forums&lt;/a&gt;.  So, here are the steps mentioned to resolve this issue:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Create a copy of the following file: /etc/network/interfaces:&lt;br&gt;&lt;code&gt;sudo cp /etc/network/interfaces /etc/network/iBKUp&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Edit the network interface file as root:&lt;br&gt;&lt;code&gt;sudo nano /etc/network/interfaces&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Make sure the file only has the following:&lt;br&gt;&lt;code&gt;auto lo&lt;br /&gt;
-iface lo inet loopback&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Reboot the machine&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;After these steps, the machine will hopefully boot normally and the networking centre should have resolved itself as well.&lt;/p&gt;
-&lt;p&gt;In the Network centre, you re-add the static IP information into your wired connection and lastly reboot again.&lt;/p&gt;
-&lt;p&gt;Hope this helps others! &lt;/p&gt;
-</description>
-        <pubDate>Thu, 09 Jan 2014 00:00:00 -0500</pubDate>
-        <link>http://jenntesolin.com/blog/2014/01/09/quick-tip-fixing-ubuntu-12-04-network-issue/</link>
-        <guid isPermaLink="true">http://jenntesolin.com/blog/2014/01/09/quick-tip-fixing-ubuntu-12-04-network-issue/</guid>
       </item>
     
   </channel>

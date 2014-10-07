@@ -18,4 +18,4 @@ Some upcoming tutorials (in no particular order) are:
 * jekyll set-up and publishing
 * jenkins with github
 * making a bootstrap carousel that pull simages from the Flickr API
-* moving a wordpress blog
+* php development on IIS

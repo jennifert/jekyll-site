@@ -3,8 +3,8 @@
   <channel>
     <title>Jennifer Tesolin</title>
     <description>This is Jennifer Tesolin&#39;s personal web site. Located on this site are tutorials and tips for web developers.</description>
-    <link>http://jenntesolin.com/</link>
-    <atom:link href="http://jenntesolin.com/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://www.jenntesolin.com/</link>
+    <atom:link href="http://www.jenntesolin.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Moving a Wordpress blog</title>
@@ -59,8 +59,8 @@ sudo gem install jekyll-import&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;The last step is in this process is to push your files online. Move into the root of “_site”. These are the production ready files that should be moved to your server. An upcoming post will detail how to create a github pages site.&lt;/p&gt;
 </description>
         <pubDate>Wed, 24 Sep 2014 15:00:00 -0400</pubDate>
-        <link>http://jenntesolin.com/blog/2014/09/24/Moving-a-WordPress-Blog/</link>
-        <guid isPermaLink="true">http://jenntesolin.com/blog/2014/09/24/Moving-a-WordPress-Blog/</guid>
+        <link>http://www.jenntesolin.com/blog/2014/09/24/Moving-a-WordPress-Blog/</link>
+        <guid isPermaLink="true">http://www.jenntesolin.com/blog/2014/09/24/Moving-a-WordPress-Blog/</guid>
       </item>
     
       <item>
@@ -127,8 +127,8 @@ sudo gem install jekyll-import&lt;/code&gt;&lt;/p&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Wed, 16 Jul 2014 15:34:21 -0400</pubDate>
-        <link>http://jenntesolin.com/blog/2014/07/16/Using-DoubleTwist-iTunes-and-Android/</link>
-        <guid isPermaLink="true">http://jenntesolin.com/blog/2014/07/16/Using-DoubleTwist-iTunes-and-Android/</guid>
+        <link>http://www.jenntesolin.com/blog/2014/07/16/Using-DoubleTwist-iTunes-and-Android/</link>
+        <guid isPermaLink="true">http://www.jenntesolin.com/blog/2014/07/16/Using-DoubleTwist-iTunes-and-Android/</guid>
       </item>
     
       <item>
@@ -140,8 +140,8 @@ sudo gem install jekyll-import&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Eventually, there will be a series of posts of my experience. Feel free to comment on your own experience using the system.&lt;/p&gt;
 </description>
         <pubDate>Thu, 22 May 2014 18:34:21 -0400</pubDate>
-        <link>http://jenntesolin.com/blog/2014/05/22/rebuilding-the-backend-of-my-site/</link>
-        <guid isPermaLink="true">http://jenntesolin.com/blog/2014/05/22/rebuilding-the-backend-of-my-site/</guid>
+        <link>http://www.jenntesolin.com/blog/2014/05/22/rebuilding-the-backend-of-my-site/</link>
+        <guid isPermaLink="true">http://www.jenntesolin.com/blog/2014/05/22/rebuilding-the-backend-of-my-site/</guid>
       </item>
     
       <item>
@@ -168,8 +168,8 @@ sudo gem install jekyll-import&lt;/code&gt;&lt;/p&gt;
 &lt;iframe width=&quot;425&quot; height=&quot;425&quot; src=&quot;http://www.youtube.com/embed/C-A4Kxq3V0I?color=white&amp;theme=light&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Thu, 24 Apr 2014 00:00:00 -0400</pubDate>
-        <link>http://jenntesolin.com/blog/2014/04/24/updated-raspberry-pi-media-server/</link>
-        <guid isPermaLink="true">http://jenntesolin.com/blog/2014/04/24/updated-raspberry-pi-media-server/</guid>
+        <link>http://www.jenntesolin.com/blog/2014/04/24/updated-raspberry-pi-media-server/</link>
+        <guid isPermaLink="true">http://www.jenntesolin.com/blog/2014/04/24/updated-raspberry-pi-media-server/</guid>
       </item>
     
       <item>
@@ -233,8 +233,8 @@ $.getJSON(blogLink, function(data){&lt;br /&gt;
 &lt;a href=&quot;https://github.com/jennifert/JavaScript-Demos/blob/master/YQL/cdata_blog_example.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Code on GitHub&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 29 Mar 2014 00:00:00 -0400</pubDate>
-        <link>http://jenntesolin.com/blog/2014/03/29/removing-cdata-from-yql-queries/</link>
-        <guid isPermaLink="true">http://jenntesolin.com/blog/2014/03/29/removing-cdata-from-yql-queries/</guid>
+        <link>http://www.jenntesolin.com/blog/2014/03/29/removing-cdata-from-yql-queries/</link>
+        <guid isPermaLink="true">http://www.jenntesolin.com/blog/2014/03/29/removing-cdata-from-yql-queries/</guid>
       </item>
     
       <item>
@@ -276,8 +276,8 @@ $.getJSON(blogLink, function(data){&lt;br /&gt;
 &lt;p&gt;5) In the file styles.css paste the bootstrap example styles from: http://getbootstrap.com/examples/sticky-footer-navbar/sticky-footer-navbar.css&lt;/p&gt;
 </description>
         <pubDate>Fri, 28 Mar 2014 00:00:00 -0400</pubDate>
-        <link>http://jenntesolin.com/blog/2014/03/28/sticky-footer-with-fixed-navbar-example-with-bootstrap-3-and-emmet/</link>
-        <guid isPermaLink="true">http://jenntesolin.com/blog/2014/03/28/sticky-footer-with-fixed-navbar-example-with-bootstrap-3-and-emmet/</guid>
+        <link>http://www.jenntesolin.com/blog/2014/03/28/sticky-footer-with-fixed-navbar-example-with-bootstrap-3-and-emmet/</link>
+        <guid isPermaLink="true">http://www.jenntesolin.com/blog/2014/03/28/sticky-footer-with-fixed-navbar-example-with-bootstrap-3-and-emmet/</guid>
       </item>
     
       <item>
@@ -317,8 +317,8 @@ Store Link: &lt;a href=&quot;https://chrome.google.com/webstore/detail/icloud-bo
 Description from Store: iCloud stores your website bookmarks, so they are everywhere you go — on your iPhone, iPad, iPod touch, Mac, and PC. So when it comes to your devices, you can switch things up without mixing things up.&lt;/p&gt;
 </description>
         <pubDate>Tue, 18 Mar 2014 00:00:00 -0400</pubDate>
-        <link>http://jenntesolin.com/blog/2014/03/18/moving-from-an-ios-device-to-android-icloud/</link>
-        <guid isPermaLink="true">http://jenntesolin.com/blog/2014/03/18/moving-from-an-ios-device-to-android-icloud/</guid>
+        <link>http://www.jenntesolin.com/blog/2014/03/18/moving-from-an-ios-device-to-android-icloud/</link>
+        <guid isPermaLink="true">http://www.jenntesolin.com/blog/2014/03/18/moving-from-an-ios-device-to-android-icloud/</guid>
       </item>
     
       <item>
@@ -361,8 +361,8 @@ Description from Store: iCloud stores your website bookmarks, so they are everyw
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 17 Mar 2014 00:00:00 -0400</pubDate>
-        <link>http://jenntesolin.com/blog/2014/03/17/upcoming-github-updates/</link>
-        <guid isPermaLink="true">http://jenntesolin.com/blog/2014/03/17/upcoming-github-updates/</guid>
+        <link>http://www.jenntesolin.com/blog/2014/03/17/upcoming-github-updates/</link>
+        <guid isPermaLink="true">http://www.jenntesolin.com/blog/2014/03/17/upcoming-github-updates/</guid>
       </item>
     
       <item>
@@ -395,8 +395,8 @@ apt-get ​install bluetooth bluez-utils blueman bluez-compat&lt;/code&gt;&lt;/p
 &lt;p&gt;Some bluetooth items will not work on Raspmbc such as audio. It has been suggested (Raspberry pi official forums) to instead use OpenELEC or Xbian. &lt;/p&gt;
 </description>
         <pubDate>Mon, 17 Mar 2014 00:00:00 -0400</pubDate>
-        <link>http://jenntesolin.com/blog/2014/03/17/setting-up-bluetooth-on-the-raspberry-pi/</link>
-        <guid isPermaLink="true">http://jenntesolin.com/blog/2014/03/17/setting-up-bluetooth-on-the-raspberry-pi/</guid>
+        <link>http://www.jenntesolin.com/blog/2014/03/17/setting-up-bluetooth-on-the-raspberry-pi/</link>
+        <guid isPermaLink="true">http://www.jenntesolin.com/blog/2014/03/17/setting-up-bluetooth-on-the-raspberry-pi/</guid>
       </item>
     
       <item>
@@ -418,8 +418,8 @@ define(&#39;FS_METHOD&#39;,&#39;direct&#39;);&lt;/p&gt;
 &lt;p&gt;Note: This was only performed on a development machine. It is only recommended to do the above in a development environment.&lt;/p&gt;
 </description>
         <pubDate>Mon, 20 Jan 2014 00:00:00 -0500</pubDate>
-        <link>http://jenntesolin.com/blog/2014/01/20/quick-tip-wordpress-development-tips/</link>
-        <guid isPermaLink="true">http://jenntesolin.com/blog/2014/01/20/quick-tip-wordpress-development-tips/</guid>
+        <link>http://www.jenntesolin.com/blog/2014/01/20/quick-tip-wordpress-development-tips/</link>
+        <guid isPermaLink="true">http://www.jenntesolin.com/blog/2014/01/20/quick-tip-wordpress-development-tips/</guid>
       </item>
     
   </channel>

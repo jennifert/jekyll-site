@@ -1609,7 +1609,7 @@ In other words, move files out of the app folder.
 
 View repo: <a href="https://github.com/jennifert/Bootstrap-imdbSearch" target="_blank">https://github.com/jennifert/Bootstrap-imdbSearch</a>
 
-View demo site: <a href="http://jenntesolin.com/demos/Bootstrap-IMDB/index.php" target="_blank">http://jenntesolin.com/demos/Bootstrap-IMDB/index.php</a>
+View demo site: <a href="http://bootstrap-imdbsearch.azurewebsites.net/" target="_blank">http://bootstrap-imdbsearch.azurewebsites.net/</a>
 demos/
 There will be a follow-up post in the future for a version using JavaScript instead of PHP.]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>

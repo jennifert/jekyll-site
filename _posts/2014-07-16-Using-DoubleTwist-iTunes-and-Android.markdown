@@ -17,7 +17,7 @@ This post describes how you can sync your current iTunes media files to your and
 
 ##Clean up your current itunes library.
 
-Before moving any media files from an iTunes library to Android to play in any player, it's best to get unlocked copies. For me the fastest (and legal non time consuming way) was to get iTunes music match enabled. Once it has finised setting up,  [follow this article on creating playlists](http://computers.tutsplus.com/tutorials/how-to-remove-drm-from-your-music-with-itunes-match--mac-59271) to find locked files, and more.
+Before moving any media files from an iTunes library to Android to play in any player, it's best to get unlocked copies. For me the fastest (and legal non time consuming way) was to get iTunes music match enabled. Once it has finised setting up,  [follow this article on creating playlists](http://computers.tutsplus.com/tutorials/how-to-remove-drm-from-your-music-with-itunes-match--mac-59271){: rel="nofollow"} to find locked files, and more.
 
 ####Fix with iTunes Match playlists
 
@@ -40,7 +40,7 @@ Once your sure your duplicates are gone, set up double twist on your computer.
 ##Set-Up Double Twist on your computer.
 
 ####Download applications to mobile and desktop devices.
-You will need to download for both desktop/laptop and mobile device. The files for teh desktop can be downloaded from [the offical website](https://www.doubletwist.com/). The mobile version is available from the [play store](https://play.google.com/store/apps/details?id=com.doubleTwist.androidPlayer). I just went ahead and the air sync add on since I do this often. With air sync go to mobile settings and get your four digit pin and enter on your desktop. You should now see your device their, if not, on you device select the option to broadcast. All add-ons are in app purchases.
+You will need to download for both desktop/laptop and mobile device. The files for teh desktop can be downloaded from [the offical website](https://www.doubletwist.com/). The mobile version is available from the [play store](https://play.google.com/store/apps/details?id=com.doubleTwist.androidPlayer){: rel="nofollow"}. I just went ahead and the air sync add on since I do this often. With air sync go to mobile settings and get your four digit pin and enter on your desktop. You should now see your device their, if not, on you device select the option to broadcast. All add-ons are in app purchases.
 
 ####Set up desktop App
 

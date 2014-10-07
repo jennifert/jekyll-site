@@ -3,6 +3,9 @@ Changelog
 
 ##phase 2 Updates:
 
+October 7, 2014
+- Added  rel="nofollow" to offsite links.
+
 September 24, 2014:
 - Added a new post
 

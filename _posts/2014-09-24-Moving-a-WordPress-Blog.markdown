@@ -38,7 +38,7 @@ I have tried other various methods including web apps, but those have caused pro
 
 The first step is to download a copy of your upload folder, as well as a wordpress export.
 
-Next, make sure you have Ruby on your machine. [Here is an install guide.](https://www.ruby-lang.org/en/installation/)
+Next, make sure you have Ruby on your machine. [Here is an install guide.](https://www.ruby-lang.org/en/installation/){: rel="nofollow"}
 
 Now, run the following commands:
 

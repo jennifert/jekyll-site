@@ -13,7 +13,6 @@ So I am currently in the process of moving my WordPress blog over to using the J
 
 If anyone is interested, I have some preview links below:
 
-[Development Site]:  (http://jenntes.no-ip.org/)
 [https://github.com/jennifert/jekyll-site]:    Github Repo
 
 Eventually, there will be a series of posts of my experience. Feel free to comment on your own experience using the system.

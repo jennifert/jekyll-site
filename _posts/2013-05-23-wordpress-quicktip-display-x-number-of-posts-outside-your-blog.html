@@ -10,7 +10,7 @@ type: post
 published: true
 ---
 <p>Sometime, you want to display posts outside of WordPress. Here are some resources to help.<!--more--></p>
-<p>From the <a href="http://codex.wordpress.org/Integrating_WordPress_with_Your_Website" target="_blank">Integrating WordPress in your Website</a> codex file, the first place you start is to include a WordPress header file:</p>
+<p>From the <a href="http://codex.wordpress.org/Integrating_WordPress_with_Your_Website" target="_blank" rel="nofollow">Integrating WordPress in your Website</a> codex file, the first place you start is to include a WordPress header file:</p>
 <code>
 < ?php 
 define('WP_USE_THEMES', false);
@@ -30,7 +30,7 @@ the_title();
 the_excerpt();
 endforeach;
 </code>
-<p>Using the <a href="http://codex.wordpress.org/Class_Reference/WP_Query" target="_blank">WPQuery</a> function, you can target the number of days to show. The codex has the example code:</p>
+<p>Using the <a href="http://codex.wordpress.org/Class_Reference/WP_Query" target="_blank" rel="nofollow">WPQuery</a> function, you can target the number of days to show. The codex has the example code:</p>
 <code>
 // Create a new filtering function that will add our where clause to the query
 //from: http://codex.wordpress.org/Class_Reference/WP_Query#Time_Parameters
@@ -51,7 +51,7 @@ while ($query->have_posts()) {
    echo '<li>' . get_the_title() . '</li>';
 }
 </code>
-<p>Unfortunately, the number seemed to bit off. To fit it, I used the idea in the following post (<a href="http://stackoverflow.com/questions/9010693/wordpress-display-posts-newer-than-30-days" target="_blank">StackOverflow</a>) to add in my argument, -1.  Now, your same code should be similar to below:</p>
+<p>Unfortunately, the number seemed to bit off. To fit it, I used the idea in the following post (<a href="http://stackoverflow.com/questions/9010693/wordpress-display-posts-newer-than-30-days" target="_blank" rel="nofollow">StackOverflow</a>) to add in my argument, -1.  Now, your same code should be similar to below:</p>
 <code>
 //updated args
 $args = array(
@@ -88,4 +88,4 @@ while ($query->have_posts()) {
 ?>
 </code>
 <p>Other Resources:</p>
-<p><a href="http://wordpress.stackexchange.com/questions/99265/display-posts-of-the-last-7-days" target="_blank">StackExchange post</a> <br /><a href="http://codex.wordpress.org/WPMU_Functions/switch_to_blog" target="_blank">Switch Blog in MultiSite</a></p>
+<p><a href="http://wordpress.stackexchange.com/questions/99265/display-posts-of-the-last-7-days" target="_blank" rel="nofollow">StackExchange post</a> <br /><a href="http://codex.wordpress.org/WPMU_Functions/switch_to_blog" target="_blank">Switch Blog in MultiSite</a></p>

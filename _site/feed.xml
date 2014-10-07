@@ -37,7 +37,7 @@
 
 &lt;p&gt;The first step is to download a copy of your upload folder, as well as a wordpress export.&lt;/p&gt;
 
-&lt;p&gt;Next, make sure you have Ruby on your machine. &lt;a href=&quot;https://www.ruby-lang.org/en/installation/&quot;&gt;Here is an install guide.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Next, make sure you have Ruby on your machine. &lt;a href=&quot;https://www.ruby-lang.org/en/installation/&quot; rel=&quot;nofollow&quot;&gt;Here is an install guide.&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Now, run the following commands:&lt;/p&gt;
 
@@ -69,7 +69,7 @@ sudo gem install jekyll-import&lt;/code&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;clean-up-your-current-itunes-library&quot;&gt;Clean up your current itunes library.&lt;/h2&gt;
 
-&lt;p&gt;Before moving any media files from an iTunes library to Android to play in any player, it’s best to get unlocked copies. For me the fastest (and legal non time consuming way) was to get iTunes music match enabled. Once it has finised setting up,  &lt;a href=&quot;http://computers.tutsplus.com/tutorials/how-to-remove-drm-from-your-music-with-itunes-match--mac-59271&quot;&gt;follow this article on creating playlists&lt;/a&gt; to find locked files, and more.&lt;/p&gt;
+&lt;p&gt;Before moving any media files from an iTunes library to Android to play in any player, it’s best to get unlocked copies. For me the fastest (and legal non time consuming way) was to get iTunes music match enabled. Once it has finised setting up,  &lt;a href=&quot;http://computers.tutsplus.com/tutorials/how-to-remove-drm-from-your-music-with-itunes-match--mac-59271&quot; rel=&quot;nofollow&quot;&gt;follow this article on creating playlists&lt;/a&gt; to find locked files, and more.&lt;/p&gt;
 
 &lt;h4 id=&quot;fix-with-itunes-match-playlists&quot;&gt;Fix with iTunes Match playlists&lt;/h4&gt;
 
@@ -92,7 +92,7 @@ sudo gem install jekyll-import&lt;/code&gt;&lt;/p&gt;
 &lt;h2 id=&quot;set-up-double-twist-on-your-computer&quot;&gt;Set-Up Double Twist on your computer.&lt;/h2&gt;
 
 &lt;h4 id=&quot;download-applications-to-mobile-and-desktop-devices&quot;&gt;Download applications to mobile and desktop devices.&lt;/h4&gt;
-&lt;p&gt;You will need to download for both desktop/laptop and mobile device. The files for teh desktop can be downloaded from &lt;a href=&quot;https://www.doubletwist.com/&quot;&gt;the offical website&lt;/a&gt;. The mobile version is available from the &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.doubleTwist.androidPlayer&quot;&gt;play store&lt;/a&gt;. I just went ahead and the air sync add on since I do this often. With air sync go to mobile settings and get your four digit pin and enter on your desktop. You should now see your device their, if not, on you device select the option to broadcast. All add-ons are in app purchases.&lt;/p&gt;
+&lt;p&gt;You will need to download for both desktop/laptop and mobile device. The files for teh desktop can be downloaded from &lt;a href=&quot;https://www.doubletwist.com/&quot;&gt;the offical website&lt;/a&gt;. The mobile version is available from the &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.doubleTwist.androidPlayer&quot; rel=&quot;nofollow&quot;&gt;play store&lt;/a&gt;. I just went ahead and the air sync add on since I do this often. With air sync go to mobile settings and get your four digit pin and enter on your desktop. You should now see your device their, if not, on you device select the option to broadcast. All add-ons are in app purchases.&lt;/p&gt;
 
 &lt;h4 id=&quot;set-up-desktop-app&quot;&gt;Set up desktop App&lt;/h4&gt;
 
@@ -146,10 +146,10 @@ sudo gem install jekyll-import&lt;/code&gt;&lt;/p&gt;
     
       <item>
         <title>Updated: Raspberry Pi Media Server</title>
-        <description>&lt;p&gt;After trying quite a few Raspberry Pi operating systems and configurations, the new &lt;a title=&quot;Official site for the operating system&quot; href=&quot;http://www.rasplex.com/&quot; target=&quot;_blank&quot;&gt;RasPlex&lt;/a&gt; is my choice for my home media centre. RasPlex was the best system which supports out of the box: WiFi, Bluetooth, hdmi monitor with analog speakers, and more. The best thing is the entire process took only 15 minutes!&lt;!--more--&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;Note: This is an update to the &lt;a title=&quot;A look at Raspmbc video streaming&quot; href=&quot;http://jenntesolin.com/blog/2013/09/05/a-look-at-raspmbc-video-streaming/&quot; target=&quot;_blank&quot;&gt;Raspmbc set-up article&lt;/a&gt;. RasPlex also requires the use of Plex Media Server which is also free, and easily connects to iTunes and various channels.&lt;br /&gt;&lt;/small&gt;&lt;/p&gt;
+        <description>&lt;p&gt;After trying quite a few Raspberry Pi operating systems and configurations, the new &lt;a title=&quot;Official site for the operating system&quot; href=&quot;http://www.rasplex.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;RasPlex&lt;/a&gt; is my choice for my home media centre. RasPlex was the best system which supports out of the box: WiFi, Bluetooth, hdmi monitor with analog speakers, and more. The best thing is the entire process took only 15 minutes!&lt;!--more--&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;Note: This is an update to the &lt;a title=&quot;A look at Raspmbc video streaming&quot; href=&quot;http://jenntesolin.com/blog/2013/09/05/a-look-at-raspmbc-video-streaming/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Raspmbc set-up article&lt;/a&gt;. RasPlex also requires the use of Plex Media Server which is also free, and easily connects to iTunes and various channels.&lt;br /&gt;&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Set-up the SD card&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The first step is to &lt;a title=&quot;Rasplex installer downlaod page&quot; href=&quot;http://www.rasplex.com/get-started/rasplex-installers.html&quot; target=&quot;_blank&quot;&gt;download the installer&lt;/a&gt; for your Operating System onto your computer. They have installers available for Mac, Linux, and Windows, please be sure to read the notes on how to mount the installer.&lt;/p&gt;
+&lt;p&gt;The first step is to &lt;a title=&quot;Rasplex installer downlaod page&quot; href=&quot;http://www.rasplex.com/get-started/rasplex-installers.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;download the installer&lt;/a&gt; for your Operating System onto your computer. They have installers available for Mac, Linux, and Windows, please be sure to read the notes on how to mount the installer.&lt;/p&gt;
 &lt;p&gt;Now, you select the version of RasPlex you want, and then select your SD card drive (check disk utility for the name if your not sure). Finally, press &quot;update links&quot;, and when that is down &quot;click download&quot;.  It will ask you the location of the download, then when will display the download progress in the terminal. Once your all set-up, then press &quot;Write SD card&quot;.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://jenntesolin.com/wp-content/uploads/2014/04/Screen-Shot-2014-04-24-at-10.51.40-PM.png&quot;&gt; &lt;img class=&quot;alignnone size-medium wp-image-609&quot; src=&quot;http://jenntesolin.com/wp-content/uploads/2014/04/Screen-Shot-2014-04-24-at-10.51.40-PM-300x298.png&quot; alt=&quot;Screen Shot 2014-04-24 at 10.51.40 PM&quot; width=&quot;300&quot; height=&quot;298&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Set-Up your Raspberry Pi&lt;/strong&gt;&lt;/p&gt;
@@ -160,8 +160,8 @@ sudo gem install jekyll-import&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;That&#39;s it! This this helps other people as well.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;RasPlex Resources:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/RasPlex/RasPlex/wiki/Guides&quot; target=&quot;_blank&quot;&gt;RasPlex Github Guides Pages&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.rasplex.com/documentation/rasplex-setup-basics.html&quot; target=&quot;_blank&quot;&gt;RasPlex Set-Up Basics Documentation Page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/RasPlex/RasPlex/wiki/Guides&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;RasPlex Github Guides Pages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.rasplex.com/documentation/rasplex-setup-basics.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;RasPlex Set-Up Basics Documentation Page&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Check out their YouTube Trailer&lt;/strong&gt; &lt;small&gt;(it tells it better than me)&lt;/small&gt;&lt;/p&gt;
 
@@ -174,7 +174,7 @@ sudo gem install jekyll-import&lt;/code&gt;&lt;/p&gt;
     
       <item>
         <title>Removing cData from YQL queries</title>
-        <description>&lt;p&gt;When pulling data from xml items using YQL and getJSON, your application will unfortuntley not parse tags that have cdata. This post describe show to use the &lt;a href=&quot;http://www.yqlblog.net/blog/category/tutorial/&quot; target=&quot;_blank&quot;&gt;feed normalizer table&lt;/a&gt; to call all elements, even those that have cdata.&lt;/p&gt;
+        <description>&lt;p&gt;When pulling data from xml items using YQL and getJSON, your application will unfortuntley not parse tags that have cdata. This post describe show to use the &lt;a href=&quot;http://www.yqlblog.net/blog/category/tutorial/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;feed normalizer table&lt;/a&gt; to call all elements, even those that have cdata.&lt;/p&gt;
 &lt;p&gt;&lt;!--more--&gt;&lt;/p&gt;
 &lt;h3&gt;YQl Feed Normalizer&lt;/h3&gt;
 &lt;p&gt;To use this table in my application, I worked off of the second example given on the YQL blog entry:&lt;br /&gt;
@@ -229,8 +229,8 @@ $.getJSON(blogLink, function(data){&lt;br /&gt;
 &amp;lt;/div&amp;gt;&lt;br /&gt;
 &amp;lt;!-- /.Blog --&amp;gt;&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Resources&lt;/strong&gt;&lt;br /&gt;
-&lt;a href=&quot;http://www.yqlblog.net/blog/category/tutorial/&quot; target=&quot;_blank&quot;&gt;YQL Feed Normalizer Table&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://github.com/jennifert/JavaScript-Demos/blob/master/YQL/cdata_blog_example.html&quot; target=&quot;_blank&quot;&gt;Code on GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;http://www.yqlblog.net/blog/category/tutorial/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;YQL Feed Normalizer Table&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/jennifert/JavaScript-Demos/blob/master/YQL/cdata_blog_example.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Code on GitHub&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 29 Mar 2014 00:00:00 -0400</pubDate>
         <link>http://jenntesolin.com/blog/2014/03/29/removing-cdata-from-yql-queries/</link>
@@ -239,7 +239,7 @@ $.getJSON(blogLink, function(data){&lt;br /&gt;
     
       <item>
         <title>Creating the Sticky footer with fixed navbar example with Bootstrap 3 using Emmet.IO</title>
-        <description>&lt;p&gt;This post described how to use &lt;a href=&quot;http://emmet.io/&quot; target=&quot;_blank&quot;&gt;Emmet&lt;/a&gt; short codes to quickly create the bootstrap example: &lt;a href=&quot;http://getbootstrap.com/examples/sticky-footer-navbar/&quot; target=&quot;_blank&quot;&gt;Sticky footer with fixed navbar&lt;/a&gt; using Bootstrap 3.  Feel free to read and implement suggestions.&lt;br /&gt;
+        <description>&lt;p&gt;This post described how to use &lt;a href=&quot;http://emmet.io/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Emmet&lt;/a&gt; short codes to quickly create the bootstrap example: &lt;a href=&quot;http://getbootstrap.com/examples/sticky-footer-navbar/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Sticky footer with fixed navbar&lt;/a&gt; using Bootstrap 3.  Feel free to read and implement suggestions.&lt;br /&gt;
 &lt;!--more--&gt;&lt;br /&gt;
 &lt;small&gt;
 &lt;p&gt;&lt;em&gt;In Sublime, select the Emmet code and press control + E (both Mac and PC)&lt;/em&gt;&lt;/p&gt;
@@ -247,7 +247,7 @@ $.getJSON(blogLink, function(data){&lt;br /&gt;
 &lt;p&gt;&lt;strong&gt;Step 1: Set up: Set up html, and body content, js&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;A) Emmet Code&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;html:5&amp;gt;(div.navbar.navbar-default.navbar-fixed-top&amp;gt;div.container&amp;gt;div.navbar-header&amp;gt;btn:r.navbar-toggle&amp;gt;span.sr-only{Toggle navigation}+span.icon-bar+span.icon+span.icon^a.navbar-brand{Welcome!}^div.collapse.navbar-collapse&amp;gt;ul.nav.navbar-nav&amp;gt;li*3&amp;gt;a^li.dropdown&amp;gt;a.dropdown-toggle{Dropdown }&amp;gt;b.caret^ul.dropdown-menu&amp;gt;li*3&amp;gt;a^li.divider+li.dropdown-header{Nav Header}+li*3&amp;gt;a^^^^^^^div.container&amp;gt;div.page-header&amp;gt;h1{Page Header Heer}^p.lead&amp;gt;lorem^^div#footer&amp;gt;div.container&amp;gt;p.text-muted{Copy Right Info}^^script:src{js/jquery-1.11.0.min.js}+script:src{js/bootstrap.min.js})&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Gist Location: &lt;a href=&quot;https://gist.github.com/jennifert/9846832&quot; target=&quot;_blank&quot;&gt;https://gist.github.com/jennifert/9846832&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Gist Location: &lt;a href=&quot;https://gist.github.com/jennifert/9846832&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://gist.github.com/jennifert/9846832&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;
 &lt;p&gt;&lt;em&gt;Note: Could not find emmet tag to define javascript source location, so just moved it between script tags. Please see step 8 at 1B below.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/small&gt;&lt;/p&gt;
@@ -263,7 +263,7 @@ $.getJSON(blogLink, function(data){&lt;br /&gt;
 &lt;p&gt;&lt;strong&gt;Step 2: Insert the rest of the header information&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;A) Emmet Code: Place course on line under &amp;lt;title&amp;gt;...&amp;lt;/title&amp;gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;meta:vp+link:favicon+meta:compat+link:css{css/bootstrap.min.css}+link:css&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Gist Location: &lt;a href=&quot;https://gist.github.com/jennifert/9846855&quot; target=&quot;_blank&quot;&gt;https://gist.github.com/jennifert/9846855&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Gist Location: &lt;a href=&quot;https://gist.github.com/jennifert/9846855&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://gist.github.com/jennifert/9846855&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;B) Edit the following items:&lt;br /&gt;
   1) Favicon.ico if needed&lt;br /&gt;
   2) Change ie=7 to ie=edge in meta tag.&lt;br /&gt;
@@ -286,34 +286,34 @@ $.getJSON(blogLink, function(data){&lt;br /&gt;
 &lt;p&gt;&lt;em&gt;Note: Please be sure to read reviews before download the apps from the store. These have been found while doing research for a new smart phone purchase. I do not have a droid to test on currently.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;SmoothSync for Cloud Calendar&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Syncs: calendars and reminders&lt;br /&gt;
-Store Link: &lt;a href=&quot;https://play.google.com/store/apps/details?id=org.dmfs.caldav.icloud&quot; target=&quot;_blank&quot;&gt;https://play.google.com/store/apps/details?id=org.dmfs.caldav.icloud&lt;/a&gt;&lt;br /&gt;
+Store Link: &lt;a href=&quot;https://play.google.com/store/apps/details?id=org.dmfs.caldav.icloud&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://play.google.com/store/apps/details?id=org.dmfs.caldav.icloud&lt;/a&gt;&lt;br /&gt;
 Description from Store: SmoothSync for Cloud Calendar syncs your iCloud calendars and reminders. Due to its implementation as sync adapter it integrates seamlessly with the native calendar app and widgets and operates invisible in the background.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Reminder For iCloud/iOS/iPhone&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Syncs: Reminders&lt;br /&gt;
-Store Link: &lt;a href=&quot;https://play.google.com/store/apps/details?id=us.doplus.reminder&quot; target=&quot;_blank&quot;&gt;https://play.google.com/store/apps/details?id=us.doplus.reminder&lt;/a&gt;&lt;br /&gt;
+Store Link: &lt;a href=&quot;https://play.google.com/store/apps/details?id=us.doplus.reminder&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://play.google.com/store/apps/details?id=us.doplus.reminder&lt;/a&gt;&lt;br /&gt;
 Description from Store: This is a sole Android to-do reminder app that sync with Reminders of iCloud (iOS/Mac). All you have to do is creating a reminder on your phone and it will reminder you at the right time so that you won&#39;t miss any important task. It is designed to sync with the Reminder of iCloud. So, an iCloud account is needed before using this application.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;iNotes - Sync Note with iOS&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Syncs: notes&lt;br /&gt;
-Store Link: &lt;a href=&quot;https://play.google.com/store/apps/details?id=org.dayup.inotes&quot; target=&quot;_blank&quot;&gt;https://play.google.com/store/apps/details?id=org.dayup.inotes&lt;/a&gt;&lt;br /&gt;
+Store Link: &lt;a href=&quot;https://play.google.com/store/apps/details?id=org.dayup.inotes&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://play.google.com/store/apps/details?id=org.dayup.inotes&lt;/a&gt;&lt;br /&gt;
 Description from Store: iNotes is an easy notes app for synchronizing your notes of Android to Notes app on Mac/iOS(iphone, ipad) . It is currently applicable to iCloud, Gmail,Yahoo, Aol,163 only.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;SmoothSync for Cloud Contacts&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Syncs: Contacts&lt;br /&gt;
-Store Link: &lt;a href=&quot;https://play.google.com/store/apps/details?id=org.dmfs.carddav.icloud&quot; target=&quot;_blank&quot;&gt;https://play.google.com/store/apps/details?id=org.dmfs.carddav.icloud&lt;/a&gt;&lt;br /&gt;
+Store Link: &lt;a href=&quot;https://play.google.com/store/apps/details?id=org.dmfs.carddav.icloud&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://play.google.com/store/apps/details?id=org.dmfs.carddav.icloud&lt;/a&gt;&lt;br /&gt;
 Description from Store: SmoothSync for Cloud Contacts syncs your iCloud contacts. Due to its implementation as sync adapter it integrates seamlessly with the native contacts app and operates invisible in the background.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;iCloud Mail Sync&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;App: Blue Mail - Email &amp; Mailboxes&lt;br /&gt;
-Store Link: &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.trtf.blue&quot; target=&quot;_blank&quot;&gt;https://play.google.com/store/apps/details?id=com.trtf.blue&lt;/a&gt;&lt;br /&gt;
+Store Link: &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.trtf.blue&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://play.google.com/store/apps/details?id=com.trtf.blue&lt;/a&gt;&lt;br /&gt;
 Description from Store: Blue Mail is a free and universal email client allowing you to use and manage as many email accounts as you desire at the same time to create a powerful Unified Inbox experience with an extraordinary and modern design. Blue Mail supports Gmail, Yahoo, Office 365, AOL, Google Apps, Hotmail, Outlook, iCloud, Mail.ru, Zoho, GMX and any other IMAP mailbox!&lt;/p&gt;
-&lt;p&gt;Alternative Option - Imap settings for icloud: &lt;a href=&quot;https://discussions.apple.com/thread/3636567?start=15&amp;tstart=0&quot; title=&quot;Setting up e-mail for Android?&quot; target=&quot;_blank&quot;&gt;https://discussions.apple.com/thread/3636567?start=15&amp;tstart=0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Alternative Option - Imap settings for icloud: &lt;a href=&quot;https://discussions.apple.com/thread/3636567?start=15&amp;tstart=0&quot; title=&quot;Setting up e-mail for Android?&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://discussions.apple.com/thread/3636567?start=15&amp;tstart=0&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;iCloud HD&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Syncs: seems to be a portal for icloud site (on tablets only)&lt;br /&gt;
-Store Link: &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.datheuma.icloud&quot; target=&quot;_blank&quot;&gt;https://play.google.com/store/apps/details?id=com.datheuma.icloud&lt;/a&gt;&lt;br /&gt;
+Store Link: &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.datheuma.icloud&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://play.google.com/store/apps/details?id=com.datheuma.icloud&lt;/a&gt;&lt;br /&gt;
 Description from Store: We present to you iCloud on Android. Access the iCloud control panel from the comfort of your Android tablet. Use your iCloud login and password to log in and you are ready to go.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Bonus: Airplay Apps for Android&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The following site has reviews on various airplay apps: &lt;a href=&quot;http://www.knowyourmobile.com/android-apps/18049/best-airplay-apps-android-gettin-dream-stream&quot; target=&quot;_blank&quot;&gt;http://www.knowyourmobile.com/android-apps/18049/best-airplay-apps-android-gettin-dream-stream&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The following site has reviews on various airplay apps: &lt;a href=&quot;http://www.knowyourmobile.com/android-apps/18049/best-airplay-apps-android-gettin-dream-stream&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://www.knowyourmobile.com/android-apps/18049/best-airplay-apps-android-gettin-dream-stream&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Bonus: iCloud Bookmarks (iOS, PC and Mac Only)&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Syncs: bookmarks (note untested on mobile android)&lt;br /&gt;
-Store Link: &lt;a href=&quot;https://chrome.google.com/webstore/detail/icloud-bookmarks/fkepacicchenbjecpbpbclokcabebhah?hl=en&quot; target=&quot;_blank&quot;&gt;https://chrome.google.com/webstore/detail/icloud-bookmarks/fkepacicchenbjecpbpbclokcabebhah?hl=en&lt;/a&gt;&lt;br /&gt;
+Store Link: &lt;a href=&quot;https://chrome.google.com/webstore/detail/icloud-bookmarks/fkepacicchenbjecpbpbclokcabebhah?hl=en&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://chrome.google.com/webstore/detail/icloud-bookmarks/fkepacicchenbjecpbpbclokcabebhah?hl=en&lt;/a&gt;&lt;br /&gt;
 Description from Store: iCloud stores your website bookmarks, so they are everywhere you go — on your iPhone, iPad, iPod touch, Mac, and PC. So when it comes to your devices, you can switch things up without mixing things up.&lt;/p&gt;
 </description>
         <pubDate>Tue, 18 Mar 2014 00:00:00 -0400</pubDate>
@@ -371,11 +371,11 @@ Description from Store: iCloud stores your website bookmarks, so they are everyw
 &lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Raspberry pi&lt;/li&gt;
-&lt;li&gt;Bluetooth dongle (&lt;a href=&quot;https://www.modmypi.com/nano-bluethooth-dongle?filter_name=bluetooth&quot; target=&quot;_blank&quot;&gt;I used this one from ModMyPi&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Bluetooth dongle (&lt;a href=&quot;https://www.modmypi.com/nano-bluethooth-dongle?filter_name=bluetooth&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;I used this one from ModMyPi&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Wifi or ethernet connected&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Steps:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;I found the &lt;a href=&quot;http://www.ctheroux.com/2012/08/a-step-by-step-guide-to-setup-a-bluetooth-keyboard-and-mouse-on-the-raspberry-pi/&quot; target=&quot;_blank&quot;&gt;following guide&lt;/a&gt; very helpful, however kept running into errors.&lt;/p&gt;
+&lt;p&gt;I found the &lt;a href=&quot;http://www.ctheroux.com/2012/08/a-step-by-step-guide-to-setup-a-bluetooth-keyboard-and-mouse-on-the-raspberry-pi/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;following guide&lt;/a&gt; very helpful, however kept running into errors.&lt;/p&gt;
 &lt;p&gt;To fix it, run the following command after rebooting and before in place of installing bluetooth:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;apt-get install obex-data-server&lt;br /&gt;
 apt-get ​install bluetooth bluez-utils blueman bluez-compat&lt;/code&gt;&lt;/p&gt;
@@ -388,8 +388,8 @@ apt-get ​install bluetooth bluez-utils blueman bluez-compat&lt;/code&gt;&lt;/p
 &lt;p&gt;Now, in this file, change &#39;KeyboardDisplay&#39; with &#39;DisplayYesNo&#39;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Resources&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.ctheroux.com/2012/08/a-step-by-step-guide-to-setup-a-bluetooth-keyboard-and-mouse-on-the-raspberry-pi/&quot; target=&quot;_blank&quot;&gt;Step by step Guide for setting up keyboard and mouse on Pi&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.correlatedcontent.com/blog/bluetooth-keyboard-on-the-raspberry-pi/&quot; target=&quot;_blank&quot;&gt;Bluetooth keyboard on the Pi.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.ctheroux.com/2012/08/a-step-by-step-guide-to-setup-a-bluetooth-keyboard-and-mouse-on-the-raspberry-pi/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Step by step Guide for setting up keyboard and mouse on Pi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.correlatedcontent.com/blog/bluetooth-keyboard-on-the-raspberry-pi/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Bluetooth keyboard on the Pi.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Some bluetooth items will not work on Raspmbc such as audio. It has been suggested (Raspberry pi official forums) to instead use OpenELEC or Xbian. &lt;/p&gt;
@@ -402,7 +402,7 @@ apt-get ​install bluetooth bluez-utils blueman bluez-compat&lt;/code&gt;&lt;/p
       <item>
         <title>Quick Tip: Wordpress Development Tips</title>
         <description>&lt;p&gt;&lt;strong&gt;1. Stop wordpress updater by ftp.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;As per the following post, &quot;&lt;a href=&quot;http://www.sixfive.com.au/2012/10/wordpress-needs-to-access-your-web-server-please-enter-your-ftp-credentials-to-proceed/&quot; target=&quot;_blank&quot;&gt;Wordpress needs access to your web server&lt;/a&gt;&quot;, you can prevent work press for asking for your ftp credentials when requesting an update.&lt;/p&gt;
+&lt;p&gt;As per the following post, &quot;&lt;a href=&quot;http://www.sixfive.com.au/2012/10/wordpress-needs-to-access-your-web-server-please-enter-your-ftp-credentials-to-proceed/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Wordpress needs access to your web server&lt;/a&gt;&quot;, you can prevent work press for asking for your ftp credentials when requesting an update.&lt;/p&gt;
 &lt;p&gt;Add the below lines to your wp.config.php file.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;&lt;br /&gt;
 ....&lt;br /&gt;
@@ -412,7 +412,7 @@ define(&#39;FS_METHOD&#39;,&#39;direct&#39;);&lt;/p&gt;
 ...&lt;br /&gt;
 &lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;2. Fix any issues with your (or another) plugin&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;There is a great plugin called &quot;&lt;a href=&quot;http://wordpress.org/extend/plugins/log-deprecated-notices/&quot; target=&quot;_blank&quot;&gt;Log Deprecated Notices&lt;/a&gt;&quot; that aids in Wordpress development.&lt;/p&gt;
+&lt;p&gt;There is a great plugin called &quot;&lt;a href=&quot;http://wordpress.org/extend/plugins/log-deprecated-notices/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Log Deprecated Notices&lt;/a&gt;&quot; that aids in Wordpress development.&lt;/p&gt;
 &lt;p&gt;Just turn change WP_DEBUG to &#39;true&quot; and download the latest version from the above link. Once installed, it will be under: Tools &gt; Deprecated Calls.&lt;/p&gt;
 &lt;p&gt;The deprecated call and line number will be displayed, along with an alternative to fix.&lt;/p&gt;
 &lt;p&gt;Note: This was only performed on a development machine. It is only recommended to do the above in a development environment.&lt;/p&gt;

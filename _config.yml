@@ -8,6 +8,8 @@ timezone : "America/Toronto"
 # Build settings
 exclude: [Gemfile, Gemfile.lock, README.md, vendor, bin,changelog.md,wordpress.xml,package.json,Gruntfile.js,node_modules]
 markdown: kramdown
+kramdown:
+  input: GFM
 markdown_ext:  markdown,mkdown,mkdn,mkd,md
 textile_ext:   textile
 

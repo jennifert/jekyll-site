@@ -2,6 +2,8 @@ Changelog
 ===========
 
 ##phase 2 Updates:
+November 7, 2014
+- Fixed page titles to be more SEo friendly.
 
 October 7, 2014
 - Added  rel="nofollow" to offsite links.

@@ -10,7 +10,7 @@
         <title>Moving a Wordpress blog</title>
         <description>&lt;p&gt;This post will describe various ways to move WordPress, either to a different server or to Jekyll. &lt;!--more--&gt;&lt;/p&gt;
 
-&lt;p&gt;##Steps to make an exact copy&lt;/p&gt;
+&lt;h2 id=&quot;steps-to-make-an-exact-copy&quot;&gt;Steps to make an exact copy&lt;/h2&gt;
 
 &lt;p&gt;This includes all plugins, theses, posts, etc.&lt;/p&gt;
 
@@ -24,7 +24,7 @@
 
 &lt;p&gt;I have tried other various methods including web apps, but those have caused problems and have not updated some text portions.&lt;/p&gt;
 
-&lt;p&gt;##The safest way to move (but not exact)&lt;/p&gt;
+&lt;h2 id=&quot;the-safest-way-to-move-but-not-exact&quot;&gt;The safest way to move (but not exact)&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;download a copy of your themes, and plugins&lt;/li&gt;
@@ -33,7 +33,7 @@
   &lt;li&gt;import posts, map users making sure to check the box to download linked media.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;##Moving to jekyll&lt;/p&gt;
+&lt;h2 id=&quot;moving-to-jekyll&quot;&gt;Moving to jekyll&lt;/h2&gt;
 
 &lt;p&gt;The first step is to download a copy of your upload folder, as well as a wordpress export.&lt;/p&gt;
 
@@ -67,11 +67,11 @@ sudo gem install jekyll-import&lt;/code&gt;&lt;/p&gt;
         <title>How to use Double Twist to sync your iTunes library to a droid</title>
         <description>&lt;p&gt;This post describes how you can sync your current iTunes media files to your android device. This tutorial was written and tested on Mac os X mavericks and a Nexus 5.&lt;!--more--&gt;&lt;/p&gt;
 
-&lt;p&gt;##Clean up your current itunes library.&lt;/p&gt;
+&lt;h2 id=&quot;clean-up-your-current-itunes-library&quot;&gt;Clean up your current itunes library.&lt;/h2&gt;
 
 &lt;p&gt;Before moving any media files from an iTunes library to Android to play in any player, it’s best to get unlocked copies. For me the fastest (and legal non time consuming way) was to get iTunes music match enabled. Once it has finised setting up,  &lt;a href=&quot;http://computers.tutsplus.com/tutorials/how-to-remove-drm-from-your-music-with-itunes-match--mac-59271&quot; rel=&quot;nofollow&quot;&gt;follow this article on creating playlists&lt;/a&gt; to find locked files, and more.&lt;/p&gt;
 
-&lt;p&gt;####Fix with iTunes Match playlists&lt;/p&gt;
+&lt;h4 id=&quot;fix-with-itunes-match-playlists&quot;&gt;Fix with iTunes Match playlists&lt;/h4&gt;
 
 &lt;p&gt;All playlists had media kind music, then in the first one added I cloud status ineligible.  For music, this means that the bit rate used to import the media was under 92 kps and a match was not found in the iTunes Library. The best way to solve this error is to reimport from your CD if you want to keep using icloud or iTunes. Its not necessary to reimport if your just removing DRM. &lt;/p&gt;
 
@@ -81,7 +81,7 @@ sudo gem install jekyll-import&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Once you have those files re downloaded, go to view &amp;gt; show duplicates. Make sure that they are indeed duplicates, then delete from iCloud and iTunes. Its best to delete NON purchased items.&lt;/p&gt;
 
-&lt;p&gt;####Remove duplicate songs&lt;/p&gt;
+&lt;h4 id=&quot;remove-duplicate-songs&quot;&gt;Remove duplicate songs&lt;/h4&gt;
 
 &lt;p&gt;Next step is to find the duplicates in your music folder for iTunes using finder. &lt;/p&gt;
 
@@ -89,12 +89,12 @@ sudo gem install jekyll-import&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Once your sure your duplicates are gone, set up double twist on your computer.&lt;/p&gt;
 
-&lt;p&gt;##Set-Up Double Twist on your computer.&lt;/p&gt;
+&lt;h2 id=&quot;set-up-double-twist-on-your-computer&quot;&gt;Set-Up Double Twist on your computer.&lt;/h2&gt;
 
-&lt;p&gt;####Download applications to mobile and desktop devices.&lt;br /&gt;
-You will need to download for both desktop/laptop and mobile device. The files for teh desktop can be downloaded from &lt;a href=&quot;https://www.doubletwist.com/&quot;&gt;the offical website&lt;/a&gt;. The mobile version is available from the &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.doubleTwist.androidPlayer&quot; rel=&quot;nofollow&quot;&gt;play store&lt;/a&gt;. I just went ahead and the air sync add on since I do this often. With air sync go to mobile settings and get your four digit pin and enter on your desktop. You should now see your device their, if not, on you device select the option to broadcast. All add-ons are in app purchases.&lt;/p&gt;
+&lt;h4 id=&quot;download-applications-to-mobile-and-desktop-devices&quot;&gt;Download applications to mobile and desktop devices.&lt;/h4&gt;
+&lt;p&gt;You will need to download for both desktop/laptop and mobile device. The files for teh desktop can be downloaded from &lt;a href=&quot;https://www.doubletwist.com/&quot;&gt;the offical website&lt;/a&gt;. The mobile version is available from the &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.doubleTwist.androidPlayer&quot; rel=&quot;nofollow&quot;&gt;play store&lt;/a&gt;. I just went ahead and the air sync add on since I do this often. With air sync go to mobile settings and get your four digit pin and enter on your desktop. You should now see your device their, if not, on you device select the option to broadcast. All add-ons are in app purchases.&lt;/p&gt;
 
-&lt;p&gt;####Set up desktop App&lt;/p&gt;
+&lt;h4 id=&quot;set-up-desktop-app&quot;&gt;Set up desktop App&lt;/h4&gt;
 
 &lt;p&gt;Once installed, open the DoubleTwsit application. Choose your iTunes folder, the. Let it do its thing. A few times I had to close then reset program on desktop to see all playlists and files after editing in iTunes.&lt;/p&gt;
 
@@ -102,7 +102,7 @@ You will need to download for both desktop/laptop and mobile device. The files f
 
 &lt;p&gt;That’s it!  It works pretty well but just note any adjustments to your playlist needs to be made in iTunes. Edits from double twist do not carry over.&lt;/p&gt;
 
-&lt;p&gt;##Notes:&lt;/p&gt;
+&lt;h2 id=&quot;notes&quot;&gt;Notes:&lt;/h2&gt;
 
 &lt;p&gt;Con:&lt;/p&gt;
 

@@ -25,7 +25,7 @@ This includes all plugins, theses, posts, etc.
 - import the sql database and add the user at the new location.
 - upload your wordpress files and test.
 
-I have tried other various methods including web apps, but those have caused problems and have not updated some text portions.
+I have tried other various methods including web apps, but those have caused problems such as not completely disconnecting the databases. In one intsnace an upgrade to the copy upgraded the first one as well.
 
 ##The safest way to move (but not exact)
 
@@ -36,22 +36,22 @@ I have tried other various methods including web apps, but those have caused pro
 
 ##Moving to jekyll
 
-The first step is to download a copy of your upload folder, as well as a wordpress export.
+The first step is to download a copy of your wp-content upload folder, you will also need your wordpress export file.
 
 Next, make sure you have Ruby on your machine. [Here is an install guide.](https://www.ruby-lang.org/en/installation/){: rel="nofollow"}
 
 Now, run the following commands:
 
-<code>sudo gem install jekyll
+<code>sudo gem install jekyll<br>
 sudo gem install jekyll-import</code>
 
-Create a folder for your site and use the terminal to change to the folder your your site will be.  Make sure the content uploads and a copy of your wordpress export is here. for demo purspoes, I will call it: wordpress.xml.
+Create a folder for your site and use the terminal to change to the folder your your site will be (<code>cd foldername</code>).  Make sure the upload folder and a copy of your wordpress export is at the root of your new site folder. For demo purspoes, I will call it: wordpress.xml.
 
 Once this is set up, run the below command to import your blog into wordpress:
 
 <code>jekyll import wordpressdotcom --source wordpress.xml</code>
 
-Finally, run the below command to build and preview the site. "--watch will allow you to make chnages and have them update in your preview site automtically."
+Finally, run the below command to build and preview the site. "--watch" will allow you to make chnages and have them update in your preview site automtically.
 
 <code>jekyll serve --watch</code>
 

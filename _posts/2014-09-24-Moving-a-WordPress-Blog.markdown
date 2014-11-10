@@ -25,7 +25,7 @@ This includes all plugins, theses, posts, etc.
 - import the sql database and add the user at the new location.
 - upload your wordpress files and test.
 
-I have tried other various methods including web apps, but those have caused problems such as not completely disconnecting the databases. In one intsnace an upgrade to the copy upgraded the first one as well.
+I have tried other various methods including web apps, but those have caused problems such as not completely disconnecting the databases. In one instance WordPress core upgrade to the copied version, had also upgraded the first one as well.
 
 ##The safest way to move (but not exact)
 

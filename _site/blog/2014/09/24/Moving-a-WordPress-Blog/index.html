@@ -102,7 +102,7 @@
   <li>upload your wordpress files and test.</li>
 </ul>
 
-<p>I have tried other various methods including web apps, but those have caused problems and have not updated some text portions.</p>
+<p>I have tried other various methods including web apps, but those have caused problems such as not completely disconnecting the databases. In one instance WordPress core upgrade to the copied version, had also upgraded the first one as well.</p>
 
 <h2 id="the-safest-way-to-move-but-not-exact">The safest way to move (but not exact)</h2>
 
@@ -115,22 +115,22 @@
 
 <h2 id="moving-to-jekyll">Moving to jekyll</h2>
 
-<p>The first step is to download a copy of your upload folder, as well as a wordpress export.</p>
+<p>The first step is to download a copy of your wp-content upload folder, you will also need your wordpress export file.</p>
 
 <p>Next, make sure you have Ruby on your machine. <a href="https://www.ruby-lang.org/en/installation/" rel="nofollow">Here is an install guide.</a></p>
 
 <p>Now, run the following commands:</p>
 
-<p><code>sudo gem install jekyll
+<p><code>sudo gem install jekyll<br />
 sudo gem install jekyll-import</code></p>
 
-<p>Create a folder for your site and use the terminal to change to the folder your your site will be.  Make sure the content uploads and a copy of your wordpress export is here. for demo purspoes, I will call it: wordpress.xml.</p>
+<p>Create a folder for your site and use the terminal to change to the folder your your site will be (<code>cd foldername</code>).  Make sure the upload folder and a copy of your wordpress export is at the root of your new site folder. For demo purspoes, I will call it: wordpress.xml.</p>
 
 <p>Once this is set up, run the below command to import your blog into wordpress:</p>
 
 <p><code>jekyll import wordpressdotcom --source wordpress.xml</code></p>
 
-<p>Finally, run the below command to build and preview the site. “–watch will allow you to make chnages and have them update in your preview site automtically.”</p>
+<p>Finally, run the below command to build and preview the site. “–watch” will allow you to make chnages and have them update in your preview site automtically.</p>
 
 <p><code>jekyll serve --watch</code></p>
 

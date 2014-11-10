@@ -22,7 +22,7 @@
   &lt;li&gt;upload your wordpress files and test.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;I have tried other various methods including web apps, but those have caused problems and have not updated some text portions.&lt;/p&gt;
+&lt;p&gt;I have tried other various methods including web apps, but those have caused problems such as not completely disconnecting the databases. In one instance WordPress core upgrade to the copied version, had also upgraded the first one as well.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-safest-way-to-move-but-not-exact&quot;&gt;The safest way to move (but not exact)&lt;/h2&gt;
 
@@ -35,22 +35,22 @@
 
 &lt;h2 id=&quot;moving-to-jekyll&quot;&gt;Moving to jekyll&lt;/h2&gt;
 
-&lt;p&gt;The first step is to download a copy of your upload folder, as well as a wordpress export.&lt;/p&gt;
+&lt;p&gt;The first step is to download a copy of your wp-content upload folder, you will also need your wordpress export file.&lt;/p&gt;
 
 &lt;p&gt;Next, make sure you have Ruby on your machine. &lt;a href=&quot;https://www.ruby-lang.org/en/installation/&quot; rel=&quot;nofollow&quot;&gt;Here is an install guide.&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Now, run the following commands:&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;sudo gem install jekyll
+&lt;p&gt;&lt;code&gt;sudo gem install jekyll&lt;br /&gt;
 sudo gem install jekyll-import&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Create a folder for your site and use the terminal to change to the folder your your site will be.  Make sure the content uploads and a copy of your wordpress export is here. for demo purspoes, I will call it: wordpress.xml.&lt;/p&gt;
+&lt;p&gt;Create a folder for your site and use the terminal to change to the folder your your site will be (&lt;code&gt;cd foldername&lt;/code&gt;).  Make sure the upload folder and a copy of your wordpress export is at the root of your new site folder. For demo purspoes, I will call it: wordpress.xml.&lt;/p&gt;
 
 &lt;p&gt;Once this is set up, run the below command to import your blog into wordpress:&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;jekyll import wordpressdotcom --source wordpress.xml&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Finally, run the below command to build and preview the site. “–watch will allow you to make chnages and have them update in your preview site automtically.”&lt;/p&gt;
+&lt;p&gt;Finally, run the below command to build and preview the site. “–watch” will allow you to make chnages and have them update in your preview site automtically.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;jekyll serve --watch&lt;/code&gt;&lt;/p&gt;
 

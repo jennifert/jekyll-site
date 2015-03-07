@@ -30,11 +30,11 @@ I have tried other various methods including web apps, but those have caused pro
 ##The safest way to move (but not exact)
 
 - download a copy of your themes, and plugins
-- download an export of your post files. If your using a multisite, you will need to do this for each blog.
+- download an export of your post files. If your using a multi-site, you will need to do this for each blog.
 - download a fresh copy of Wordpress, and set up your plugins and themes.
 - import posts, map users making sure to check the box to download linked media.
 
-##Moving to jekyll
+##Moving to Jekyll
 
 The first step is to download a copy of your wp-content upload folder, you will also need your wordpress export file.
 
@@ -45,16 +45,16 @@ Now, run the following commands:
 <code>sudo gem install jekyll<br>
 sudo gem install jekyll-import</code>
 
-Create a folder for your site and use the terminal to change to the folder your your site will be (<code>cd foldername</code>).  Make sure the upload folder and a copy of your wordpress export is at the root of your new site folder. For demo purspoes, I will call it: wordpress.xml.
+Create a folder for your site and use the terminal to change to the folder your your site will be (<code>cd foldername</code>).  Make sure the upload folder and a copy of your wordpress export is at the root of your new site folder. For demo purposes, I will call it: wordpress.xml.
 
 Once this is set up, run the below command to import your blog into wordpress:
 
 <code>jekyll import wordpressdotcom --source wordpress.xml</code>
 
-Finally, run the below command to build and preview the site. "--watch" will allow you to make chnages and have them update in your preview site automtically.
+Finally, run the below command to build and preview the site. "--watch" will allow you to make changes and have them update in your preview site automatically.
 
 <code>jekyll serve --watch</code>
 
 The default preview site is: http://localhost:4000, but this can be changed from _config.yml.
 
-The last step is in this process is to push your files online. Move into the root of "_site". These are the production ready files that should be moved to your server. An upcoming post will detail how to create a github pages site.
+The last step is in this process is to push your files on-line. Move into the root of "_site". These are the production ready files that should be moved to your server. An upcoming post will detail how to create a github pages site.

@@ -16,7 +16,7 @@
 
 &lt;ul&gt;
   &lt;li&gt;download a copy of the database and save somewhere. Make a copy as a backup.&lt;/li&gt;
-  &lt;li&gt;do a search in the sql file for the current domain URL and replace with the new domain or ‘localhost’ &lt;/li&gt;
+  &lt;li&gt;do a search in the sql file for the current domain URL and replace with the new domain or ‘localhost’&lt;/li&gt;
   &lt;li&gt;update the site location in the wp-config file.&lt;/li&gt;
   &lt;li&gt;import the sql database and add the user at the new location.&lt;/li&gt;
   &lt;li&gt;upload your wordpress files and test.&lt;/li&gt;
@@ -28,12 +28,12 @@
 
 &lt;ul&gt;
   &lt;li&gt;download a copy of your themes, and plugins&lt;/li&gt;
-  &lt;li&gt;download an export of your post files. If your using a multisite, you will need to do this for each blog.&lt;/li&gt;
+  &lt;li&gt;download an export of your post files. If your using a multi-site, you will need to do this for each blog.&lt;/li&gt;
   &lt;li&gt;download a fresh copy of Wordpress, and set up your plugins and themes.&lt;/li&gt;
   &lt;li&gt;import posts, map users making sure to check the box to download linked media.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;moving-to-jekyll&quot;&gt;Moving to jekyll&lt;/h2&gt;
+&lt;h2 id=&quot;moving-to-jekyll&quot;&gt;Moving to Jekyll&lt;/h2&gt;
 
 &lt;p&gt;The first step is to download a copy of your wp-content upload folder, you will also need your wordpress export file.&lt;/p&gt;
 
@@ -44,19 +44,19 @@
 &lt;p&gt;&lt;code&gt;sudo gem install jekyll&lt;br /&gt;
 sudo gem install jekyll-import&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Create a folder for your site and use the terminal to change to the folder your your site will be (&lt;code&gt;cd foldername&lt;/code&gt;).  Make sure the upload folder and a copy of your wordpress export is at the root of your new site folder. For demo purspoes, I will call it: wordpress.xml.&lt;/p&gt;
+&lt;p&gt;Create a folder for your site and use the terminal to change to the folder your your site will be (&lt;code&gt;cd foldername&lt;/code&gt;).  Make sure the upload folder and a copy of your wordpress export is at the root of your new site folder. For demo purposes, I will call it: wordpress.xml.&lt;/p&gt;
 
 &lt;p&gt;Once this is set up, run the below command to import your blog into wordpress:&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;jekyll import wordpressdotcom --source wordpress.xml&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Finally, run the below command to build and preview the site. “–watch” will allow you to make chnages and have them update in your preview site automtically.&lt;/p&gt;
+&lt;p&gt;Finally, run the below command to build and preview the site. “–watch” will allow you to make changes and have them update in your preview site automatically.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;jekyll serve --watch&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;The default preview site is: http://localhost:4000, but this can be changed from _config.yml.&lt;/p&gt;
 
-&lt;p&gt;The last step is in this process is to push your files online. Move into the root of “_site”. These are the production ready files that should be moved to your server. An upcoming post will detail how to create a github pages site.&lt;/p&gt;
+&lt;p&gt;The last step is in this process is to push your files on-line. Move into the root of “_site”. These are the production ready files that should be moved to your server. An upcoming post will detail how to create a github pages site.&lt;/p&gt;
 </description>
         <pubDate>Wed, 24 Sep 2014 15:00:00 -0400</pubDate>
         <link>http://www.jenntesolin.com/blog/2014/09/24/Moving-a-WordPress-Blog/</link>
@@ -67,32 +67,32 @@ sudo gem install jekyll-import&lt;/code&gt;&lt;/p&gt;
         <title>How to use Double Twist to sync your iTunes library to a droid</title>
         <description>&lt;p&gt;This post describes how you can sync your current iTunes media files to your android device. This tutorial was written and tested on Mac os X mavericks and a Nexus 5.&lt;!--more--&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;clean-up-your-current-itunes-library&quot;&gt;Clean up your current itunes library.&lt;/h2&gt;
+&lt;h2 id=&quot;clean-up-your-current-itunes-library&quot;&gt;Clean up your current iTunes library.&lt;/h2&gt;
 
-&lt;p&gt;Before moving any media files from an iTunes library to Android to play in any player, it’s best to get unlocked copies. For me the fastest (and legal non time consuming way) was to get iTunes music match enabled. Once it has finised setting up,  &lt;a href=&quot;http://computers.tutsplus.com/tutorials/how-to-remove-drm-from-your-music-with-itunes-match--mac-59271&quot; rel=&quot;nofollow&quot;&gt;follow this article on creating playlists&lt;/a&gt; to find locked files, and more.&lt;/p&gt;
+&lt;p&gt;Before moving any media files from an iTunes library to Android to play in any player, it’s best to get unlocked copies. For me the fastest (and legal non time consuming way) was to get iTunes music match enabled. Once it has finished setting up,  &lt;a href=&quot;http://computers.tutsplus.com/tutorials/how-to-remove-drm-from-your-music-with-itunes-match--mac-59271&quot; rel=&quot;nofollow&quot;&gt;follow this article on creating playlists&lt;/a&gt; to find locked files, and more.&lt;/p&gt;
 
 &lt;h4 id=&quot;fix-with-itunes-match-playlists&quot;&gt;Fix with iTunes Match playlists&lt;/h4&gt;
 
-&lt;p&gt;All playlists had media kind music, then in the first one added I cloud status ineligible.  For music, this means that the bit rate used to import the media was under 92 kps and a match was not found in the iTunes Library. The best way to solve this error is to reimport from your CD if you want to keep using icloud or iTunes. Its not necessary to reimport if your just removing DRM. &lt;/p&gt;
+&lt;p&gt;All playlists had media kind music, then in the first one added I cloud status ineligible.  For music, this means that the bit rate used to import the media was under 92 kps and a match was not found in the iTunes Library. The best way to solve this error is to reimport from your CD if you want to keep using iCloud or iTunes.&lt;/p&gt;
 
-&lt;p&gt;The next two playlists are similar to eachother. Once you have your playlists, select option and delete the files, but do NOT check delete from icloud. Make sure to move those files to your trash. You can then select all songs and re-download.&lt;/p&gt;
+&lt;p&gt;The next two playlists are similar to each other. Once you have your playlists, select option and delete the files, but do NOT check delete from iCloud. Make sure to move those files to your trash. You can then select all songs and re-download.&lt;/p&gt;
 
-&lt;p&gt;With my music from iTunes being quite large I set the music to redownload files while I was at work.&lt;/p&gt;
+&lt;p&gt;With my music from iTunes being quite large I set the music to re-download files while I was at work.&lt;/p&gt;
 
-&lt;p&gt;Once you have those files re downloaded, go to view &amp;gt; show duplicates. Make sure that they are indeed duplicates, then delete from iCloud and iTunes. Its best to delete NON purchased items.&lt;/p&gt;
+&lt;p&gt;Once you have those files re-downloaded, go to view &amp;gt; show duplicates. Make sure that they are indeed duplicates and then delete from iCloud and iTunes.&lt;/p&gt;
 
 &lt;h4 id=&quot;remove-duplicate-songs&quot;&gt;Remove duplicate songs&lt;/h4&gt;
 
-&lt;p&gt;Next step is to find the duplicates in your music folder for iTunes using finder. &lt;/p&gt;
+&lt;p&gt;Next step is to find the duplicates in your music folder for iTunes using finder.&lt;/p&gt;
 
-&lt;p&gt;Note: This did not help my duplicate music problem in the double twist desktop app, but its best to check anyways. As always, make sure you have a backup&lt;/p&gt;
+&lt;p&gt;Note: This did not help my duplicate music problem in the double twist desktop application, but its best to check anyways. As always, make sure you have a backup&lt;/p&gt;
 
 &lt;p&gt;Once your sure your duplicates are gone, set up double twist on your computer.&lt;/p&gt;
 
 &lt;h2 id=&quot;set-up-double-twist-on-your-computer&quot;&gt;Set-Up Double Twist on your computer.&lt;/h2&gt;
 
 &lt;h4 id=&quot;download-applications-to-mobile-and-desktop-devices&quot;&gt;Download applications to mobile and desktop devices.&lt;/h4&gt;
-&lt;p&gt;You will need to download for both desktop/laptop and mobile device. The files for teh desktop can be downloaded from &lt;a href=&quot;https://www.doubletwist.com/&quot;&gt;the offical website&lt;/a&gt;. The mobile version is available from the &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.doubleTwist.androidPlayer&quot; rel=&quot;nofollow&quot;&gt;play store&lt;/a&gt;. I just went ahead and the air sync add on since I do this often. With air sync go to mobile settings and get your four digit pin and enter on your desktop. You should now see your device their, if not, on you device select the option to broadcast. All add-ons are in app purchases.&lt;/p&gt;
+&lt;p&gt;You will need to download for both desktop/laptop and mobile device. The files for the desktop can be downloaded from &lt;a href=&quot;https://www.doubletwist.com/&quot;&gt;the official website&lt;/a&gt;. The mobile version is available from the &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.doubleTwist.androidPlayer&quot; rel=&quot;nofollow&quot;&gt;play store&lt;/a&gt;. I just went ahead and the air sync add on since I do this often. With air sync go to mobile settings and get your four digit pin and enter on your desktop. You should now see your device their, if not, on you device select the option to broadcast. All add-ons are in-app purchases.&lt;/p&gt;
 
 &lt;h4 id=&quot;set-up-desktop-app&quot;&gt;Set up desktop App&lt;/h4&gt;
 
@@ -108,21 +108,21 @@ sudo gem install jekyll-import&lt;/code&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;when you purchase airplay add on, you can no longer sync wired even when its disabled.&lt;/li&gt;
-  &lt;li&gt;can ONLY use Itunes playlist. They have no way to sync chnages made in phone app to the iTunes library.&lt;/li&gt;
+  &lt;li&gt;can ONLY use iTunes playlist. They have no way to sync changes made in the phone application back to the iTunes library.&lt;/li&gt;
   &lt;li&gt;Video playlists do not go to next item.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Pro:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;easy way to use a droid with your Mac.&lt;/li&gt;
-  &lt;li&gt;Will take all iTunes Playlists (as long as file is unlocked).&lt;/li&gt;
+  &lt;li&gt;easy way to use an android phone with your Mac.&lt;/li&gt;
+  &lt;li&gt;Will take all iTunes playlists (as long as file is unlocked).&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Bugs encountered&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;even though no duplicates are in iTunes duplicate view, the library sometimes duplicates the files  (not in playlist but in the library view in music). I had no duplicates in finder. &lt;/li&gt;
+  &lt;li&gt;even though no duplicates are in iTunes duplicate view, the library sometimes duplicates the files  (not in playlist but in the library view in music). I had no duplicates in finder.&lt;/li&gt;
   &lt;li&gt;hangs or sometimes crashes  on opening the desktop app.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -133,11 +133,13 @@ sudo gem install jekyll-import&lt;/code&gt;&lt;/p&gt;
     
       <item>
         <title>Rebuilding the backend of my site</title>
-        <description>&lt;p&gt;So I am currently in the process of moving my WordPress blog over to using the Jekyll system. I will be trying to move it over before my hosting renews - this way I can try my hosting up at github pages or windows azure.&lt;!--more--&gt;&lt;/p&gt;
+        <description>&lt;p&gt;At the time of writing, I am currently in the process of moving my WordPress blog over to using the Jekyll system. I will be trying to move it over before my hosting renews - this way I can try my hosting up at github pages or windows azure.&lt;!--more--&gt;&lt;/p&gt;
 
 &lt;p&gt;If anyone is interested, I have some preview links below:&lt;/p&gt;
 
-&lt;p&gt;Eventually, there will be a series of posts of my experience. Feel free to comment on your own experience using the system.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/jennifert/jekyll-site&quot;&gt;Github Repo&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Eventually, there will be a series of posts of my experience. This post will be updated as they are out.&lt;/p&gt;
 </description>
         <pubDate>Thu, 22 May 2014 18:34:21 -0400</pubDate>
         <link>http://www.jenntesolin.com/blog/2014/05/22/rebuilding-the-backend-of-my-site/</link>
@@ -150,11 +152,11 @@ sudo gem install jekyll-import&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;Note: This is an update to the &lt;a title=&quot;A look at Raspmbc video streaming&quot; href=&quot;http://jenntesolin.com/blog/2013/09/05/a-look-at-raspmbc-video-streaming/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Raspmbc set-up article&lt;/a&gt;. RasPlex also requires the use of Plex Media Server which is also free, and easily connects to iTunes and various channels.&lt;br /&gt;&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Set-up the SD card&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The first step is to &lt;a title=&quot;Rasplex installer downlaod page&quot; href=&quot;http://www.rasplex.com/get-started/rasplex-installers.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;download the installer&lt;/a&gt; for your Operating System onto your computer. They have installers available for Mac, Linux, and Windows, please be sure to read the notes on how to mount the installer.&lt;/p&gt;
-&lt;p&gt;Now, you select the version of RasPlex you want, and then select your SD card drive (check disk utility for the name if your not sure). Finally, press &quot;update links&quot;, and when that is down &quot;click download&quot;.  It will ask you the location of the download, then when will display the download progress in the terminal. Once your all set-up, then press &quot;Write SD card&quot;.&lt;/p&gt;
+&lt;p&gt;Now, you select the version of RasPlex you want, and then select your SD card drive (check disk utility for the name if your not sure). Finally, press &quot;update links&quot;, and when that is down &quot;click download&quot;. It will ask you the location of the download, then when will display the download progress in the terminal. Once your all set-up, then press &quot;Write SD card&quot;.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://jenntesolin.com/wp-content/uploads/2014/04/Screen-Shot-2014-04-24-at-10.51.40-PM.png&quot;&gt; &lt;img class=&quot;alignnone size-medium wp-image-609&quot; src=&quot;http://jenntesolin.com/wp-content/uploads/2014/04/Screen-Shot-2014-04-24-at-10.51.40-PM-300x298.png&quot; alt=&quot;Screen Shot 2014-04-24 at 10.51.40 PM&quot; width=&quot;300&quot; height=&quot;298&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Set-Up your Raspberry Pi&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Make sure all your devises (even Bluetooth and Wi-Fi) are connected, then boot your machine. Let it run the initial set-up, and reboot itself.&lt;/p&gt;
-&lt;p&gt;Once it reboots, follow the on screen instructions for set-up (note that only your keyboard will work so far). Some of the set-up options include: Bluetooth, WI-Fi, your Plex Media Server.&lt;/p&gt;
+&lt;p&gt;Once it reboots, follow the on screen instructions for set-up (note that only your keyboard will work so far). Some of the set-up options include: Blue-tooth, WI-Fi, your Plex Media Server.&lt;/p&gt;
 &lt;p&gt;When you see the menu, press the left keyboard arrow to get to your settings, this is where you can set-up your audio settings, ssh access, and more. At set-up it will choose HDMI audio, just select analog to use stereo speakers.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://jenntesolin.com/wp-content/uploads/2014/04/IMG_1982.jpg&quot;&gt;&lt;img class=&quot;alignnone size-medium wp-image-608&quot; src=&quot;http://jenntesolin.com/wp-content/uploads/2014/04/IMG_1982-300x199.jpg&quot; alt=&quot;IMG_1982&quot; width=&quot;300&quot; height=&quot;199&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;That&#39;s it! This this helps other people as well.&lt;/p&gt;
@@ -163,9 +165,9 @@ sudo gem install jekyll-import&lt;/code&gt;&lt;/p&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/RasPlex/RasPlex/wiki/Guides&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;RasPlex Github Guides Pages&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.rasplex.com/documentation/rasplex-setup-basics.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;RasPlex Set-Up Basics Documentation Page&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Check out their YouTube Trailer&lt;/strong&gt; &lt;small&gt;(it tells it better than me)&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Check out their YouTube Trailer&lt;/strong&gt;&lt;/p&gt;
 
-&lt;iframe width=&quot;425&quot; height=&quot;425&quot; src=&quot;http://www.youtube.com/embed/C-A4Kxq3V0I?color=white&amp;theme=light&quot;&gt;&lt;/iframe&gt;
+&lt;iframe width=&quot;425&quot; height=&quot;425&quot; src=&quot;https://www.youtube.com/embed/C-A4Kxq3V0I&quot; frameborder=&quot;0&quot; seamless allowfullscreen&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Thu, 24 Apr 2014 00:00:00 -0400</pubDate>
         <link>http://www.jenntesolin.com/blog/2014/04/24/updated-raspberry-pi-media-server/</link>
@@ -174,7 +176,7 @@ sudo gem install jekyll-import&lt;/code&gt;&lt;/p&gt;
     
       <item>
         <title>Removing cData from YQL queries</title>
-        <description>&lt;p&gt;When pulling data from xml items using YQL and getJSON, your application will unfortuntley not parse tags that have cdata. This post describe show to use the &lt;a href=&quot;http://www.yqlblog.net/blog/category/tutorial/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;feed normalizer table&lt;/a&gt; to call all elements, even those that have cdata.&lt;/p&gt;
+        <description>&lt;p&gt;When pulling data from xml items using YQL and getJSON, your application will unfortunately not parse tags that have cdata. This post describe show to use the &lt;a href=&quot;http://www.yqlblog.net/blog/category/tutorial/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;feed normalizer table&lt;/a&gt; to call all elements including those with cdata.&lt;/p&gt;
 &lt;p&gt;&lt;!--more--&gt;&lt;/p&gt;
 &lt;h3&gt;YQl Feed Normalizer&lt;/h3&gt;
 &lt;p&gt;To use this table in my application, I worked off of the second example given on the YQL blog entry:&lt;br /&gt;
@@ -249,7 +251,7 @@ $.getJSON(blogLink, function(data){&lt;br /&gt;
 &lt;p&gt;&lt;code&gt;html:5&amp;gt;(div.navbar.navbar-default.navbar-fixed-top&amp;gt;div.container&amp;gt;div.navbar-header&amp;gt;btn:r.navbar-toggle&amp;gt;span.sr-only{Toggle navigation}+span.icon-bar+span.icon+span.icon^a.navbar-brand{Welcome!}^div.collapse.navbar-collapse&amp;gt;ul.nav.navbar-nav&amp;gt;li*3&amp;gt;a^li.dropdown&amp;gt;a.dropdown-toggle{Dropdown }&amp;gt;b.caret^ul.dropdown-menu&amp;gt;li*3&amp;gt;a^li.divider+li.dropdown-header{Nav Header}+li*3&amp;gt;a^^^^^^^div.container&amp;gt;div.page-header&amp;gt;h1{Page Header Heer}^p.lead&amp;gt;lorem^^div#footer&amp;gt;div.container&amp;gt;p.text-muted{Copy Right Info}^^script:src{js/jquery-1.11.0.min.js}+script:src{js/bootstrap.min.js})&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Gist Location: &lt;a href=&quot;https://gist.github.com/jennifert/9846832&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://gist.github.com/jennifert/9846832&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;
-&lt;p&gt;&lt;em&gt;Note: Could not find emmet tag to define javascript source location, so just moved it between script tags. Please see step 8 at 1B below.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Note: Could not find Emmet tag to define JavaScript source location, so just moved it between script tags. Please see step 8 at 1B below.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;B) Fill in the missing items/editing places:&lt;/p&gt;
 &lt;p&gt;1) Add role=navigation to : navbar.navbar-default.navbar-fixed-top&lt;br /&gt;
@@ -267,7 +269,7 @@ $.getJSON(blogLink, function(data){&lt;br /&gt;
 &lt;p&gt;B) Edit the following items:&lt;br /&gt;
   1) Favicon.ico if needed&lt;br /&gt;
   2) Change ie=7 to ie=edge in meta tag.&lt;br /&gt;
-  3) In the style.css where you bootstrap is nested in, cut and paste the bootstrap stylesheet in place of styles.css.&lt;br /&gt;
+  3) In the style.css where you bootstrap is nested in, cut and paste the bootstrap style sheet in place of styles.css.&lt;br /&gt;
   4) In between the updated bootstrap css and styles.css, paste your conditional comments.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;&amp;lt;!--[if lt IE 9]&amp;gt;&lt;br /&gt;
   &amp;lt;script src=&amp;quot;https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;br /&gt;
@@ -295,7 +297,7 @@ Description from Store: This is a sole Android to-do reminder app that sync with
 &lt;p&gt;&lt;strong&gt;iNotes - Sync Note with iOS&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Syncs: notes&lt;br /&gt;
 Store Link: &lt;a href=&quot;https://play.google.com/store/apps/details?id=org.dayup.inotes&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://play.google.com/store/apps/details?id=org.dayup.inotes&lt;/a&gt;&lt;br /&gt;
-Description from Store: iNotes is an easy notes app for synchronizing your notes of Android to Notes app on Mac/iOS(iphone, ipad) . It is currently applicable to iCloud, Gmail,Yahoo, Aol,163 only.&lt;/p&gt;
+Description from Store: iNotes is an easy notes app for synchronizing your notes of Android to Notes app on Mac/iOS(iphone, ipad) . It is currently applicable to iCloud, Gmail,Yahoo, Aol, 163 only.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;SmoothSync for Cloud Contacts&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Syncs: Contacts&lt;br /&gt;
 Store Link: &lt;a href=&quot;https://play.google.com/store/apps/details?id=org.dmfs.carddav.icloud&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://play.google.com/store/apps/details?id=org.dmfs.carddav.icloud&lt;/a&gt;&lt;br /&gt;
@@ -323,24 +325,10 @@ Description from Store: iCloud stores your website bookmarks, so they are everyw
     
       <item>
         <title>Upcoming Github Updates</title>
-        <description>&lt;p&gt;A frequently updated list of outstanding items to be added to the github repos.&lt;!--more--&gt;&lt;/p&gt;
+        <description>&lt;p&gt;A frequently updated list of outstanding items to be added to the github repositories.&lt;!--more--&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Google Maps:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Try examples using font awesome in pop up box. Also try require js if successful on first attempt.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;PHP Auction site&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;*email functionality (phase 1: user account info, phase 2: bid posted,profile changed, )&lt;/li&gt;
-&lt;li&gt;stronger password security and/or OAuth/twitter/facebook/google login.&lt;/li&gt;
-&lt;li&gt;replace icons with font awesome (and possibly utilize google fonts or type kit)&lt;/li&gt;
-&lt;li&gt;adding require js&lt;/li&gt;
-&lt;li&gt;adding a map to show &quot;pick-up&quot; location. Will need to update DB (item)&lt;/li&gt;
-&lt;li&gt;add more variable checks in php and some in JS.&lt;/li&gt;
-&lt;li&gt;upgrading to latest version of bootstrap.&lt;/li&gt;
-&lt;li&gt;countdown to auction close (Moment.JS)&lt;/li&gt;
-&lt;li&gt;password show/hide similar to iOS devices, strength meter&lt;/li&gt;
-&lt;li&gt;a way to change your password.&lt;/li&gt;
-&lt;li&gt;a profile&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Bootstrap Master Pages:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -350,10 +338,10 @@ Description from Store: iCloud stores your website bookmarks, so they are everyw
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Bootstrap movie search:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Fix poster image (use a google query if needed)&lt;/li&gt;
+&lt;li&gt;Fix poster image (use a Google query if needed)&lt;/li&gt;
 &lt;li&gt;look into way to see if its playing anywhere&lt;/li&gt;
 &lt;li&gt;use location api to get info&lt;/li&gt;
-&lt;li&gt;get log/lat and search google maps&lt;/li&gt;
+&lt;li&gt;get log/lat and search Google maps&lt;/li&gt;
 &lt;li&gt;link to youtube for easy access trailers or see if they can be puled from imdb.&lt;/li&gt;
 &lt;li&gt;Make sure that user input is using latest tech and checks.&lt;/li&gt;
 &lt;li&gt;will become part of a library service or management system.&lt;/li&gt;

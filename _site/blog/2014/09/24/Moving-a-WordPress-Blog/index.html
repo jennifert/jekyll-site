@@ -84,7 +84,11 @@
 
   <header class="post-header">
     <h1>Moving a Wordpress blog</h1>
-    <p class="meta">Sep 24, 2014</p>
+    <p class="meta">Sep 24, 2014 <!--  • 
+  
+     
+      less than a minute
+     --></p>
   </header>
 
   <article class="post-content">
@@ -96,7 +100,7 @@
 
 <ul>
   <li>download a copy of the database and save somewhere. Make a copy as a backup.</li>
-  <li>do a search in the sql file for the current domain URL and replace with the new domain or ‘localhost’ </li>
+  <li>do a search in the sql file for the current domain URL and replace with the new domain or ‘localhost’</li>
   <li>update the site location in the wp-config file.</li>
   <li>import the sql database and add the user at the new location.</li>
   <li>upload your wordpress files and test.</li>
@@ -108,12 +112,12 @@
 
 <ul>
   <li>download a copy of your themes, and plugins</li>
-  <li>download an export of your post files. If your using a multisite, you will need to do this for each blog.</li>
+  <li>download an export of your post files. If your using a multi-site, you will need to do this for each blog.</li>
   <li>download a fresh copy of Wordpress, and set up your plugins and themes.</li>
   <li>import posts, map users making sure to check the box to download linked media.</li>
 </ul>
 
-<h2 id="moving-to-jekyll">Moving to jekyll</h2>
+<h2 id="moving-to-jekyll">Moving to Jekyll</h2>
 
 <p>The first step is to download a copy of your wp-content upload folder, you will also need your wordpress export file.</p>
 
@@ -124,19 +128,19 @@
 <p><code>sudo gem install jekyll<br />
 sudo gem install jekyll-import</code></p>
 
-<p>Create a folder for your site and use the terminal to change to the folder your your site will be (<code>cd foldername</code>).  Make sure the upload folder and a copy of your wordpress export is at the root of your new site folder. For demo purspoes, I will call it: wordpress.xml.</p>
+<p>Create a folder for your site and use the terminal to change to the folder your your site will be (<code>cd foldername</code>).  Make sure the upload folder and a copy of your wordpress export is at the root of your new site folder. For demo purposes, I will call it: wordpress.xml.</p>
 
 <p>Once this is set up, run the below command to import your blog into wordpress:</p>
 
 <p><code>jekyll import wordpressdotcom --source wordpress.xml</code></p>
 
-<p>Finally, run the below command to build and preview the site. “–watch” will allow you to make chnages and have them update in your preview site automtically.</p>
+<p>Finally, run the below command to build and preview the site. “–watch” will allow you to make changes and have them update in your preview site automatically.</p>
 
 <p><code>jekyll serve --watch</code></p>
 
 <p>The default preview site is: http://localhost:4000, but this can be changed from _config.yml.</p>
 
-<p>The last step is in this process is to push your files online. Move into the root of “_site”. These are the production ready files that should be moved to your server. An upcoming post will detail how to create a github pages site.</p>
+<p>The last step is in this process is to push your files on-line. Move into the root of “_site”. These are the production ready files that should be moved to your server. An upcoming post will detail how to create a github pages site.</p>
 
   </article>
 
@@ -150,7 +154,7 @@ sudo gem install jekyll-import</code></p>
         <div class="row">
           <div class="col-xs-12">
            <p class="vcard text-muted">
-          &copy; 2014 <span class="fn">Jennifer Tesolin</span>
+          &copy; 2015 <span class="fn">Jennifer Tesolin</span>
           <span class="pull-right">
             <a  class="url" href="https://github.com/jennifert?tab=repositories" target="_blank" rel="nofollow"><i class="fa fa-github fa-3x"></i></a>
             <a class="url" href="https://twitter.com/jenntes" target="_blank" rel="nofollow"><i class="fa fa-twitter fa-3x"></i></a>

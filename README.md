@@ -1,7 +1,7 @@
 jekyll-site
 ===========
 
-This is a port of my wordpress blog that has been moved to [Jekyll](http://jekyllrb.com/) via the [Jekyll Imports](http://import.jekyllrb.com/) plugin.
+This is a port of my wordpress blog that has been moved to [Jekylll](http://jekyllrb.com/) via the [Jekyll Imports](http://import.jekyllrb.com/) plugin.
 
 This is a development repository.
 
@@ -10,15 +10,15 @@ The production URL is the same as before: [http://jenntesolin.com/](jenntesolin.
 
 ###Important Notes
 - To create new posts, please change the content of the wordpress.xml to ave the xml export of your site.
-- The live version will be using continous integration, but this dev version is updated on azure when files are committed.
+- The live version will be using continuous integration, but this dev version is updated on azure when files are committed.
 
-###Install needed dependancies:
+###Install needed dependencies:
 
 <pre><code>sudo gem update --system
 sudo gem update
 sudo gem install jekyll</code></pre>
 
-Optional, only if your importing from wordpres sor other location:
+Optional, only if your importing from wordpress or other location:
 <pre><code>sudo gem install jekyll-import</code></pre>
 
 Also, if your a risk taker, the below command installs a pre release version. Please note these are NOT stable.
@@ -28,23 +28,23 @@ Also, if your a risk taker, the below command installs a pre release version. Pl
 ###Non-Wordpress Import instructions
 - Download/clone this archive and unzip
 - delete the "_site" directory
-- delete the "wp-content" folder or repalce with your own assets
+- delete the "wp-content" folder or replace with your own assets
 - if your not using wordpress, delete wordpress.xml
 - delete all posts from "_posts" feel free to use the markdown formatting though. Add a post.
 - Run jekyll serve
 - Browse to: http://localhost:4000
 
 ###Wordpress Import instructions
-- use same instructions as no-wordpress
+- use same instructions as non-wordpress
 -  replace the file with your own wordpress.xml
 - run: <pre><code>jekyll import wordpressdotcom --source wordpress.xml</code></pre>
 - if attachments are not downloaded in same structure, download your wp-content folder, and place at root of site (above "_site" folder)
 - delete _nav_menu_items, and _attachments directories.
-- Run jekyll serve (or jekyll serve --watch if you want to make changes and have them reload automatcially in browser)
+- Run jekyll serve (or jekyll serve --watch if you want to make changes and have them reload automatically in browser)
 - Browse to: http://localhost:4000
 
 ###Install other gems as required:
-I will need to research why I downloaded and marked them down for jekyll, but I also have the following installed:
+I will need to research why I downloaded and marked them down for Jekyll, but I also have the following installed:
 
 <pre><code>gem install sequel
 gem install hpricot

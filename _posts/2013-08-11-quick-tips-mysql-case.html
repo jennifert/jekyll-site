@@ -8,7 +8,7 @@ status: publish
 type: post
 published: true
 ---
-<p>There was a table that had different spellings for titles in between male and female titles. However, I did not want to spend too much time programming in the application itself. I stumbled upon the mysql case<!--more-->:</p>
+<p>One project I worked on had a table with different spellings  between English and French between an individual's title (masculine vs feminine in French). Since I did not want to spend too much time programming in the application itself, I came across the mysql 'case' function during research.<!--more-->:</p>
 <code>Case When table1.Gender = 'Female' Then table1.ftitlesfr When table1.Gender = 'Male' Then table1.mtitlesfr End AS titlesfr</code>
 <p>You the above in place of a field name as such:.</p>
 <code>SELECT table1.name, table1, table1.titleen, Case When table1.Gender = 'Female' Then table1.ftitlesfr When table1.Gender = 'Male' Then table1.mtitlesfr End AS titlesfr FROM table1</code>

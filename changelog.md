@@ -2,17 +2,23 @@ Changelog
 ===========
 
 ##phase 2 Updates:
+March 5, 2015
+- Fixed typos across all pages.
+- Updated youtube plugin to show the https page
+- getting site ready to use cloudflare free SSL.
+- Added plugins to repo that will be used in the future.ly
+
 November 7, 2014
 - Fixed page titles to be more SEo friendly.
 
 October 7, 2014
-- Added  rel="nofollow" to offsite links.
+- Added  rel="nofollow" to off-site links.
 
 September 24, 2014:
 - Added a new post
 
 August 22, 2014:
-- fixed mminor github issues
+- fixed minor github issues
 
 August 11, 2014:
 - fixed items from WooRank.com
@@ -20,7 +26,7 @@ August 11, 2014:
 July 21, 2014:
 - Fixed pagination
 - fixed horizontal scrolling on pages.
-- temporarly rmeoved html5 styles and extra css code. Will add back in with aria code in future build.
+- temporary removed html5 styles and extra css code. Will add back in with aria code in future build.
 - now using some pieces of html5 boilerplate
 
 July 16, 2014:
@@ -63,10 +69,10 @@ June 11, 2014
 - Added .deployment file for windows azure.
 - Updated about page text
 - Updated humans.txt section: technologies
-- added page urls to sitemap.xml (only pages in navigation)
+- added pages that appear in navigation to sitemap.xml
 - downloaded Google page speed and modern.ie reports to work through
 - Look into jekyll ignore for the readme.mb file (just using script to add page to group for navigation).
-- Removed _site from jekyl ignore to get ready to load in Windows Azure
+- Removed _site from Jekyll ignore to get ready to load in Windows Azure
 
 June 10, 2014
 - Move blog theme into Jekyll includes
@@ -82,11 +88,11 @@ May 21, 2014:
 
 May 15, 2014: 
 - Have sitemap generating based of rss feed template (how to generate items)
-- Have some of humnas.txt being pulled from config, unfortuntley other items cannot be pulled in.
+- Have some of humnas.txt being pulled from config, unfortunately other items cannot be pulled in.
 - copied by wp-contents file into folder.
 - updated gitignore to just be _sites/
 
 May 14, 2014:
-- Inital commits and footer updates to site.
+- Initial commits and footer updates to site.
 - Created 404 page
-- imported workdpress posts
+- imported WordPress posts

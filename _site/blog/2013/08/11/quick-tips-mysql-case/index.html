@@ -84,11 +84,15 @@
 
   <header class="post-header">
     <h1>Quick tips: MySql Case</h1>
-    <p class="meta">Aug 11, 2013</p>
+    <p class="meta">Aug 11, 2013 <!--  • 
+  
+     
+      less than a minute
+     --></p>
   </header>
 
   <article class="post-content">
-  <p>There was a table that had different spellings for titles in between male and female titles. However, I did not want to spend too much time programming in the application itself. I stumbled upon the mysql case<!--more-->:</p>
+  <p>One project I worked on had a table with different spellings  between English and French between an individual's title (masculine vs feminine in French). Since I did not want to spend too much time programming in the application itself, I came across the mysql 'case' function during research.<!--more-->:</p>
 <code>Case When table1.Gender = 'Female' Then table1.ftitlesfr When table1.Gender = 'Male' Then table1.mtitlesfr End AS titlesfr</code>
 <p>You the above in place of a field name as such:.</p>
 <code>SELECT table1.name, table1, table1.titleen, Case When table1.Gender = 'Female' Then table1.ftitlesfr When table1.Gender = 'Male' Then table1.mtitlesfr End AS titlesfr FROM table1</code>
@@ -106,7 +110,7 @@
         <div class="row">
           <div class="col-xs-12">
            <p class="vcard text-muted">
-          &copy; 2014 <span class="fn">Jennifer Tesolin</span>
+          &copy; 2015 <span class="fn">Jennifer Tesolin</span>
           <span class="pull-right">
             <a  class="url" href="https://github.com/jennifert?tab=repositories" target="_blank" rel="nofollow"><i class="fa fa-github fa-3x"></i></a>
             <a class="url" href="https://twitter.com/jenntes" target="_blank" rel="nofollow"><i class="fa fa-twitter fa-3x"></i></a>

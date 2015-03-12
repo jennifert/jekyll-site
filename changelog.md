@@ -2,6 +2,10 @@ Changelog
 ===========
 
 ##phase 2 Updates:
+March 11, 2015
+- Updated url in config to be https
+- updated canonical link tag.
+
 March 5, 2015
 - Fixed typos across all pages.
 - Updated youtube plugin to show the https page

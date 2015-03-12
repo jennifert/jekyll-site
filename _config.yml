@@ -2,7 +2,7 @@
 title: Jennifer Tesolin
 description: "This is Jennifer Tesolin's personal web site. Located on this site are tutorials and tips for web developers."
 baseurl: ""
-url: "http://www.jenntesolin.com"
+url: "https://www.jenntesolin.com"
 timezone : "America/Toronto"
 
 # Build settings

@@ -7,10 +7,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title> Bootstrap 3 and Google Maps - Jennifer Tesolin </title>
+    <title> Creating a development environment for IIS 7+ - Jennifer Tesolin </title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="This is Jennifer Tesolin's personal web site. Located on this site are tutorials and tips for web developers.">
-    <link rel="canonical" href="https://www.jenntesolin.com/blog/2013/11/05/bootstrap-3-and-google-maps/">
+    <link rel="canonical" href="https://www.jenntesolin.com/blog/2015/03/05/IIS7-Development-Environment/">
     <link type="text/plain" rel="author" href="https://www.jenntesolin.com/humans.txt" />
 
     <!-- Custom CSS -->
@@ -83,30 +83,42 @@
       <div class="post">
 
   <header class="post-header">
-    <h1>Bootstrap 3 and Google Maps</h1>
-    <p class="meta">Nov 5, 2013 <!--  • 
-  
+    <h1>Creating a development environment for IIS 7+</h1>
+    <p class="meta">Mar 5, 2015 <!--  • 
+   • Jennifer Tesolin
      
       less than a minute
      --></p>
   </header>
 
   <article class="post-content">
-  <p>There are changes in Bootstrap 3 that stops Google maps from displaying correctly in modals, or tabs.  New demos have been created to show to to utilize in your code.<!--more--></p>
-<p>Single Map: <a href="http://jenntesolin.com/demos/single-map_bootstrap3.html" target="_blank">http://jenntesolin.com/demos/single-map_bootstrap3.html</a><br />
-Multi-Map: <a href="http://jenntesolin.com/demos/multi-map_bootstrap3.html" target="_blank">http://jenntesolin.com/demos/multi-map_bootstrap3.html</a></p>
-<p><a href="https://github.com/jennifert/JavaScript-Demos/tree/master/GoogleMaps/BootstrapV3" target="_blank">Download Code</a></p>
-<p>To use in a tab, change the following:</p>
-<code>$("#mapModal").on("shown.bs.modal", function () {</code>
-<p>to</p>
-<code>$("#mapTab").on("shown.bs.tab", function () {</code>
-<p>Also, in the modal the "hide" class, as well as other changes as per Bootstrap Documentation.</p>
-<p>Note:<br />
-This is an update to the older post using <a href="http://jenntesolin.com/blog/2013/04/11/bootstrap-and-google-maps/" target="_blank">Bootstrap 2 with Google Maps</a>.</p>
-<p>Resources:<br />
-<a href="http://stackoverflow.com/questions/19741208/goole-maps-in-navbar-in-bootstrap-3" target="_blank" rel="nofollow">Google Maps in Navbar in Bootstrap 3</a><br />
-<a href="http://getbootstrap.com/getting-started/" target="_blank" rel="nofollow">Bootstrap Documentation: V3</a><br />
-<a href="http://getbootstrap.com/javascript/#modals" target="_blank" rel="nofollow">Bootstrap Documentation: Modals</a></p>
+  <p>This post describes how to install IIS on Windows 7, along with enabling MySql and Php.<!--more--></p>
+
+<p>Note: You will need Administrator Access.</p>
+
+<h3 id="enable-iis">Enable IIS</h3>
+<p>The first step is to create a folder in a directory outside of innetpub, ensuring that the full path has no spaces.</p>
+
+<p>For example: 
+<code>C:\webroot\</code></p>
+
+<p>Next, to fix the security settings, right click on the new folder and add permissions for any users with, ISR, IUSER and Networking (full access)</p>
+
+<h3 id="best-steps-to-enable-php-and-mysql">best steps to enable php and MySQL.</h3>
+
+<p>Also highlight why it’s best to move out of the wwwroot directory.</p>
+
+<h3 id="install-the-url-rewrite-plugin-for-iis-then-restart-server">install the URL rewrite plugin for IIS. Then restart server</h3>
+<p>Will be here</p>
+
+<h3 id="link-to-wp-config-that-turns-off-ftp">link to WP config that turns off FTP</h3>
+<p>Will be here</p>
+
+<h3 id="mention-x64-32-driver-issues">mention x64 32 driver issues.</h3>
+<p>Will be here</p>
+
+<h3 id="php-and-asp-in-same-folder">php and asp in same folder.</h3>
+<p>Will be here</p>
 
   </article>
 

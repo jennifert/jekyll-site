@@ -3,43 +3,8 @@
   <channel>
     <title>Jennifer Tesolin</title>
     <description>This is Jennifer Tesolin&#39;s personal web site. Located on this site are tutorials and tips for web developers.</description>
-    <link>https://www.jenntesolin.com/</link>
-    <atom:link href="https://www.jenntesolin.com/feed.xml" rel="self" type="application/rss+xml" />
-    
-      <item>
-        <title>Creating a development environment for IIS 7+</title>
-        <description>&lt;p&gt;This post describes how to install IIS on Windows 7, along with enabling MySql and Php.&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;p&gt;Note: You will need Administrator Access.&lt;/p&gt;
-
-&lt;h3 id=&quot;enable-iis&quot;&gt;Enable IIS&lt;/h3&gt;
-&lt;p&gt;The first step is to create a folder in a directory outside of innetpub, ensuring that the full path has no spaces.&lt;/p&gt;
-
-&lt;p&gt;For example: 
-&lt;code&gt;C:\webroot\&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Next, to fix the security settings, right click on the new folder and add permissions for any users with, ISR, IUSER and Networking (full access)&lt;/p&gt;
-
-&lt;h3 id=&quot;best-steps-to-enable-php-and-mysql&quot;&gt;best steps to enable php and MySQL.&lt;/h3&gt;
-
-&lt;p&gt;Also highlight why it’s best to move out of the wwwroot directory.&lt;/p&gt;
-
-&lt;h3 id=&quot;install-the-url-rewrite-plugin-for-iis-then-restart-server&quot;&gt;install the URL rewrite plugin for IIS. Then restart server&lt;/h3&gt;
-&lt;p&gt;Will be here&lt;/p&gt;
-
-&lt;h3 id=&quot;link-to-wp-config-that-turns-off-ftp&quot;&gt;link to WP config that turns off FTP&lt;/h3&gt;
-&lt;p&gt;Will be here&lt;/p&gt;
-
-&lt;h3 id=&quot;mention-x64-32-driver-issues&quot;&gt;mention x64 32 driver issues.&lt;/h3&gt;
-&lt;p&gt;Will be here&lt;/p&gt;
-
-&lt;h3 id=&quot;php-and-asp-in-same-folder&quot;&gt;php and asp in same folder.&lt;/h3&gt;
-&lt;p&gt;Will be here&lt;/p&gt;
-</description>
-        <pubDate>Thu, 05 Mar 2015 14:34:21 -0500</pubDate>
-        <link>https://www.jenntesolin.com/blog/2015/03/05/IIS7-Development-Environment/</link>
-        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2015/03/05/IIS7-Development-Environment/</guid>
-      </item>
+    <link>http://www.jenntesolin.com/</link>
+    <atom:link href="http://www.jenntesolin.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Moving a Wordpress blog</title>
@@ -94,8 +59,8 @@ sudo gem install jekyll-import&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;The last step is in this process is to push your files on-line. Move into the root of “_site”. These are the production ready files that should be moved to your server. An upcoming post will detail how to create a github pages site.&lt;/p&gt;
 </description>
         <pubDate>Wed, 24 Sep 2014 15:00:00 -0400</pubDate>
-        <link>https://www.jenntesolin.com/blog/2014/09/24/Moving-a-WordPress-Blog/</link>
-        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2014/09/24/Moving-a-WordPress-Blog/</guid>
+        <link>http://www.jenntesolin.com/blog/2014/09/24/Moving-a-WordPress-Blog/</link>
+        <guid isPermaLink="true">http://www.jenntesolin.com/blog/2014/09/24/Moving-a-WordPress-Blog/</guid>
       </item>
     
       <item>
@@ -162,8 +127,8 @@ sudo gem install jekyll-import&lt;/code&gt;&lt;/p&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Wed, 16 Jul 2014 15:34:21 -0400</pubDate>
-        <link>https://www.jenntesolin.com/blog/2014/07/16/Using-DoubleTwist-iTunes-and-Android/</link>
-        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2014/07/16/Using-DoubleTwist-iTunes-and-Android/</guid>
+        <link>http://www.jenntesolin.com/blog/2014/07/16/Using-DoubleTwist-iTunes-and-Android/</link>
+        <guid isPermaLink="true">http://www.jenntesolin.com/blog/2014/07/16/Using-DoubleTwist-iTunes-and-Android/</guid>
       </item>
     
       <item>
@@ -177,8 +142,8 @@ sudo gem install jekyll-import&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Eventually, there will be a series of posts of my experience. This post will be updated as they are out.&lt;/p&gt;
 </description>
         <pubDate>Thu, 22 May 2014 18:34:21 -0400</pubDate>
-        <link>https://www.jenntesolin.com/blog/2014/05/22/rebuilding-the-backend-of-my-site/</link>
-        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2014/05/22/rebuilding-the-backend-of-my-site/</guid>
+        <link>http://www.jenntesolin.com/blog/2014/05/22/rebuilding-the-backend-of-my-site/</link>
+        <guid isPermaLink="true">http://www.jenntesolin.com/blog/2014/05/22/rebuilding-the-backend-of-my-site/</guid>
       </item>
     
       <item>
@@ -205,8 +170,8 @@ sudo gem install jekyll-import&lt;/code&gt;&lt;/p&gt;
 &lt;iframe width=&quot;425&quot; height=&quot;425&quot; src=&quot;https://www.youtube.com/embed/C-A4Kxq3V0I&quot; frameborder=&quot;0&quot; seamless allowfullscreen&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Thu, 24 Apr 2014 00:00:00 -0400</pubDate>
-        <link>https://www.jenntesolin.com/blog/2014/04/24/updated-raspberry-pi-media-server/</link>
-        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2014/04/24/updated-raspberry-pi-media-server/</guid>
+        <link>http://www.jenntesolin.com/blog/2014/04/24/updated-raspberry-pi-media-server/</link>
+        <guid isPermaLink="true">http://www.jenntesolin.com/blog/2014/04/24/updated-raspberry-pi-media-server/</guid>
       </item>
     
       <item>
@@ -270,8 +235,8 @@ $.getJSON(blogLink, function(data){&lt;br /&gt;
 &lt;a href=&quot;https://github.com/jennifert/JavaScript-Demos/blob/master/YQL/cdata_blog_example.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Code on GitHub&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 29 Mar 2014 00:00:00 -0400</pubDate>
-        <link>https://www.jenntesolin.com/blog/2014/03/29/removing-cdata-from-yql-queries/</link>
-        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2014/03/29/removing-cdata-from-yql-queries/</guid>
+        <link>http://www.jenntesolin.com/blog/2014/03/29/removing-cdata-from-yql-queries/</link>
+        <guid isPermaLink="true">http://www.jenntesolin.com/blog/2014/03/29/removing-cdata-from-yql-queries/</guid>
       </item>
     
       <item>
@@ -313,8 +278,8 @@ $.getJSON(blogLink, function(data){&lt;br /&gt;
 &lt;p&gt;5) In the file styles.css paste the bootstrap example styles from: http://getbootstrap.com/examples/sticky-footer-navbar/sticky-footer-navbar.css&lt;/p&gt;
 </description>
         <pubDate>Fri, 28 Mar 2014 00:00:00 -0400</pubDate>
-        <link>https://www.jenntesolin.com/blog/2014/03/28/sticky-footer-with-fixed-navbar-example-with-bootstrap-3-and-emmet/</link>
-        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2014/03/28/sticky-footer-with-fixed-navbar-example-with-bootstrap-3-and-emmet/</guid>
+        <link>http://www.jenntesolin.com/blog/2014/03/28/sticky-footer-with-fixed-navbar-example-with-bootstrap-3-and-emmet/</link>
+        <guid isPermaLink="true">http://www.jenntesolin.com/blog/2014/03/28/sticky-footer-with-fixed-navbar-example-with-bootstrap-3-and-emmet/</guid>
       </item>
     
       <item>
@@ -354,8 +319,8 @@ Store Link: &lt;a href=&quot;https://chrome.google.com/webstore/detail/icloud-bo
 Description from Store: iCloud stores your website bookmarks, so they are everywhere you go — on your iPhone, iPad, iPod touch, Mac, and PC. So when it comes to your devices, you can switch things up without mixing things up.&lt;/p&gt;
 </description>
         <pubDate>Tue, 18 Mar 2014 00:00:00 -0400</pubDate>
-        <link>https://www.jenntesolin.com/blog/2014/03/18/moving-from-an-ios-device-to-android-icloud/</link>
-        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2014/03/18/moving-from-an-ios-device-to-android-icloud/</guid>
+        <link>http://www.jenntesolin.com/blog/2014/03/18/moving-from-an-ios-device-to-android-icloud/</link>
+        <guid isPermaLink="true">http://www.jenntesolin.com/blog/2014/03/18/moving-from-an-ios-device-to-android-icloud/</guid>
       </item>
     
       <item>
@@ -384,8 +349,8 @@ Description from Store: iCloud stores your website bookmarks, so they are everyw
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 17 Mar 2014 00:00:00 -0400</pubDate>
-        <link>https://www.jenntesolin.com/blog/2014/03/17/upcoming-github-updates/</link>
-        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2014/03/17/upcoming-github-updates/</guid>
+        <link>http://www.jenntesolin.com/blog/2014/03/17/upcoming-github-updates/</link>
+        <guid isPermaLink="true">http://www.jenntesolin.com/blog/2014/03/17/upcoming-github-updates/</guid>
       </item>
     
       <item>
@@ -418,8 +383,31 @@ apt-get ​install bluetooth bluez-utils blueman bluez-compat&lt;/code&gt;&lt;/p
 &lt;p&gt;Some bluetooth items will not work on Raspmbc such as audio. It has been suggested (Raspberry pi official forums) to instead use OpenELEC or Xbian. &lt;/p&gt;
 </description>
         <pubDate>Mon, 17 Mar 2014 00:00:00 -0400</pubDate>
-        <link>https://www.jenntesolin.com/blog/2014/03/17/setting-up-bluetooth-on-the-raspberry-pi/</link>
-        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2014/03/17/setting-up-bluetooth-on-the-raspberry-pi/</guid>
+        <link>http://www.jenntesolin.com/blog/2014/03/17/setting-up-bluetooth-on-the-raspberry-pi/</link>
+        <guid isPermaLink="true">http://www.jenntesolin.com/blog/2014/03/17/setting-up-bluetooth-on-the-raspberry-pi/</guid>
+      </item>
+    
+      <item>
+        <title>Quick Tip: Wordpress Development Tips</title>
+        <description>&lt;p&gt;&lt;strong&gt;1. Stop wordpress updater by ftp.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;As per the following post, &quot;&lt;a href=&quot;http://www.sixfive.com.au/2012/10/wordpress-needs-to-access-your-web-server-please-enter-your-ftp-credentials-to-proceed/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Wordpress needs access to your web server&lt;/a&gt;&quot;, you can prevent work press for asking for your ftp credentials when requesting an update.&lt;/p&gt;
+&lt;p&gt;Add the below lines to your wp.config.php file.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&lt;br /&gt;
+....&lt;br /&gt;
+$method = &#39;direct&#39;;&lt;br /&gt;
+define(&#39;FS_METHOD&#39;,&#39;direct&#39;);&lt;/p&gt;
+&lt;p&gt;/* That&#39;s all, stop editing! Happy blogging. */&lt;br /&gt;
+...&lt;br /&gt;
+&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. Fix any issues with your (or another) plugin&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;There is a great plugin called &quot;&lt;a href=&quot;http://wordpress.org/extend/plugins/log-deprecated-notices/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Log Deprecated Notices&lt;/a&gt;&quot; that aids in Wordpress development.&lt;/p&gt;
+&lt;p&gt;Just turn change WP_DEBUG to &#39;true&quot; and download the latest version from the above link. Once installed, it will be under: Tools &gt; Deprecated Calls.&lt;/p&gt;
+&lt;p&gt;The deprecated call and line number will be displayed, along with an alternative to fix.&lt;/p&gt;
+&lt;p&gt;Note: This was only performed on a development machine. It is only recommended to do the above in a development environment.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 20 Jan 2014 00:00:00 -0500</pubDate>
+        <link>http://www.jenntesolin.com/blog/2014/01/20/quick-tip-wordpress-development-tips/</link>
+        <guid isPermaLink="true">http://www.jenntesolin.com/blog/2014/01/20/quick-tip-wordpress-development-tips/</guid>
       </item>
     
   </channel>

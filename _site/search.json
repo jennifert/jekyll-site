@@ -1,16 +1,6 @@
 [
     
     {
-      "title"    : "Creating a development environment for IIS 7+",
-      "href"     : "/blog/2015/03/05/IIS7-Development-Environment/",
-      "summary"     : "This post describes how to install IIS on Windows 7, along with enabling MySql and Php.Note: You will need Administrator Access.Enable IISThe first step is to create a folder in...",
-      "category" : ["tutorial", null],
-      "tags"     : ["android","iCloud", null],
-      "date"     : "Mar 5, 2015"
-    }
-    ,
-    
-    {
       "title"    : "Moving a Wordpress blog",
       "href"     : "/blog/2014/09/24/Moving-a-WordPress-Blog/",
       "summary"     : "This post will describe various ways to move WordPress, either to a different server or to Jekyll. Steps to make an exact copyThis includes all plugins, theses, posts, etc. download...",

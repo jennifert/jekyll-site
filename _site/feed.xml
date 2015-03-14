@@ -7,6 +7,130 @@
     <atom:link href="https://www.jenntesolin.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Creating a development environment for IIS 7+</title>
+        <description>&lt;p&gt;This post describes how to enable IIS on Windows 7, along with enabling MySql and Php.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;Note: You will need Administrator Access.&lt;/p&gt;
+
+&lt;h3 id=&quot;enable-iis&quot;&gt;Enable IIS&lt;/h3&gt;
+&lt;p&gt;In order to avoid permission issues when trying to edit a file with your logged in account, create a folder in a directory outside of innetpub, ensuring that the full path has no spaces.&lt;/p&gt;
+
+&lt;p&gt;For example: 
+&lt;code&gt;C:\webroot\&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Next, to fix the security settings, right click on the new folder and add permissions for any users with, ISR, IUSER and Networking (full access)&lt;/p&gt;
+
+&lt;p&gt;Now, use the following &lt;a href=&quot;http://windows.microsoft.com/en-ca/windows7/install-internet-information-services-iis-7-5&quot;&gt;guide&lt;/a&gt; to install IIS onto your machine. After first enabling, it will have your web root in the innetpub folder.&lt;/p&gt;
+
+&lt;p&gt;Since our folder is created, lets go ahead and relocate the server to use that!&lt;/p&gt;
+
+&lt;p&gt;Go in to the Default Web site and click: &lt;code&gt;Default Web Site &amp;gt; Manage Web Sites &amp;gt; Advanced Settings &amp;gt; Physical Path&lt;/code&gt; Modify the path to be at the location you created at the top of this step.&lt;/p&gt;
+
+&lt;h3 id=&quot;install-php&quot;&gt;Install PHP&lt;/h3&gt;
+&lt;p&gt;Go back onto the “Turn Windows Features on or off” menu and  Expand “Application Development Features” and then enable the “CGI” check box.&lt;/p&gt;
+
+&lt;p&gt;Download the latest stable version for PHP (Non Thread Safe) and unzip into a directory so that the path is similar to: &lt;code&gt;c:\PHP5&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Next, rename “php.ini-production” tp “php.ini”. Open the file, and edit to match the items below:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;extension_dir = &quot;C:\PHP5\ext&quot;&lt;br /&gt;
+log_errors = On&lt;br /&gt;
+error_log = &quot;C:\inetpub\temp\php-errors.log&quot;&lt;br /&gt;
+fastcgi.impersonate = 1&lt;br /&gt;
+fastcgi.logging = 0&lt;br /&gt;
+cgi.fix_pathinfo=1&lt;br /&gt;
+cgi.force_redirect = 0&lt;br /&gt;
+display_errors = Off&lt;br /&gt;
+upload_max_filesize = 8M[change 8M to what you want to upload in WordPress]&lt;br /&gt;
+post_max_size = 8M[change 8M to what you want to upload in WordPress]&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, in the IIS manager, left click once on your server name, and then select “Handler Mappings”&lt;/p&gt;
+
+&lt;p&gt;Click &lt;code&gt;Actions &amp;gt; Add Module Mapping&lt;/code&gt; and then enter the following:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Request path: *.php&lt;br /&gt;
+Module: FastCgiModule&lt;br /&gt;
+Executable: c:\PHP5\php-cgi.exe&lt;br /&gt;
+Name: PHP_via_FastCGI&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;In the same Window, Click &lt;code&gt;Request Restrictions &amp;gt; Mapping&lt;/code&gt;. Next, check off “invoke handler only if request is mapped to”, then click “File or Folder”. Now, click  “OK” in all dialog boxes to accept changes.&lt;/p&gt;
+
+&lt;p&gt;In the IIS manager, click on your Default website, and then “Default Document”, and then add index.php to the list.&lt;/p&gt;
+
+&lt;p&gt;Finally, restart your Default Web Site, and check out the “Security recommendations” link in the Resource section for more ways to secure this instance.&lt;/p&gt;
+
+&lt;h3 id=&quot;install-mysql&quot;&gt;Install MySQL&lt;/h3&gt;
+&lt;p&gt;Download the latest stable version, but be sure to just skip to the download (near bottom of page).&lt;/p&gt;
+
+&lt;p&gt;For most uses the Typical install is fine. Please select all the MySQL defaults, and be sure to set a strong default password for root.&lt;/p&gt;
+
+&lt;p&gt;Note: Never use root on any of your Web applications.&lt;/p&gt;
+
+&lt;p&gt;Next, go into your php.ini file and uncomment:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;extension=php_mysql.dll&lt;br /&gt;
+extension=php_mysqli.dll&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Save, then restart your IIS server.&lt;/p&gt;
+
+&lt;p&gt;Lastly, create a mysql user and database. Be sure to use a strong password here as well.&lt;/p&gt;
+
+&lt;h3 id=&quot;install-the-url-rewrite-plug-in-for-iis-then-restart-server&quot;&gt;Install the URL rewrite plug-in for IIS. Then restart server&lt;/h3&gt;
+&lt;p&gt;Go to the &lt;a href=&quot;http://www.iis.net/downloads/microsoft/url-rewrite&quot;&gt;Microsoft Site&lt;/a&gt; to download the latest version.&lt;/p&gt;
+
+&lt;p&gt;The step will allow you to use “Prety URLs” on your blog.&lt;/p&gt;
+
+&lt;h3 id=&quot;download-and-install-wordpress&quot;&gt;Download and install WordPress&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://wordpress.org/download/&quot;&gt;WordPress.org&lt;/a&gt; always has the latest versions (4.1.1 at the time of writing). Also, check out the &lt;a href=&quot;https://make.wordpress.org/polyglots/teams/&quot;&gt;translations&lt;/a&gt; to download WordPress in your language, though some of these ay not be the latest.&lt;/p&gt;
+
+&lt;p&gt;To use WordPress just for something like a blog, unzip into your webroot, and change the file name:
+&lt;code&gt;C:\webroot\blog&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;To have WordPress at the root, move all the files instead the unzipped “wordpress” folder right into your root.
+&lt;code&gt;C:\webroot\&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Next, edit the file “wp-config.php” (you may need to rename the sample config).  Change the WordPress user name, password, and database to match what was created after installing MySql.&lt;/p&gt;
+
+&lt;p&gt;Open up the &lt;a href=&quot;https://api.wordpress.org/secret-key/1.1/salt/&quot;&gt;secret generatorr&lt;/a&gt; to automatically generate secret keys. Paste this into your wp-config.php file.&lt;/p&gt;
+
+&lt;p&gt;Next, add the below line above teh comment that asks you to stop editing:
+&lt;code&gt;define(&#39;FS_METHOD&#39;,&#39;direct&#39;);&lt;/code&gt;. This will stop WordPress from asking your ftp information. Never use this external servers!&lt;/p&gt;
+
+&lt;p&gt;Save all these changes, then run on e of the below addresses in your browser.&lt;/p&gt;
+
+&lt;p&gt;In a sub folder: &lt;code&gt;http://localhost/blog/wp-admin/install.php&lt;/code&gt;
+At the root: &lt;code&gt;http://localhost/wp-admin/install.php&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Go through and set up your site name, and admin user as suggested on the page.&lt;/p&gt;
+
+&lt;p&gt;For issues, consult the &lt;a href=&quot;http://codex.wordpress.org/Installing_WordPress&quot;&gt;WordPress Docs&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;add-mime-types-to-iis&quot;&gt;Add Mime Types to IIS&lt;/h3&gt;
+&lt;p&gt;If you are not able to see content like fonts, JSON, videos, etc., you may need to add the mime type.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.uipress.com/add-json-handler-support-in-iis-7/&quot;&gt;JSON&lt;/a&gt;
+&lt;a href=&quot;http://codingstill.com/2013/01/set-mime-types-for-web-fonts-in-iis/&quot;&gt;web Fonts&lt;/a&gt;
+&lt;a href=&quot;http://docs.composite.net/Layout/LayoutFAQ?q=Can+I+use+HTML5+and+CSS3+related+files+like+.svg%2C+.woff+and+.ogg%3F&quot;&gt;HTML5 and CSS3&lt;/a&gt;
+&lt;a href=&quot;http://codingstill.com/2013/01/set-mime-types-for-web-fonts-in-iis/&quot;&gt;other web font mimes&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, if they are not above, they may be mentioned at:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.serverintellect.com/support/iis/mime-types/&quot;&gt;List of Common MIME types&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;resources&quot;&gt;Resources&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/a/4920620&quot;&gt;How do I change permissions on wwroot&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://php.net/manual/en/install.windows.iis7.php&quot;&gt;PHP.net Installation Docs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.iis.net/learn/application-frameworks/install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis#PHP_Security_Recommendations_&quot;&gt;Security Recommendations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://codex.wordpress.org/Editing_wp-config.php&quot;&gt;WordPress: Editing wp.config.php&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 14 Mar 2015 08:34:21 -0400</pubDate>
+        <link>https://www.jenntesolin.com/blog/2015/03/14/IIS7-Development-Environment/</link>
+        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2015/03/14/IIS7-Development-Environment/</guid>
+      </item>
+    
+      <item>
         <title>Moving a Wordpress blog</title>
         <description>&lt;p&gt;This post will describe various ways to move WordPress, either to a different server or to Jekyll. &lt;!--more--&gt;&lt;/p&gt;
 
@@ -385,29 +509,6 @@ apt-get ​install bluetooth bluez-utils blueman bluez-compat&lt;/code&gt;&lt;/p
         <pubDate>Mon, 17 Mar 2014 00:00:00 -0400</pubDate>
         <link>https://www.jenntesolin.com/blog/2014/03/17/setting-up-bluetooth-on-the-raspberry-pi/</link>
         <guid isPermaLink="true">https://www.jenntesolin.com/blog/2014/03/17/setting-up-bluetooth-on-the-raspberry-pi/</guid>
-      </item>
-    
-      <item>
-        <title>Quick Tip: Wordpress Development Tips</title>
-        <description>&lt;p&gt;&lt;strong&gt;1. Stop wordpress updater by ftp.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;As per the following post, &quot;&lt;a href=&quot;http://www.sixfive.com.au/2012/10/wordpress-needs-to-access-your-web-server-please-enter-your-ftp-credentials-to-proceed/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Wordpress needs access to your web server&lt;/a&gt;&quot;, you can prevent work press for asking for your ftp credentials when requesting an update.&lt;/p&gt;
-&lt;p&gt;Add the below lines to your wp.config.php file.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;&lt;br /&gt;
-....&lt;br /&gt;
-$method = &#39;direct&#39;;&lt;br /&gt;
-define(&#39;FS_METHOD&#39;,&#39;direct&#39;);&lt;/p&gt;
-&lt;p&gt;/* That&#39;s all, stop editing! Happy blogging. */&lt;br /&gt;
-...&lt;br /&gt;
-&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;2. Fix any issues with your (or another) plugin&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;There is a great plugin called &quot;&lt;a href=&quot;http://wordpress.org/extend/plugins/log-deprecated-notices/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Log Deprecated Notices&lt;/a&gt;&quot; that aids in Wordpress development.&lt;/p&gt;
-&lt;p&gt;Just turn change WP_DEBUG to &#39;true&quot; and download the latest version from the above link. Once installed, it will be under: Tools &gt; Deprecated Calls.&lt;/p&gt;
-&lt;p&gt;The deprecated call and line number will be displayed, along with an alternative to fix.&lt;/p&gt;
-&lt;p&gt;Note: This was only performed on a development machine. It is only recommended to do the above in a development environment.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 20 Jan 2014 00:00:00 -0500</pubDate>
-        <link>https://www.jenntesolin.com/blog/2014/01/20/quick-tip-wordpress-development-tips/</link>
-        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2014/01/20/quick-tip-wordpress-development-tips/</guid>
       </item>
     
   </channel>

@@ -19,4 +19,3 @@ Some upcoming tutorials (in no particular order) are:
 
 * Jekyll set-up and publishing
 * Jenkins with Github
-* Php development on IIS

@@ -2,6 +2,9 @@ Changelog
 ===========
 
 ##phase 2 Updates:
+March 14, 2015
+- New blog post!
+
 March 11, 2015
 - Updated url in config to be https
 - updated canonical link tag.

@@ -1,6 +1,16 @@
 [
     
     {
+      "title"    : "Jekyll: Setting up your development environment",
+      "href"     : "/blog/2015/03/17/Jekyll-Set-Up-Publish/",
+      "summary"     : "Jekyll is a static site generator that runs on NodeJS. Its a great alternative to WordPress that eliminates the need for databases.Requirements Ruby RubyGems NodeJSInstall Jekyll dependencies:sudo gem update --systemsudo...",
+      "category" : ["tutorial", null],
+      "tags"     : ["Jekyll","WordPress", null],
+      "date"     : "Mar 17, 2015"
+    }
+    ,
+    
+    {
       "title"    : "Creating a development environment for IIS 7+",
       "href"     : "/blog/2015/03/14/IIS7-Development-Environment/",
       "summary"     : "This post describes how to enable IIS on Windows 7, along with enabling MySql and Php.Note: You will need Administrator Access.Enable IISIn order to avoid permission issues when trying to...",

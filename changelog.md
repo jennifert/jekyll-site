@@ -2,6 +2,10 @@ Changelog
 ===========
 
 ##phase 2 Updates:
+March 17, 2015
+- New blog post!
+- Updated feed.xml to be lik ethe one jekyll creates when you first generate a site.
+
 March 14, 2015
 - New blog post!
 

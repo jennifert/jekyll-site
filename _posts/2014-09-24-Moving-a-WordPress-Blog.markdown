@@ -22,39 +22,20 @@ This includes all plugins, theses, posts, etc.
 - download a copy of the database and save somewhere. Make a copy as a backup.
 - do a search in the sql file for the current domain URL and replace with the new domain or 'localhost' 
 - update the site location in the wp-config file.
-- import the sql database and add the user at the new location.
-- upload your wordpress files and test.
+- import the MySQL database and add the user at the new location.
+- upload your WordPress files and test.
 
-I have tried other various methods including web apps, but those have caused problems such as not completely disconnecting the databases. In one instance WordPress core upgrade to the copied version, had also upgraded the first one as well.
+I have tried other various methods including web applications, but those have caused problems such as not completely disconnecting the databases. In one instance WordPress core upgrade to the copied version, had also upgraded the first one as well.
 
 ##The safest way to move (but not exact)
 
 - download a copy of your themes, and plugins
 - download an export of your post files. If your using a multi-site, you will need to do this for each blog.
-- download a fresh copy of Wordpress, and set up your plugins and themes.
+- download a fresh copy of WordPress, and set up your plug-ins and themes.
 - import posts, map users making sure to check the box to download linked media.
 
 ##Moving to Jekyll
 
-The first step is to download a copy of your wp-content upload folder, you will also need your wordpress export file.
+Check out my latest blog post for an in-depth look at moving to Jekyll.
 
-Next, make sure you have Ruby on your machine. [Here is an install guide.](https://www.ruby-lang.org/en/installation/){: rel="nofollow"}
-
-Now, run the following commands:
-
-<code>sudo gem install jekyll<br>
-sudo gem install jekyll-import</code>
-
-Create a folder for your site and use the terminal to change to the folder your your site will be (<code>cd foldername</code>).  Make sure the upload folder and a copy of your wordpress export is at the root of your new site folder. For demo purposes, I will call it: wordpress.xml.
-
-Once this is set up, run the below command to import your blog into wordpress:
-
-<code>jekyll import wordpressdotcom --source wordpress.xml</code>
-
-Finally, run the below command to build and preview the site. "--watch" will allow you to make changes and have them update in your preview site automatically.
-
-<code>jekyll serve --watch</code>
-
-The default preview site is: http://localhost:4000, but this can be changed from _config.yml.
-
-The last step is in this process is to push your files on-line. Move into the root of "_site". These are the production ready files that should be moved to your server. An upcoming post will detail how to create a github pages site.
+[Jekyll: Setting up your development environment](/blog/2015/03/17/Jekyll-Set-Up-Publish/)

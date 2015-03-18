@@ -15,4 +15,6 @@ If anyone is interested, I have some preview links below:
 
 [Github Repo](https://github.com/jennifert/jekyll-site)
 
-Eventually, there will be a series of posts of my experience. This post will be updated as they are out.
+There is currently one tutorial available that describes my Jekyll experience:
+
+- [Jekyll: Setting up your development environment](/blog/2015/03/17/Jekyll-Set-Up-Publish/)

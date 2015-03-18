@@ -17,5 +17,9 @@ Other hobbies I enjoy are traveling, visiting with family and friends, watching 
 
 Some upcoming tutorials (in no particular order) are:
 
-* Jekyll set-up and publishing
 * Jenkins with Github
+* The Jekyll config file
+* How to get Jekyll running on Azure
+* Publishing to Github Pages, and CloudFlare.
+
+Feel free to [create an issue](https://github.com/jennifert/jekyll-site/issues) if there is a post you want to see. 

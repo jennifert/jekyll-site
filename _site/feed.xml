@@ -4,7 +4,129 @@
     <title>Jennifer Tesolin</title>
     <description>This is Jennifer Tesolin&#39;s personal web site. Located on this site are tutorials and tips for web developers.</description>
     <link>https://www.jenntesolin.com/</link>
-    <atom:link href="https://www.jenntesolin.com/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.jenntesolin.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 17 Mar 2015 21:20:49 -0400</pubDate>
+    <lastBuildDate>Tue, 17 Mar 2015 21:20:49 -0400</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Jekyll: Setting up your development environment</title>
+        <description>&lt;p&gt;Jekyll is a static site generator that runs on NodeJS. Its a great alternative to WordPress that eliminates the need for databases.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;requirements&quot;&gt;Requirements&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.ruby-lang.org/en/downloads/&quot;&gt;Ruby&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rubygems.org/pages/download&quot;&gt;RubyGems&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://nodejs.org/&quot;&gt;NodeJS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;install-jekyll-dependencies&quot;&gt;Install Jekyll dependencies:&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;sudo gem update --system&lt;br /&gt;
+sudo gem update&lt;br /&gt;
+sudo gem install jekyll&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;If will be importing from WordPress or other location, you will also need:&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo gem install jekyll-import&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Note: If your a risk taker, the below command installs a pre release version. Please note these are NOT stable.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;gem install jekyll --pre&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;a-new-jekyll-instance-non-wordpress-instructions&quot;&gt;A new Jekyll instance (non-WordPress instructions)&lt;/h3&gt;
+
+&lt;p&gt;First, run the the below command, replacing “MySite” with the folder name for your site.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;jekyll new MySite&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Jekyll will now generate a site in the folder “MySite”. Here is what the directory will look like:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/wp-content/uploads/2015/jekyll1.png&quot; alt=&quot;Terminal screen that shows directory contents&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;_config.yml&lt;/code&gt; stores the website configuration data such as site name, description and base address.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;_includes&lt;/code&gt; is where you store portions of a file such as your menu, header, footer, and GA code.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;_layouts&lt;/code&gt;puts the pieces of the includes together for a post, page and index file.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;_posts&lt;/code&gt; is where posts for your site are stored in markdown or HTML format.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;_scss&lt;/code&gt; stores the files for SASS and CoffeeScriptfile. &lt;a href=&quot;http://jekyllrb.com/docs/assets/&quot;&gt;Read More in the Jekyll Docs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;about.md&lt;/code&gt; is the about page for your site.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;css&lt;/code&gt; self explanatory - stores your css files.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;feed.xml&lt;/code&gt; will have your rss feed. This generates on its own.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;index.html&lt;/code&gt; your site’s main page.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Once you have finished your changes, run the below commands:&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;cd MySite&lt;br /&gt;
+jekyll serve&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is a sample output:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/wp-content/uploads/2015/jekyll2.png&quot; alt=&quot;Terminal screen output of jekyll serve command&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then, browse to: &lt;a href=&quot;http://localhost:4000&quot;&gt;http://localhost:4000&lt;/a&gt;.  You can edit files, and Jekyll will make those updates behind the scene as soon as you save…just refresh to see your changes.&lt;/p&gt;
+
+&lt;h3 id=&quot;wordpress-import-instructions-wordpresscom-and-self-hosted&quot;&gt;Wordpress Import instructions (wordpress.com and self hosted)&lt;/h3&gt;
+&lt;p&gt;Create a folder for your site and use the terminal to change to the folder your your site will be (&lt;code&gt;cd foldername&lt;/code&gt;).&lt;/p&gt;
+
+&lt;p&gt;Make sure the upload folder and a copy of your &lt;a href=&quot;https://en.support.wordpress.com/export/&quot;&gt;WordPress export&lt;/a&gt; is at the root of your new site folder. For demo purposes, I will call it: &lt;code&gt;wordpress.xml.&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/wp-content/uploads/2015/jekyll3.png&quot; alt=&quot;Terminal screen output showing directory strcuture&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once this is set up, run the below command to import your wordpress instance:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;jekyll import wordpressdotcom --source wordpress.xml&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;If your upload folders are not downloaded in same structure, download your wp-content folder, and place at root of site (above “_site” folder Also, in my code, there were no references to the below folders, so they were deleted:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;_nav_menu_items&lt;/li&gt;
+  &lt;li&gt;attachments&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To see what your site looks like, run the command &lt;code&gt;jekyll serve&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;As with the non-WordPress import, any changes you make will be reflected in your development link.&lt;/p&gt;
+
+&lt;h3 id=&quot;drafts&quot;&gt;Drafts&lt;/h3&gt;
+
+&lt;p&gt;To wok on a post locally, but not moving it live, create a folder at the root called &lt;code&gt;_drafts&lt;/code&gt;. Next, add a markdown or html file without the address. Finally, run &lt;code&gt;jekyll server --watch --drafts&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/wp-content/uploads/2015/jekyll5.png&quot; alt=&quot;Terminal screen output showing draft folder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Changes can be made on the fly using this method as well. When ready to publish, move the file to &lt;code&gt;_posts&lt;/code&gt; and add a date.&lt;/p&gt;
+
+&lt;h3 id=&quot;publishing-your-new-site&quot;&gt;Publishing your new site&lt;/h3&gt;
+
+&lt;p&gt;The last step is in this process is to push your files on-line. Move into the root of &lt;code&gt;_site&lt;/code&gt;. These are the production ready files that should be moved to your server.&lt;/p&gt;
+
+&lt;p&gt;The first chunk of files below shows the root of my Jekyll site, while the second shows the production ready files. Note that some files from the root of the Jekyll site are not included. These are excluded in &lt;code&gt;_config.yml&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/wp-content/uploads/2015/jekyll4.png&quot; alt=&quot;Terminal screen output showing prduction folder contents&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Note: There will be separate posts on various items in the config file, how to get it running on Azure and finally, another on publishing to Github Pages, and CloudFlare.&lt;/p&gt;
+
+&lt;h3 id=&quot;resources&quot;&gt;Resources&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/a/4920620&quot;&gt;Jekyll Docs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://import.jekyllrb.com/docs/wordpressdotcom/&quot;&gt;Jekyll Import Docs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jekyllrb.com/docs/drafts/&quot;&gt;Jekyll Docs - Working with drafts&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 17 Mar 2015 15:34:21 -0400</pubDate>
+        <link>https://www.jenntesolin.com/blog/2015/03/17/Jekyll-Set-Up-Publish/</link>
+        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2015/03/17/Jekyll-Set-Up-Publish/</guid>
+        
+        <category>Jekyll</category>
+        
+        <category>WordPress</category>
+        
+        
+        <category>tutorial</category>
+        
+      </item>
     
       <item>
         <title>Creating a development environment for IIS 7+</title>
@@ -130,6 +252,18 @@ At the root: &lt;code&gt;http://localhost/wp-admin/install.php&lt;/code&gt;&lt;/
         <pubDate>Sat, 14 Mar 2015 08:34:21 -0400</pubDate>
         <link>https://www.jenntesolin.com/blog/2015/03/14/IIS7-Development-Environment/</link>
         <guid isPermaLink="true">https://www.jenntesolin.com/blog/2015/03/14/IIS7-Development-Environment/</guid>
+        
+        <category>IIS</category>
+        
+        <category>PHP</category>
+        
+        <category>MySQL</category>
+        
+        <category>WordPress</category>
+        
+        
+        <category>tutorial</category>
+        
       </item>
     
       <item>
@@ -144,49 +278,40 @@ At the root: &lt;code&gt;http://localhost/wp-admin/install.php&lt;/code&gt;&lt;/
   &lt;li&gt;download a copy of the database and save somewhere. Make a copy as a backup.&lt;/li&gt;
   &lt;li&gt;do a search in the sql file for the current domain URL and replace with the new domain or ‘localhost’&lt;/li&gt;
   &lt;li&gt;update the site location in the wp-config file.&lt;/li&gt;
-  &lt;li&gt;import the sql database and add the user at the new location.&lt;/li&gt;
-  &lt;li&gt;upload your wordpress files and test.&lt;/li&gt;
+  &lt;li&gt;import the MySQL database and add the user at the new location.&lt;/li&gt;
+  &lt;li&gt;upload your WordPress files and test.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;I have tried other various methods including web apps, but those have caused problems such as not completely disconnecting the databases. In one instance WordPress core upgrade to the copied version, had also upgraded the first one as well.&lt;/p&gt;
+&lt;p&gt;I have tried other various methods including web applications, but those have caused problems such as not completely disconnecting the databases. In one instance WordPress core upgrade to the copied version, had also upgraded the first one as well.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-safest-way-to-move-but-not-exact&quot;&gt;The safest way to move (but not exact)&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;download a copy of your themes, and plugins&lt;/li&gt;
   &lt;li&gt;download an export of your post files. If your using a multi-site, you will need to do this for each blog.&lt;/li&gt;
-  &lt;li&gt;download a fresh copy of Wordpress, and set up your plugins and themes.&lt;/li&gt;
+  &lt;li&gt;download a fresh copy of WordPress, and set up your plug-ins and themes.&lt;/li&gt;
   &lt;li&gt;import posts, map users making sure to check the box to download linked media.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;moving-to-jekyll&quot;&gt;Moving to Jekyll&lt;/h2&gt;
 
-&lt;p&gt;The first step is to download a copy of your wp-content upload folder, you will also need your wordpress export file.&lt;/p&gt;
+&lt;p&gt;Check out my latest blog post for an in-depth look at moving to Jekyll.&lt;/p&gt;
 
-&lt;p&gt;Next, make sure you have Ruby on your machine. &lt;a href=&quot;https://www.ruby-lang.org/en/installation/&quot; rel=&quot;nofollow&quot;&gt;Here is an install guide.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Now, run the following commands:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;sudo gem install jekyll&lt;br /&gt;
-sudo gem install jekyll-import&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Create a folder for your site and use the terminal to change to the folder your your site will be (&lt;code&gt;cd foldername&lt;/code&gt;).  Make sure the upload folder and a copy of your wordpress export is at the root of your new site folder. For demo purposes, I will call it: wordpress.xml.&lt;/p&gt;
-
-&lt;p&gt;Once this is set up, run the below command to import your blog into wordpress:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;jekyll import wordpressdotcom --source wordpress.xml&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Finally, run the below command to build and preview the site. “–watch” will allow you to make changes and have them update in your preview site automatically.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;jekyll serve --watch&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;The default preview site is: http://localhost:4000, but this can be changed from _config.yml.&lt;/p&gt;
-
-&lt;p&gt;The last step is in this process is to push your files on-line. Move into the root of “_site”. These are the production ready files that should be moved to your server. An upcoming post will detail how to create a github pages site.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/blog/2015/03/17/Jekyll-Set-Up-Publish/&quot;&gt;Jekyll: Setting up your development environment&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 24 Sep 2014 15:00:00 -0400</pubDate>
         <link>https://www.jenntesolin.com/blog/2014/09/24/Moving-a-WordPress-Blog/</link>
         <guid isPermaLink="true">https://www.jenntesolin.com/blog/2014/09/24/Moving-a-WordPress-Blog/</guid>
+        
+        <category>wordpress</category>
+        
+        <category>jekyll</category>
+        
+        <category>php</category>
+        
+        
+        <category>tutorial</category>
+        
       </item>
     
       <item>
@@ -255,6 +380,14 @@ sudo gem install jekyll-import&lt;/code&gt;&lt;/p&gt;
         <pubDate>Wed, 16 Jul 2014 15:34:21 -0400</pubDate>
         <link>https://www.jenntesolin.com/blog/2014/07/16/Using-DoubleTwist-iTunes-and-Android/</link>
         <guid isPermaLink="true">https://www.jenntesolin.com/blog/2014/07/16/Using-DoubleTwist-iTunes-and-Android/</guid>
+        
+        <category>android</category>
+        
+        <category>iCloud</category>
+        
+        
+        <category>tutorial</category>
+        
       </item>
     
       <item>
@@ -265,11 +398,21 @@ sudo gem install jekyll-import&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/jennifert/jekyll-site&quot;&gt;Github Repo&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Eventually, there will be a series of posts of my experience. This post will be updated as they are out.&lt;/p&gt;
+&lt;p&gt;There is currently one tutorial available that describes my Jekyll experience:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/blog/2015/03/17/Jekyll-Set-Up-Publish/&quot;&gt;Jekyll: Setting up your development environment&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Thu, 22 May 2014 18:34:21 -0400</pubDate>
         <link>https://www.jenntesolin.com/blog/2014/05/22/rebuilding-the-backend-of-my-site/</link>
         <guid isPermaLink="true">https://www.jenntesolin.com/blog/2014/05/22/rebuilding-the-backend-of-my-site/</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>news</category>
+        
       </item>
     
       <item>
@@ -298,6 +441,14 @@ sudo gem install jekyll-import&lt;/code&gt;&lt;/p&gt;
         <pubDate>Thu, 24 Apr 2014 00:00:00 -0400</pubDate>
         <link>https://www.jenntesolin.com/blog/2014/04/24/updated-raspberry-pi-media-server/</link>
         <guid isPermaLink="true">https://www.jenntesolin.com/blog/2014/04/24/updated-raspberry-pi-media-server/</guid>
+        
+        <category>plex</category>
+        
+        <category>video streaming</category>
+        
+        
+        <category>raspberri pi</category>
+        
       </item>
     
       <item>
@@ -363,6 +514,10 @@ $.getJSON(blogLink, function(data){&lt;br /&gt;
         <pubDate>Sat, 29 Mar 2014 00:00:00 -0400</pubDate>
         <link>https://www.jenntesolin.com/blog/2014/03/29/removing-cdata-from-yql-queries/</link>
         <guid isPermaLink="true">https://www.jenntesolin.com/blog/2014/03/29/removing-cdata-from-yql-queries/</guid>
+        
+        
+        <category>yql</category>
+        
       </item>
     
       <item>
@@ -406,6 +561,14 @@ $.getJSON(blogLink, function(data){&lt;br /&gt;
         <pubDate>Fri, 28 Mar 2014 00:00:00 -0400</pubDate>
         <link>https://www.jenntesolin.com/blog/2014/03/28/sticky-footer-with-fixed-navbar-example-with-bootstrap-3-and-emmet/</link>
         <guid isPermaLink="true">https://www.jenntesolin.com/blog/2014/03/28/sticky-footer-with-fixed-navbar-example-with-bootstrap-3-and-emmet/</guid>
+        
+        <category>Bootstrap</category>
+        
+        <category>emmet</category>
+        
+        
+        <category>tutorial</category>
+        
       </item>
     
       <item>
@@ -447,6 +610,16 @@ Description from Store: iCloud stores your website bookmarks, so they are everyw
         <pubDate>Tue, 18 Mar 2014 00:00:00 -0400</pubDate>
         <link>https://www.jenntesolin.com/blog/2014/03/18/moving-from-an-ios-device-to-android-icloud/</link>
         <guid isPermaLink="true">https://www.jenntesolin.com/blog/2014/03/18/moving-from-an-ios-device-to-android-icloud/</guid>
+        
+        <category>android</category>
+        
+        <category>iCloud</category>
+        
+        <category>ios</category>
+        
+        
+        <category>tutorial</category>
+        
       </item>
     
       <item>
@@ -477,40 +650,10 @@ Description from Store: iCloud stores your website bookmarks, so they are everyw
         <pubDate>Mon, 17 Mar 2014 00:00:00 -0400</pubDate>
         <link>https://www.jenntesolin.com/blog/2014/03/17/upcoming-github-updates/</link>
         <guid isPermaLink="true">https://www.jenntesolin.com/blog/2014/03/17/upcoming-github-updates/</guid>
-      </item>
-    
-      <item>
-        <title>Setting up Bluetooth on the raspberry pi</title>
-        <description>&lt;p&gt;Setting up a bluetooth dongle can be quite interesting when using Raspmbc. Here is a guide on setting up.&lt;!--more--&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Raspberry pi&lt;/li&gt;
-&lt;li&gt;Bluetooth dongle (&lt;a href=&quot;https://www.modmypi.com/nano-bluethooth-dongle?filter_name=bluetooth&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;I used this one from ModMyPi&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Wifi or ethernet connected&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Steps:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;I found the &lt;a href=&quot;http://www.ctheroux.com/2012/08/a-step-by-step-guide-to-setup-a-bluetooth-keyboard-and-mouse-on-the-raspberry-pi/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;following guide&lt;/a&gt; very helpful, however kept running into errors.&lt;/p&gt;
-&lt;p&gt;To fix it, run the following command after rebooting and before in place of installing bluetooth:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;apt-get install obex-data-server&lt;br /&gt;
-apt-get ​install bluetooth bluez-utils blueman bluez-compat&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;If you have tried in the past to install bluetooth, but its still broken, run the below command:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;sudo dpkg --configure -a&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Unfortunately, there where problems pairing the device with the error message being:&lt;/p&gt;
-&lt;code&gt;Creating device failed: org.bluez.Error.AuthenticationRejected: Authentication Rejected&lt;/code&gt;
-&lt;p&gt;So following another article, it is recommended to type in:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;sudo nano /usr/bin/bluez-simple-agent&lt;/code&gt; &lt;/p&gt;
-&lt;p&gt;Now, in this file, change &#39;KeyboardDisplay&#39; with &#39;DisplayYesNo&#39;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Resources&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.ctheroux.com/2012/08/a-step-by-step-guide-to-setup-a-bluetooth-keyboard-and-mouse-on-the-raspberry-pi/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Step by step Guide for setting up keyboard and mouse on Pi&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.correlatedcontent.com/blog/bluetooth-keyboard-on-the-raspberry-pi/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Bluetooth keyboard on the Pi.&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Some bluetooth items will not work on Raspmbc such as audio. It has been suggested (Raspberry pi official forums) to instead use OpenELEC or Xbian. &lt;/p&gt;
-</description>
-        <pubDate>Mon, 17 Mar 2014 00:00:00 -0400</pubDate>
-        <link>https://www.jenntesolin.com/blog/2014/03/17/setting-up-bluetooth-on-the-raspberry-pi/</link>
-        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2014/03/17/setting-up-bluetooth-on-the-raspberry-pi/</guid>
+        
+        
+        <category>github</category>
+        
       </item>
     
   </channel>

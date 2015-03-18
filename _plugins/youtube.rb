@@ -7,13 +7,9 @@ class YouTube < Liquid::Tag
     if markup =~ Syntax then
       @id = $1
 
-      if $2.nil? then
-          @width = 560
-          @height = 420
-      else
-          @width = $2.to_i
-          @height = $3.to_i
-      end
+     if $2.nil? then
+          @ratio = "16by9"
+     end
     else
       raise "No YouTube ID provided in the \"youtube\" tag"
     end
@@ -21,7 +17,7 @@ class YouTube < Liquid::Tag
 
   def render(context)
    # "<iframe width=\"#{@width}\" height=\"#{@height}\" src=\"http://www.youtube.com/embed/#{@id}?color=white&theme=light\"></iframe>"
-    "<iframe width=\"#{@width}\" height=\"#{@height}\" src=\"https://www.youtube.com/embed/#{@id}\" frameborder=\"0\" seamless allowfullscreen></iframe>"
+    "<div class=\"embed-responsive embed-responsive-#{@ratio}\"><iframe src=\"https://www.youtube.com/embed/#{@id}\" allowfullscreen></iframe></div>"
   end
 
   Liquid::Template.register_tag "youtube", self

@@ -2,9 +2,13 @@ Changelog
 ===========
 
 ##phase 2 Updates:
+March 18, 2015
+- updated Youtube plug-in: changed to use bootstrap responsive embed.
+- Removed carousel from homepage.
+
 March 17, 2015
 - New blog post!
-- Updated feed.xml to be lik ethe one jekyll creates when you first generate a site.
+- Updated feed.xml to be like the one jekyll creates when you first generate a site.
 
 March 14, 2015
 - New blog post!
@@ -15,9 +19,9 @@ March 11, 2015
 
 March 5, 2015
 - Fixed typos across all pages.
-- Updated youtube plugin to show the https page
+- Updated Youtube plug in to show the https page
 - getting site ready to use cloudflare free SSL.
-- Added plugins to repo that will be used in the future.ly
+- Added plug-ins to repo that will be used in the future.ly
 
 November 7, 2014
 - Fixed page titles to be more SEo friendly.

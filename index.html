@@ -13,6 +13,10 @@ layout: default
 
 <div class="row">
 {% for post in site.posts limit:3 %}
+
+{% if forloop.index == 3 %}
+  <div class="clearfix col-md-4"></div>
+{% endif %}
   <div class="col-xs-6 col-md-4">
     <div class="row">
           <div class="col-xs-12">
@@ -26,7 +30,6 @@ layout: default
                     <span class="label label-primary taggedPost"><a href="/search.html?searchbox={{ category }}">{{ category }}</a></span>
                   {% endfor %}
                 </div>
-               
               </div>
             </div>
           </div>
@@ -49,6 +52,8 @@ layout: default
     <p>This small php application is an app that searches IMDB by using an API from <a href="http://www.omdbapi.com/" target="_blank">omdbapi.com</a>. This code is using PHP5 and Simple XML as the back-end, while the front end is created using bootstrap.</p>
     <p><a class="btn btn-default" target="_blank" href="http://bootstrap-imdbsearch.azurewebsites.net/" rel="nofollow" role="button">View demo &raquo;</a></p>
   </div>
+  <div class="clearfix col-md-4"></div>
+  <div class="col-xs-6 col-md-4">
    <h3>JavaScript Demos</h3>
     <p>Some examples include RequireJs, BootStrap, YQL and Google Maps. More will be on the way!</p>
     <p><a class="btn btn-default" target="_blank" href="https://github.com/jennifert/JavaScript-Demos" rel="nofollow" role="button">View repo &raquo;</a></p>

@@ -1,0 +1,15 @@
+
+          {% if page.type == "post" %}
+          <ol class="breadcrumb">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/blogs/">Blogs</a></li>
+            <li class="active">{{ page.title }}</li>
+          </ol>
+          {% endif %}
+
+          {% if page.type == "page" %}
+          <ol class="breadcrumb">
+            <li><a href="/index.html">Home</a></li>
+            <li class="active">{{ page.title }}</li>
+          </ol>
+          {% endif %}

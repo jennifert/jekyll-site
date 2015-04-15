@@ -2,6 +2,9 @@ Changelog
 ===========
 
 ##phase 2 Updates:
+April 16, 2015
+- Removed Jumbotron from devices under 700px (xs hidden in grid view).
+
 March 18, 2015
 - updated Youtube plug-in: changed to use bootstrap responsive embed.
 - Removed carousel from homepage and moved to own page. Converted to using thumbnails for better accessibility.

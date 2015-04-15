@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="jumbotron">
+<div class="jumbotron hidden-xs">
   <h1>{{ site.title }}</h1>
   <p>Welcome to my website that features my portfolio consisting of Github Repositories and Photography, as well as tutorials that are aimed at developers.</p>
   <p>This site is created in Jekyll. To see how it was created, have a look at the repository. If you see an issue, you can go ahead an file it there as well.</p>
@@ -11,11 +11,15 @@ layout: default
   </p>
 </div>
 
+<div class="visible-xs-*">
+  <h1>{{ site.title }}</h1>
+</div>
+
 <div class="row">
 {% for post in site.posts limit:3 %}
 
 {% if forloop.index == 3 %}
-  <div class="clearfix col-md-4"></div>
+  <div class="clearfix visible-xs-block col-md-4"></div>
 {% endif %}
   <div class="col-xs-6 col-md-4">
     <div class="row">

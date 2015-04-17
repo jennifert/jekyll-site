@@ -5,8 +5,8 @@
     <description>This is Jennifer Tesolin&#39;s personal web site. Located on this site are tutorials and tips for web developers.</description>
     <link>https://www.jenntesolin.com/</link>
     <atom:link href="https://www.jenntesolin.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 15 Apr 2015 19:44:55 -0400</pubDate>
-    <lastBuildDate>Wed, 15 Apr 2015 19:44:55 -0400</lastBuildDate>
+    <pubDate>Fri, 17 Apr 2015 19:18:15 -0400</pubDate>
+    <lastBuildDate>Fri, 17 Apr 2015 19:18:15 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -215,10 +215,10 @@ extension=php_mysqli.dll&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Open up the &lt;a href=&quot;https://api.wordpress.org/secret-key/1.1/salt/&quot;&gt;secret generatorr&lt;/a&gt; to automatically generate secret keys. Paste this into your wp-config.php file.&lt;/p&gt;
 
-&lt;p&gt;Next, add the below line above teh comment that asks you to stop editing:
+&lt;p&gt;Next, add the below line above the comment that asks you to stop editing:
 &lt;code&gt;define(&#39;FS_METHOD&#39;,&#39;direct&#39;);&lt;/code&gt;. This will stop WordPress from asking your ftp information. Never use this external servers!&lt;/p&gt;
 
-&lt;p&gt;Save all these changes, then run on e of the below addresses in your browser.&lt;/p&gt;
+&lt;p&gt;Save all these changes, then run one of the below addresses in your browser.&lt;/p&gt;
 
 &lt;p&gt;In a sub folder: &lt;code&gt;http://localhost/blog/wp-admin/install.php&lt;/code&gt;
 At the root: &lt;code&gt;http://localhost/wp-admin/install.php&lt;/code&gt;&lt;/p&gt;

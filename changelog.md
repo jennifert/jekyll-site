@@ -2,6 +2,10 @@ Changelog
 ===========
 
 ##phase 2 Updates:
+April 17, 2015
+- Fixed styles css styles for footer and header.
+- Since comment field removed, took out call to action in older posts
+
 April 16, 2015
 - Removed Jumbotron from devices under 700px (xs hidden in grid view).
 

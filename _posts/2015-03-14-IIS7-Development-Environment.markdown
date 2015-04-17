@@ -101,10 +101,10 @@ Next, edit the file "wp-config.php" (you may need to rename the sample config). 
 
 Open up the [secret generatorr](https://api.wordpress.org/secret-key/1.1/salt/) to automatically generate secret keys. Paste this into your wp-config.php file.
 
-Next, add the below line above teh comment that asks you to stop editing:
+Next, add the below line above the comment that asks you to stop editing:
 <code>define('FS_METHOD','direct');</code>. This will stop WordPress from asking your ftp information. Never use this external servers!
 
-Save all these changes, then run on e of the below addresses in your browser.
+Save all these changes, then run one of the below addresses in your browser.
 
 In a sub folder: <code>http://localhost/blog/wp-admin/install.php</code>
 At the root: <code>http://localhost/wp-admin/install.php</code>

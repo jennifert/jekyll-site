@@ -203,7 +203,7 @@
     {
       "title"    : "Move completed.",
       "href"     : "/blog/2013/09/03/move-completed/",
-      "summary"     : "The web server move has been completed. Please let me know in the comments, or content page if any issues appear. All links from the old domain should automatically redirect...",
+      "summary"     : "The web server move has been completed. All links from the old domain should automatically redirect to the new domain. Lastly, server is now enabled for PHP 5.4, and using...",
       "category" : ["news", null],
       "tags"     : [ null],
       "date"     : "Sep 3, 2013"

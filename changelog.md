@@ -2,6 +2,9 @@ Changelog
 ===========
 
 ##phase 2 Updates:
+May 22, 2015
+- New post!
+
 April 17, 2015
 - Fixed styles css styles for footer and header.
 - Since comment field removed, took out call to action in older posts

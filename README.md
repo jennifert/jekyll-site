@@ -1,15 +1,10 @@
 jekyll-site
 ===========
 
-This is a port of my wordpress blog that has been moved to [Jekylll](http://jekyllrb.com/) via the [Jekyll Imports](http://import.jekyllrb.com/) plugin.
-
-This is a development repository.
+This is a port of my wordpress blog that has been moved to [Jekylll](http://jekyllrb.com/) via the [Jekyll Imports](http://import.jekyllrb.com/) plugin and is the development repository.
 
 The production URL is the same as before: [http://jenntesolin.com/](jenntesolin.com).
 
-
-###Important Notes
-- To create new posts, please change the content of the wordpress.xml to ave the xml export of your site.
 
 ###How-to install
 

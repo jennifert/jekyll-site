@@ -7,10 +7,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title> Page not found (404) - Jennifer Tesolin </title>
+    <title> Jekyll: Easy searching with JSON and jQuery - Jennifer Tesolin </title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="This is Jennifer Tesolin's personal web site. Located on this site are tutorials and tips for web developers.">
-    <link rel="canonical" href="https://www.jenntesolin.com/404.html">
+    <link rel="canonical" href="https://www.jenntesolin.com/blog/2015/05/22/Jekyll-Custom-Easy-Search-jquery/">
     <link type="text/plain" rel="author" href="https://www.jenntesolin.com/humans.txt" />
 
     <!-- Custom CSS -->
@@ -65,7 +65,7 @@
       
       <ul class="nav navbar-nav">
         <li ><a href="/about/">About</a></li>
-        <li ><a href="/blog/">Blog</a></li>
+        <li class="active" ><a href="/blog/">Blog</a></li>
         <li ><a href="/photos/">Photos</a></li>
       </ul>
 
@@ -81,26 +81,75 @@
     </div>
 
     <div class="container-fluid">
-        <h1>404: Page not found :(</h1>
+      <div class="post">
 
-  <p>Sorry, but the page you were trying to view does not exist.</p>
+  <header class="post-header">
+    <h1>Jekyll: Easy searching with JSON and jQuery</h1>
+    <p class="meta">May 22, 2015 <!--  • 
+   • Jennifer Tesolin
+     
+      less than a minute
+     --></p>
+  </header>
 
-<p>It looks like this was the result of either:</p>
+  <article class="post-content">
+  <p>Jekyll is a great tool to build web sites, unfortunately there is no built in search. This post will describe how to create one a basic search using JSON and jQuery.<!--more--></p>
+
+<p>This search works great for users using your site to search (like the one above this post). Unfortunately, with this method, Google does not understand that this is a site search. If having your search show up in Google results, this may not be for you.</p>
+
+<h3 id="step-1-create-searchjson">Step 1: Create search.json</h3>
+<p>There are quite a few methods to create a search.json file. For me, I wanted to use built in Jekyll methods (no plugins). For that, I based the code from <a href="http://jekyllsnippets.com/excluding-jsonify-your-site/">JSONify your Jekyll Site</a> as well as other aspects of my site. The new code will look for attributes in my post like this sample from my drafts template:</p>
+
+<script src="https://gist.github.com/jennifert/db65203ca69138aefd9b.js"></script>
+
+<p>Here is a sample of my final code. Pressing on the image will take you to the file in GitHub:</p>
+
+<script src="https://gist.github.com/jennifert/38c507876ee4459abeda.js"></script>
+
+<h3 id="step-2-update-your-html-code">Step 2: Update your HTML code</h3>
+
+<p>Next, we need to update the search form :</p>
+
+<script src="https://gist.github.com/jennifert/87d3263c84d6c0d537f8.js"></script>
+
+<h3 id="step-3-create-your-searchjson-page">Step 3: Create your search.json page</h3>
+
+<p>Thirdly, we need to create a basic html page that basically has our title, and a div to hold the jQuery results. Here is the code:</p>
+
+<script src="https://gist.github.com/jennifert/96c00c28c41360c13350.js"></script>
+
+<h3 id="step-4-add-the-jquery-to-your-site">Step 4: Add the jQuery to your site</h3>
+
+<p>To query the search.json, I used jQuery’s <code>getJSON</code> method. For this, you will need the below code first:</p>
 
 <ul>
-<li>a mistyped address</li>
-<li>an out-of-date link</li>
+  <li><a href="http://stackoverflow.com/questions/3390930/any-way-to-make-jquery-inarray-case-insensitive">Extend inArray to be case insensitive</a></li>
+  <li><a href="http://stackoverflow.com/questions/9501690/javascript-documentation-on-getparameterbyname">Get parameter by name</a></li>
 </ul>
 
-  <h2>Latest Posting:</h2>
-  <ul class="posts">
-    
-      <li>
-        <span class="post-date">May 22, 2015</span>
-        <a class="post-link" href="/blog/2015/05/22/Jekyll-Custom-Easy-Search-jquery/">Jekyll: Easy searching with JSON and jQuery</a>
-      </li>
-    
-  </ul>
+<h4 id="function-1">Function 1:</h4>
+<script src="https://gist.github.com/jennifert/f7fe005c96c5a48a7506.js"></script>
+
+<h4 id="function-2">Function 2:</h4>
+<script src="https://gist.github.com/jennifert/2464a76ee1a83da91534.js"></script>
+
+<p>This wrapped up the post on how to easily add a search to your Jekyll site.</p>
+
+<h3 id="resources">Resources</h3>
+
+<p>Below are other search alternatives, and built in jQuery code that helped in my development.</p>
+
+<ul>
+  <li><a href="https://developmentseed.org/blog/2011/09/09/jekyll-github-pages/">Using Jekyll and GitHub Pages for Our Site</a></li>
+  <li><a href="http://stackoverflow.com/questions/11887929/how-do-i-loop-through-tags-in-a-jekyll-post">Stack overflow: How do I loop through tags</a></li>
+  <li><a href="http://www.marran.com/tech/jquery-full-text-indexing-on-jekyll">jQuery Full-Text Indexing on Jekyll</a></li>
+  <li><a href="http://danreev.es/posts/jekyll-search-with-typeahead/">Search a Jekyll Blog With Typeahead.js</a></li>
+  <li><a href="http://jekyllsnippets.com/excluding-jsonify-your-site/">JSONify your Jekyll Site</a></li>
+</ul>
+
+  </article>
+
+</div>
     </div>
 
           

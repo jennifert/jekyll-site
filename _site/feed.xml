@@ -5,9 +5,80 @@
     <description>This is Jennifer Tesolin&#39;s personal web site. Located on this site are tutorials and tips for web developers.</description>
     <link>https://www.jenntesolin.com/</link>
     <atom:link href="https://www.jenntesolin.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 17 Apr 2015 19:18:15 -0400</pubDate>
-    <lastBuildDate>Fri, 17 Apr 2015 19:18:15 -0400</lastBuildDate>
+    <pubDate>Fri, 22 May 2015 21:37:44 -0400</pubDate>
+    <lastBuildDate>Fri, 22 May 2015 21:37:44 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Jekyll: Easy searching with JSON and jQuery</title>
+        <description>&lt;p&gt;Jekyll is a great tool to build web sites, unfortunately there is no built in search. This post will describe how to create one a basic search using JSON and jQuery.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;This search works great for users using your site to search (like the one above this post). Unfortunately, with this method, Google does not understand that this is a site search. If having your search show up in Google results, this may not be for you.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-1-create-searchjson&quot;&gt;Step 1: Create search.json&lt;/h3&gt;
+&lt;p&gt;There are quite a few methods to create a search.json file. For me, I wanted to use built in Jekyll methods (no plugins). For that, I based the code from &lt;a href=&quot;http://jekyllsnippets.com/excluding-jsonify-your-site/&quot;&gt;JSONify your Jekyll Site&lt;/a&gt; as well as other aspects of my site. The new code will look for attributes in my post like this sample from my drafts template:&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/jennifert/db65203ca69138aefd9b.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Here is a sample of my final code. Pressing on the image will take you to the file in GitHub:&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/jennifert/38c507876ee4459abeda.js&quot;&gt;&lt;/script&gt;
+
+&lt;h3 id=&quot;step-2-update-your-html-code&quot;&gt;Step 2: Update your HTML code&lt;/h3&gt;
+
+&lt;p&gt;Next, we need to update the search form :&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/jennifert/87d3263c84d6c0d537f8.js&quot;&gt;&lt;/script&gt;
+
+&lt;h3 id=&quot;step-3-create-your-searchjson-page&quot;&gt;Step 3: Create your search.json page&lt;/h3&gt;
+
+&lt;p&gt;Thirdly, we need to create a basic html page that basically has our title, and a div to hold the jQuery results. Here is the code:&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/jennifert/96c00c28c41360c13350.js&quot;&gt;&lt;/script&gt;
+
+&lt;h3 id=&quot;step-4-add-the-jquery-to-your-site&quot;&gt;Step 4: Add the jQuery to your site&lt;/h3&gt;
+
+&lt;p&gt;To query the search.json, I used jQuery’s &lt;code&gt;getJSON&lt;/code&gt; method. For this, you will need the below code first:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/3390930/any-way-to-make-jquery-inarray-case-insensitive&quot;&gt;Extend inArray to be case insensitive&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/9501690/javascript-documentation-on-getparameterbyname&quot;&gt;Get parameter by name&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;function-1&quot;&gt;Function 1:&lt;/h4&gt;
+&lt;script src=&quot;https://gist.github.com/jennifert/f7fe005c96c5a48a7506.js&quot;&gt;&lt;/script&gt;
+
+&lt;h4 id=&quot;function-2&quot;&gt;Function 2:&lt;/h4&gt;
+&lt;script src=&quot;https://gist.github.com/jennifert/2464a76ee1a83da91534.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;This wrapped up the post on how to easily add a search to your Jekyll site.&lt;/p&gt;
+
+&lt;h3 id=&quot;resources&quot;&gt;Resources&lt;/h3&gt;
+
+&lt;p&gt;Below are other search alternatives, and built in jQuery code that helped in my development.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developmentseed.org/blog/2011/09/09/jekyll-github-pages/&quot;&gt;Using Jekyll and GitHub Pages for Our Site&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/11887929/how-do-i-loop-through-tags-in-a-jekyll-post&quot;&gt;Stack overflow: How do I loop through tags&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.marran.com/tech/jquery-full-text-indexing-on-jekyll&quot;&gt;jQuery Full-Text Indexing on Jekyll&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://danreev.es/posts/jekyll-search-with-typeahead/&quot;&gt;Search a Jekyll Blog With Typeahead.js&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jekyllsnippets.com/excluding-jsonify-your-site/&quot;&gt;JSONify your Jekyll Site&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 22 May 2015 17:34:21 -0400</pubDate>
+        <link>https://www.jenntesolin.com/blog/2015/05/22/Jekyll-Custom-Easy-Search-jquery/</link>
+        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2015/05/22/Jekyll-Custom-Easy-Search-jquery/</guid>
+        
+        <category>Jekyll</category>
+        
+        <category>JSON</category>
+        
+        <category>jQuery</category>
+        
+        
+        <category>tutorial</category>
+        
+      </item>
     
       <item>
         <title>Jekyll: Setting up your development environment</title>
@@ -618,40 +689,6 @@ Description from Store: iCloud stores your website bookmarks, so they are everyw
         
         
         <category>tutorial</category>
-        
-      </item>
-    
-      <item>
-        <title>Upcoming Github Updates</title>
-        <description>&lt;p&gt;A frequently updated list of outstanding items to be added to the github repositories.&lt;!--more--&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Google Maps:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Try examples using font awesome in pop up box. Also try require js if successful on first attempt.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Bootstrap Master Pages:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;link all pages together&lt;/li&gt;
-&lt;li&gt;add demo in azure to the read me file&lt;/li&gt;
-&lt;li&gt;Check bootstrap snipes for ideas.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Bootstrap movie search:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Fix poster image (use a Google query if needed)&lt;/li&gt;
-&lt;li&gt;look into way to see if its playing anywhere&lt;/li&gt;
-&lt;li&gt;use location api to get info&lt;/li&gt;
-&lt;li&gt;get log/lat and search Google maps&lt;/li&gt;
-&lt;li&gt;link to youtube for easy access trailers or see if they can be puled from imdb.&lt;/li&gt;
-&lt;li&gt;Make sure that user input is using latest tech and checks.&lt;/li&gt;
-&lt;li&gt;will become part of a library service or management system.&lt;/li&gt;
-&lt;li&gt;add client side validation before submit.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 17 Mar 2014 00:00:00 -0400</pubDate>
-        <link>https://www.jenntesolin.com/blog/2014/03/17/upcoming-github-updates/</link>
-        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2014/03/17/upcoming-github-updates/</guid>
-        
-        
-        <category>github</category>
         
       </item>
     

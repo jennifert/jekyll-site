@@ -7,6 +7,7 @@ categories:
 tags:
 - Jekyll
 - WordPress
+summary: Put details that will be in more tag here.
 
 status: post
 type: post

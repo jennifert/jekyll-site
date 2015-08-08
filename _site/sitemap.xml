@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
       <loc>https://www.jenntesolin.com</loc>
-      <lastmod>2015-05-22</lastmod>
+      <lastmod>2015-08-08</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
@@ -14,7 +14,7 @@
     
        <url>
          <loc>https://www.jenntesolin.com/about/</loc>
-        <lastmod>2015-05-22</lastmod>
+        <lastmod>2015-08-08</lastmod>
          <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
@@ -44,6 +44,13 @@
   
   
   
+    
+      <url>
+         <loc>https://www.jenntesolin.com/blog/2015/08/08/jekyll-config-file/</loc>
+        <lastmod>2015-08-08</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
     
       <url>
          <loc>https://www.jenntesolin.com/blog/2015/05/22/Jekyll-Custom-Easy-Search-jquery/</loc>
@@ -81,13 +88,6 @@
       </url>
     
       <url>
-         <loc>https://www.jenntesolin.com/blog/2014/05/22/rebuilding-the-backend-of-my-site/</loc>
-        <lastmod>2014-05-22</lastmod>
-         <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-      </url>
-    
-      <url>
          <loc>https://www.jenntesolin.com/blog/2014/04/24/updated-raspberry-pi-media-server/</loc>
         <lastmod>2014-04-24</lastmod>
          <changefreq>monthly</changefreq>
@@ -111,13 +111,6 @@
       <url>
          <loc>https://www.jenntesolin.com/blog/2014/03/18/moving-from-an-ios-device-to-android-icloud/</loc>
         <lastmod>2014-03-18</lastmod>
-         <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-      </url>
-    
-      <url>
-         <loc>https://www.jenntesolin.com/blog/2014/03/17/upcoming-github-updates/</loc>
-        <lastmod>2014-03-17</lastmod>
          <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
@@ -188,13 +181,6 @@
       <url>
          <loc>https://www.jenntesolin.com/blog/2013/09/05/a-look-at-raspmbc-video-streaming/</loc>
         <lastmod>2013-09-05</lastmod>
-         <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-      </url>
-    
-      <url>
-         <loc>https://www.jenntesolin.com/blog/2013/09/03/move-completed/</loc>
-        <lastmod>2013-09-03</lastmod>
          <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
@@ -300,13 +286,6 @@
       <url>
          <loc>https://www.jenntesolin.com/blog/2012/11/08/japan-trip-2011/</loc>
         <lastmod>2012-11-08</lastmod>
-         <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-      </url>
-    
-      <url>
-         <loc>https://www.jenntesolin.com/blog/2012/02/06/welcome/</loc>
-        <lastmod>2012-02-06</lastmod>
          <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>

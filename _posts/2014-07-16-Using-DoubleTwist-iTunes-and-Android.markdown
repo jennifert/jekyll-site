@@ -6,8 +6,8 @@ categories:
 - Tutorial
 tags:
 - android
-- iCloud
-
+- iTunes
+summary: A guide on syncing files from your iTunes library to an android device.
 status: publish
 type: post
 published: true

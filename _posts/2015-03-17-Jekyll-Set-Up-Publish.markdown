@@ -7,7 +7,7 @@ categories:
 tags:
 - Jekyll
 - WordPress
-
+summary: A guide that describes how to set up the Jekyll static site generator on desktop.
 status: post
 type: post
 published: true
@@ -104,6 +104,12 @@ The first chunk of files below shows the root of my Jekyll site, while the secon
 <img src="/wp-content/uploads/2015/jekyll4.png" alt="Terminal screen output showing prduction folder contents">
 
 Note: There will be separate posts on various items in the config file, how to get it running on Azure and finally, another on publishing to Github Pages, and CloudFlare.
+
+###Youtube Demo
+
+Here is a demo of the process to configure Ruby, and Jekyll on a system.
+
+{% youtube SRmNM6VjhZk "16by9" %}
 
 ###Resources
 + [Jekyll Docs](http://stackoverflow.com/a/4920620)

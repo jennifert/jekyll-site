@@ -5,9 +5,71 @@
     <description>This is Jennifer Tesolin&#39;s personal web site. Located on this site are tutorials and tips for web developers.</description>
     <link>https://www.jenntesolin.com/</link>
     <atom:link href="https://www.jenntesolin.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 22 May 2015 21:37:44 -0400</pubDate>
-    <lastBuildDate>Fri, 22 May 2015 21:37:44 -0400</lastBuildDate>
+    <pubDate>Sat, 08 Aug 2015 10:17:52 -0400</pubDate>
+    <lastBuildDate>Sat, 08 Aug 2015 10:17:52 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Jekyll: The configuration file</title>
+        <description>&lt;p&gt;The Jekyll configuration file houses important information for your site. This post highlights some options being used in this site, with a basic explanation of what it does.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;This file has quite a few areas of editing, especially if you want to override some of the &lt;a href=&quot;http://jekyllrb.com/docs/configuration/#front-matter-defaults&quot;&gt;default Jekyll options&lt;/a&gt;. Here is a &lt;a href=&quot;https://github.com/jennifert/jekyll-site/blob/master/_config.yml&quot;&gt;sample&lt;/a&gt; of my &lt;code&gt;_config.yml&lt;/code&gt; from my GitHub repository. There are 3 main sections, which are explain in more detail below.&lt;/p&gt;
+
+&lt;h3 id=&quot;site-settings&quot;&gt;Site Settings&lt;/h3&gt;
+
+&lt;p&gt;This section define what and where your site is.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;title: This is usually your company name, etc.&lt;/li&gt;
+  &lt;li&gt;description: is used to fill in the meta-tag for description.&lt;/li&gt;
+  &lt;li&gt;baseurl: As the official docs put it “serves the site from specified URL”. Do NOT include your host name.&lt;/li&gt;
+  &lt;li&gt;url: the url of your blog&lt;/li&gt;
+  &lt;li&gt;timezone: What time zone your in. Be sure to use a format such as: America/Toronto, or America/New_York.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;build-settings&quot;&gt;Build Settings&lt;/h3&gt;
+
+&lt;p&gt;This section will tell Jekyll how to and what files to sue to generate your production site.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;exclude:  this section tells Jekyll what not to include in your build. Format is: [file1, file2]&lt;/li&gt;
+  &lt;li&gt;markdown: Which markdown flavor you will use with your site&lt;/li&gt;
+  &lt;li&gt;markdown_ext:  file extensions you may use for markdown files.&lt;/li&gt;
+  &lt;li&gt;permalink: what your website links will look like. For example: /blog/:year/:month/:day/:title/&lt;/li&gt;
+  &lt;li&gt;paginate: how many articles do you want to see per page (as an integer number)&lt;/li&gt;
+  &lt;li&gt;paginate_path: what site link format your paginated results will be. In format: “blog/page:num”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;author-information&quot;&gt;Author information&lt;/h3&gt;
+
+&lt;p&gt;This section is used to display information on the company/site owner using information such as name, email, twitter handle, Github repository, location, etc. The sub information must be 1 tab under “&lt;code&gt;author:&lt;/code&gt;”&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;author :
+&amp;nbsp;&amp;nbsp;&amp;nbsp;name : Jennifer Tesolin&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;email : jtesolin@gmail.com&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;location : Toronto (Canada)&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;github : jennifert&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;twitter : jenntes&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;issues-encountered&quot;&gt;Issues encountered&lt;/h3&gt;
+&lt;p&gt;Unfortunately, it seems like new elements can not be created and used in other files. For example, when converting this site to Jekyll, I was unable add other social network item I entered under the author section to then use the links in the footer include and humans.txt file.&lt;/p&gt;
+
+&lt;h3 id=&quot;additional-information-and-elements&quot;&gt;Additional information and elements&lt;/h3&gt;
+
+&lt;p&gt;The &lt;a href=&quot;http://jekyllrb.com/docs/configuration/&quot;&gt;Configuration Docs&lt;/a&gt; from the Official JekyllRB site is a must read. They include a ton of useful information and other tags that you can use in your file.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 08 Aug 2015 06:00:00 -0400</pubDate>
+        <link>https://www.jenntesolin.com/blog/2015/08/08/jekyll-config-file/</link>
+        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2015/08/08/jekyll-config-file/</guid>
+        
+        <category>Jekyll</category>
+        
+        <category>YAML</category>
+        
+        
+        <category>tutorial</category>
+        
+      </item>
     
       <item>
         <title>Jekyll: Easy searching with JSON and jQuery</title>
@@ -178,6 +240,12 @@ jekyll serve&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/wp-content/uploads/2015/jekyll4.png&quot; alt=&quot;Terminal screen output showing prduction folder contents&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Note: There will be separate posts on various items in the config file, how to get it running on Azure and finally, another on publishing to Github Pages, and CloudFlare.&lt;/p&gt;
+
+&lt;h3 id=&quot;youtube-demo&quot;&gt;Youtube Demo&lt;/h3&gt;
+
+&lt;p&gt;Here is a demo of the process to configure Ruby, and Jekyll on a system.&lt;/p&gt;
+
+&lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/SRmNM6VjhZk&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;resources&quot;&gt;Resources&lt;/h3&gt;
 &lt;ul&gt;
@@ -454,35 +522,10 @@ At the root: &lt;code&gt;http://localhost/wp-admin/install.php&lt;/code&gt;&lt;/
         
         <category>android</category>
         
-        <category>iCloud</category>
+        <category>iTunes</category>
         
         
         <category>tutorial</category>
-        
-      </item>
-    
-      <item>
-        <title>Rebuilding the backend of my site</title>
-        <description>&lt;p&gt;At the time of writing, I am currently in the process of moving my WordPress blog over to using the Jekyll system. I will be trying to move it over before my hosting renews - this way I can try my hosting up at github pages or windows azure.&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;p&gt;If anyone is interested, I have some preview links below:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/jennifert/jekyll-site&quot;&gt;Github Repo&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;There is currently one tutorial available that describes my Jekyll experience:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/blog/2015/03/17/Jekyll-Set-Up-Publish/&quot;&gt;Jekyll: Setting up your development environment&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 22 May 2014 18:34:21 -0400</pubDate>
-        <link>https://www.jenntesolin.com/blog/2014/05/22/rebuilding-the-backend-of-my-site/</link>
-        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2014/05/22/rebuilding-the-backend-of-my-site/</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>news</category>
         
       </item>
     
@@ -516,8 +559,10 @@ At the root: &lt;code&gt;http://localhost/wp-admin/install.php&lt;/code&gt;&lt;/
         
         <category>video streaming</category>
         
+        <category>Raspberri Pi</category>
         
-        <category>raspberri pi</category>
+        
+        <category>tutorial</category>
         
       </item>
     
@@ -585,8 +630,10 @@ $.getJSON(blogLink, function(data){&lt;br /&gt;
         <link>https://www.jenntesolin.com/blog/2014/03/29/removing-cdata-from-yql-queries/</link>
         <guid isPermaLink="true">https://www.jenntesolin.com/blog/2014/03/29/removing-cdata-from-yql-queries/</guid>
         
-        
         <category>yql</category>
+        
+        
+        <category>tutorial</category>
         
       </item>
     
@@ -685,7 +732,7 @@ Description from Store: iCloud stores your website bookmarks, so they are everyw
         
         <category>iCloud</category>
         
-        <category>ios</category>
+        <category>iOS</category>
         
         
         <category>tutorial</category>

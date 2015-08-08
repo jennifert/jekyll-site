@@ -9,7 +9,7 @@ tags:
 - PHP
 - MySQL
 - WordPress
-
+summary: The proper way to  install PHP and mySQL on IIS 7.
 status: post
 type: post
 published: true

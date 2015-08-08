@@ -8,7 +8,7 @@ tags:
 - wordpress
 - jekyll
 - php
-
+summary: Various ways to move wordpress - for example between hosts or to Jekyll.
 status: publish
 type: post
 published: true

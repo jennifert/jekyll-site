@@ -2,6 +2,13 @@ Changelog
 ===========
 
 ##phase 2 Updates:
+
+August 8, 2015
+- New post!
+- Added video demo to Jekyll post "setting up the environment"
+- Added Google+ metatag, link in footer with nofollow will not include in Gogle results. MOre social media tags to follow.
+- Added metatag description for posts using same type of logic as title tags.
+
 May 22, 2015
 - New post!
 

@@ -1,6 +1,16 @@
 [
     
     {
+      "title"    : "Jekyll: The configuration file",
+      "href"     : "/blog/2015/08/08/jekyll-config-file/",
+      "summary"     : "The Jekyll configuration file houses important information for your site. This post highlights some options being used in this site, with a basic explanation of what it does.This file has...",
+      "category" : ["tutorial", null],
+      "tags"     : ["Jekyll","YAML", null],
+      "date"     : "Aug 8, 2015"
+    }
+    ,
+    
+    {
       "title"    : "Jekyll: Easy searching with JSON and jQuery",
       "href"     : "/blog/2015/05/22/Jekyll-Custom-Easy-Search-jquery/",
       "summary"     : "Jekyll is a great tool to build web sites, unfortunately there is no built in search. This post will describe how to create one a basic search using JSON and...",
@@ -45,18 +55,8 @@
       "href"     : "/blog/2014/07/16/Using-DoubleTwist-iTunes-and-Android/",
       "summary"     : "This post describes how you can sync your current iTunes media files to your android device. This tutorial was written and tested on Mac os X mavericks and a Nexus...",
       "category" : ["tutorial", null],
-      "tags"     : ["android","iCloud", null],
+      "tags"     : ["android","iTunes", null],
       "date"     : "Jul 16, 2014"
-    }
-    ,
-    
-    {
-      "title"    : "Rebuilding the backend of my site",
-      "href"     : "/blog/2014/05/22/rebuilding-the-backend-of-my-site/",
-      "summary"     : "At the time of writing, I am currently in the process of moving my WordPress blog over to using the Jekyll system. I will be trying to move it over...",
-      "category" : ["jekyll","news", null],
-      "tags"     : [ null],
-      "date"     : "May 22, 2014"
     }
     ,
     
@@ -64,8 +64,8 @@
       "title"    : "Updated: Raspberry Pi Media Server",
       "href"     : "/blog/2014/04/24/updated-raspberry-pi-media-server/",
       "summary"     : "After trying quite a few Raspberry Pi operating systems and configurations, the new RasPlex is my choice for my home media centre. RasPlex was the best system which supports out...",
-      "category" : ["raspberri pi", null],
-      "tags"     : ["plex","video streaming", null],
+      "category" : ["tutorial", null],
+      "tags"     : ["plex","video streaming","Raspberri Pi", null],
       "date"     : "Apr 24, 2014"
     }
     ,
@@ -74,8 +74,8 @@
       "title"    : "Removing cData from YQL queries",
       "href"     : "/blog/2014/03/29/removing-cdata-from-yql-queries/",
       "summary"     : "When pulling data from xml items using YQL and getJSON, your application will unfortunately not parse tags that have cdata. This post describe show to use the feed normalizer table...",
-      "category" : ["yql", null],
-      "tags"     : [ null],
+      "category" : ["tutorial", null],
+      "tags"     : ["yql", null],
       "date"     : "Mar 29, 2014"
     }
     ,
@@ -95,18 +95,8 @@
       "href"     : "/blog/2014/03/18/moving-from-an-ios-device-to-android-icloud/",
       "summary"     : "Admittedly moving from an iOS device to an android device can seem a bit daunting, especially if you use iCloud for all your syncing. Thankfully there are a few apps...",
       "category" : ["tutorial", null],
-      "tags"     : ["android","iCloud","ios", null],
+      "tags"     : ["android","iCloud","iOS", null],
       "date"     : "Mar 18, 2014"
-    }
-    ,
-    
-    {
-      "title"    : "Upcoming Github Updates",
-      "href"     : "/blog/2014/03/17/upcoming-github-updates/",
-      "summary"     : "A frequently updated list of outstanding items to be added to the github repositories.Google Maps:Try examples using font awesome in pop up box. Also try require js if successful on...",
-      "category" : ["github", null],
-      "tags"     : [ null],
-      "date"     : "Mar 17, 2014"
     }
     ,
     
@@ -114,8 +104,8 @@
       "title"    : "Setting up Bluetooth on the raspberry pi",
       "href"     : "/blog/2014/03/17/setting-up-bluetooth-on-the-raspberry-pi/",
       "summary"     : "Setting up a bluetooth dongle can be quite interesting when using Raspmbc. Here is a guide on setting up.Requirements:Raspberry piBluetooth dongle (I used this one from ModMyPi)Wifi or ethernet connectedSteps:I...",
-      "category" : ["raspberri pi", null],
-      "tags"     : [ null],
+      "category" : ["tutorial", null],
+      "tags"     : ["Raspberri Pi", null],
       "date"     : "Mar 17, 2014"
     }
     ,
@@ -124,8 +114,8 @@
       "title"    : "Quick Tip: Wordpress Development Tips",
       "href"     : "/blog/2014/01/20/quick-tip-wordpress-development-tips/",
       "summary"     : "1. Stop wordpress updater by ftp.As per the following post, &quot;Wordpress needs access to your web server&quot;, you can prevent work press for asking for your ftp credentials when requesting...",
-      "category" : ["php", null],
-      "tags"     : ["wordpress", null],
+      "category" : ["tip", null],
+      "tags"     : ["php","wordpress", null],
       "date"     : "Jan 20, 2014"
     }
     ,
@@ -134,8 +124,8 @@
       "title"    : "Quick Tip: Fixing Ubuntu 12.04 network issue",
       "href"     : "/blog/2014/01/09/quick-tip-fixing-ubuntu-12-04-network-issue/",
       "summary"     : "While upgrading an Ubuntu virtual machine from Version 10 LTs to 12.04 LTS, I ran into networking issues with the static IP address and DNS servers. The web server was...",
-      "category" : ["ubuntu", null],
-      "tags"     : [ null],
+      "category" : ["tip", null],
+      "tags"     : ["Ubuntu", null],
       "date"     : "Jan 9, 2014"
     }
     ,
@@ -144,8 +134,8 @@
       "title"    : "Asp.net menu control - styling with bootstrap nav",
       "href"     : "/blog/2013/11/07/asp-net-menu-control-styling-with-bootstrap-nav/",
       "summary"     : "Thanks to an interesting post titled &quot;Responsive ASP.NET Menu Control With Twitter Bootstrap&quot;, I was able to update the Bootstrap with master pages example with asp.net menu controls instead of...",
-      "category" : ["asp.net", null],
-      "tags"     : ["Bootstrap", null],
+      "category" : ["tutorial", null],
+      "tags"     : ["Bootstrap","ASP.net", null],
       "date"     : "Nov 7, 2013"
     }
     ,
@@ -154,8 +144,8 @@
       "title"    : "Using Require JS with Bootstrap, Google maps, and more",
       "href"     : "/blog/2013/11/06/using-require-js-with-bootstrap-google-maps-and-more/",
       "summary"     : "Require JS is a JavaScript file and module loader. Its a great tool for including JavaScript on your website.This post described how to move the previous Google Maps with bootstrap...",
-      "category" : ["javascript", null],
-      "tags"     : ["Bootstrap","Google maps","requirejs", null],
+      "category" : ["tutorial", null],
+      "tags"     : ["Bootstrap","Google maps","requirejs","Javascript", null],
       "date"     : "Nov 6, 2013"
     }
     ,
@@ -164,8 +154,8 @@
       "title"    : "Quick Tip: Using Font Awesome With Bootstrap 3",
       "href"     : "/blog/2013/11/06/quick-tip-using-font-awesome-with-bootstrap-3/",
       "summary"     : "This is a quick post on how to use Font Awesome with Bootstrap 3.To use font-awesome, you will need to have a customized version of the latest version of Bootstrap...",
-      "category" : ["css","javascript", null],
-      "tags"     : ["Bootstrap","font awesome", null],
+      "category" : ["tip", null],
+      "tags"     : ["Bootstrap","font awesome","CSS","javascript", null],
       "date"     : "Nov 6, 2013"
     }
     ,
@@ -174,8 +164,8 @@
       "title"    : "Bootstrap 3 and Google Maps",
       "href"     : "/blog/2013/11/05/bootstrap-3-and-google-maps/",
       "summary"     : "There are changes in Bootstrap 3 that stops Google maps from displaying correctly in modals, or tabs.  New demos have been created to show to to utilize in your code.Single...",
-      "category" : ["javascript", null],
-      "tags"     : ["Bootstrap","Google maps", null],
+      "category" : ["tutorial", null],
+      "tags"     : ["Bootstrap","Google maps","Javascript", null],
       "date"     : "Nov 5, 2013"
     }
     ,
@@ -184,8 +174,8 @@
       "title"    : "Quick Tip: MySql Replace",
       "href"     : "/blog/2013/10/23/quick-tip-mysql-replace/",
       "summary"     : "While looking for ways to improve my MySQL queries, I can across the REPLACE function.Example code:Select Statement:SELECT field1, REPLACE(yourstring, &#39;searchfor&#39;, &#39;stringtoreplacewith&#39; ) AS field2, field3FROM testdbUpdate Statement:UPDATE testDB2SET aColumn =...",
-      "category" : ["mysql", null],
-      "tags"     : [ null],
+      "category" : ["tutorial", null],
+      "tags"     : ["mySQL", null],
       "date"     : "Oct 23, 2013"
     }
     ,
@@ -194,8 +184,8 @@
       "title"    : "Raspberry Pi: List of Projects and resources",
       "href"     : "/blog/2013/09/05/raspbeerri-pi-list-of-projects-and-resources/",
       "summary"     : "This post contains a list of resources and tips and tricks found while putting together my Raspmbc media centre.  Please note all links below are leaving this site.Raspberry PI InfoRaspberryPi.orgEquipmentQuick...",
-      "category" : ["raspberri pi", null],
-      "tags"     : [ null],
+      "category" : ["links", null],
+      "tags"     : ["Raspberry Pi", null],
       "date"     : "Sep 5, 2013"
     }
     ,
@@ -204,19 +194,9 @@
       "title"    : "A look at Raspmbc video streaming",
       "href"     : "/blog/2013/09/05/a-look-at-raspmbc-video-streaming/",
       "summary"     : "The Raspberry Pi Foundation described the pi as &quot;The Raspberry Pi is a credit-card sized computer that plugs into your TV and a keyboard. It’s a capable little PC which...",
-      "category" : ["raspberri pi","tutorial", null],
-      "tags"     : ["raspmbc","video streaming", null],
+      "category" : ["tutorial", null],
+      "tags"     : ["raspmbc","video streaming","Raspberri Pi", null],
       "date"     : "Sep 5, 2013"
-    }
-    ,
-    
-    {
-      "title"    : "Move completed.",
-      "href"     : "/blog/2013/09/03/move-completed/",
-      "summary"     : "The web server move has been completed. All links from the old domain should automatically redirect to the new domain. Lastly, server is now enabled for PHP 5.4, and using...",
-      "category" : ["news", null],
-      "tags"     : [ null],
-      "date"     : "Sep 3, 2013"
     }
     ,
     
@@ -224,8 +204,8 @@
       "title"    : "Quick Tip: MySQL Concat",
       "href"     : "/blog/2013/08/26/quick-tip-mysql-concat/",
       "summary"     : "While working on a project, I was looking for a way to join to mysql columns without using php or .net. This function is called &#39;concat&#39; and allows you to...",
-      "category" : ["mysql", null],
-      "tags"     : [ null],
+      "category" : ["tutorial", null],
+      "tags"     : ["mySQL", null],
       "date"     : "Aug 26, 2013"
     }
     ,
@@ -234,8 +214,8 @@
       "title"    : "Quick tips: MySql Case",
       "href"     : "/blog/2013/08/11/quick-tips-mysql-case/",
       "summary"     : "One project I worked on had a table with different spellings between English and French between an individual&#39;s title (masculine vs feminine in French). Since I did not want to...",
-      "category" : ["mysql", null],
-      "tags"     : [ null],
+      "category" : ["tip", null],
+      "tags"     : ["mySQL", null],
       "date"     : "Aug 11, 2013"
     }
     ,
@@ -244,8 +224,8 @@
       "title"    : "New Github Commit",
       "href"     : "/blog/2013/08/08/new-github-commit/",
       "summary"     : "BootstrapPHP-imdbSearch: a demo built of that uses the IMDB API from omdbapi.com/. This code is using PHP5 and Simple XML as the back-end. The front end is created using bootstrap....",
-      "category" : ["php","xml", null],
-      "tags"     : ["simple xml", null],
+      "category" : ["github", null],
+      "tags"     : ["simple xml","PHP","XML", null],
       "date"     : "Aug 8, 2013"
     }
     ,
@@ -254,8 +234,8 @@
       "title"    : "Quick Tips: Firefox and Notepad++",
       "href"     : "/blog/2013/07/06/quick-tips-javascript-disable-in-firefox-23-and-a-cool-notepad-shortcut/",
       "summary"     : "This posting is just to highlight some tips and tricks I found while working on sites.FirefoxWhile working, I came across a portion of my work where I wanted to disable...",
-      "category" : [ null],
-      "tags"     : [ null],
+      "category" : ["tip", null],
+      "tags"     : ["apps", null],
       "date"     : "Jul 6, 2013"
     }
     ,
@@ -264,8 +244,8 @@
       "title"    : "What is YQL and how to you use it",
       "href"     : "/blog/2013/06/06/what-is-yql-and-how-to-you-use-it/",
       "summary"     : "Yahoo Explains yql as: &quot;an expressive SQL-like language that lets you query, filter, and join data across Web services. With YQL, apps run faster with fewer lines of code and a...",
-      "category" : ["javascript","tutorial","yql", null],
-      "tags"     : ["jquery", null],
+      "category" : ["tutorial", null],
+      "tags"     : ["jquery","javascript","YQL", null],
       "date"     : "Jun 6, 2013"
     }
     ,
@@ -274,18 +254,18 @@
       "title"    : "Great apps and programs for web development",
       "href"     : "/blog/2013/05/30/great-apps-and-programs-for-web-development/",
       "summary"     : "Below is a list of different applications I use to create my projects. While most have probably been seen before, I hope at least one is new...... Does anyone else...",
-      "category" : [ null],
+      "category" : ["tip", null],
       "tags"     : ["Apps", null],
       "date"     : "May 30, 2013"
     }
     ,
     
     {
-      "title"    : "PHP and UTF8 encoding issues - tips and tricks to resolve",
+      "title"    : "PHP and UTF8 encoding issues - Tips and tricks to resolve",
       "href"     : "/blog/2013/05/25/php-and-utf8-encoding-issues-tips-and-tricks-to-resolve/",
       "summary"     : "Typically, having the proper character encoding on a page can be a bit of a pain, even if you have the right meta-tag. Here are some tips on how to...",
-      "category" : ["php", null],
-      "tags"     : [ null],
+      "category" : ["tutorial", null],
+      "tags"     : ["php","mySQL","utf8", null],
       "date"     : "May 25, 2013"
     }
     ,
@@ -294,8 +274,8 @@
       "title"    : "iOS 7 wishlist",
       "href"     : "/blog/2013/05/24/ios-7-wishlist/",
       "summary"     : "Just a small post on what I would like to see in iOS.Videos:bring back playlistsallow video playback when app minimizedallow others video apps to playback files that have DRM.allow editing...",
-      "category" : [ null],
-      "tags"     : [ null],
+      "category" : ["wishlist", null],
+      "tags"     : ["iOS", null],
       "date"     : "May 24, 2013"
     }
     ,
@@ -304,8 +284,8 @@
       "title"    : "Wordpress Quick-tip: Display x number of posts outside your blog.",
       "href"     : "/blog/2013/05/23/wordpress-quicktip-display-x-number-of-posts-outside-your-blog/",
       "summary"     : "Sometime, you want to display posts outside of WordPress. Here are some resources to help.From the Integrating WordPress in your Website codex file, the first place you start is to...",
-      "category" : ["php", null],
-      "tags"     : ["wordpress", null],
+      "category" : ["tip", null],
+      "tags"     : ["wordpress","PHP", null],
       "date"     : "May 23, 2013"
     }
     ,
@@ -314,8 +294,8 @@
       "title"    : "jQuery time picker issues and .net",
       "href"     : "/blog/2013/05/23/jquery-time-picker-issues-and-net/",
       "summary"     : "Recently I was wrestling with an issue with a time picker plugin not firing my custom validator onChange event in Asp.net. Here&#39;s the problem and how it was resolved.The problem...",
-      "category" : ["asp.net","javascript", null],
-      "tags"     : ["jquery","time picker", null],
+      "category" : ["tip", null],
+      "tags"     : ["jQuery","time picker","ASP.net","Javascript", null],
       "date"     : "May 23, 2013"
     }
     ,
@@ -334,8 +314,8 @@
       "title"    : "Quick Tip: Wordpress and Campaign Monitor",
       "href"     : "/blog/2013/04/18/quick-tip-word-press-and-campaign-monitor/",
       "summary"     : "Just a quick and easy way to integrate your campaign monitor list. Step 1: Adding a subscribe form to your siteThe easiest way, is to use the Wordpress text widget, and then paste...",
-      "category" : ["php", null],
-      "tags"     : ["wordpress", null],
+      "category" : ["tip", null],
+      "tags"     : ["wordpress","PHP", null],
       "date"     : "Apr 18, 2013"
     }
     ,
@@ -344,8 +324,8 @@
       "title"    : "Bootstrap and Google Maps API",
       "href"     : "/blog/2013/04/11/bootstrap-and-google-maps/",
       "summary"     : "This post contains some information and two samples of Bootstrap (modals) and Google maps. For both samples, stack overflow posts (below under resources) were of great assistance. I hope all...",
-      "category" : ["javascript", null],
-      "tags"     : ["Bootstrap","Google maps", null],
+      "category" : ["github", null],
+      "tags"     : ["Bootstrap","Google maps","Javascript", null],
       "date"     : "Apr 11, 2013"
     }
     ,
@@ -354,8 +334,8 @@
       "title"    : "Bootstrap and asp.net 4.0 master pages",
       "href"     : "/blog/2013/04/10/bootstrap-and-asp-net-4-0-master-pages/",
       "summary"     : "After an extensive search for a demo that includes asp.net inside a master page, I came across a blog post at geekswithblogs.net. However, the solution to use Resolve URL did...",
-      "category" : ["asp.net","javascript","tutorial", null],
-      "tags"     : ["Bootstrap","C#","jquery", null],
+      "category" : ["tutorial", null],
+      "tags"     : ["Bootstrap","C#","jQuery","ASP.net","javascript", null],
       "date"     : "Apr 10, 2013"
     }
     ,
@@ -364,19 +344,9 @@
       "title"    : "Planning a vaction to Japan",
       "href"     : "/blog/2012/11/08/japan-trip-2011/",
       "summary"     : "PLANNING THE TRIPI love history, so I knew I wanted to see definitely Tokyo, and Kyoto. If time, I also really wanted to see Hiroshima and Mount Fuji. My parents...",
-      "category" : ["travel", null],
-      "tags"     : ["Japan", null],
+      "category" : ["tip", null],
+      "tags"     : ["Japan","Travel", null],
       "date"     : "Nov 8, 2012"
-    }
-    ,
-    
-    {
-      "title"    : "Welcome",
-      "href"     : "/blog/2012/02/06/welcome/",
-      "summary"     : "Welcome to my new site.Please excuse the mess while I get everything up and running.",
-      "category" : ["news", null],
-      "tags"     : [ null],
-      "date"     : "Feb 6, 2012"
     }
     
     

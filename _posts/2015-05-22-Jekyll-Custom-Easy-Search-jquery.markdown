@@ -8,7 +8,7 @@ tags:
 - Jekyll
 - JSON
 - jQuery
-
+summary: Jekyll is a great tool to build web sites, unfortunately there is no built in search. This post will describe how to create one a basic search using JSON and jQuery.
 status: post
 type: post
 published: true

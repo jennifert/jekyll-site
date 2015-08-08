@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<html lang="en">
 
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title> Rebuilding the backend of my site - Jennifer Tesolin </title>
+    <title> Jekyll: The configuration file - Jennifer Tesolin </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="This is Jennifer Tesolin's personal web site. Located on this site are tutorials and tips for web developers.">
-    <link rel="canonical" href="https://www.jenntesolin.com/blog/2014/05/22/rebuilding-the-backend-of-my-site/">
+    <meta name="description" content="The Jekyll configuration file houses important information for your site. This post highlights some items used in this site.">
+    
+    <link rel="canonical" href="https://www.jenntesolin.com/blog/2015/08/08/jekyll-config-file/">
     <link type="text/plain" rel="author" href="https://www.jenntesolin.com/humans.txt" />
+    <link rel="author" href="https://plus.google.com/109759985952910616281?rel=author" />
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/combined.css">
@@ -84,26 +83,61 @@
       <div class="post">
 
   <header class="post-header">
-    <h1>Rebuilding the backend of my site</h1>
-    <p class="meta">May 22, 2014 <!--  • 
-  
+    <h1>Jekyll: The configuration file</h1>
+    <p class="meta">Aug 8, 2015 <!--  • 
+   • Jennifer Tesolin
      
       less than a minute
      --></p>
   </header>
 
   <article class="post-content">
-  <p>At the time of writing, I am currently in the process of moving my WordPress blog over to using the Jekyll system. I will be trying to move it over before my hosting renews - this way I can try my hosting up at github pages or windows azure.<!--more--></p>
+  <p>The Jekyll configuration file houses important information for your site. This post highlights some options being used in this site, with a basic explanation of what it does.<!--more--></p>
 
-<p>If anyone is interested, I have some preview links below:</p>
+<p>This file has quite a few areas of editing, especially if you want to override some of the <a href="http://jekyllrb.com/docs/configuration/#front-matter-defaults">default Jekyll options</a>. Here is a <a href="https://github.com/jennifert/jekyll-site/blob/master/_config.yml">sample</a> of my <code>_config.yml</code> from my GitHub repository. There are 3 main sections, which are explain in more detail below.</p>
 
-<p><a href="https://github.com/jennifert/jekyll-site">Github Repo</a></p>
+<h3 id="site-settings">Site Settings</h3>
 
-<p>There is currently one tutorial available that describes my Jekyll experience:</p>
+<p>This section define what and where your site is.</p>
 
 <ul>
-  <li><a href="/blog/2015/03/17/Jekyll-Set-Up-Publish/">Jekyll: Setting up your development environment</a></li>
+  <li>title: This is usually your company name, etc.</li>
+  <li>description: is used to fill in the meta-tag for description.</li>
+  <li>baseurl: As the official docs put it “serves the site from specified URL”. Do NOT include your host name.</li>
+  <li>url: the url of your blog</li>
+  <li>timezone: What time zone your in. Be sure to use a format such as: America/Toronto, or America/New_York.</li>
 </ul>
+
+<h3 id="build-settings">Build Settings</h3>
+
+<p>This section will tell Jekyll how to and what files to sue to generate your production site.</p>
+
+<ul>
+  <li>exclude:  this section tells Jekyll what not to include in your build. Format is: [file1, file2]</li>
+  <li>markdown: Which markdown flavor you will use with your site</li>
+  <li>markdown_ext:  file extensions you may use for markdown files.</li>
+  <li>permalink: what your website links will look like. For example: /blog/:year/:month/:day/:title/</li>
+  <li>paginate: how many articles do you want to see per page (as an integer number)</li>
+  <li>paginate_path: what site link format your paginated results will be. In format: “blog/page:num”</li>
+</ul>
+
+<h3 id="author-information">Author information</h3>
+
+<p>This section is used to display information on the company/site owner using information such as name, email, twitter handle, Github repository, location, etc. The sub information must be 1 tab under “<code>author:</code>”</p>
+
+<p><code>author :
+&nbsp;&nbsp;&nbsp;name : Jennifer Tesolin<br />
+&nbsp;&nbsp;&nbsp;email : jtesolin@gmail.com<br />
+&nbsp;&nbsp;&nbsp;location : Toronto (Canada)<br />
+&nbsp;&nbsp;&nbsp;github : jennifert<br />
+&nbsp;&nbsp;&nbsp;twitter : jenntes</code></p>
+
+<h3 id="issues-encountered">Issues encountered</h3>
+<p>Unfortunately, it seems like new elements can not be created and used in other files. For example, when converting this site to Jekyll, I was unable add other social network item I entered under the author section to then use the links in the footer include and humans.txt file.</p>
+
+<h3 id="additional-information-and-elements">Additional information and elements</h3>
+
+<p>The <a href="http://jekyllrb.com/docs/configuration/">Configuration Docs</a> from the Official JekyllRB site is a must read. They include a ton of useful information and other tags that you can use in your file.</p>
 
   </article>
 

@@ -3,6 +3,9 @@ Changelog
 
 ##phase 2 Updates:
 
+August 18, 2015
+- Fixed Google map links.
+
 August 8, 2015
 - New post!
 - Added video demo to Jekyll post "setting up the environment"

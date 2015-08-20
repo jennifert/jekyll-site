@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Jennifer Tesolin</title>
+  <link href="https://www.jenntesolin.com"/>
+  <link rel="self"  href="https://www.jenntesolin.com/atom.xml"/>
+  <updated>2015-08-19T21:14:36Z</updated>
+  <author>
+    <name>Jennifer Tesolin</name>
+  </author>
+  <id>https://www.jenntesolin.com/atom.xml</id>
+  
+  <entry>
+    <title>Jekyll: The configuration file</title>
+    <link href="https://www.jenntesolin.com/blog/2015/08/08/jekyll-config-file/"/>
+    <id>https://www.jenntesolin.com/blog/2015/08/08/jekyll-config-file/</id>
+    <updated>2015-08-08T06:00:00Z</updated>
+    <published>2015-08-08T06:00:00Z</published>
+    <summary type="html"><![CDATA[ <p>The Jekyll configuration file houses important information for your site. This post highlights some options being used in this site, with a basic explanation of what it does. ]]></summary>
+    <category term="Jekyll" /><category term="YAML" />
+    <category term="tutorial" />
+  </entry>
+  
+  <entry>
+    <title>Jekyll: Easy searching with JSON and jQuery</title>
+    <link href="https://www.jenntesolin.com/blog/2015/05/22/Jekyll-Custom-Easy-Search-jquery/"/>
+    <id>https://www.jenntesolin.com/blog/2015/05/22/Jekyll-Custom-Easy-Search-jquery/</id>
+    <updated>2015-05-22T17:34:21Z</updated>
+    <published>2015-05-22T17:34:21Z</published>
+    <summary type="html"><![CDATA[ <p>Jekyll is a great tool to build web sites, unfortunately there is no built in search. This post will describe how to create one a basic search using JSON and jQuery. ]]></summary>
+    <category term="Jekyll" /><category term="JSON" /><category term="jQuery" />
+    <category term="tutorial" />
+  </entry>
+  
+  <entry>
+    <title>Jekyll: Setting up your development environment</title>
+    <link href="https://www.jenntesolin.com/blog/2015/03/17/Jekyll-Set-Up-Publish/"/>
+    <id>https://www.jenntesolin.com/blog/2015/03/17/Jekyll-Set-Up-Publish/</id>
+    <updated>2015-03-17T15:34:21Z</updated>
+    <published>2015-03-17T15:34:21Z</published>
+    <summary type="html"><![CDATA[ <p>Jekyll is a static site generator that runs on NodeJS. Its a great alternative to WordPress that eliminates the need for databases. ]]></summary>
+    <category term="Jekyll" /><category term="WordPress" />
+    <category term="tutorial" />
+  </entry>
+  
+  <entry>
+    <title>Creating a development environment for IIS 7+</title>
+    <link href="https://www.jenntesolin.com/blog/2015/03/14/IIS7-Development-Environment/"/>
+    <id>https://www.jenntesolin.com/blog/2015/03/14/IIS7-Development-Environment/</id>
+    <updated>2015-03-14T08:34:21Z</updated>
+    <published>2015-03-14T08:34:21Z</published>
+    <summary type="html"><![CDATA[ <p>This post describes how to enable IIS on Windows 7, along with enabling MySql and Php. ]]></summary>
+    <category term="IIS" /><category term="PHP" /><category term="MySQL" /><category term="WordPress" />
+    <category term="tutorial" />
+  </entry>
+  
+  <entry>
+    <title>Moving a Wordpress blog</title>
+    <link href="https://www.jenntesolin.com/blog/2014/09/24/Moving-a-WordPress-Blog/"/>
+    <id>https://www.jenntesolin.com/blog/2014/09/24/Moving-a-WordPress-Blog/</id>
+    <updated>2014-09-24T15:00:00Z</updated>
+    <published>2014-09-24T15:00:00Z</published>
+    <summary type="html"><![CDATA[ <p>This post will describe various ways to move WordPress, either to a different server or to Jekyll.  ]]></summary>
+    <category term="wordpress" /><category term="jekyll" /><category term="php" />
+    <category term="tutorial" />
+  </entry>
+  
+  <entry>
+    <title>How to use Double Twist to sync your iTunes library to a droid</title>
+    <link href="https://www.jenntesolin.com/blog/2014/07/16/Using-DoubleTwist-iTunes-and-Android/"/>
+    <id>https://www.jenntesolin.com/blog/2014/07/16/Using-DoubleTwist-iTunes-and-Android/</id>
+    <updated>2014-07-16T15:34:21Z</updated>
+    <published>2014-07-16T15:34:21Z</published>
+    <summary type="html"><![CDATA[ <p>This post describes how you can sync your current iTunes media files to your android device. This tutorial was written and tested on Mac os X mavericks and a Nexus 5. ]]></summary>
+    <category term="android" /><category term="iTunes" />
+    <category term="tutorial" />
+  </entry>
+  
+  <entry>
+    <title>Updated: Raspberry Pi Media Server</title>
+    <link href="https://www.jenntesolin.com/blog/2014/04/24/updated-raspberry-pi-media-server/"/>
+    <id>https://www.jenntesolin.com/blog/2014/04/24/updated-raspberry-pi-media-server/</id>
+    <updated>2014-04-24T00:00:00Z</updated>
+    <published>2014-04-24T00:00:00Z</published>
+    <summary type="html"><![CDATA[ <p>After trying quite a few Raspberry Pi operating systems and configurations, the new <a title="Official site for the operating system" href="http://www.rasplex.com/" target="_blank" rel="nofollow">RasPlex</a> is my choice for my home media centre. RasPlex was the best system which supports out of the box: WiFi, Bluetooth, hdmi monitor with analog speakers, and more. The best thing is the entire process took only 15 minutes! ]]></summary>
+    <category term="plex" /><category term="video streaming" /><category term="Raspberri Pi" />
+    <category term="tutorial" />
+  </entry>
+  
+  <entry>
+    <title>Removing cData from YQL queries</title>
+    <link href="https://www.jenntesolin.com/blog/2014/03/29/removing-cdata-from-yql-queries/"/>
+    <id>https://www.jenntesolin.com/blog/2014/03/29/removing-cdata-from-yql-queries/</id>
+    <updated>2014-03-29T00:00:00Z</updated>
+    <published>2014-03-29T00:00:00Z</published>
+    <summary type="html"><![CDATA[ <p>When pulling data from xml items using YQL and getJSON, your application will unfortunately not parse tags that have cdata. This post describe show to use the <a href="http://www.yqlblog.net/blog/category/tutorial/" target="_blank" rel="nofollow">feed normalizer table</a> to call all elements including those with cdata.</p>
+<p> ]]></summary>
+    <category term="yql" />
+    <category term="tutorial" />
+  </entry>
+  
+  <entry>
+    <title>Creating the Sticky footer with fixed navbar example with Bootstrap 3 using Emmet.IO</title>
+    <link href="https://www.jenntesolin.com/blog/2014/03/28/sticky-footer-with-fixed-navbar-example-with-bootstrap-3-and-emmet/"/>
+    <id>https://www.jenntesolin.com/blog/2014/03/28/sticky-footer-with-fixed-navbar-example-with-bootstrap-3-and-emmet/</id>
+    <updated>2014-03-28T00:00:00Z</updated>
+    <published>2014-03-28T00:00:00Z</published>
+    <summary type="html"><![CDATA[ <p>This post described how to use <a href="http://emmet.io/" target="_blank" rel="nofollow">Emmet</a> short codes to quickly create the bootstrap example: <a href="http://getbootstrap.com/examples/sticky-footer-navbar/" target="_blank" rel="nofollow">Sticky footer with fixed navbar</a> using Bootstrap 3.  Feel free to read and implement suggestions.<br />
+ ]]></summary>
+    <category term="Bootstrap" /><category term="emmet" />
+    <category term="tutorial" />
+  </entry>
+  
+  <entry>
+    <title>Moving from an iOS Device to Android (iCloud)</title>
+    <link href="https://www.jenntesolin.com/blog/2014/03/18/moving-from-an-ios-device-to-android-icloud/"/>
+    <id>https://www.jenntesolin.com/blog/2014/03/18/moving-from-an-ios-device-to-android-icloud/</id>
+    <updated>2014-03-18T00:00:00Z</updated>
+    <published>2014-03-18T00:00:00Z</published>
+    <summary type="html"><![CDATA[ <p>Admittedly moving from an iOS device to an android device can seem a bit daunting, especially if you use iCloud for all your syncing. Thankfully there are a few apps on the Google play store that help connect your droid to icloud! ]]></summary>
+    <category term="android" /><category term="iCloud" /><category term="iOS" />
+    <category term="tutorial" />
+  </entry>
+  
+</feed>

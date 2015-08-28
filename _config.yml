@@ -16,9 +16,16 @@ permalink: /blog/:year/:month/:day/:title/
 paginate: 10
 paginate_path: "blog/page:num"
 
+name: Jennifer Tesolin Website
+feed:
+  path: atom.xml
+
 author :
   name : Jennifer Tesolin
   email : jtesolin@gmail.com
   location : Toronto (Canada)
   github : jennifert
   twitter : jenntes
+
+gems:
+  - jekyll-feed

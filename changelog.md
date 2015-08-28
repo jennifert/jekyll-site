@@ -3,6 +3,10 @@ Changelog
 
 ##phase 2 Updates:
 
+August 19, 2015
+- Added atom feed
+- added demo page to server and linked to post.
+
 August 18, 2015
 - Fixed Google map links.
 

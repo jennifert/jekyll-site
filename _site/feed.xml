@@ -5,9 +5,34 @@
     <description>This is Jennifer Tesolin&#39;s personal web site. Located on this site are tutorials and tips for web developers.</description>
     <link>https://www.jenntesolin.com/</link>
     <atom:link href="https://www.jenntesolin.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 27 Aug 2015 20:24:14 -0400</pubDate>
-    <lastBuildDate>Thu, 27 Aug 2015 20:24:14 -0400</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <pubDate>Wed, 28 Oct 2015 19:02:38 -0400</pubDate>
+    <lastBuildDate>Wed, 28 Oct 2015 19:02:38 -0400</lastBuildDate>
+    <generator>Jekyll v3.0.0</generator>
+    
+      <item>
+        <title>Fix pagination after upgrading from Jekyll 2 to Jekyll 3</title>
+        <description>&lt;p&gt;In Jekyll 3, pagination is deprecated. This post describes how to resolve the error: “&lt;strong&gt;Deprecation: You appear to have pagination turned on, but you haven’t included the &lt;code&gt;jekyll-paginate&lt;/code&gt; gem. Ensure you have &lt;code&gt;gems: [jekyll-paginate]&lt;/code&gt; in your configuration file&lt;/strong&gt;.” &lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;First, make sure you have the gem installed by typing in your terminal:
+&lt;code&gt;gem install jekyll-paginate&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Next, open &lt;code&gt;_config.yml&lt;/code&gt;, add add the following line:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;gems :&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;- jekyll-paginate&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, when you run &lt;code&gt;jekyll serve&lt;/code&gt; or &lt;code&gt;jekyll build&lt;/code&gt; the should no longer be there.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 28 Oct 2015 02:58:21 -0400</pubDate>
+        <link>https://www.jenntesolin.com/blog/2015/10/28/fix-jekyll-pagination-upgrade-to-3/</link>
+        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2015/10/28/fix-jekyll-pagination-upgrade-to-3/</guid>
+        
+        <category>Jekyll</category>
+        
+        
+        <category>Tutorial</category>
+        
+      </item>
     
       <item>
         <title>Jekyll: The configuration file</title>
@@ -67,7 +92,7 @@
         <category>YAML</category>
         
         
-        <category>tutorial</category>
+        <category>Tutorial</category>
         
       </item>
     
@@ -128,8 +153,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Fri, 22 May 2015 17:34:21 -0400</pubDate>
-        <link>https://www.jenntesolin.com/blog/2015/05/22/Jekyll-Custom-Easy-Search-jquery/</link>
-        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2015/05/22/Jekyll-Custom-Easy-Search-jquery/</guid>
+        <link>https://www.jenntesolin.com/blog/2015/05/22/jekyll-custom-easy-search-jquery/</link>
+        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2015/05/22/jekyll-custom-easy-search-jquery/</guid>
         
         <category>Jekyll</category>
         
@@ -138,7 +163,7 @@
         <category>jQuery</category>
         
         
-        <category>tutorial</category>
+        <category>Tutorial</category>
         
       </item>
     
@@ -255,15 +280,15 @@ jekyll serve&lt;/code&gt;&lt;/p&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 17 Mar 2015 15:34:21 -0400</pubDate>
-        <link>https://www.jenntesolin.com/blog/2015/03/17/Jekyll-Set-Up-Publish/</link>
-        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2015/03/17/Jekyll-Set-Up-Publish/</guid>
+        <link>https://www.jenntesolin.com/blog/2015/03/17/jekyll-set-up-publish/</link>
+        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2015/03/17/jekyll-set-up-publish/</guid>
         
         <category>Jekyll</category>
         
         <category>WordPress</category>
         
         
-        <category>tutorial</category>
+        <category>Tutorial</category>
         
       </item>
     
@@ -389,8 +414,8 @@ At the root: &lt;code&gt;http://localhost/wp-admin/install.php&lt;/code&gt;&lt;/
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 14 Mar 2015 08:34:21 -0400</pubDate>
-        <link>https://www.jenntesolin.com/blog/2015/03/14/IIS7-Development-Environment/</link>
-        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2015/03/14/IIS7-Development-Environment/</guid>
+        <link>https://www.jenntesolin.com/blog/2015/03/14/iis7-development-environment/</link>
+        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2015/03/14/iis7-development-environment/</guid>
         
         <category>IIS</category>
         
@@ -401,7 +426,7 @@ At the root: &lt;code&gt;http://localhost/wp-admin/install.php&lt;/code&gt;&lt;/
         <category>WordPress</category>
         
         
-        <category>tutorial</category>
+        <category>Tutorial</category>
         
       </item>
     
@@ -439,8 +464,8 @@ At the root: &lt;code&gt;http://localhost/wp-admin/install.php&lt;/code&gt;&lt;/
 &lt;p&gt;&lt;a href=&quot;/blog/2015/03/17/Jekyll-Set-Up-Publish/&quot;&gt;Jekyll: Setting up your development environment&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 24 Sep 2014 15:00:00 -0400</pubDate>
-        <link>https://www.jenntesolin.com/blog/2014/09/24/Moving-a-WordPress-Blog/</link>
-        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2014/09/24/Moving-a-WordPress-Blog/</guid>
+        <link>https://www.jenntesolin.com/blog/2014/09/24/moving-a-wordpress-blog/</link>
+        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2014/09/24/moving-a-wordpress-blog/</guid>
         
         <category>wordpress</category>
         
@@ -449,7 +474,7 @@ At the root: &lt;code&gt;http://localhost/wp-admin/install.php&lt;/code&gt;&lt;/
         <category>php</category>
         
         
-        <category>tutorial</category>
+        <category>Tutorial</category>
         
       </item>
     
@@ -517,15 +542,15 @@ At the root: &lt;code&gt;http://localhost/wp-admin/install.php&lt;/code&gt;&lt;/
 &lt;/ul&gt;
 </description>
         <pubDate>Wed, 16 Jul 2014 15:34:21 -0400</pubDate>
-        <link>https://www.jenntesolin.com/blog/2014/07/16/Using-DoubleTwist-iTunes-and-Android/</link>
-        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2014/07/16/Using-DoubleTwist-iTunes-and-Android/</guid>
+        <link>https://www.jenntesolin.com/blog/2014/07/16/using-doubletwist-itunes-and-android/</link>
+        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2014/07/16/using-doubletwist-itunes-and-android/</guid>
         
         <category>android</category>
         
         <category>iTunes</category>
         
         
-        <category>tutorial</category>
+        <category>Tutorial</category>
         
       </item>
     
@@ -562,7 +587,7 @@ At the root: &lt;code&gt;http://localhost/wp-admin/install.php&lt;/code&gt;&lt;/
         <category>Raspberri Pi</category>
         
         
-        <category>tutorial</category>
+        <category>Tutorial</category>
         
       </item>
     
@@ -633,7 +658,7 @@ $.getJSON(blogLink, function(data){&lt;br /&gt;
         <category>yql</category>
         
         
-        <category>tutorial</category>
+        <category>Tutorial</category>
         
       </item>
     
@@ -684,58 +709,7 @@ $.getJSON(blogLink, function(data){&lt;br /&gt;
         <category>emmet</category>
         
         
-        <category>tutorial</category>
-        
-      </item>
-    
-      <item>
-        <title>Moving from an iOS Device to Android (iCloud)</title>
-        <description>&lt;p&gt;Admittedly moving from an iOS device to an android device can seem a bit daunting, especially if you use iCloud for all your syncing. Thankfully there are a few apps on the Google play store that help connect your droid to icloud!&lt;!--more--&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Note: Please be sure to read reviews before download the apps from the store. These have been found while doing research for a new smart phone purchase. I do not have a droid to test on currently.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;SmoothSync for Cloud Calendar&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Syncs: calendars and reminders&lt;br /&gt;
-Store Link: &lt;a href=&quot;https://play.google.com/store/apps/details?id=org.dmfs.caldav.icloud&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://play.google.com/store/apps/details?id=org.dmfs.caldav.icloud&lt;/a&gt;&lt;br /&gt;
-Description from Store: SmoothSync for Cloud Calendar syncs your iCloud calendars and reminders. Due to its implementation as sync adapter it integrates seamlessly with the native calendar app and widgets and operates invisible in the background.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Reminder For iCloud/iOS/iPhone&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Syncs: Reminders&lt;br /&gt;
-Store Link: &lt;a href=&quot;https://play.google.com/store/apps/details?id=us.doplus.reminder&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://play.google.com/store/apps/details?id=us.doplus.reminder&lt;/a&gt;&lt;br /&gt;
-Description from Store: This is a sole Android to-do reminder app that sync with Reminders of iCloud (iOS/Mac). All you have to do is creating a reminder on your phone and it will reminder you at the right time so that you won&#39;t miss any important task. It is designed to sync with the Reminder of iCloud. So, an iCloud account is needed before using this application.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;iNotes - Sync Note with iOS&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Syncs: notes&lt;br /&gt;
-Store Link: &lt;a href=&quot;https://play.google.com/store/apps/details?id=org.dayup.inotes&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://play.google.com/store/apps/details?id=org.dayup.inotes&lt;/a&gt;&lt;br /&gt;
-Description from Store: iNotes is an easy notes app for synchronizing your notes of Android to Notes app on Mac/iOS(iphone, ipad) . It is currently applicable to iCloud, Gmail,Yahoo, Aol, 163 only.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;SmoothSync for Cloud Contacts&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Syncs: Contacts&lt;br /&gt;
-Store Link: &lt;a href=&quot;https://play.google.com/store/apps/details?id=org.dmfs.carddav.icloud&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://play.google.com/store/apps/details?id=org.dmfs.carddav.icloud&lt;/a&gt;&lt;br /&gt;
-Description from Store: SmoothSync for Cloud Contacts syncs your iCloud contacts. Due to its implementation as sync adapter it integrates seamlessly with the native contacts app and operates invisible in the background.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;iCloud Mail Sync&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;App: Blue Mail - Email &amp; Mailboxes&lt;br /&gt;
-Store Link: &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.trtf.blue&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://play.google.com/store/apps/details?id=com.trtf.blue&lt;/a&gt;&lt;br /&gt;
-Description from Store: Blue Mail is a free and universal email client allowing you to use and manage as many email accounts as you desire at the same time to create a powerful Unified Inbox experience with an extraordinary and modern design. Blue Mail supports Gmail, Yahoo, Office 365, AOL, Google Apps, Hotmail, Outlook, iCloud, Mail.ru, Zoho, GMX and any other IMAP mailbox!&lt;/p&gt;
-&lt;p&gt;Alternative Option - Imap settings for icloud: &lt;a href=&quot;https://discussions.apple.com/thread/3636567?start=15&amp;tstart=0&quot; title=&quot;Setting up e-mail for Android?&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://discussions.apple.com/thread/3636567?start=15&amp;tstart=0&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;iCloud HD&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Syncs: seems to be a portal for icloud site (on tablets only)&lt;br /&gt;
-Store Link: &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.datheuma.icloud&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://play.google.com/store/apps/details?id=com.datheuma.icloud&lt;/a&gt;&lt;br /&gt;
-Description from Store: We present to you iCloud on Android. Access the iCloud control panel from the comfort of your Android tablet. Use your iCloud login and password to log in and you are ready to go.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Bonus: Airplay Apps for Android&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The following site has reviews on various airplay apps: &lt;a href=&quot;http://www.knowyourmobile.com/android-apps/18049/best-airplay-apps-android-gettin-dream-stream&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://www.knowyourmobile.com/android-apps/18049/best-airplay-apps-android-gettin-dream-stream&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Bonus: iCloud Bookmarks (iOS, PC and Mac Only)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Syncs: bookmarks (note untested on mobile android)&lt;br /&gt;
-Store Link: &lt;a href=&quot;https://chrome.google.com/webstore/detail/icloud-bookmarks/fkepacicchenbjecpbpbclokcabebhah?hl=en&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://chrome.google.com/webstore/detail/icloud-bookmarks/fkepacicchenbjecpbpbclokcabebhah?hl=en&lt;/a&gt;&lt;br /&gt;
-Description from Store: iCloud stores your website bookmarks, so they are everywhere you go — on your iPhone, iPad, iPod touch, Mac, and PC. So when it comes to your devices, you can switch things up without mixing things up.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 18 Mar 2014 00:00:00 -0400</pubDate>
-        <link>https://www.jenntesolin.com/blog/2014/03/18/moving-from-an-ios-device-to-android-icloud/</link>
-        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2014/03/18/moving-from-an-ios-device-to-android-icloud/</guid>
-        
-        <category>android</category>
-        
-        <category>iCloud</category>
-        
-        <category>iOS</category>
-        
-        
-        <category>tutorial</category>
+        <category>Tutorial</category>
         
       </item>
     

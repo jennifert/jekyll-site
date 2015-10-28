@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-<generator uri="http://jekyllrb.com" version="2.5.3">Jekyll</generator>
+<generator uri="http://jekyllrb.com" version="3.0.0">Jekyll</generator>
 <link href="https://www.jenntesolin.com/atom.xml" rel="self" type="application/atom+xml" />
 <link href="https://www.jenntesolin.com/" rel="alternate" type="text/html" />
-<updated>2015-08-27T20:24:14-04:00</updated>
+<updated>2015-10-28T19:02:38-04:00</updated>
 <id>https://www.jenntesolin.com/</id>
 <title>Jennifer Tesolin Website</title>
 <subtitle>This is Jennifer Tesolin&#39;s personal web site. Located on this site are tutorials and tips for web developers.</subtitle>
@@ -11,6 +11,30 @@
 <name>Jennifer Tesolin</name>
 <email>jtesolin@gmail.com</email>
 </author>
+<entry>
+<title>Fix pagination after upgrading from Jekyll 2 to Jekyll 3</title>
+<link href="https://www.jenntesolin.com/blog/2015/10/28/fix-jekyll-pagination-upgrade-to-3/" rel="alternate" type="text/html" title="Fix pagination after upgrading from Jekyll 2 to Jekyll 3" />
+<published>2015-10-28T02:58:21-04:00</published>
+<updated>2015-10-28T02:58:21-04:00</updated>
+<id>https://www.jenntesolin.com/blog/2015/10/28/fix-jekyll-pagination-upgrade-to-3</id>
+<content type="html" xml:base="https://www.jenntesolin.com/blog/2015/10/28/fix-jekyll-pagination-upgrade-to-3/">&lt;p&gt;In Jekyll 3, pagination is deprecated. This post describes how to resolve the error: “&lt;strong&gt;Deprecation: You appear to have pagination turned on, but you haven’t included the &lt;code&gt;jekyll-paginate&lt;/code&gt; gem. Ensure you have &lt;code&gt;gems: [jekyll-paginate]&lt;/code&gt; in your configuration file&lt;/strong&gt;.” &lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;First, make sure you have the gem installed by typing in your terminal:
+&lt;code&gt;gem install jekyll-paginate&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Next, open &lt;code&gt;_config.yml&lt;/code&gt;, add add the following line:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;gems :&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;- jekyll-paginate&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, when you run &lt;code&gt;jekyll serve&lt;/code&gt; or &lt;code&gt;jekyll build&lt;/code&gt; the should no longer be there.&lt;/p&gt;
+</content>
+<author>
+<name>Jennifer Tesolin</name>
+</author>
+<category term="Jekyll" />
+<summary>In Jekyll 3, pagination is deprecated. This post describes how to resolve the error: “Deprecation: You appear to have pagination turned on, but you haven’t included the jekyll-paginate gem. Ensure you have gems: [jekyll-paginate] in your configuration file.” </summary>
+</entry>
 <entry>
 <title>Jekyll: The configuration file</title>
 <link href="https://www.jenntesolin.com/blog/2015/08/08/jekyll-config-file/" rel="alternate" type="text/html" title="Jekyll: The configuration file" />
@@ -73,11 +97,11 @@
 </entry>
 <entry>
 <title>Jekyll: Easy searching with JSON and jQuery</title>
-<link href="https://www.jenntesolin.com/blog/2015/05/22/Jekyll-Custom-Easy-Search-jquery/" rel="alternate" type="text/html" title="Jekyll: Easy searching with JSON and jQuery" />
+<link href="https://www.jenntesolin.com/blog/2015/05/22/jekyll-custom-easy-search-jquery/" rel="alternate" type="text/html" title="Jekyll: Easy searching with JSON and jQuery" />
 <published>2015-05-22T17:34:21-04:00</published>
 <updated>2015-05-22T17:34:21-04:00</updated>
 <id>https://www.jenntesolin.com/blog/2015/05/22/Jekyll-Custom-Easy-Search-jquery</id>
-<content type="html" xml:base="https://www.jenntesolin.com/blog/2015/05/22/Jekyll-Custom-Easy-Search-jquery/">&lt;p&gt;Jekyll is a great tool to build web sites, unfortunately there is no built in search. This post will describe how to create one a basic search using JSON and jQuery.&lt;!--more--&gt;&lt;/p&gt;
+<content type="html" xml:base="https://www.jenntesolin.com/blog/2015/05/22/jekyll-custom-easy-search-jquery/">&lt;p&gt;Jekyll is a great tool to build web sites, unfortunately there is no built in search. This post will describe how to create one a basic search using JSON and jQuery.&lt;!--more--&gt;&lt;/p&gt;
 
 &lt;p&gt;This search works great for users using your site to search (like the one above this post). Unfortunately, with this method, Google does not understand that this is a site search. If having your search show up in Google results, this may not be for you.&lt;/p&gt;
 
@@ -141,11 +165,11 @@
 </entry>
 <entry>
 <title>Jekyll: Setting up your development environment</title>
-<link href="https://www.jenntesolin.com/blog/2015/03/17/Jekyll-Set-Up-Publish/" rel="alternate" type="text/html" title="Jekyll: Setting up your development environment" />
+<link href="https://www.jenntesolin.com/blog/2015/03/17/jekyll-set-up-publish/" rel="alternate" type="text/html" title="Jekyll: Setting up your development environment" />
 <published>2015-03-17T15:34:21-04:00</published>
 <updated>2015-03-17T15:34:21-04:00</updated>
 <id>https://www.jenntesolin.com/blog/2015/03/17/Jekyll-Set-Up-Publish</id>
-<content type="html" xml:base="https://www.jenntesolin.com/blog/2015/03/17/Jekyll-Set-Up-Publish/">&lt;p&gt;Jekyll is a static site generator that runs on NodeJS. Its a great alternative to WordPress that eliminates the need for databases.&lt;!--more--&gt;&lt;/p&gt;
+<content type="html" xml:base="https://www.jenntesolin.com/blog/2015/03/17/jekyll-set-up-publish/">&lt;p&gt;Jekyll is a static site generator that runs on NodeJS. Its a great alternative to WordPress that eliminates the need for databases.&lt;!--more--&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;requirements&quot;&gt;Requirements&lt;/h3&gt;
 
@@ -264,11 +288,11 @@ jekyll serve&lt;/code&gt;&lt;/p&gt;
 </entry>
 <entry>
 <title>Creating a development environment for IIS 7+</title>
-<link href="https://www.jenntesolin.com/blog/2015/03/14/IIS7-Development-Environment/" rel="alternate" type="text/html" title="Creating a development environment for IIS 7+" />
+<link href="https://www.jenntesolin.com/blog/2015/03/14/iis7-development-environment/" rel="alternate" type="text/html" title="Creating a development environment for IIS 7+" />
 <published>2015-03-14T08:34:21-04:00</published>
 <updated>2015-03-14T08:34:21-04:00</updated>
 <id>https://www.jenntesolin.com/blog/2015/03/14/IIS7-Development-Environment</id>
-<content type="html" xml:base="https://www.jenntesolin.com/blog/2015/03/14/IIS7-Development-Environment/">&lt;p&gt;This post describes how to enable IIS on Windows 7, along with enabling MySql and Php.&lt;!--more--&gt;&lt;/p&gt;
+<content type="html" xml:base="https://www.jenntesolin.com/blog/2015/03/14/iis7-development-environment/">&lt;p&gt;This post describes how to enable IIS on Windows 7, along with enabling MySql and Php.&lt;!--more--&gt;&lt;/p&gt;
 
 &lt;p&gt;Note: You will need Administrator Access.&lt;/p&gt;
 
@@ -398,11 +422,11 @@ At the root: &lt;code&gt;http://localhost/wp-admin/install.php&lt;/code&gt;&lt;/
 </entry>
 <entry>
 <title>Moving a Wordpress blog</title>
-<link href="https://www.jenntesolin.com/blog/2014/09/24/Moving-a-WordPress-Blog/" rel="alternate" type="text/html" title="Moving a Wordpress blog" />
+<link href="https://www.jenntesolin.com/blog/2014/09/24/moving-a-wordpress-blog/" rel="alternate" type="text/html" title="Moving a Wordpress blog" />
 <published>2014-09-24T15:00:00-04:00</published>
 <updated>2014-09-24T15:00:00-04:00</updated>
 <id>https://www.jenntesolin.com/blog/2014/09/24/Moving-a-WordPress-Blog</id>
-<content type="html" xml:base="https://www.jenntesolin.com/blog/2014/09/24/Moving-a-WordPress-Blog/">&lt;p&gt;This post will describe various ways to move WordPress, either to a different server or to Jekyll. &lt;!--more--&gt;&lt;/p&gt;
+<content type="html" xml:base="https://www.jenntesolin.com/blog/2014/09/24/moving-a-wordpress-blog/">&lt;p&gt;This post will describe various ways to move WordPress, either to a different server or to Jekyll. &lt;!--more--&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;steps-to-make-an-exact-copy&quot;&gt;Steps to make an exact copy&lt;/h2&gt;
 
@@ -440,11 +464,11 @@ At the root: &lt;code&gt;http://localhost/wp-admin/install.php&lt;/code&gt;&lt;/
 </entry>
 <entry>
 <title>How to use Double Twist to sync your iTunes library to a droid</title>
-<link href="https://www.jenntesolin.com/blog/2014/07/16/Using-DoubleTwist-iTunes-and-Android/" rel="alternate" type="text/html" title="How to use Double Twist to sync your iTunes library to a droid" />
+<link href="https://www.jenntesolin.com/blog/2014/07/16/using-doubletwist-itunes-and-android/" rel="alternate" type="text/html" title="How to use Double Twist to sync your iTunes library to a droid" />
 <published>2014-07-16T15:34:21-04:00</published>
 <updated>2014-07-16T15:34:21-04:00</updated>
 <id>https://www.jenntesolin.com/blog/2014/07/16/Using-DoubleTwist-iTunes-and-Android</id>
-<content type="html" xml:base="https://www.jenntesolin.com/blog/2014/07/16/Using-DoubleTwist-iTunes-and-Android/">&lt;p&gt;This post describes how you can sync your current iTunes media files to your android device. This tutorial was written and tested on Mac os X mavericks and a Nexus 5.&lt;!--more--&gt;&lt;/p&gt;
+<content type="html" xml:base="https://www.jenntesolin.com/blog/2014/07/16/using-doubletwist-itunes-and-android/">&lt;p&gt;This post describes how you can sync your current iTunes media files to your android device. This tutorial was written and tested on Mac os X mavericks and a Nexus 5.&lt;!--more--&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;clean-up-your-current-itunes-library&quot;&gt;Clean up your current iTunes library.&lt;/h2&gt;
 
@@ -655,50 +679,5 @@ $.getJSON(blogLink, function(data){&lt;br /&gt;
 <category term="Bootstrap" />
 <category term="emmet" />
 <summary>This post described how to use Emmet short codes to quickly create the bootstrap example: Sticky footer with fixed navbar using Bootstrap 3.  Feel free to read and implement suggestions.In Sublime, select the Emmet code and press control + E (both Mac and PC)Step 1: Set up: Set up html, and body content, jsA) Emmet Codehtml:5&amp;gt;(div.navbar.navbar-default.navbar-fixed-top&amp;gt;div.container&amp;gt;div.navbar-header&amp;gt;btn:r.navbar-toggle&amp;gt;span.sr-only{Toggle navigation}+span.icon-bar+span.icon+span.icon^a.navbar-brand{Welcome!}^div.collapse.navbar-collapse&amp;gt;ul.nav.navbar-nav&amp;gt;li*3&amp;gt;a^li.dropdown&amp;gt;a.dropdown-toggle{Dropdown }&amp;gt;b.caret^ul.dropdown-menu&amp;gt;li*3&amp;gt;a^li.divider+li.dropdown-header{Nav Header}+li*3&amp;gt;a^^^^^^^div.container&amp;gt;div.page-header&amp;gt;h1{Page Header Heer}^p.lead&amp;gt;lorem^^div#footer&amp;gt;div.container&amp;gt;p.text-muted{Copy Right Info}^^script:src{js/jquery-1.11.0.min.js}+script:src{js/bootstrap.min.js})Gist Location: https://gist.github.com/jennifert/9846832Note: Could not find Emmet tag to define JavaScript source location, so just moved it between script tags. Please see step 8 at 1B below.B) Fill in the missing items/editing places:1) Add role=navigation to : navbar.navbar-default.navbar-fixed-top  2) At the toggle navigation &amp;lt;button&amp;gt; add: data-toggle=&amp;quot;collapse&amp;quot; data-target=&amp;quot;.navbar-collapse&amp;quot;  3) Add link # or otherwise at: navbar-brand  4) Add link, text and active item to: nav.navbar-nav remove  5) In same class as above but in dropdown dropdown-toggle, add data-toggle=&amp;quot;dropdown&amp;quot;  6) Edit h1 tag in: page-header class div  7) Update Copy right Info  8) Move js path that&#39;s between script tags to src=&amp;quot;&amp;quot;Step 2: Insert the rest of the header informationA) Emmet Code: Place course on line under &amp;lt;title&amp;gt;...&amp;lt;/title&amp;gt;meta:vp+link:favicon+meta:compat+link:css{css/bootstrap.min.css}+link:cssGist Location: https://gist.github.com/jennifert/9846855B) Edit the following items:  1) Favicon.ico if needed  2) Change ie=7 to ie=edge in meta tag.  3) In the style.css where you bootstrap is nested in, cut and paste the bootstrap style sheet in place of styles.css.  4) In between the updated bootstrap css and styles.css, paste your conditional comments.&amp;lt;!--[if lt IE 9]&amp;gt;  &amp;lt;script src=&amp;quot;https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;  &amp;lt;script src=&amp;quot;https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;  &amp;lt;![endif]--&amp;gt;5) In the file styles.css paste the bootstrap example styles from: http://getbootstrap.com/examples/sticky-footer-navbar/sticky-footer-navbar.css</summary>
-</entry>
-<entry>
-<title>Moving from an iOS Device to Android (iCloud)</title>
-<link href="https://www.jenntesolin.com/blog/2014/03/18/moving-from-an-ios-device-to-android-icloud/" rel="alternate" type="text/html" title="Moving from an iOS Device to Android (iCloud)" />
-<published>2014-03-18T00:00:00-04:00</published>
-<updated>2014-03-18T00:00:00-04:00</updated>
-<id>https://www.jenntesolin.com/blog/2014/03/18/moving-from-an-ios-device-to-android-icloud</id>
-<content type="html" xml:base="https://www.jenntesolin.com/blog/2014/03/18/moving-from-an-ios-device-to-android-icloud/">&lt;p&gt;Admittedly moving from an iOS device to an android device can seem a bit daunting, especially if you use iCloud for all your syncing. Thankfully there are a few apps on the Google play store that help connect your droid to icloud!&lt;!--more--&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Note: Please be sure to read reviews before download the apps from the store. These have been found while doing research for a new smart phone purchase. I do not have a droid to test on currently.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;SmoothSync for Cloud Calendar&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Syncs: calendars and reminders&lt;br /&gt;
-Store Link: &lt;a href=&quot;https://play.google.com/store/apps/details?id=org.dmfs.caldav.icloud&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://play.google.com/store/apps/details?id=org.dmfs.caldav.icloud&lt;/a&gt;&lt;br /&gt;
-Description from Store: SmoothSync for Cloud Calendar syncs your iCloud calendars and reminders. Due to its implementation as sync adapter it integrates seamlessly with the native calendar app and widgets and operates invisible in the background.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Reminder For iCloud/iOS/iPhone&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Syncs: Reminders&lt;br /&gt;
-Store Link: &lt;a href=&quot;https://play.google.com/store/apps/details?id=us.doplus.reminder&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://play.google.com/store/apps/details?id=us.doplus.reminder&lt;/a&gt;&lt;br /&gt;
-Description from Store: This is a sole Android to-do reminder app that sync with Reminders of iCloud (iOS/Mac). All you have to do is creating a reminder on your phone and it will reminder you at the right time so that you won&#39;t miss any important task. It is designed to sync with the Reminder of iCloud. So, an iCloud account is needed before using this application.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;iNotes - Sync Note with iOS&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Syncs: notes&lt;br /&gt;
-Store Link: &lt;a href=&quot;https://play.google.com/store/apps/details?id=org.dayup.inotes&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://play.google.com/store/apps/details?id=org.dayup.inotes&lt;/a&gt;&lt;br /&gt;
-Description from Store: iNotes is an easy notes app for synchronizing your notes of Android to Notes app on Mac/iOS(iphone, ipad) . It is currently applicable to iCloud, Gmail,Yahoo, Aol, 163 only.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;SmoothSync for Cloud Contacts&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Syncs: Contacts&lt;br /&gt;
-Store Link: &lt;a href=&quot;https://play.google.com/store/apps/details?id=org.dmfs.carddav.icloud&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://play.google.com/store/apps/details?id=org.dmfs.carddav.icloud&lt;/a&gt;&lt;br /&gt;
-Description from Store: SmoothSync for Cloud Contacts syncs your iCloud contacts. Due to its implementation as sync adapter it integrates seamlessly with the native contacts app and operates invisible in the background.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;iCloud Mail Sync&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;App: Blue Mail - Email &amp;amp; Mailboxes&lt;br /&gt;
-Store Link: &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.trtf.blue&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://play.google.com/store/apps/details?id=com.trtf.blue&lt;/a&gt;&lt;br /&gt;
-Description from Store: Blue Mail is a free and universal email client allowing you to use and manage as many email accounts as you desire at the same time to create a powerful Unified Inbox experience with an extraordinary and modern design. Blue Mail supports Gmail, Yahoo, Office 365, AOL, Google Apps, Hotmail, Outlook, iCloud, Mail.ru, Zoho, GMX and any other IMAP mailbox!&lt;/p&gt;
-&lt;p&gt;Alternative Option - Imap settings for icloud: &lt;a href=&quot;https://discussions.apple.com/thread/3636567?start=15&amp;amp;tstart=0&quot; title=&quot;Setting up e-mail for Android?&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://discussions.apple.com/thread/3636567?start=15&amp;amp;tstart=0&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;iCloud HD&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Syncs: seems to be a portal for icloud site (on tablets only)&lt;br /&gt;
-Store Link: &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.datheuma.icloud&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://play.google.com/store/apps/details?id=com.datheuma.icloud&lt;/a&gt;&lt;br /&gt;
-Description from Store: We present to you iCloud on Android. Access the iCloud control panel from the comfort of your Android tablet. Use your iCloud login and password to log in and you are ready to go.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Bonus: Airplay Apps for Android&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The following site has reviews on various airplay apps: &lt;a href=&quot;http://www.knowyourmobile.com/android-apps/18049/best-airplay-apps-android-gettin-dream-stream&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://www.knowyourmobile.com/android-apps/18049/best-airplay-apps-android-gettin-dream-stream&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Bonus: iCloud Bookmarks (iOS, PC and Mac Only)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Syncs: bookmarks (note untested on mobile android)&lt;br /&gt;
-Store Link: &lt;a href=&quot;https://chrome.google.com/webstore/detail/icloud-bookmarks/fkepacicchenbjecpbpbclokcabebhah?hl=en&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://chrome.google.com/webstore/detail/icloud-bookmarks/fkepacicchenbjecpbpbclokcabebhah?hl=en&lt;/a&gt;&lt;br /&gt;
-Description from Store: iCloud stores your website bookmarks, so they are everywhere you go — on your iPhone, iPad, iPod touch, Mac, and PC. So when it comes to your devices, you can switch things up without mixing things up.&lt;/p&gt;
-</content>
-<category term="android" />
-<category term="iCloud" />
-<category term="iOS" />
-<summary>Admittedly moving from an iOS device to an android device can seem a bit daunting, especially if you use iCloud for all your syncing. Thankfully there are a few apps on the Google play store that help connect your droid to icloud!Note: Please be sure to read reviews before download the apps from the store. These have been found while doing research for a new smart phone purchase. I do not have a droid to test on currently.SmoothSync for Cloud CalendarSyncs: calendars and remindersStore Link: https://play.google.com/store/apps/details?id=org.dmfs.caldav.icloudDescription from Store: SmoothSync for Cloud Calendar syncs your iCloud calendars and reminders. Due to its implementation as sync adapter it integrates seamlessly with the native calendar app and widgets and operates invisible in the background.Reminder For iCloud/iOS/iPhoneSyncs: RemindersStore Link: https://play.google.com/store/apps/details?id=us.doplus.reminderDescription from Store: This is a sole Android to-do reminder app that sync with Reminders of iCloud (iOS/Mac). All you have to do is creating a reminder on your phone and it will reminder you at the right time so that you won&#39;t miss any important task. It is designed to sync with the Reminder of iCloud. So, an iCloud account is needed before using this application.iNotes - Sync Note with iOSSyncs: notesStore Link: https://play.google.com/store/apps/details?id=org.dayup.inotesDescription from Store: iNotes is an easy notes app for synchronizing your notes of Android to Notes app on Mac/iOS(iphone, ipad) . It is currently applicable to iCloud, Gmail,Yahoo, Aol, 163 only.SmoothSync for Cloud ContactsSyncs: ContactsStore Link: https://play.google.com/store/apps/details?id=org.dmfs.carddav.icloudDescription from Store: SmoothSync for Cloud Contacts syncs your iCloud contacts. Due to its implementation as sync adapter it integrates seamlessly with the native contacts app and operates invisible in the background.iCloud Mail SyncApp: Blue Mail - Email &amp;amp; MailboxesStore Link: https://play.google.com/store/apps/details?id=com.trtf.blueDescription from Store: Blue Mail is a free and universal email client allowing you to use and manage as many email accounts as you desire at the same time to create a powerful Unified Inbox experience with an extraordinary and modern design. Blue Mail supports Gmail, Yahoo, Office 365, AOL, Google Apps, Hotmail, Outlook, iCloud, Mail.ru, Zoho, GMX and any other IMAP mailbox!Alternative Option - Imap settings for icloud: https://discussions.apple.com/thread/3636567?start=15&amp;amp;tstart=0iCloud HDSyncs: seems to be a portal for icloud site (on tablets only)Store Link: https://play.google.com/store/apps/details?id=com.datheuma.icloudDescription from Store: We present to you iCloud on Android. Access the iCloud control panel from the comfort of your Android tablet. Use your iCloud login and password to log in and you are ready to go.Bonus: Airplay Apps for AndroidThe following site has reviews on various airplay apps: http://www.knowyourmobile.com/android-apps/18049/best-airplay-apps-android-gettin-dream-streamBonus: iCloud Bookmarks (iOS, PC and Mac Only)Syncs: bookmarks (note untested on mobile android)Store Link: https://chrome.google.com/webstore/detail/icloud-bookmarks/fkepacicchenbjecpbpbclokcabebhah?hl=enDescription from Store: iCloud stores your website bookmarks, so they are everywhere you go — on your iPhone, iPad, iPod touch, Mac, and PC. So when it comes to your devices, you can switch things up without mixing things up.</summary>
 </entry>
 </feed>

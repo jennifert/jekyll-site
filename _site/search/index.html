@@ -4,11 +4,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title> Moving a Wordpress blog - Jennifer Tesolin </title>
+    <title> Search Results - Jennifer Tesolin </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="Various ways to move wordpress - for example between hosts or to Jekyll.">
+    <meta name="description" content="This is Jennifer Tesolin's personal web site. Located on this site are tutorials and tips for web developers.">
     
-    <link rel="canonical" href="https://www.jenntesolin.com/blog/2014/09/24/moving-a-wordpress-blog/">
+    <link rel="canonical" href="https://www.jenntesolin.com/search/">
     <link type="text/plain" rel="author" href="https://www.jenntesolin.com/humans.txt" />
     <link rel="author" href="https://plus.google.com/109759985952910616281?rel=author" />
 
@@ -64,7 +64,7 @@
       
       <ul class="nav navbar-nav">
         <li ><a href="/about/">About</a></li>
-        <li class="active" ><a href="/blog/">Blog</a></li>
+        <li ><a href="/blog/">Blog</a></li>
         <li ><a href="/photos/">Photos</a></li>
       </ul>
 
@@ -80,52 +80,13 @@
     </div>
 
     <div class="container-fluid">
-      <div class="post">
+      <h1 id="searchHeader">Search results</h1>
 
-  <header class="post-header">
-    <h1>Moving a Wordpress blog</h1>
-    <p class="meta">Sep 24, 2014 <!--  • 
-  
-     
-      less than a minute
-     --></p>
-  </header>
+<noscript><p>Sorry, the current site search is form Javascript. Please try this link to search from Google.</p></noscript>
 
-  <article class="post-content">
-  <p>This post will describe various ways to move WordPress, either to a different server or to Jekyll. <!--more--></p>
 
-<h2 id="steps-to-make-an-exact-copy">Steps to make an exact copy</h2>
 
-<p>This includes all plugins, theses, posts, etc.</p>
-
-<ul>
-  <li>download a copy of the database and save somewhere. Make a copy as a backup.</li>
-  <li>do a search in the sql file for the current domain URL and replace with the new domain or ‘localhost’</li>
-  <li>update the site location in the wp-config file.</li>
-  <li>import the MySQL database and add the user at the new location.</li>
-  <li>upload your WordPress files and test.</li>
-</ul>
-
-<p>I have tried other various methods including web applications, but those have caused problems such as not completely disconnecting the databases. In one instance WordPress core upgrade to the copied version, had also upgraded the first one as well.</p>
-
-<h2 id="the-safest-way-to-move-but-not-exact">The safest way to move (but not exact)</h2>
-
-<ul>
-  <li>download a copy of your themes, and plugins</li>
-  <li>download an export of your post files. If your using a multi-site, you will need to do this for each blog.</li>
-  <li>download a fresh copy of WordPress, and set up your plug-ins and themes.</li>
-  <li>import posts, map users making sure to check the box to download linked media.</li>
-</ul>
-
-<h2 id="moving-to-jekyll">Moving to Jekyll</h2>
-
-<p>Check out my latest blog post for an in-depth look at moving to Jekyll.</p>
-
-<p><a href="/blog/2015/03/17/Jekyll-Set-Up-Publish/">Jekyll: Setting up your development environment</a></p>
-
-  </article>
-
-</div>
+<div id="buildResults"></div>
     </div>
 
           

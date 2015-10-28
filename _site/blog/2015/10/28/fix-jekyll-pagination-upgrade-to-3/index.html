@@ -4,11 +4,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title> Search Results - Jennifer Tesolin </title>
+    <title> Fix pagination after upgrading from Jekyll 2 to Jekyll 3 - Jennifer Tesolin </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="This is Jennifer Tesolin's personal web site. Located on this site are tutorials and tips for web developers.">
+    <meta name="description" content="In Jekyll 3, pagination is deprecated. This post describes how to resolve the error if you upgraded Jekyll from an older version.">
     
-    <link rel="canonical" href="https://www.jenntesolin.com/search.html">
+    <link rel="canonical" href="https://www.jenntesolin.com/blog/2015/10/28/fix-jekyll-pagination-upgrade-to-3/">
     <link type="text/plain" rel="author" href="https://www.jenntesolin.com/humans.txt" />
     <link rel="author" href="https://plus.google.com/109759985952910616281?rel=author" />
 
@@ -64,7 +64,7 @@
       
       <ul class="nav navbar-nav">
         <li ><a href="/about/">About</a></li>
-        <li ><a href="/blog/">Blog</a></li>
+        <li class="active" ><a href="/blog/">Blog</a></li>
         <li ><a href="/photos/">Photos</a></li>
       </ul>
 
@@ -80,13 +80,33 @@
     </div>
 
     <div class="container-fluid">
-      <h1 id="searchHeader">Search results</h1>
+      <div class="post">
 
-<noscript><p>Sorry, the current site search is form Javascript. Please try this link to search from Google.</p></noscript>
+  <header class="post-header">
+    <h1>Fix pagination after upgrading from Jekyll 2 to Jekyll 3</h1>
+    <p class="meta">Oct 28, 2015 <!--  • 
+   • Jennifer Tesolin
+     
+      less than a minute
+     --></p>
+  </header>
 
+  <article class="post-content">
+  <p>In Jekyll 3, pagination is deprecated. This post describes how to resolve the error: “<strong>Deprecation: You appear to have pagination turned on, but you haven’t included the <code>jekyll-paginate</code> gem. Ensure you have <code>gems: [jekyll-paginate]</code> in your configuration file</strong>.” <!--more--></p>
 
+<p>First, make sure you have the gem installed by typing in your terminal:
+<code>gem install jekyll-paginate</code></p>
 
-<div id="buildResults"></div>
+<p>Next, open <code>_config.yml</code>, add add the following line:</p>
+
+<p><code>gems :<br />
+&nbsp;&nbsp;- jekyll-paginate</code></p>
+
+<p>Now, when you run <code>jekyll serve</code> or <code>jekyll build</code> the should no longer be there.</p>
+
+  </article>
+
+</div>
     </div>
 
           

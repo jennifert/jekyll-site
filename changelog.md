@@ -3,6 +3,10 @@ Changelog
 
 ##phase 2 Updates:
 
+October 28, 2015
+- Fixed pagination within Jekyll
+- New post!
+
 August 19, 2015
 - Added atom feed
 - added demo page to server and linked to post.
@@ -13,7 +17,7 @@ August 18, 2015
 August 8, 2015
 - New post!
 - Added video demo to Jekyll post "setting up the environment"
-- Added Google+ metatag, link in footer with nofollow will not include in Gogle results. MOre social media tags to follow.
+- Added Google+ metatag, link in footer with nofollow will not include in Google results. MOre social media tags to follow.
 - Added metatag description for posts using same type of logic as title tags.
 
 May 22, 2015
@@ -88,7 +92,7 @@ June 20, 2014:
 - tweak if else statement for search engine.
 - made tags searchable from search page
 - made sure all items were commented correctly for open source code and found similar answers on stackoverflow.
-- work through google page speed and yslow updates (as much as github pages would allow).
+- work through Google page speed and yslow updates (as much as github pages would allow).
 
 June 19, 2014:
 - built custom search engine.

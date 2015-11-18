@@ -3,7 +3,7 @@
 <generator uri="http://jekyllrb.com" version="3.0.0">Jekyll</generator>
 <link href="https://www.jenntesolin.com/atom.xml" rel="self" type="application/atom+xml" />
 <link href="https://www.jenntesolin.com/" rel="alternate" type="text/html" />
-<updated>2015-11-17T21:45:39-05:00</updated>
+<updated>2015-11-17T22:21:29-05:00</updated>
 <id>https://www.jenntesolin.com/</id>
 <title>Jennifer Tesolin Website</title>
 <subtitle>This is Jennifer Tesolin&#39;s personal web site. Located on this site are tutorials and tips for web developers.</subtitle>
@@ -544,12 +544,12 @@ At the root: &lt;code&gt;http://localhost/wp-admin/install.php&lt;/code&gt;&lt;/
 &lt;p&gt;&lt;strong&gt;Set-up the SD card&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The first step is to &lt;a title=&quot;Rasplex installer downlaod page&quot; href=&quot;http://www.rasplex.com/get-started/rasplex-installers.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;download the installer&lt;/a&gt; for your Operating System onto your computer. They have installers available for Mac, Linux, and Windows, please be sure to read the notes on how to mount the installer.&lt;/p&gt;
 &lt;p&gt;Now, you select the version of RasPlex you want, and then select your SD card drive (check disk utility for the name if your not sure). Finally, press &quot;update links&quot;, and when that is down &quot;click download&quot;. It will ask you the location of the download, then when will display the download progress in the terminal. Once your all set-up, then press &quot;Write SD card&quot;.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://jenntesolin.com/wp-content/uploads/2014/04/Screen-Shot-2014-04-24-at-10.51.40-PM.png&quot;&gt; &lt;img class=&quot;alignnone size-medium wp-image-609&quot; src=&quot;http://jenntesolin.com/wp-content/uploads/2014/04/Screen-Shot-2014-04-24-at-10.51.40-PM-300x298.png&quot; alt=&quot;Screen Shot 2014-04-24 at 10.51.40 PM&quot; width=&quot;300&quot; height=&quot;298&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/wp-content/uploads/2014/04/Screen-Shot-2014-04-24-at-10.51.40-PM.png&quot;&gt; &lt;img class=&quot;alignnone size-medium wp-image-609&quot; src=&quot;/wp-content/uploads/2014/04/Screen-Shot-2014-04-24-at-10.51.40-PM-300x298.png&quot; alt=&quot;Screen Shot 2014-04-24 at 10.51.40 PM&quot; width=&quot;300&quot; height=&quot;298&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Set-Up your Raspberry Pi&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Make sure all your devises (even Bluetooth and Wi-Fi) are connected, then boot your machine. Let it run the initial set-up, and reboot itself.&lt;/p&gt;
 &lt;p&gt;Once it reboots, follow the on screen instructions for set-up (note that only your keyboard will work so far). Some of the set-up options include: Blue-tooth, WI-Fi, your Plex Media Server.&lt;/p&gt;
 &lt;p&gt;When you see the menu, press the left keyboard arrow to get to your settings, this is where you can set-up your audio settings, ssh access, and more. At set-up it will choose HDMI audio, just select analog to use stereo speakers.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://jenntesolin.com/wp-content/uploads/2014/04/IMG_1982.jpg&quot;&gt;&lt;img class=&quot;alignnone size-medium wp-image-608&quot; src=&quot;http://jenntesolin.com/wp-content/uploads/2014/04/IMG_1982-300x199.jpg&quot; alt=&quot;IMG_1982&quot; width=&quot;300&quot; height=&quot;199&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/wp-content/uploads/2014/04/IMG_1982.jpg&quot;&gt;&lt;img class=&quot;alignnone size-medium wp-image-608&quot; src=&quot;/wp-content/uploads/2014/04/IMG_1982-300x199.jpg&quot; alt=&quot;IMG_1982&quot; width=&quot;300&quot; height=&quot;199&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;That&#39;s it! This this helps other people as well.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;RasPlex Resources:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;

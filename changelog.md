@@ -3,8 +3,12 @@ Changelog
 
 ##phase 2 Updates:
 
+November 17, 2015
+- Fixed links in Jekyll blog posts.
+- Removed azure links.
+
 October 28, 2015
-- Fixed pagination within Jekyll
+- Fixed pagination within Jekyll (after upgrade to V3)
 - New post!
 
 August 19, 2015
@@ -37,7 +41,7 @@ March 18, 2015
 
 March 17, 2015
 - New blog post!
-- Updated feed.xml to be like the one jekyll creates when you first generate a site.
+- Updated feed.xml to be like the one Jekyll creates when you first generate a site.
 
 March 14, 2015
 - New blog post!
@@ -75,7 +79,7 @@ July 21, 2014:
 
 July 16, 2014:
 - made menu simpler for now
-- removed un-needed directories and fixed osme layout pages
+- removed un-needed directories and fixed some layout pages
 - updated css and js to be latest bootstrap 3.2.
 - made instructions clearer for install
 
@@ -132,7 +136,7 @@ May 21, 2014:
 
 May 15, 2014: 
 - Have sitemap generating based of rss feed template (how to generate items)
-- Have some of humnas.txt being pulled from config, unfortunately other items cannot be pulled in.
+- Have some of humans.txt being pulled from config, unfortunately other items cannot be pulled in.
 - copied by wp-contents file into folder.
 - updated gitignore to just be _sites/
 

@@ -5,7 +5,7 @@ Changelog
 
 November 17, 2015
 - Fixed links in Jekyll blog posts index pages.
-- fixed YQl demo, and re-added link to page
+- fixed YQL demos, and re-added links to pages
 - fixed images to be relative instead of absolute
 - Removed azure links for demos.
 

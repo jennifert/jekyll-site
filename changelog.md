@@ -4,8 +4,10 @@ Changelog
 ##phase 2 Updates:
 
 November 17, 2015
-- Fixed links in Jekyll blog posts.
-- Removed azure links.
+- Fixed links in Jekyll blog posts index pages.
+- fixed YQl demo, and re-added link to page
+- fixed images to be relative instead of absolute
+- Removed azure links for demos.
 
 October 28, 2015
 - Fixed pagination within Jekyll (after upgrade to V3)
@@ -84,7 +86,7 @@ July 16, 2014:
 - made instructions clearer for install
 
 July 15, 2014:
-- moved issues from read me to teh Github issues functionality.
+- moved issues from read me to the Github issues functionality.
 - Fixed some demo links
 - added plugins for youtube and flickr.
 

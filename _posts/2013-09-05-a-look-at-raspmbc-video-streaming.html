@@ -6,13 +6,13 @@ categories:
 tags:
 - raspmbc
 - video streaming
-- Raspberri Pi
-summary: An inital dive into streaming content on the Raspberry Pi device.
+- Raspberry Pi
+summary: An initial dive into streaming content on the Raspberry Pi device.
 status: publish
 type: post
 published: true
 ---
-<p>The <a href="http://www.raspberrypi.org/faqs" target="_blank" rel="nofollow">Raspberry Pi Foundation</a> described the pi as "The Raspberry Pi is a credit-card sized computer that plugs into your TV and a keyboard. It’s a capable little PC which can be used for many of the things that your desktop PC does, like spreadsheets, word-processing and games. It also plays high-definition video.". This post is to assist in setting up your Raspberri Pi With an XMBC build called Raspmbc.<!--more--></p>
+<p>The <a href="http://www.raspberrypi.org/faqs" target="_blank" rel="nofollow">Raspberry Pi Foundation</a> described the pi as "The Raspberry Pi is a credit-card sized computer that plugs into your TV and a keyboard. It’s a capable little PC which can be used for many of the things that your desktop PC does, like spreadsheets, word-processing and games. It also plays high-definition video.". This post is to assist in setting up your Raspberry Pi With an XMBC build called Raspmbc.<!--more--></p>
 <p><strong>Choosing the Modal</strong></p>
 <p>If you are going to be doing video streaming (especially over HDMI), it is recommended to buy the Version B. This is because. the modal has more memory than previous model, and has better video streaming. It can be purchased at any of the following sites:</p>
 <ul>
@@ -41,7 +41,7 @@ published: true
 <li>MicroUSB Cord</li>
 <li>Optional: Usb to wall outlet</li>
 </ul>
-<p><strong>First step install raspmbc on your card.</strong></p>
+<p><strong>First step install Raspmbc on your card.</strong></p>
 <p>Adding Raspmbc to your SD Card: <a href="http://www.raspbmc.com/wiki/user/windows-installation/" target="_blank" rel="nofollow">Windows</a> or <a href="http://www.raspbmc.com/wiki/user/os-x-linux-installation/" target="_blank" rel="nofollow">Os X/Linux</a>.</p>
 <p>Now, plug your ad card into the slot on your Pi, and let it run. For some reason it did no like the mouse, so I went through the install steps with just a keyboard - USB worked great after.</p>
 <p>Now, for initial set-up, its r<a href="http://www.raspbmc.com/wiki/user/using-ssh/" target="_blank" rel="nofollow">ecommended to use ssh</a> to make initial configurations.</p>
@@ -55,10 +55,9 @@ sudo apt-get install ffmpeg</p>
 <p>Video resolution: Settings &gt; System &gt; Video Output &gt; Resolution<br />
 Over clock: rograms &gt; Raspbmc Settings &gt; System Configuration &gt; System Performance Profile &gt; Fast<br />
 Enable airplay: System &gt; Network &gt; “Allow XBMC to receive <em>AirPlay</em> content<br />
-Turn of thumbnails: Settings &gt; Video &gt; File lists &gt; disable “Extract thumbnail and video information”</p>
-<p>Use eBook to explain how to connect Mac, Linux, Window's share.</p>
+Turn of thumbnails: Settings &gt; Video &gt; File lists &gt; disable “Extract thumbnail and video information</p>
 <p><strong>Set-up PlayOn</strong></p>
-<p>Unfortunately, <a href="http://forum.xbmc.org/showthread.php?pid=1375570" target="_blank" rel="nofollow">plex media centre</a> did not work with my set up, so for Netflix and other channels, I used playOn. It was around $50 (CAD) (about 30 US) and can works well in an xp virtual machine. I recommend testing only my media (free) before purchasing. The below is based on <a href="http://www.playon.tv/support/playon-for-mac" target="_blank" rel="nofollow">playOn's parallel's guide</a>.</p>
+<p>Unfortunately, <a href="http://forum.xbmc.org/showthread.php?pid=1375570" target="_blank" rel="nofollow">plex media centre</a> did not work with my set up, so for Netflix and other channels, I used playOn. It was around $50 (CAD) (about 30 US) and can work well on an XP virtual machine. I recommend testing only my media (free) before purchasing. The below is based on <a href="http://www.playon.tv/support/playon-for-mac" target="_blank" rel="nofollow">playOn's parallel's guide</a>.</p>
 <p>Need:</p>
 <p><a href="http://www.vmware.com/products/fusion/" target="_blank" rel="nofollow">VMware Fusion</a> (be sure to update software) Feel free to try <a href="https://www.virtualbox.org/" target="_blank" rel="nofollow">virtualbox</a>, which is free virtualization software.<br />
 <a href="http://www.hotspotshield.com/‎" target="_blank" rel="nofollow">Hotspot Shield</a> (for outside of US)</p>

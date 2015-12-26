@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
       <loc>https://www.jenntesolin.com</loc>
-      <lastmod>2015-11-19</lastmod>
+      <lastmod>2015-12-26</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
@@ -14,7 +14,7 @@
     
        <url>
          <loc>https://www.jenntesolin.com/about/</loc>
-        <lastmod>2015-11-19</lastmod>
+        <lastmod>2015-12-26</lastmod>
          <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
@@ -60,35 +60,35 @@
       </url>
     
       <url>
-         <loc>https://www.jenntesolin.com/blog/2015/05/22/jekyll-custom-easy-search-jquery/</loc>
+         <loc>https://www.jenntesolin.com/blog/2015/05/22/Jekyll-Custom-Easy-Search-jquery/</loc>
         <lastmod>2015-05-22</lastmod>
          <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
     
       <url>
-         <loc>https://www.jenntesolin.com/blog/2015/03/17/jekyll-set-up-publish/</loc>
+         <loc>https://www.jenntesolin.com/blog/2015/03/17/Jekyll-Set-Up-Publish/</loc>
         <lastmod>2015-03-17</lastmod>
          <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
     
       <url>
-         <loc>https://www.jenntesolin.com/blog/2015/03/14/iis7-development-environment/</loc>
+         <loc>https://www.jenntesolin.com/blog/2015/03/14/IIS7-Development-Environment/</loc>
         <lastmod>2015-03-14</lastmod>
          <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
     
       <url>
-         <loc>https://www.jenntesolin.com/blog/2014/09/24/moving-a-wordpress-blog/</loc>
+         <loc>https://www.jenntesolin.com/blog/2014/09/24/Moving-a-WordPress-Blog/</loc>
         <lastmod>2014-09-24</lastmod>
          <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
     
       <url>
-         <loc>https://www.jenntesolin.com/blog/2014/07/16/using-doubletwist-itunes-and-android/</loc>
+         <loc>https://www.jenntesolin.com/blog/2014/07/16/Using-DoubleTwist-iTunes-and-Android/</loc>
         <lastmod>2014-07-16</lastmod>
          <changefreq>monthly</changefreq>
         <priority>0.5</priority>

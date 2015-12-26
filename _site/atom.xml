@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-<generator uri="http://jekyllrb.com" version="3.0.0">Jekyll</generator>
+<generator uri="http://jekyllrb.com" version="3.0.1">Jekyll</generator>
 <link href="https://www.jenntesolin.com/atom.xml" rel="self" type="application/atom+xml" />
 <link href="https://www.jenntesolin.com/" rel="alternate" type="text/html" />
-<updated>2015-11-19T21:45:19-05:00</updated>
+<updated>2015-12-26T14:10:54-05:00</updated>
 <id>https://www.jenntesolin.com/</id>
 <title>Jennifer Tesolin Website</title>
 <subtitle>This is Jennifer Tesolin&#39;s personal web site. Located on this site are tutorials and tips for web developers.</subtitle>
@@ -17,7 +17,7 @@
 <published>2015-10-28T02:58:21-04:00</published>
 <updated>2015-10-28T02:58:21-04:00</updated>
 <id>https://www.jenntesolin.com/blog/2015/10/28/fix-jekyll-pagination-upgrade-to-3</id>
-<content type="html" xml:base="https://www.jenntesolin.com/blog/2015/10/28/fix-jekyll-pagination-upgrade-to-3/">&lt;p&gt;In Jekyll 3, pagination is deprecated. This post describes how to resolve the error: “&lt;strong&gt;Deprecation: You appear to have pagination turned on, but you haven’t included the &lt;code&gt;jekyll-paginate&lt;/code&gt; gem. Ensure you have &lt;code&gt;gems: [jekyll-paginate]&lt;/code&gt; in your configuration file&lt;/strong&gt;.” &lt;!--more--&gt;&lt;/p&gt;
+<content type="html" xml:base="https://www.jenntesolin.com/blog/2015/10/28/fix-jekyll-pagination-upgrade-to-3/">&lt;p&gt;In Jekyll 3, pagination is deprecated. This post describes how to resolve the error: “&lt;strong&gt;Deprecation: You appear to have pagination turned on, but you haven’t included the &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll-paginate&lt;/code&gt; gem. Ensure you have &lt;code class=&quot;highlighter-rouge&quot;&gt;gems: [jekyll-paginate]&lt;/code&gt; in your configuration file&lt;/strong&gt;.” &lt;!--more--&gt;&lt;/p&gt;
 
 &lt;p&gt;First, make sure you have the gem installed by typing in your terminal:
 &lt;code&gt;gem install jekyll-paginate&lt;/code&gt;&lt;/p&gt;
@@ -97,11 +97,11 @@
 </entry>
 <entry>
 <title>Jekyll: Easy searching with JSON and jQuery</title>
-<link href="https://www.jenntesolin.com/blog/2015/05/22/jekyll-custom-easy-search-jquery/" rel="alternate" type="text/html" title="Jekyll: Easy searching with JSON and jQuery" />
+<link href="https://www.jenntesolin.com/blog/2015/05/22/Jekyll-Custom-Easy-Search-jquery/" rel="alternate" type="text/html" title="Jekyll: Easy searching with JSON and jQuery" />
 <published>2015-05-22T17:34:21-04:00</published>
 <updated>2015-05-22T17:34:21-04:00</updated>
 <id>https://www.jenntesolin.com/blog/2015/05/22/Jekyll-Custom-Easy-Search-jquery</id>
-<content type="html" xml:base="https://www.jenntesolin.com/blog/2015/05/22/jekyll-custom-easy-search-jquery/">&lt;p&gt;Jekyll is a great tool to build web sites, unfortunately there is no built in search. This post will describe how to create one a basic search using JSON and jQuery.&lt;!--more--&gt;&lt;/p&gt;
+<content type="html" xml:base="https://www.jenntesolin.com/blog/2015/05/22/Jekyll-Custom-Easy-Search-jquery/">&lt;p&gt;Jekyll is a great tool to build web sites, unfortunately there is no built in search. This post will describe how to create one a basic search using JSON and jQuery.&lt;!--more--&gt;&lt;/p&gt;
 
 &lt;p&gt;This search works great for users using your site to search (like the one above this post). Unfortunately, with this method, Google does not understand that this is a site search. If having your search show up in Google results, this may not be for you.&lt;/p&gt;
 
@@ -165,11 +165,11 @@
 </entry>
 <entry>
 <title>Jekyll: Setting up your development environment</title>
-<link href="https://www.jenntesolin.com/blog/2015/03/17/jekyll-set-up-publish/" rel="alternate" type="text/html" title="Jekyll: Setting up your development environment" />
+<link href="https://www.jenntesolin.com/blog/2015/03/17/Jekyll-Set-Up-Publish/" rel="alternate" type="text/html" title="Jekyll: Setting up your development environment" />
 <published>2015-03-17T15:34:21-04:00</published>
 <updated>2015-03-17T15:34:21-04:00</updated>
 <id>https://www.jenntesolin.com/blog/2015/03/17/Jekyll-Set-Up-Publish</id>
-<content type="html" xml:base="https://www.jenntesolin.com/blog/2015/03/17/jekyll-set-up-publish/">&lt;p&gt;Jekyll is a static site generator that runs on NodeJS. Its a great alternative to WordPress that eliminates the need for databases.&lt;!--more--&gt;&lt;/p&gt;
+<content type="html" xml:base="https://www.jenntesolin.com/blog/2015/03/17/Jekyll-Set-Up-Publish/">&lt;p&gt;Jekyll is a static site generator that runs on NodeJS. Its a great alternative to WordPress that eliminates the need for databases.&lt;!--more--&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;requirements&quot;&gt;Requirements&lt;/h3&gt;
 
@@ -288,11 +288,11 @@ jekyll serve&lt;/code&gt;&lt;/p&gt;
 </entry>
 <entry>
 <title>Creating a development environment for IIS 7+</title>
-<link href="https://www.jenntesolin.com/blog/2015/03/14/iis7-development-environment/" rel="alternate" type="text/html" title="Creating a development environment for IIS 7+" />
+<link href="https://www.jenntesolin.com/blog/2015/03/14/IIS7-Development-Environment/" rel="alternate" type="text/html" title="Creating a development environment for IIS 7+" />
 <published>2015-03-14T08:34:21-04:00</published>
 <updated>2015-03-14T08:34:21-04:00</updated>
 <id>https://www.jenntesolin.com/blog/2015/03/14/IIS7-Development-Environment</id>
-<content type="html" xml:base="https://www.jenntesolin.com/blog/2015/03/14/iis7-development-environment/">&lt;p&gt;This post describes how to enable IIS on Windows 7, along with enabling MySql and Php.&lt;!--more--&gt;&lt;/p&gt;
+<content type="html" xml:base="https://www.jenntesolin.com/blog/2015/03/14/IIS7-Development-Environment/">&lt;p&gt;This post describes how to enable IIS on Windows 7, along with enabling MySql and Php.&lt;!--more--&gt;&lt;/p&gt;
 
 &lt;p&gt;Note: You will need Administrator Access.&lt;/p&gt;
 
@@ -422,11 +422,11 @@ At the root: &lt;code&gt;http://localhost/wp-admin/install.php&lt;/code&gt;&lt;/
 </entry>
 <entry>
 <title>Moving a Wordpress blog</title>
-<link href="https://www.jenntesolin.com/blog/2014/09/24/moving-a-wordpress-blog/" rel="alternate" type="text/html" title="Moving a Wordpress blog" />
+<link href="https://www.jenntesolin.com/blog/2014/09/24/Moving-a-WordPress-Blog/" rel="alternate" type="text/html" title="Moving a Wordpress blog" />
 <published>2014-09-24T15:00:00-04:00</published>
 <updated>2014-09-24T15:00:00-04:00</updated>
 <id>https://www.jenntesolin.com/blog/2014/09/24/Moving-a-WordPress-Blog</id>
-<content type="html" xml:base="https://www.jenntesolin.com/blog/2014/09/24/moving-a-wordpress-blog/">&lt;p&gt;This post will describe various ways to move WordPress, either to a different server or to Jekyll. &lt;!--more--&gt;&lt;/p&gt;
+<content type="html" xml:base="https://www.jenntesolin.com/blog/2014/09/24/Moving-a-WordPress-Blog/">&lt;p&gt;This post will describe various ways to move WordPress, either to a different server or to Jekyll. &lt;!--more--&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;steps-to-make-an-exact-copy&quot;&gt;Steps to make an exact copy&lt;/h2&gt;
 
@@ -464,11 +464,11 @@ At the root: &lt;code&gt;http://localhost/wp-admin/install.php&lt;/code&gt;&lt;/
 </entry>
 <entry>
 <title>How to use Double Twist to sync your iTunes library to a droid</title>
-<link href="https://www.jenntesolin.com/blog/2014/07/16/using-doubletwist-itunes-and-android/" rel="alternate" type="text/html" title="How to use Double Twist to sync your iTunes library to a droid" />
+<link href="https://www.jenntesolin.com/blog/2014/07/16/Using-DoubleTwist-iTunes-and-Android/" rel="alternate" type="text/html" title="How to use Double Twist to sync your iTunes library to a droid" />
 <published>2014-07-16T15:34:21-04:00</published>
 <updated>2014-07-16T15:34:21-04:00</updated>
 <id>https://www.jenntesolin.com/blog/2014/07/16/Using-DoubleTwist-iTunes-and-Android</id>
-<content type="html" xml:base="https://www.jenntesolin.com/blog/2014/07/16/using-doubletwist-itunes-and-android/">&lt;p&gt;This post describes how you can sync your current iTunes media files to your android device. This tutorial was written and tested on Mac os X mavericks and a Nexus 5.&lt;!--more--&gt;&lt;/p&gt;
+<content type="html" xml:base="https://www.jenntesolin.com/blog/2014/07/16/Using-DoubleTwist-iTunes-and-Android/">&lt;p&gt;This post describes how you can sync your current iTunes media files to your android device. This tutorial was written and tested on Mac os X mavericks and a Nexus 5.&lt;!--more--&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;clean-up-your-current-itunes-library&quot;&gt;Clean up your current iTunes library.&lt;/h2&gt;
 

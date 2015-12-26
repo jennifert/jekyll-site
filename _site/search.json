@@ -22,7 +22,7 @@
     
     {
       "title"    : "Jekyll: Easy searching with JSON and jQuery",
-      "href"     : "/blog/2015/05/22/jekyll-custom-easy-search-jquery/",
+      "href"     : "/blog/2015/05/22/Jekyll-Custom-Easy-Search-jquery/",
       "summary"     : "Jekyll is a great tool to build web sites, unfortunately there is no built in search. This post will describe how to create one a basic search using JSON and...",
       "category" : ["Tutorial", null],
       "tags"     : ["Jekyll","JSON","jQuery", null],
@@ -32,7 +32,7 @@
     
     {
       "title"    : "Jekyll: Setting up your development environment",
-      "href"     : "/blog/2015/03/17/jekyll-set-up-publish/",
+      "href"     : "/blog/2015/03/17/Jekyll-Set-Up-Publish/",
       "summary"     : "Jekyll is a static site generator that runs on NodeJS. Its a great alternative to WordPress that eliminates the need for databases.Requirements Ruby RubyGems NodeJSInstall Jekyll dependencies:sudo gem update --systemsudo...",
       "category" : ["Tutorial", null],
       "tags"     : ["Jekyll","WordPress", null],
@@ -42,7 +42,7 @@
     
     {
       "title"    : "Creating a development environment for IIS 7+",
-      "href"     : "/blog/2015/03/14/iis7-development-environment/",
+      "href"     : "/blog/2015/03/14/IIS7-Development-Environment/",
       "summary"     : "This post describes how to enable IIS on Windows 7, along with enabling MySql and Php.Note: You will need Administrator Access.Enable IISIn order to avoid permission issues when trying to...",
       "category" : ["Tutorial", null],
       "tags"     : ["IIS","PHP","MySQL","WordPress", null],
@@ -52,7 +52,7 @@
     
     {
       "title"    : "Moving a Wordpress blog",
-      "href"     : "/blog/2014/09/24/moving-a-wordpress-blog/",
+      "href"     : "/blog/2014/09/24/Moving-a-WordPress-Blog/",
       "summary"     : "This post will describe various ways to move WordPress, either to a different server or to Jekyll. Steps to make an exact copyThis includes all plugins, theses, posts, etc. download...",
       "category" : ["Tutorial", null],
       "tags"     : ["wordpress","jekyll","php", null],
@@ -62,7 +62,7 @@
     
     {
       "title"    : "How to use Double Twist to sync your iTunes library to a droid",
-      "href"     : "/blog/2014/07/16/using-doubletwist-itunes-and-android/",
+      "href"     : "/blog/2014/07/16/Using-DoubleTwist-iTunes-and-Android/",
       "summary"     : "This post describes how you can sync your current iTunes media files to your android device. This tutorial was written and tested on Mac os X mavericks and a Nexus...",
       "category" : ["Tutorial", null],
       "tags"     : ["android","iTunes", null],

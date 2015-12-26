@@ -5,13 +5,13 @@
     <description>This is Jennifer Tesolin&#39;s personal web site. Located on this site are tutorials and tips for web developers.</description>
     <link>https://www.jenntesolin.com/</link>
     <atom:link href="https://www.jenntesolin.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 19 Nov 2015 21:45:19 -0500</pubDate>
-    <lastBuildDate>Thu, 19 Nov 2015 21:45:19 -0500</lastBuildDate>
-    <generator>Jekyll v3.0.0</generator>
+    <pubDate>Sat, 26 Dec 2015 14:10:54 -0500</pubDate>
+    <lastBuildDate>Sat, 26 Dec 2015 14:10:54 -0500</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
     
       <item>
         <title>Fix pagination after upgrading from Jekyll 2 to Jekyll 3</title>
-        <description>&lt;p&gt;In Jekyll 3, pagination is deprecated. This post describes how to resolve the error: “&lt;strong&gt;Deprecation: You appear to have pagination turned on, but you haven’t included the &lt;code&gt;jekyll-paginate&lt;/code&gt; gem. Ensure you have &lt;code&gt;gems: [jekyll-paginate]&lt;/code&gt; in your configuration file&lt;/strong&gt;.” &lt;!--more--&gt;&lt;/p&gt;
+        <description>&lt;p&gt;In Jekyll 3, pagination is deprecated. This post describes how to resolve the error: “&lt;strong&gt;Deprecation: You appear to have pagination turned on, but you haven’t included the &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll-paginate&lt;/code&gt; gem. Ensure you have &lt;code class=&quot;highlighter-rouge&quot;&gt;gems: [jekyll-paginate]&lt;/code&gt; in your configuration file&lt;/strong&gt;.” &lt;!--more--&gt;&lt;/p&gt;
 
 &lt;p&gt;First, make sure you have the gem installed by typing in your terminal:
 &lt;code&gt;gem install jekyll-paginate&lt;/code&gt;&lt;/p&gt;
@@ -153,8 +153,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Fri, 22 May 2015 17:34:21 -0400</pubDate>
-        <link>https://www.jenntesolin.com/blog/2015/05/22/jekyll-custom-easy-search-jquery/</link>
-        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2015/05/22/jekyll-custom-easy-search-jquery/</guid>
+        <link>https://www.jenntesolin.com/blog/2015/05/22/Jekyll-Custom-Easy-Search-jquery/</link>
+        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2015/05/22/Jekyll-Custom-Easy-Search-jquery/</guid>
         
         <category>Jekyll</category>
         
@@ -280,8 +280,8 @@ jekyll serve&lt;/code&gt;&lt;/p&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 17 Mar 2015 15:34:21 -0400</pubDate>
-        <link>https://www.jenntesolin.com/blog/2015/03/17/jekyll-set-up-publish/</link>
-        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2015/03/17/jekyll-set-up-publish/</guid>
+        <link>https://www.jenntesolin.com/blog/2015/03/17/Jekyll-Set-Up-Publish/</link>
+        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2015/03/17/Jekyll-Set-Up-Publish/</guid>
         
         <category>Jekyll</category>
         
@@ -414,8 +414,8 @@ At the root: &lt;code&gt;http://localhost/wp-admin/install.php&lt;/code&gt;&lt;/
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 14 Mar 2015 08:34:21 -0400</pubDate>
-        <link>https://www.jenntesolin.com/blog/2015/03/14/iis7-development-environment/</link>
-        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2015/03/14/iis7-development-environment/</guid>
+        <link>https://www.jenntesolin.com/blog/2015/03/14/IIS7-Development-Environment/</link>
+        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2015/03/14/IIS7-Development-Environment/</guid>
         
         <category>IIS</category>
         
@@ -464,8 +464,8 @@ At the root: &lt;code&gt;http://localhost/wp-admin/install.php&lt;/code&gt;&lt;/
 &lt;p&gt;&lt;a href=&quot;/blog/2015/03/17/Jekyll-Set-Up-Publish/&quot;&gt;Jekyll: Setting up your development environment&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 24 Sep 2014 15:00:00 -0400</pubDate>
-        <link>https://www.jenntesolin.com/blog/2014/09/24/moving-a-wordpress-blog/</link>
-        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2014/09/24/moving-a-wordpress-blog/</guid>
+        <link>https://www.jenntesolin.com/blog/2014/09/24/Moving-a-WordPress-Blog/</link>
+        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2014/09/24/Moving-a-WordPress-Blog/</guid>
         
         <category>wordpress</category>
         
@@ -542,8 +542,8 @@ At the root: &lt;code&gt;http://localhost/wp-admin/install.php&lt;/code&gt;&lt;/
 &lt;/ul&gt;
 </description>
         <pubDate>Wed, 16 Jul 2014 15:34:21 -0400</pubDate>
-        <link>https://www.jenntesolin.com/blog/2014/07/16/using-doubletwist-itunes-and-android/</link>
-        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2014/07/16/using-doubletwist-itunes-and-android/</guid>
+        <link>https://www.jenntesolin.com/blog/2014/07/16/Using-DoubleTwist-iTunes-and-Android/</link>
+        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2014/07/16/Using-DoubleTwist-iTunes-and-Android/</guid>
         
         <category>android</category>
         

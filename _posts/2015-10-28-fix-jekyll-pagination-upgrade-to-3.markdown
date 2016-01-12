@@ -24,4 +24,4 @@ Next, open <code>_config.yml</code>, add add the following line:
 <code>gems :<br>
 &nbsp;&nbsp;- jekyll-paginate</code>
 
-Now, when you run <code>jekyll serve</code> or <code>jekyll build</code> the should no longer be there.
+Now, when you run <code>jekyll serve</code> or <code>jekyll build</code> the error message should no longer be there.

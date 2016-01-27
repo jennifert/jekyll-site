@@ -4,11 +4,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title> Wordpress Quick-tip: Display x number of posts outside your blog. - Jennifer Tesolin </title>
+    <title> Jekyll on azure or github pages - Jennifer Tesolin </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="Descripes how to display posts outside of the wordpress system.">
+    <meta name="description" content="Put details that will be in more tag here.">
     
-    <link rel="canonical" href="https://www.jenntesolin.com/blog/2013/05/23/wordpress-quicktip-display-x-number-of-posts-outside-your-blog/">
+    <link rel="canonical" href="https://www.jenntesolin.com/blog/2015/10/28/jekyll-on-azure/">
     <link type="text/plain" rel="author" href="https://www.jenntesolin.com/humans.txt" />
     <link rel="author" href="https://plus.google.com/109759985952910616281?rel=author" />
 
@@ -22,7 +22,7 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
       <![endif]-->
     
-    <meta name="application-name" content="Wordpress Quick-tip: Display x number of posts outside your blog. - Jennifer Tesolin"/>
+    <meta name="application-name" content="Jekyll on azure or github pages - Jennifer Tesolin"/>
     <meta name="msapplication-TileColor" content="#000000"/>
     <meta name="msapplication-square70x70logo" content="imgs/tiny.png"/>
     <meta name="msapplication-square150x150logo" content="imgs/square.png"/>
@@ -34,10 +34,10 @@
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:site" content="@jenntes" />
       <meta name="og:type" content="article" />
-      <meta name="og:title" content="Wordpress Quick-tip: Display x number of posts outside your blog." />
-      <meta name="og:url" content="https://www.jenntesolin.com/blog/2013/05/23/wordpress-quicktip-display-x-number-of-posts-outside-your-blog/" />
+      <meta name="og:title" content="Jekyll on azure or github pages" />
+      <meta name="og:url" content="https://www.jenntesolin.com/blog/2015/10/28/jekyll-on-azure/" />
       <!--<meta name="og:image" content="{featured image}" />-->
-      <meta name="og:description" content="Descripes how to display posts outside of the wordpress system." />
+      <meta name="og:description" content="Put details that will be in more tag here." />
       <meta name="og:site_name" content="Jennifer Tesolin's Blog" />
 
       
@@ -99,91 +99,23 @@
       <div class="post h-entry">
 
   <header class="post-header">
-    <h1 class="p-name">Wordpress Quick-tip: Display x number of posts outside your blog.</h1>
-    <p class="meta"><time class="dt-published">May 23, 2013</time></p>
+    <h1 class="p-name">Jekyll on azure or github pages</h1>
+    <p class="meta"><time class="dt-published">Oct 28, 2015</time></p>
   </header>
 
   <article class="post-content e-content p-name">
-  <p>Sometime, you want to display posts outside of WordPress. Here are some resources to help.<!--more--></p>
-<p>From the <a href="http://codex.wordpress.org/Integrating_WordPress_with_Your_Website" target="_blank" rel="nofollow">Integrating WordPress in your Website</a> codex file, the first place you start is to include a WordPress header file:</p>
-<code>
-< ?php 
-define('WP_USE_THEMES', false);
-require('/the/path/to/your/wp-blog-header.php'); //found in the root of your WordPress install. 
-?>
-</code>
-<p>If you are using a multi-site blog, you will also need to add the below under the include:</p>
-<code>
-switch_to_blog($blogID);
-</code>
-<p>From the codex, the quickest example of showing a postis the following code:</p>
-<code>
-$posts = get_posts('numberposts=10&order=ASC&orderby=post_title');
-foreach ($posts as $post) : start_wp();
-the_date(); echo "<br />";
-the_title();    
-the_excerpt();
-endforeach;
-</code>
-<p>Using the <a href="http://codex.wordpress.org/Class_Reference/WP_Query" target="_blank" rel="nofollow">WPQuery</a> function, you can target the number of days to show. The codex has the example code:</p>
-<code>
-// Create a new filtering function that will add our where clause to the query
-//from: http://codex.wordpress.org/Class_Reference/WP_Query#Time_Parameters
-$args = array(
-    'post_status' => 'publish'
-);
-function filter_where( $where = '' ) {
-	// posts in the last 30 days
-	$where .= " AND post_date > '" . date('Y-m-d', strtotime('-30 days')) . "'"; //change 30 to the number of days you want
-	return $where;
-}
-add_filter( 'posts_where', 'filter_where' );
-$query = new WP_Query( $args );
-remove_filter( 'posts_where', 'filter_where' );
+  <p>Post summary<!--more--></p>
 
-while ($query->have_posts()) {
-   $the_query->the_post();
-   echo '<li>' . get_the_title() . '</li>';
-}
-</code>
-<p>Unfortunately, the number seemed to bit off. To fit it, I used the idea in the following post (<a href="http://stackoverflow.com/questions/9010693/wordpress-display-posts-newer-than-30-days" target="_blank" rel="nofollow">StackOverflow</a>) to add in my argument, -1.  Now, your same code should be similar to below:</p>
-<code>
-//updated args
-$args = array(
-    'posts_per_page' => -1,
-     'post_status' => 'publish'
-);
-</code>
-<p>Full source code:</p>
-<code>
-< ?php 
-define('WP_USE_THEMES', false);
-require('/the/path/to/your/wp-blog-header.php'); //found in the root of your WordPress install.
-switch_to_blog($blogID);
-//updated args
-$args = array(
-    'posts_per_page' => -1,
-     'post_status' => 'publish'
-);
-function filter_where( $where = '' ) {
-	// posts in the last 30 days
-	$where .= " AND post_date > '" . date('Y-m-d', strtotime('-30 days')) . "'"; //change 30 to the number of days you want
-	return $where;
-}
-add_filter( 'posts_where', 'filter_where' );
-$query = new WP_Query( $args );
-remove_filter( 'posts_where', 'filter_where' );
+<p>What that extra file is for if pulling from github on azure.</p>
 
-while ($query->have_posts()) {
-   $the_query->the_post();
-   if (get_the_title()<>''){
-      echo get_the_title().'<br />';
-   }
-}
-?>
-</code>
-<p>Other Resources:</p>
-<p><a href="http://wordpress.stackexchange.com/questions/99265/display-posts-of-the-last-7-days" target="_blank" rel="nofollow">StackExchange post</a> <br /><a href="http://codex.wordpress.org/WPMU_Functions/switch_to_blog" target="_blank">Switch Blog in MultiSite</a></p>
+<p>Cname file for github pages.</p>
+
+<p>For both include cloudflare and own domain.</p>
+
+<h3 id="resources">Resources</h3>
+<ul>
+  <li>Will be here</li>
+</ul>
 
   </article>
 

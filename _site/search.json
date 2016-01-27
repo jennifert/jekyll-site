@@ -1,31 +1,11 @@
 [
     
     {
-      "title"    : "Setting up your Mac computer for local development and programming",
-      "href"     : "/blog/2016/01/06/mac-local-dev-server/",
-      "summary"     : "Mac computers are great for programming and some of the programs are already on the computer, but just need to be enabled. This post describes how to set up your...",
-      "category" : ["Tutorial", null],
-      "tags"     : ["Mac","Apache","PHP","MySQL","Node","Ruby", null],
-      "date"     : "Jan 6, 2016"
-    }
-    ,
-    
-    {
       "title"    : "Fix pagination after upgrading from Jekyll 2 to Jekyll 3",
       "href"     : "/blog/2015/10/28/fix-jekyll-pagination-upgrade-to-3/",
       "summary"     : "In Jekyll 3, pagination is deprecated. This post describes how to resolve the error: “Deprecation: You appear to have pagination turned on, but you haven’t included the jekyll-paginate gem. Ensure...",
       "category" : ["Tutorial", null],
       "tags"     : ["Jekyll", null],
-      "date"     : "Oct 28, 2015"
-    }
-    ,
-    
-    {
-      "title"    : "Jekyll on azure or github pages",
-      "href"     : "/blog/2015/10/28/jekyll-on-azure/",
-      "summary"     : "Post summaryWhat that extra file is for if pulling from github on azure.Cname file for github pages.For both include cloudflare and own domain.Resources  Will be here",
-      "category" : ["Tutorial", null],
-      "tags"     : ["Jekyll","Github Pages","Azure", null],
       "date"     : "Oct 28, 2015"
     }
     ,
@@ -54,16 +34,6 @@
       "title"    : "Jekyll: Setting up your development environment",
       "href"     : "/blog/2015/03/17/Jekyll-Set-Up-Publish/",
       "summary"     : "Jekyll is a static site generator that runs on NodeJS. Its a great alternative to WordPress that eliminates the need for databases.Requirements Ruby RubyGems NodeJSInstall Jekyll dependencies:sudo gem update --systemsudo...",
-      "category" : ["Tutorial", null],
-      "tags"     : ["Jekyll","WordPress", null],
-      "date"     : "Mar 17, 2015"
-    }
-    ,
-    
-    {
-      "title"    : "Draft Template",
-      "href"     : "/blog/2015/03/17/template/",
-      "summary"     : "Post summaryPost CommentResources  Will be here",
       "category" : ["Tutorial", null],
       "tags"     : ["Jekyll","WordPress", null],
       "date"     : "Mar 17, 2015"

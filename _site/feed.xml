@@ -5,65 +5,9 @@
     <description>This is Jennifer Tesolin&#39;s personal web site. Located on this site are tutorials and tips for web developers.</description>
     <link>https://www.jenntesolin.com/</link>
     <atom:link href="https://www.jenntesolin.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 27 Jan 2016 14:25:31 -0500</pubDate>
-    <lastBuildDate>Wed, 27 Jan 2016 14:25:31 -0500</lastBuildDate>
+    <pubDate>Wed, 27 Jan 2016 14:29:28 -0500</pubDate>
+    <lastBuildDate>Wed, 27 Jan 2016 14:29:28 -0500</lastBuildDate>
     <generator>Jekyll v3.1.0</generator>
-    
-      <item>
-        <title>Setting up your Mac computer for local development and programming</title>
-        <description>&lt;p&gt;Mac computers are great for programming and some of the programs are already on the computer, but just need to be enabled.  This post describes how to set up your mac for programming and web development from enabling PHP, Ruby, node and more.&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;p&gt;Enable apache&lt;/p&gt;
-
-&lt;p&gt;Enable PHP&lt;/p&gt;
-
-&lt;p&gt;Install MySQL&lt;/p&gt;
-
-&lt;p&gt;Install node&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Link to existing post.
-Create gist of package.js and grunt.js and link to there in source code of post and old post
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Enable Ruby&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Link to existing post
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Other mentions:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Python, and how to install 3
-maybe: go,
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;resources&quot;&gt;Resources&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Will be here&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 06 Jan 2016 15:34:21 -0500</pubDate>
-        <link>https://www.jenntesolin.com/blog/2016/01/06/mac-local-dev-server/</link>
-        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2016/01/06/mac-local-dev-server/</guid>
-        
-        <category>Mac</category>
-        
-        <category>Apache</category>
-        
-        <category>PHP</category>
-        
-        <category>MySQL</category>
-        
-        <category>Node</category>
-        
-        <category>Ruby</category>
-        
-        
-        <category>Tutorial</category>
-        
-      </item>
     
       <item>
         <title>Fix pagination after upgrading from Jekyll 2 to Jekyll 3</title>
@@ -84,36 +28,6 @@ maybe: go,
         <guid isPermaLink="true">https://www.jenntesolin.com/blog/2015/10/28/fix-jekyll-pagination-upgrade-to-3/</guid>
         
         <category>Jekyll</category>
-        
-        
-        <category>Tutorial</category>
-        
-      </item>
-    
-      <item>
-        <title>Jekyll on azure or github pages</title>
-        <description>&lt;p&gt;Post summary&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;p&gt;What that extra file is for if pulling from github on azure.&lt;/p&gt;
-
-&lt;p&gt;Cname file for github pages.&lt;/p&gt;
-
-&lt;p&gt;For both include cloudflare and own domain.&lt;/p&gt;
-
-&lt;h3 id=&quot;resources&quot;&gt;Resources&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Will be here&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 28 Oct 2015 02:34:21 -0400</pubDate>
-        <link>https://www.jenntesolin.com/blog/2015/10/28/jekyll-on-azure/</link>
-        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2015/10/28/jekyll-on-azure/</guid>
-        
-        <category>Jekyll</category>
-        
-        <category>Github Pages</category>
-        
-        <category>Azure</category>
         
         
         <category>Tutorial</category>
@@ -368,30 +282,6 @@ jekyll serve&lt;/code&gt;&lt;/p&gt;
         <pubDate>Tue, 17 Mar 2015 15:34:21 -0400</pubDate>
         <link>https://www.jenntesolin.com/blog/2015/03/17/Jekyll-Set-Up-Publish/</link>
         <guid isPermaLink="true">https://www.jenntesolin.com/blog/2015/03/17/Jekyll-Set-Up-Publish/</guid>
-        
-        <category>Jekyll</category>
-        
-        <category>WordPress</category>
-        
-        
-        <category>Tutorial</category>
-        
-      </item>
-    
-      <item>
-        <title>Draft Template</title>
-        <description>&lt;p&gt;Post summary&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;p&gt;Post Comment&lt;/p&gt;
-
-&lt;h3 id=&quot;resources&quot;&gt;Resources&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Will be here&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 17 Mar 2015 15:34:21 -0400</pubDate>
-        <link>https://www.jenntesolin.com/blog/2015/03/17/template/</link>
-        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2015/03/17/template/</guid>
         
         <category>Jekyll</category>
         
@@ -658,6 +548,166 @@ At the root: &lt;code&gt;http://localhost/wp-admin/install.php&lt;/code&gt;&lt;/
         <category>android</category>
         
         <category>iTunes</category>
+        
+        
+        <category>Tutorial</category>
+        
+      </item>
+    
+      <item>
+        <title>Updated: Raspberry Pi Media Server</title>
+        <description>&lt;p&gt;After trying quite a few Raspberry Pi operating systems and configurations, the new &lt;a title=&quot;Official site for the operating system&quot; href=&quot;http://www.rasplex.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;RasPlex&lt;/a&gt; is my choice for my home media centre. RasPlex was the best system which supports out of the box: WiFi, Bluetooth, hdmi monitor with analog speakers, and more. The best thing is the entire process took only 15 minutes!&lt;!--more--&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;Note: This is an update to the &lt;a title=&quot;A look at Raspmbc video streaming&quot; href=&quot;http://jenntesolin.com/blog/2013/09/05/a-look-at-raspmbc-video-streaming/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Raspmbc set-up article&lt;/a&gt;. RasPlex also requires the use of Plex Media Server which is also free, and easily connects to iTunes and various channels.&lt;br /&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Set-up the SD card&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The first step is to &lt;a title=&quot;Rasplex installer downlaod page&quot; href=&quot;http://www.rasplex.com/get-started/rasplex-installers.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;download the installer&lt;/a&gt; for your Operating System onto your computer. They have installers available for Mac, Linux, and Windows, please be sure to read the notes on how to mount the installer.&lt;/p&gt;
+&lt;p&gt;Now, you select the version of RasPlex you want, and then select your SD card drive (check disk utility for the name if your not sure). Finally, press &quot;update links&quot;, and when that is down &quot;click download&quot;. It will ask you the location of the download, then when will display the download progress in the terminal. Once your all set-up, then press &quot;Write SD card&quot;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/wp-content/uploads/2014/04/Screen-Shot-2014-04-24-at-10.51.40-PM.png&quot;&gt; &lt;img class=&quot;alignnone size-medium wp-image-609&quot; src=&quot;/wp-content/uploads/2014/04/Screen-Shot-2014-04-24-at-10.51.40-PM-300x298.png&quot; alt=&quot;Screen Shot 2014-04-24 at 10.51.40 PM&quot; width=&quot;300&quot; height=&quot;298&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Set-Up your Raspberry Pi&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Make sure all your devises (even Bluetooth and Wi-Fi) are connected, then boot your machine. Let it run the initial set-up, and reboot itself.&lt;/p&gt;
+&lt;p&gt;Once it reboots, follow the on screen instructions for set-up (note that only your keyboard will work so far). Some of the set-up options include: Blue-tooth, WI-Fi, your Plex Media Server.&lt;/p&gt;
+&lt;p&gt;When you see the menu, press the left keyboard arrow to get to your settings, this is where you can set-up your audio settings, ssh access, and more. At set-up it will choose HDMI audio, just select analog to use stereo speakers.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/wp-content/uploads/2014/04/IMG_1982.jpg&quot;&gt;&lt;img class=&quot;alignnone size-medium wp-image-608&quot; src=&quot;/wp-content/uploads/2014/04/IMG_1982-300x199.jpg&quot; alt=&quot;IMG_1982&quot; width=&quot;300&quot; height=&quot;199&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;That&#39;s it! This this helps other people as well.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;RasPlex Resources:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/RasPlex/RasPlex/wiki/Guides&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;RasPlex Github Guides Pages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.rasplex.com/documentation/rasplex-setup-basics.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;RasPlex Set-Up Basics Documentation Page&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Check out their YouTube Trailer&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/C-A4Kxq3V0I&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;</description>
+        <pubDate>Thu, 24 Apr 2014 00:00:00 -0400</pubDate>
+        <link>https://www.jenntesolin.com/blog/2014/04/24/updated-raspberry-pi-media-server/</link>
+        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2014/04/24/updated-raspberry-pi-media-server/</guid>
+        
+        <category>plex</category>
+        
+        <category>video streaming</category>
+        
+        <category>Raspberri Pi</category>
+        
+        
+        <category>Tutorial</category>
+        
+      </item>
+    
+      <item>
+        <title>Removing cData from YQL queries</title>
+        <description>&lt;p&gt;When pulling data from xml items using YQL and getJSON, your application will unfortunately not parse tags that have cdata. This post describe show to use the &lt;a href=&quot;http://www.yqlblog.net/blog/category/tutorial/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;feed normalizer table&lt;/a&gt; to call all elements including those with cdata.&lt;/p&gt;
+&lt;p&gt;&lt;!--more--&gt;&lt;/p&gt;
+&lt;h3&gt;YQl Feed Normalizer&lt;/h3&gt;
+&lt;p&gt;To use this table in my application, I worked off of the second example given on the YQL blog entry:&lt;br /&gt;
+&lt;code&gt;&lt;br /&gt;
+SELECT * FROM feednormalizer&lt;br /&gt;
+WHERE url=&#39;&lt;strong&gt;http://rss.news.yahoo.com/rss/topstories&lt;/strong&gt;&#39;&lt;br /&gt;
+AND output=&#39;&lt;strong&gt;atom_1.0&lt;/strong&gt;&#39;&lt;br /&gt;
+&lt;/code&gt;&lt;br /&gt;
+&lt;small&gt;Note: the portion in bold beside the url is where your atom feed will go. Here is a list of valid outputs for the second bold portion:&lt;/small&gt;&lt;br /&gt;
+&lt;code&gt;&lt;small&gt;&#39;rss_0.91N&#39;|&#39;rss_0.93&#39;|&#39;rss_0.92&#39;|&#39;rss_1.0&#39;|&#39;rss_0.94&#39;|&#39;rss_2.0&#39;|&#39;rss_0.91U\rss_0.9&#39;|&#39;atom_1.0&#39;|&#39;atom_0.3&#39;&lt;/small&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h3&gt;Final Code&lt;/h3&gt;
+&lt;p&gt;Now, I added limit after the output field, and replaced * with the fields I wanted. The bold portions are the portions I personalized for my site.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;YQL :&lt;/strong&gt;&lt;br /&gt;
+&lt;code&gt;SELECT &lt;strong&gt;entry.title,entry.link.href,entry.published,entry.category.term,entry.summary&lt;/strong&gt; FROM feednormalizer WHERE url= &amp;quot;&lt;strong&gt;http://jenntesolin.com/blog/feed/atom/&lt;/strong&gt;&amp;quot; AND output=&amp;quot;&lt;strong&gt;atom_1.0&lt;/strong&gt;&amp;quot; &lt;strong&gt;LIMIT 1&lt;/strong&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The full javaScript:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;//declare vars&lt;br /&gt;
+  var blogLink = &#39;https://query.yahooapis.com/v1/public/yql?q=&#39; + encodeURIComponent(&#39;SELECT entry.title,entry.link.href,entry.published,entry.category.term,entry.summary FROM feednormalizer WHERE url= &amp;quot;http://jenntesolin.com/blog/feed/atom/&amp;quot; AND output=&amp;quot;atom_1.0&amp;quot; LIMIT 1&#39;)+&#39;&amp;amp;format=json&amp;amp;diagnostics=false&amp;amp;callback=?&#39;;&lt;br /&gt;
+  //end variable declare&lt;/p&gt;
+&lt;p&gt;jQuery.noConflict();&lt;br /&gt;
+  jQuery(document).ready(function($){&lt;/p&gt;
+&lt;p&gt; //Call blog feed&lt;br /&gt;
+$.getJSON(blogLink, function(data){&lt;br /&gt;
+  //get data&lt;br /&gt;
+  var title =data.query.results.feed.entry.title.content;&lt;br /&gt;
+  var link =data.query.results.feed.entry.link.href;&lt;br /&gt;
+  var category =data.query.results.feed.entry.category.term;&lt;br /&gt;
+  var published=data.query.results.feed.entry.published;&lt;br /&gt;
+  var summary =data.query.results.feed.entry.summary.content;&lt;/p&gt;
+&lt;p&gt; //display&lt;br /&gt;
+  $(&#39;.blog-header&#39;).html(title);&lt;br /&gt;
+  $(&#39;.blog-summary&#39;).html(summary);&lt;br /&gt;
+  $(&#39;.blog-date&#39;).html(published);&lt;br /&gt;
+  $(&#39;.blog-category&#39;).html(category);&lt;br /&gt;
+  $(&#39;.blog-link&#39;).html(&#39;&amp;lt;a href=&amp;quot;&#39;+link+&#39;&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Read more&amp;lt;/a&amp;gt;&#39;);&lt;br /&gt;
+  });&lt;br /&gt;
+  //end blog feed&lt;br /&gt;
+  });&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;HTML Bootstrap 3.1 code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;!-- Blog --&amp;gt;&lt;br /&gt;
+&amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt;&lt;br /&gt;
+&amp;lt;div class=&amp;quot;col-md-12&amp;quot;&amp;gt;&lt;br /&gt;
+&amp;lt;h1 class=&amp;quot;blog-header&amp;quot;&amp;gt;&amp;lt;/h1&amp;gt;&lt;br /&gt;
+&amp;lt;p class=&amp;quot;blog-summary&amp;quot;&amp;gt;&amp;lt;/p&amp;gt;&lt;br /&gt;
+&amp;lt;div&amp;gt;&lt;br /&gt;
+&amp;lt;span class=&amp;quot;badge blog-date&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;&lt;br /&gt;
+&amp;lt;div class=&amp;quot;pull-right&amp;quot;&amp;gt;&lt;br /&gt;
+&amp;lt;span class=&amp;quot;label label-default blog-category&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;&lt;br /&gt;
+&amp;lt;span class=&amp;quot;label label-primary blog-link&amp;quot;&amp;gt;&amp;lt;/span&amp;gt; &lt;br /&gt;
+&amp;lt;/div&amp;gt; &lt;br /&gt;
+&amp;lt;/div&amp;gt;&lt;br /&gt;
+&amp;lt;/div&amp;gt;&lt;br /&gt;
+&amp;lt;/div&amp;gt;&lt;br /&gt;
+&amp;lt;!-- /.Blog --&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resources&lt;/strong&gt;&lt;br /&gt;
+&lt;a href=&quot;http://www.yqlblog.net/blog/category/tutorial/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;YQL Feed Normalizer Table&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/jennifert/JavaScript-Demos/blob/master/YQL/cdata_blog_example.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Code on GitHub&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;/demos/cdata_blog_example.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;View demo&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 29 Mar 2014 00:00:00 -0400</pubDate>
+        <link>https://www.jenntesolin.com/blog/2014/03/29/removing-cdata-from-yql-queries/</link>
+        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2014/03/29/removing-cdata-from-yql-queries/</guid>
+        
+        <category>yql</category>
+        
+        
+        <category>Tutorial</category>
+        
+      </item>
+    
+      <item>
+        <title>Creating the Sticky footer with fixed navbar example with Bootstrap 3 using Emmet.IO</title>
+        <description>&lt;p&gt;This post described how to use &lt;a href=&quot;http://emmet.io/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Emmet&lt;/a&gt; short codes to quickly create the bootstrap example: &lt;a href=&quot;http://getbootstrap.com/examples/sticky-footer-navbar/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Sticky footer with fixed navbar&lt;/a&gt; using Bootstrap 3.  Feel free to read and implement suggestions.&lt;br /&gt;
+&lt;!--more--&gt;&lt;br /&gt;
+&lt;small&gt;
+&lt;p&gt;&lt;em&gt;In Sublime, select the Emmet code and press control + E (both Mac and PC)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 1: Set up: Set up html, and body content, js&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A) Emmet Code&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;html:5&amp;gt;(div.navbar.navbar-default.navbar-fixed-top&amp;gt;div.container&amp;gt;div.navbar-header&amp;gt;btn:r.navbar-toggle&amp;gt;span.sr-only{Toggle navigation}+span.icon-bar+span.icon+span.icon^a.navbar-brand{Welcome!}^div.collapse.navbar-collapse&amp;gt;ul.nav.navbar-nav&amp;gt;li*3&amp;gt;a^li.dropdown&amp;gt;a.dropdown-toggle{Dropdown }&amp;gt;b.caret^ul.dropdown-menu&amp;gt;li*3&amp;gt;a^li.divider+li.dropdown-header{Nav Header}+li*3&amp;gt;a^^^^^^^div.container&amp;gt;div.page-header&amp;gt;h1{Page Header Heer}^p.lead&amp;gt;lorem^^div#footer&amp;gt;div.container&amp;gt;p.text-muted{Copy Right Info}^^script:src{js/jquery-1.11.0.min.js}+script:src{js/bootstrap.min.js})&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Gist Location: &lt;a href=&quot;https://gist.github.com/jennifert/9846832&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://gist.github.com/jennifert/9846832&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;
+&lt;p&gt;&lt;em&gt;Note: Could not find Emmet tag to define JavaScript source location, so just moved it between script tags. Please see step 8 at 1B below.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;B) Fill in the missing items/editing places:&lt;/p&gt;
+&lt;p&gt;1) Add role=navigation to : navbar.navbar-default.navbar-fixed-top&lt;br /&gt;
+  2) At the toggle navigation &amp;lt;button&amp;gt; add: data-toggle=&amp;quot;collapse&amp;quot; data-target=&amp;quot;.navbar-collapse&amp;quot;&lt;br /&gt;
+  3) Add link # or otherwise at: navbar-brand&lt;br /&gt;
+  4) Add link, text and active item to: nav.navbar-nav remove&lt;br /&gt;
+  5) In same class as above but in dropdown dropdown-toggle, add data-toggle=&amp;quot;dropdown&amp;quot;&lt;br /&gt;
+  6) Edit h1 tag in: page-header class div&lt;br /&gt;
+  7) Update Copy right Info&lt;br /&gt;
+  8) Move js path that&#39;s between script tags to src=&amp;quot;&amp;quot;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 2: Insert the rest of the header information&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A) Emmet Code: Place course on line under &amp;lt;title&amp;gt;...&amp;lt;/title&amp;gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;meta:vp+link:favicon+meta:compat+link:css{css/bootstrap.min.css}+link:css&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Gist Location: &lt;a href=&quot;https://gist.github.com/jennifert/9846855&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://gist.github.com/jennifert/9846855&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;B) Edit the following items:&lt;br /&gt;
+  1) Favicon.ico if needed&lt;br /&gt;
+  2) Change ie=7 to ie=edge in meta tag.&lt;br /&gt;
+  3) In the style.css where you bootstrap is nested in, cut and paste the bootstrap style sheet in place of styles.css.&lt;br /&gt;
+  4) In between the updated bootstrap css and styles.css, paste your conditional comments.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;!--[if lt IE 9]&amp;gt;&lt;br /&gt;
+  &amp;lt;script src=&amp;quot;https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;br /&gt;
+  &amp;lt;script src=&amp;quot;https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;br /&gt;
+  &amp;lt;![endif]--&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;5) In the file styles.css paste the bootstrap example styles from: http://getbootstrap.com/examples/sticky-footer-navbar/sticky-footer-navbar.css&lt;/p&gt;
+</description>
+        <pubDate>Fri, 28 Mar 2014 00:00:00 -0400</pubDate>
+        <link>https://www.jenntesolin.com/blog/2014/03/28/sticky-footer-with-fixed-navbar-example-with-bootstrap-3-and-emmet/</link>
+        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2014/03/28/sticky-footer-with-fixed-navbar-example-with-bootstrap-3-and-emmet/</guid>
+        
+        <category>Bootstrap</category>
+        
+        <category>emmet</category>
         
         
         <category>Tutorial</category>

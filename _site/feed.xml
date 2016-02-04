@@ -5,9 +5,9 @@
     <description>This is Jennifer Tesolin&#39;s personal web site. Located on this site are tutorials and tips for web developers.</description>
     <link>https://www.jenntesolin.com/</link>
     <atom:link href="https://www.jenntesolin.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 27 Jan 2016 14:29:28 -0500</pubDate>
-    <lastBuildDate>Wed, 27 Jan 2016 14:29:28 -0500</lastBuildDate>
-    <generator>Jekyll v3.1.0</generator>
+    <pubDate>Thu, 04 Feb 2016 11:45:50 -0500</pubDate>
+    <lastBuildDate>Thu, 04 Feb 2016 11:45:50 -0500</lastBuildDate>
+    <generator>Jekyll v3.1.1</generator>
     
       <item>
         <title>Fix pagination after upgrading from Jekyll 2 to Jekyll 3</title>
@@ -395,8 +395,8 @@ At the root: &lt;code&gt;http://localhost/wp-admin/install.php&lt;/code&gt;&lt;/
 &lt;p&gt;If you are not able to see content like fonts, JSON, videos, etc., you may need to add the mime type.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.uipress.com/add-json-handler-support-in-iis-7/&quot;&gt;JSON&lt;/a&gt;
-&lt;a href=&quot;http://codingstill.com/2013/01/set-mime-types-for-web-fonts-in-iis/&quot;&gt;web Fonts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.uipress.com/add-json-handler-support-in-iis-7/&quot;&gt;JSON&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://codingstill.com/2013/01/set-mime-types-for-web-fonts-in-iis/&quot;&gt;web Fonts&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://docs.composite.net/Layout/LayoutFAQ?q=Can+I+use+HTML5+and+CSS3+related+files+like+.svg%2C+.woff+and+.ogg%3F&quot;&gt;HTML5 and CSS3&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://codingstill.com/2013/01/set-mime-types-for-web-fonts-in-iis/&quot;&gt;other web font mimes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;

@@ -5,9 +5,69 @@
     <description>This is Jennifer Tesolin&#39;s personal web site. Located on this site are tutorials and tips for web developers.</description>
     <link>https://www.jenntesolin.com/</link>
     <atom:link href="https://www.jenntesolin.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 04 Feb 2016 11:45:50 -0500</pubDate>
-    <lastBuildDate>Thu, 04 Feb 2016 11:45:50 -0500</lastBuildDate>
+    <pubDate>Thu, 04 Feb 2016 12:54:34 -0500</pubDate>
+    <lastBuildDate>Thu, 04 Feb 2016 12:54:34 -0500</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
+    
+      <item>
+        <title>Configure Jekyll on Micosoft Azure or Github pages</title>
+        <description>&lt;p&gt;Sometimes hosting can be expensive, and some reputable hosts have free but limited hosting. This post described how to configure Github pages and Microsoft Azure.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;Just a note before getting started, personally I use plugins with Jekyll, so I have 2 repositories: 1) For development (which I connect to Azure), and 2) For the live site (Github pages). This is because when using the built in Jekyll server my custom JSON/jQuery search does not work there. Also, azure does not allow domain names to be configured for free.&lt;/p&gt;
+
+&lt;h2 id=&quot;github-pages&quot;&gt;GitHub Pages&lt;/h2&gt;
+
+&lt;p&gt;If your using a custom/personal domain with Github pages, you will need a “CNAME” file with your own domain name. Below is my example, you can also see the latest in my Github repository for my &lt;a href=&quot;https://github.com/jennifert/jennifert.github.io/blob/master/CNAME&quot;&gt;live site&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;www.jenntesolin.com&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The Github pages are the best to follow for setting up, so please for the rest of Github Pages guide:&lt;/p&gt;
+
+&lt;p&gt;https://pages.github.com/&lt;/p&gt;
+
+&lt;p&gt;This walks you through with prompts and changes with your Github set-up. Here is the final repo for my pages site:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/jennifert/jennifert.github.io&quot;&gt;https://github.com/jennifert/jennifert.github.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;azure&quot;&gt;Azure&lt;/h2&gt;
+
+&lt;p&gt;First, make sure you have a &lt;a href=&quot;https://github.com/jennifert/jekyll-site/blob/master/.deployment&quot;&gt;“.deployment”&lt;/a&gt; file pointing to your final complied website. Here is a sample of my code:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;[config]&lt;br /&gt;
+project = _site&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Also, I have a web.config file set up to read &lt;a href=&quot;https://github.com/jennifert/jekyll-site/blob/master/web.config&quot;&gt;JSON files&lt;/a&gt;. You can also use this for other items such as &lt;a href=&quot;https://www.jenntesolin.com/blog/2015/03/14/IIS7-Development-Environment/&quot;&gt;MIME types for web fonts&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To set-up your host, head on over to the &lt;a href=&quot;https://azure.microsoft.com/en-us/free/&quot;&gt;Azure site&lt;/a&gt; and click “Start now”. This will bring you to a sign in page which will require you to sign up with your Microsoft Account (Outlook, Hotmail, etc.).&lt;/p&gt;
+
+&lt;p&gt;Next, follow the prompts to set up your free offer. Unfortunately, at the time of writing mine had already expired so I just clicked on the “Portal button”.&lt;/p&gt;
+
+&lt;p&gt;From the left hand menu click “App services” to get to the screen to “Add”. Now, enter in your web site name, and choose a server close to you. Once your information is entered, click “Create”.&lt;/p&gt;
+
+&lt;p&gt;You will need to wait a bit for your host to be created, so maybe grab a coffee and come back. The new site will be on the dashboard. to see your server information click on the website name you created.&lt;/p&gt;
+
+&lt;p&gt;In this example, I am connecting to my Github account that I use for development. If you wish, you can always just configure FTP (and other things like programming versions of languages like .Net, PHP, etc.) by accessing it in your &lt;a href=&quot;https://azure.microsoft.com/en-us/documentation/articles/web-sites-configure/&quot;&gt;panel&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Click on “Publishing” under “Continous deployment” to set up your web application and it will being up various providers. Pick Github then follow the prompts to authorize Microsoft to access your Github account.&lt;/p&gt;
+
+&lt;p&gt;Next, select which repository you would like to connect to and click “OK”. In this example, I chose my “jekyll-site” repository. Grab another coffee or give your email a quick check, as the two services will need a bit of time to connect and serve from the branch you connected to (in my case, I just chose “Master”).&lt;/p&gt;
+
+&lt;p&gt;Finally, once its connected, check out the site at your URL: &lt;a href=&quot;http://jenntesolin.azurewebsites.net/&quot;&gt;http://jenntesolin.azurewebsites.net/&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 04 Feb 2016 07:38:21 -0500</pubDate>
+        <link>https://www.jenntesolin.com/blog/2016/02/04/jekyll-on-azure/</link>
+        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2016/02/04/jekyll-on-azure/</guid>
+        
+        <category>Jekyll</category>
+        
+        <category>Github Pages</category>
+        
+        <category>Azure</category>
+        
+        
+        <category>Tutorial</category>
+        
+      </item>
     
       <item>
         <title>Fix pagination after upgrading from Jekyll 2 to Jekyll 3</title>
@@ -657,57 +717,6 @@ $.getJSON(blogLink, function(data){&lt;br /&gt;
         <guid isPermaLink="true">https://www.jenntesolin.com/blog/2014/03/29/removing-cdata-from-yql-queries/</guid>
         
         <category>yql</category>
-        
-        
-        <category>Tutorial</category>
-        
-      </item>
-    
-      <item>
-        <title>Creating the Sticky footer with fixed navbar example with Bootstrap 3 using Emmet.IO</title>
-        <description>&lt;p&gt;This post described how to use &lt;a href=&quot;http://emmet.io/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Emmet&lt;/a&gt; short codes to quickly create the bootstrap example: &lt;a href=&quot;http://getbootstrap.com/examples/sticky-footer-navbar/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Sticky footer with fixed navbar&lt;/a&gt; using Bootstrap 3.  Feel free to read and implement suggestions.&lt;br /&gt;
-&lt;!--more--&gt;&lt;br /&gt;
-&lt;small&gt;
-&lt;p&gt;&lt;em&gt;In Sublime, select the Emmet code and press control + E (both Mac and PC)&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Step 1: Set up: Set up html, and body content, js&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;A) Emmet Code&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;html:5&amp;gt;(div.navbar.navbar-default.navbar-fixed-top&amp;gt;div.container&amp;gt;div.navbar-header&amp;gt;btn:r.navbar-toggle&amp;gt;span.sr-only{Toggle navigation}+span.icon-bar+span.icon+span.icon^a.navbar-brand{Welcome!}^div.collapse.navbar-collapse&amp;gt;ul.nav.navbar-nav&amp;gt;li*3&amp;gt;a^li.dropdown&amp;gt;a.dropdown-toggle{Dropdown }&amp;gt;b.caret^ul.dropdown-menu&amp;gt;li*3&amp;gt;a^li.divider+li.dropdown-header{Nav Header}+li*3&amp;gt;a^^^^^^^div.container&amp;gt;div.page-header&amp;gt;h1{Page Header Heer}^p.lead&amp;gt;lorem^^div#footer&amp;gt;div.container&amp;gt;p.text-muted{Copy Right Info}^^script:src{js/jquery-1.11.0.min.js}+script:src{js/bootstrap.min.js})&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Gist Location: &lt;a href=&quot;https://gist.github.com/jennifert/9846832&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://gist.github.com/jennifert/9846832&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;
-&lt;p&gt;&lt;em&gt;Note: Could not find Emmet tag to define JavaScript source location, so just moved it between script tags. Please see step 8 at 1B below.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;B) Fill in the missing items/editing places:&lt;/p&gt;
-&lt;p&gt;1) Add role=navigation to : navbar.navbar-default.navbar-fixed-top&lt;br /&gt;
-  2) At the toggle navigation &amp;lt;button&amp;gt; add: data-toggle=&amp;quot;collapse&amp;quot; data-target=&amp;quot;.navbar-collapse&amp;quot;&lt;br /&gt;
-  3) Add link # or otherwise at: navbar-brand&lt;br /&gt;
-  4) Add link, text and active item to: nav.navbar-nav remove&lt;br /&gt;
-  5) In same class as above but in dropdown dropdown-toggle, add data-toggle=&amp;quot;dropdown&amp;quot;&lt;br /&gt;
-  6) Edit h1 tag in: page-header class div&lt;br /&gt;
-  7) Update Copy right Info&lt;br /&gt;
-  8) Move js path that&#39;s between script tags to src=&amp;quot;&amp;quot;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Step 2: Insert the rest of the header information&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;A) Emmet Code: Place course on line under &amp;lt;title&amp;gt;...&amp;lt;/title&amp;gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;meta:vp+link:favicon+meta:compat+link:css{css/bootstrap.min.css}+link:css&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Gist Location: &lt;a href=&quot;https://gist.github.com/jennifert/9846855&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://gist.github.com/jennifert/9846855&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;B) Edit the following items:&lt;br /&gt;
-  1) Favicon.ico if needed&lt;br /&gt;
-  2) Change ie=7 to ie=edge in meta tag.&lt;br /&gt;
-  3) In the style.css where you bootstrap is nested in, cut and paste the bootstrap style sheet in place of styles.css.&lt;br /&gt;
-  4) In between the updated bootstrap css and styles.css, paste your conditional comments.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;&amp;lt;!--[if lt IE 9]&amp;gt;&lt;br /&gt;
-  &amp;lt;script src=&amp;quot;https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;br /&gt;
-  &amp;lt;script src=&amp;quot;https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;br /&gt;
-  &amp;lt;![endif]--&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;5) In the file styles.css paste the bootstrap example styles from: http://getbootstrap.com/examples/sticky-footer-navbar/sticky-footer-navbar.css&lt;/p&gt;
-</description>
-        <pubDate>Fri, 28 Mar 2014 00:00:00 -0400</pubDate>
-        <link>https://www.jenntesolin.com/blog/2014/03/28/sticky-footer-with-fixed-navbar-example-with-bootstrap-3-and-emmet/</link>
-        <guid isPermaLink="true">https://www.jenntesolin.com/blog/2014/03/28/sticky-footer-with-fixed-navbar-example-with-bootstrap-3-and-emmet/</guid>
-        
-        <category>Bootstrap</category>
-        
-        <category>emmet</category>
         
         
         <category>Tutorial</category>

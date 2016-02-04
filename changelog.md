@@ -3,6 +3,15 @@ Changelog
 
 ##phase 2 Updates:
 
+February 4, 2016
+- New post!
+- removed broken draft links
+- fixed formatting on IIS post
+
+December 2015 - January 2016
+- Adding social media metatags
+- adding microformats/h-cards
+
 November 17, 2015
 - Fixed links in Jekyll blog posts index pages.
 - fixed YQL demos, and re-added links to pages
@@ -59,7 +68,7 @@ March 5, 2015
 - Added plug-ins to repo that will be used in the future.ly
 
 November 7, 2014
-- Fixed page titles to be more SEo friendly.
+- Fixed page titles to be more SEO friendly.
 
 October 7, 2014
 - Added  rel="nofollow" to off-site links.

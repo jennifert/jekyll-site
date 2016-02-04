@@ -1,6 +1,16 @@
 [
     
     {
+      "title"    : "Configure Jekyll on Micosoft Azure or Github pages",
+      "href"     : "/blog/2016/02/04/jekyll-on-azure/",
+      "summary"     : "Sometimes hosting can be expensive, and some reputable hosts have free but limited hosting. This post described how to configure Github pages and Microsoft Azure.Just a note before getting started,...",
+      "category" : ["Tutorial", null],
+      "tags"     : ["Jekyll","Github Pages","Azure", null],
+      "date"     : "Feb 4, 2016"
+    }
+    ,
+    
+    {
       "title"    : "Fix pagination after upgrading from Jekyll 2 to Jekyll 3",
       "href"     : "/blog/2015/10/28/fix-jekyll-pagination-upgrade-to-3/",
       "summary"     : "In Jekyll 3, pagination is deprecated. This post describes how to resolve the error: “Deprecation: You appear to have pagination turned on, but you haven’t included the jekyll-paginate gem. Ensure...",

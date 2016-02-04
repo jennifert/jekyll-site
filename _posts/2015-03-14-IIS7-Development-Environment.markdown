@@ -117,7 +117,7 @@ For issues, consult the [WordPress Docs](http://codex.wordpress.org/Installing_W
 If you are not able to see content like fonts, JSON, videos, etc., you may need to add the mime type.
 
 + [JSON](http://www.uipress.com/add-json-handler-support-in-iis-7/)
-[web Fonts](http://codingstill.com/2013/01/set-mime-types-for-web-fonts-in-iis/)
++ [web Fonts](http://codingstill.com/2013/01/set-mime-types-for-web-fonts-in-iis/)
 + [HTML5 and CSS3](http://docs.composite.net/Layout/LayoutFAQ?q=Can+I+use+HTML5+and+CSS3+related+files+like+.svg%2C+.woff+and+.ogg%3F)
 + [other web font mimes](http://codingstill.com/2013/01/set-mime-types-for-web-fonts-in-iis/)
 

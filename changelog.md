@@ -3,6 +3,11 @@ Changelog
 
 ##phase 2 Updates:
 
+January 5, 2017
+- New post!
+- Updated about us page to add more information on upcoming post series.
+- fixed wordpress tip on page 3 (display X number of posts)
+
 February 4, 2016
 - New post!
 - removed broken draft links

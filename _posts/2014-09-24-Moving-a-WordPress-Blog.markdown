@@ -15,7 +15,7 @@ published: true
 ---
 This post will describe various ways to move WordPress, either to a different server or to Jekyll. <!--more-->
 
-##Steps to make an exact copy
+## Steps to make an exact copy
 
 This includes all plugins, theses, posts, etc.
 
@@ -27,14 +27,14 @@ This includes all plugins, theses, posts, etc.
 
 I have tried other various methods including web applications, but those have caused problems such as not completely disconnecting the databases. In one instance WordPress core upgrade to the copied version, had also upgraded the first one as well.
 
-##The safest way to move (but not exact)
+## The safest way to move (but not exact)
 
 - download a copy of your themes, and plugins
 - download an export of your post files. If your using a multi-site, you will need to do this for each blog.
 - download a fresh copy of WordPress, and set up your plug-ins and themes.
 - import posts, map users making sure to check the box to download linked media.
 
-##Moving to Jekyll
+## Moving to Jekyll
 
 Check out my latest blog post for an in-depth look at moving to Jekyll.
 

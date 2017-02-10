@@ -20,7 +20,7 @@ This post describes how to enable IIS on Windows 7, along with enabling MySql an
 
 Note: You will need Administrator Access.
 
-###Enable IIS 
+### Enable IIS 
 In order to avoid permission issues when trying to edit a file with your logged in account, create a folder in a directory outside of innetpub, ensuring that the full path has no spaces.
 
 For example: 
@@ -34,7 +34,7 @@ Since our folder is created, lets go ahead and relocate the server to use that!
 
 Go in to the Default Web site and click: <code>Default Web Site > Manage Web Sites > Advanced Settings > Physical Path</code> Modify the path to be at the location you created at the top of this step.
 
-###Install PHP
+### Install PHP
 Go back onto the "Turn Windows Features on or off" menu and  Expand "Application Development Features" and then enable the "CGI" check box.
 
 Download the latest stable version for PHP (Non Thread Safe) and unzip into a directory so that the path is similar to: <code>c:\PHP5</code>
@@ -67,7 +67,7 @@ In the IIS manager, click on your Default website, and then "Default Document", 
 
 Finally, restart your Default Web Site, and check out the "Security recommendations" link in the Resource section for more ways to secure this instance.
 
-###Install MySQL
+### Install MySQL
 Download the latest stable version, but be sure to just skip to the download (near bottom of page).
 
 For most uses the Typical install is fine. Please select all the MySQL defaults, and be sure to set a strong default password for root.
@@ -83,12 +83,12 @@ Save, then restart your IIS server.
 
 Lastly, create a mysql user and database. Be sure to use a strong password here as well.
 
-###Install the URL rewrite plug-in for IIS. Then restart server
+### Install the URL rewrite plug-in for IIS. Then restart server
 Go to the [Microsoft Site](http://www.iis.net/downloads/microsoft/url-rewrite) to download the latest version.
 
 The step will allow you to use "Prety URLs" on your blog.
 
-###Download and install WordPress
+### Download and install WordPress
 [WordPress.org](http://wordpress.org/download/) always has the latest versions (4.1.1 at the time of writing). Also, check out the [translations](https://make.wordpress.org/polyglots/teams/) to download WordPress in your language, though some of these ay not be the latest.
 
 To use WordPress just for something like a blog, unzip into your webroot, and change the file name:
@@ -113,7 +113,7 @@ Go through and set up your site name, and admin user as suggested on the page.
 
 For issues, consult the [WordPress Docs](http://codex.wordpress.org/Installing_WordPress)
 
-###Add Mime Types to IIS
+### Add Mime Types to IIS
 If you are not able to see content like fonts, JSON, videos, etc., you may need to add the mime type.
 
 + [JSON](http://www.uipress.com/add-json-handler-support-in-iis-7/)
@@ -125,7 +125,7 @@ Finally, if they are not above, they may be mentioned at:
 
 [List of Common MIME types](http://www.serverintellect.com/support/iis/mime-types/)
 
-###Resources
+### Resources
 + [How do I change permissions on wwroot](http://stackoverflow.com/a/4920620)
 + [PHP.net Installation Docs](http://php.net/manual/en/install.windows.iis7.php)
 + [Security Recommendations](http://www.iis.net/learn/application-frameworks/install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis#PHP_Security_Recommendations_)

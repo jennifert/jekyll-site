@@ -20,7 +20,7 @@ Sometimes hosting can be expensive, and some reputable hosts have free but limit
 
 Just a note before getting started, personally I use plugins with Jekyll, so I have 2 repositories: 1) For development (which I connect to Azure), and 2) For the live site (Github pages). This is because when using the built in Jekyll server my custom JSON/jQuery search does not work there. Also, azure does not allow domain names to be configured for free.
 
-##GitHub Pages
+## GitHub Pages
 
 If your using a custom/personal domain with Github pages, you will need a "CNAME" file with your own domain name. Below is my example, you can also see the latest in my Github repository for my [live site](https://github.com/jennifert/jennifert.github.io/blob/master/CNAME).
 
@@ -34,7 +34,7 @@ This walks you through with prompts and changes with your Github set-up. Here is
 
 [https://github.com/jennifert/jennifert.github.io](https://github.com/jennifert/jennifert.github.io)
 
-##Azure
+## Azure
 
 First, make sure you have a [".deployment"](https://github.com/jennifert/jekyll-site/blob/master/.deployment) file pointing to your final complied website. Here is a sample of my code:
 

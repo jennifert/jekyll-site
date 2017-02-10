@@ -5,12 +5,7 @@ baseurl: ""
 url: "https://www.jenntesolin.com"
 timezone : "America/Toronto"
 
-# Build settings
-gems:
-  - jekyll-feed
-  - jekyll-paginate
-
-exclude: [Gemfile, Gemfile.lock, README.md, vendor, bin,changelog.md,wordpress.xml,package.json,Gruntfile.js,node_modules, demos]
+exclude: [Gemfile, Gemfile.lock, README.md, vendor, bin,changelog.md,wordpress.xml,package.json,Gruntfile.js,node_modules, demos,.ruby-version]
 markdown: kramdown
 markdown_ext:  markdown,mkdown,mkdn,mkd,md
 textile_ext:   textile

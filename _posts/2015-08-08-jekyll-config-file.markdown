@@ -18,7 +18,7 @@ The Jekyll configuration file houses important information for your site. This p
 
 This file has quite a few areas of editing, especially if you want to override some of the [default Jekyll options](http://jekyllrb.com/docs/configuration/#front-matter-defaults). Here is a [sample](https://github.com/jennifert/jekyll-site/blob/master/_config.yml) of my <code>_config.yml</code> from my GitHub repository. There are 3 main sections, which are explain in more detail below.
 
-###Site Settings
+### Site Settings
 
 This section define what and where your site is.
 
@@ -28,7 +28,7 @@ This section define what and where your site is.
 + url: the url of your blog
 + timezone: What time zone your in. Be sure to use a format such as: America/Toronto, or America/New_York.
 
-###Build Settings
+### Build Settings
 
 This section will tell Jekyll how to and what files to sue to generate your production site.
 
@@ -40,7 +40,7 @@ This section will tell Jekyll how to and what files to sue to generate your prod
 + paginate_path: what site link format your paginated results will be. In format: "blog/page:num"
 
 
-###Author information
+### Author information
 
 This section is used to display information on the company/site owner using information such as name, email, twitter handle, Github repository, location, etc. The sub information must be 1 tab under "<code>author:</code>"
 
@@ -51,9 +51,9 @@ This section is used to display information on the company/site owner using info
 &nbsp;&nbsp;&nbsp;github : jennifert<br>
 &nbsp;&nbsp;&nbsp;twitter : jenntes</code>
 
-###Issues encountered
+### Issues encountered
 Unfortunately, it seems like new elements can not be created and used in other files. For example, when converting this site to Jekyll, I was unable add other social network item I entered under the author section to then use the links in the footer include and humans.txt file.
 
-###Additional information and elements
+### Additional information and elements
 
 The [Configuration Docs](http://jekyllrb.com/docs/configuration/) from the Official JekyllRB site is a must read. They include a ton of useful information and other tags that you can use in your file.

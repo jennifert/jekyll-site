@@ -16,13 +16,13 @@ author: Jennifer Tesolin
 
 Jekyll is a static site generator that runs on NodeJS. Its a great alternative to WordPress that eliminates the need for databases.<!--more-->
 
-###Requirements
+### Requirements
 
 - [Ruby](http://www.ruby-lang.org/en/downloads/)
 - [RubyGems](http://rubygems.org/pages/download)
 - [NodeJS](http://nodejs.org/)
 
-###Install Jekyll dependencies:
+### Install Jekyll dependencies:
 
 <code>sudo gem update --system<br>
 sudo gem update<br>
@@ -36,7 +36,7 @@ Note: If your a risk taker, the below command installs a pre release version. Pl
 
 <code>gem install jekyll --pre</code>
 
-###A new Jekyll instance (non-WordPress instructions)
+### A new Jekyll instance (non-WordPress instructions)
 
 First, run the the below command, replacing "MySite" with the folder name for your site.
 
@@ -67,7 +67,7 @@ Here is a sample output:
 
 Then, browse to: [http://localhost:4000](http://localhost:4000).  You can edit files, and Jekyll will make those updates behind the scene as soon as you save...just refresh to see your changes.
 
-###Wordpress Import instructions (wordpress.com and self hosted)
+### Wordpress Import instructions (wordpress.com and self hosted)
 Create a folder for your site and use the terminal to change to the folder your your site will be (<code>cd foldername</code>). 
 
 Make sure the upload folder and a copy of your [WordPress export](https://en.support.wordpress.com/export/) is at the root of your new site folder. For demo purposes, I will call it: <code>wordpress.xml.</code>
@@ -87,7 +87,7 @@ To see what your site looks like, run the command <code>jekyll serve</code>.
 
 As with the non-WordPress import, any changes you make will be reflected in your development link.
 
-###Drafts
+### Drafts
 
 To wok on a post locally, but not moving it live, create a folder at the root called <code>_drafts</code>. Next, add a markdown or html file without the address. Finally, run <code>jekyll server --watch --drafts</code>
 
@@ -95,7 +95,7 @@ To wok on a post locally, but not moving it live, create a folder at the root ca
 
 Changes can be made on the fly using this method as well. When ready to publish, move the file to <code>_posts</code> and add a date.
 
-###Publishing your new site
+### Publishing your new site
 
 The last step is in this process is to push your files on-line. Move into the root of <code>_site</code>. These are the production ready files that should be moved to your server.
 
@@ -105,13 +105,13 @@ The first chunk of files below shows the root of my Jekyll site, while the secon
 
 Note: There will be separate posts on various items in the config file, how to get it running on Azure and finally, another on publishing to Github Pages, and CloudFlare.
 
-###Youtube Demo
+### Youtube Demo
 
 Here is a demo of the process to configure Ruby, and Jekyll on a system.
 
 {% youtube SRmNM6VjhZk "16by9" %}
 
-###Resources
+### Resources
 + [Jekyll Docs](http://stackoverflow.com/a/4920620)
 + [Jekyll Import Docs](http://import.jekyllrb.com/docs/wordpressdotcom/)
 + [Jekyll Docs - Working with drafts](http://jekyllrb.com/docs/drafts/)

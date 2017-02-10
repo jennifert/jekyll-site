@@ -1,6 +1,56 @@
 [
     
     {
+      "title"    : "Quick Tip: WordPress and Campaign Monitor",
+      "href"     : "/blog/2017/01/06/quick-tip-word-press-and-campaign-monitor/",
+      "summary"     : "Just a quick and easy way to integrate your campaign monitor list. Note: this post first appeared Apr 18, 2013, and has been updated to reflect the most recent information.Adding a...",
+      "category" : ["Tip", null],
+      "tags"     : ["wordpress","PHP", null],
+      "date"     : "Jan 6, 2017"
+    }
+    ,
+    
+    {
+      "title"    : "Top 6 resources that you may find at your local library",
+      "href"     : "/blog/2017/01/06/top-6-library-resources/",
+      "summary"     : "The library now has more services than just book for video lending. This post describes what can be found in the city of Toronto, Canada. Be sure to check out...",
+      "category" : ["Technology", null],
+      "tags"     : ["library", null],
+      "date"     : "Jan 6, 2017"
+    }
+    ,
+    
+    {
+      "title"    : "Top 5 additions from the console games that would improve Pokemon Go",
+      "href"     : "/blog/2016/08/24/top-5-console-additions-pokemon-go/",
+      "summary"     : "Pokemon Go is a great idea for a game but as someone who has played the console games in the past there are quite a few things that seem to...",
+      "category" : ["Games", null],
+      "tags"     : ["PokemonGo", null],
+      "date"     : "Aug 24, 2016"
+    }
+    ,
+    
+    {
+      "title"    : "Quick tip: Comparing integer variables using PHP",
+      "href"     : "/blog/2016/06/14/compare-integars-php/",
+      "summary"     : "This post describes how to compare variables that have integars using PHP.To properly compare variables in PHP, we are taking a look at the intval function. If you try to...",
+      "category" : ["Tutorial", null],
+      "tags"     : ["php", null],
+      "date"     : "Jun 14, 2016"
+    }
+    ,
+    
+    {
+      "title"    : "Quick tip: Change your iTunes media view mode",
+      "href"     : "/blog/2016/06/12/itunes-view-change/",
+      "summary"     : "In the latest iTunes release, there has been quite a few tweaks to the interface. One option that has moved is the change view in playlist. This post describes how...",
+      "category" : ["Tutorial", null],
+      "tags"     : ["php", null],
+      "date"     : "Jun 12, 2016"
+    }
+    ,
+    
+    {
       "title"    : "Configure Jekyll on Micosoft Azure or Github pages",
       "href"     : "/blog/2016/02/04/jekyll-on-azure/",
       "summary"     : "Sometimes hosting can be expensive, and some reputable hosts have free but limited hosting. This post described how to configure Github pages and Microsoft Azure.Just a note before getting started,...",
@@ -317,16 +367,6 @@
       "category" : ["Tutorial", null],
       "tags"     : ["Grunt","node js", null],
       "date"     : "May 8, 2013"
-    }
-    ,
-    
-    {
-      "title"    : "Quick Tip: Wordpress and Campaign Monitor",
-      "href"     : "/blog/2013/04/18/quick-tip-word-press-and-campaign-monitor/",
-      "summary"     : "Just a quick and easy way to integrate your campaign monitor list. Step 1: Adding a subscribe form to your siteThe easiest way, is to use the Wordpress text widget, and then paste...",
-      "category" : ["Tip", null],
-      "tags"     : ["wordpress","PHP", null],
-      "date"     : "Apr 18, 2013"
     }
     ,
     

@@ -15,11 +15,11 @@ published: true
 
 This post describes how you can sync your current iTunes media files to your android device. This tutorial was written and tested on Mac os X mavericks and a Nexus 5.<!--more-->
 
-##Clean up your current iTunes library.
+## Clean up your current iTunes library.
 
 Before moving any media files from an iTunes library to Android to play in any player, it's best to get unlocked copies. For me the fastest (and legal non time consuming way) was to get iTunes music match enabled. Once it has finished setting up,  [follow this article on creating playlists](http://computers.tutsplus.com/tutorials/how-to-remove-drm-from-your-music-with-itunes-match--mac-59271){: rel="nofollow"} to find locked files, and more.
 
-####Fix with iTunes Match playlists
+#### Fix with iTunes Match playlists
 
 All playlists had media kind music, then in the first one added I cloud status ineligible.  For music, this means that the bit rate used to import the media was under 92 kps and a match was not found in the iTunes Library. The best way to solve this error is to reimport from your CD if you want to keep using iCloud or iTunes.
 
@@ -29,7 +29,7 @@ With my music from iTunes being quite large I set the music to re-download files
 
 Once you have those files re-downloaded, go to view > show duplicates. Make sure that they are indeed duplicates and then delete from iCloud and iTunes.
 
-####Remove duplicate songs
+#### Remove duplicate songs
 
 Next step is to find the duplicates in your music folder for iTunes using finder. 
 
@@ -37,12 +37,12 @@ Note: This did not help my duplicate music problem in the double twist desktop a
 
 Once your sure your duplicates are gone, set up double twist on your computer.
 
-##Set-Up Double Twist on your computer.
+## Set-Up Double Twist on your computer.
 
-####Download applications to mobile and desktop devices.
+#### Download applications to mobile and desktop devices.
 You will need to download for both desktop/laptop and mobile device. The files for the desktop can be downloaded from [the official website](https://www.doubletwist.com/). The mobile version is available from the [play store](https://play.google.com/store/apps/details?id=com.doubleTwist.androidPlayer){: rel="nofollow"}. I just went ahead and the air sync add on since I do this often. With air sync go to mobile settings and get your four digit pin and enter on your desktop. You should now see your device their, if not, on you device select the option to broadcast. All add-ons are in-app purchases.
 
-####Set up desktop App
+#### Set up desktop App
 
 Once installed, open the DoubleTwsit application. Choose your iTunes folder, the. Let it do its thing. A few times I had to close then reset program on desktop to see all playlists and files after editing in iTunes.
 
@@ -50,7 +50,7 @@ Now select your device, choose your settings and sync. Be sure to note and fix a
 
 That's it!  It works pretty well but just note any adjustments to your playlist needs to be made in iTunes. Edits from double twist do not carry over.
 
-##Notes:
+## Notes:
 
 Con:
 

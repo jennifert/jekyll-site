@@ -134,7 +134,7 @@
               for (var j in blogTags) {
                 if (blogTags[j]  === null){
                 } else {  
-                  results = results + ' <span class="label label-primary taggedPost"><a href="/search.html?searchbox='+blogTags[j]+'">' + blogTags[j] + '</a></span> ';
+                  results = results + ' <span class="label label-primary taggedPost"><a href="/search/?searchbox='+blogTags[j]+'">' + blogTags[j] + '</a></span> ';
                 }
                 
               }

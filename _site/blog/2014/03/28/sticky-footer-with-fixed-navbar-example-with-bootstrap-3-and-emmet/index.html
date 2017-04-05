@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Creating the Sticky footer with fixed navbar example with Bootstrap 3 using Emmet.IO - Jennifer Tesolin </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="A quick look at using Emmet.IO short codes to build a Bootstrap example page in a flash.">
+    
+    <link rel="canonical" href="https://www.jenntesolin.com/blog/2014/03/28/sticky-footer-with-fixed-navbar-example-with-bootstrap-3-and-emmet/">
+    <link type="text/plain" rel="author" href="/humans.txt" />
+    <link rel="author" href="https://plus.google.com/109759985952910616281?rel=author" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/combined.css">
+    <link rel='alternate' type='application/atom+xml' title='Atom 0.3' href='http://localhost:4000/feed.xml'>
+    
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    
+    <meta name="application-name" content="Creating the Sticky footer with fixed navbar example with Bootstrap 3 using Emmet.IO - Jennifer Tesolin"/>
+    <meta name="msapplication-TileColor" content="#000000"/>
+    <meta name="msapplication-square70x70logo" content="imgs/tiny.png"/>
+    <meta name="msapplication-square150x150logo" content="imgs/square.png"/>
+    <meta name="msapplication-wide310x150logo" content="imgs/wide.png"/>
+    <meta name="msapplication-square310x310logo" content="imgs/large.png"/>
+
+       
+      <!--Social Media-->
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:site" content="@jenntes" />
+      <meta name="og:type" content="article" />
+      <meta name="og:title" content="Creating the Sticky footer with fixed navbar example with Bootstrap 3 using Emmet.IO" />
+      <meta name="og:url" content="/blog/2014/03/28/sticky-footer-with-fixed-navbar-example-with-bootstrap-3-and-emmet/" />
+      <!--<meta name="og:image" content="{featured image}" />-->
+      <meta name="og:description" content="A quick look at using Emmet.IO short codes to build a Bootstrap example page in a flash." />
+      <meta name="og:site_name" content="Jennifer Tesolin's Blog" />
+
+      
+      <!-- <meta property="og:site_name" content="Jennifer Tesolin" />
+      <meta property="fb:admins" content="Facebook numberic ID" /> -->
+
+   <!--Google and preload next-->
+     <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44673213-1', 'jenntesolin.com');
+  ga('send', 'pageview');
+  </script>
+
+   <!-- replace with jekyll tags/gem -->
+  <link rel="prefetch" href="/blog/" />
+  <link rel="next" href="/blog/"/>
+
+
+</head>
+
+
+    <body>
+
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Home</a>
+        </div>
+        <div class="collapse navbar-collapse">
+      
+      <ul class="nav navbar-nav">
+        <li ><a href="/about/">About</a></li>
+        <li class="active" ><a href="/blog/">Blog</a></li>
+        <li ><a href="/photos/">Photos</a></li>
+      </ul>
+
+      <form role="search" method="get" class="navbar-form navbar-right form-inline" action="/search.html">
+          <div class="form-group" id="searchdiv">
+            <input type="search" id="searchbox" name="searchbox" class="form-control search" placeholder="Search ... ">
+            <label class="hide">Search for:</label>
+          </div>
+          <button type="submit" class="btn btn-success search"> <i class="fa fa-search"></i></button>
+      </form>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="post h-entry">
+
+  <header class="post-header">
+    <h1 class="p-name">Creating the Sticky footer with fixed navbar example with Bootstrap 3 using Emmet.IO</h1>
+    <p class="meta"><time class="dt-published">Mar 28, 2014</time></p>
+  </header>
+
+  <article class="post-content e-content p-name">
+  <p>This post described how to use <a href="http://emmet.io/" target="_blank" rel="nofollow">Emmet</a> short codes to quickly create the bootstrap example: <a href="http://getbootstrap.com/examples/sticky-footer-navbar/" target="_blank" rel="nofollow">Sticky footer with fixed navbar</a> using Bootstrap 3.  Feel free to read and implement suggestions.<br />
+<!--more--><br />
+<small>
+<p><em>In Sublime, select the Emmet code and press control + E (both Mac and PC)</em></p>
+<p></small></p>
+<p><strong>Step 1: Set up: Set up html, and body content, js</strong></p>
+<p>A) Emmet Code</p>
+<p><code>html:5&gt;(div.navbar.navbar-default.navbar-fixed-top&gt;div.container&gt;div.navbar-header&gt;btn:r.navbar-toggle&gt;span.sr-only{Toggle navigation}+span.icon-bar+span.icon+span.icon^a.navbar-brand{Welcome!}^div.collapse.navbar-collapse&gt;ul.nav.navbar-nav&gt;li*3&gt;a^li.dropdown&gt;a.dropdown-toggle{Dropdown }&gt;b.caret^ul.dropdown-menu&gt;li*3&gt;a^li.divider+li.dropdown-header{Nav Header}+li*3&gt;a^^^^^^^div.container&gt;div.page-header&gt;h1{Page Header Heer}^p.lead&gt;lorem^^div#footer&gt;div.container&gt;p.text-muted{Copy Right Info}^^script:src{js/jquery-1.11.0.min.js}+script:src{js/bootstrap.min.js})</code></p>
+<p>Gist Location: <a href="https://gist.github.com/jennifert/9846832" target="_blank" rel="nofollow">https://gist.github.com/jennifert/9846832</a></p>
+<p><small>
+<p><em>Note: Could not find Emmet tag to define JavaScript source location, so just moved it between script tags. Please see step 8 at 1B below.</em></p>
+<p></small></p>
+<p>B) Fill in the missing items/editing places:</p>
+<p>1) Add role=navigation to : navbar.navbar-default.navbar-fixed-top<br />
+  2) At the toggle navigation &lt;button&gt; add: data-toggle=&quot;collapse&quot; data-target=&quot;.navbar-collapse&quot;<br />
+  3) Add link # or otherwise at: navbar-brand<br />
+  4) Add link, text and active item to: nav.navbar-nav remove<br />
+  5) In same class as above but in dropdown dropdown-toggle, add data-toggle=&quot;dropdown&quot;<br />
+  6) Edit h1 tag in: page-header class div<br />
+  7) Update Copy right Info<br />
+  8) Move js path that's between script tags to src=&quot;&quot;</p>
+<p><strong>Step 2: Insert the rest of the header information</strong></p>
+<p>A) Emmet Code: Place course on line under &lt;title&gt;...&lt;/title&gt;</p>
+<p><code>meta:vp+link:favicon+meta:compat+link:css{css/bootstrap.min.css}+link:css</code></p>
+<p>Gist Location: <a href="https://gist.github.com/jennifert/9846855" target="_blank" rel="nofollow">https://gist.github.com/jennifert/9846855</a></p>
+<p>B) Edit the following items:<br />
+  1) Favicon.ico if needed<br />
+  2) Change ie=7 to ie=edge in meta tag.<br />
+  3) In the style.css where you bootstrap is nested in, cut and paste the bootstrap style sheet in place of styles.css.<br />
+  4) In between the updated bootstrap css and styles.css, paste your conditional comments.</p>
+<p><code>&lt;!--[if lt IE 9]&gt;<br />
+  &lt;script src=&quot;https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js&quot;&gt;&lt;/script&gt;<br />
+  &lt;script src=&quot;https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js&quot;&gt;&lt;/script&gt;<br />
+  &lt;![endif]--&gt;</code></p>
+<p>5) In the file styles.css paste the bootstrap example styles from: http://getbootstrap.com/examples/sticky-footer-navbar/sticky-footer-navbar.css</p>
+
+  </article>
+
+</div>
+    </div>
+
+          
+      <footer>
+        <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12">
+           <p class="vcard text-muted">
+          &copy; 2017 <span class="fn">Jennifer Tesolin</span>
+          <span class="pull-right">
+            <a  class="url" href="https://github.com/jennifert?tab=repositories" target="_blank" rel="nofollow"><i class="fa fa-github fa-3x"></i></a>
+            <a class="url" href="https://twitter.com/jenntes" target="_blank" rel="nofollow"><i class="fa fa-twitter fa-3x"></i></a>
+            <a class="url" href="https://www.flickr.com/photos/68631186@N06/sets/" target="_blank" rel="nofollow"><i class="fa fa-flickr fa-3x"></i></a>
+            <a class="url" href="/feed.xml" rel="nofollow"><i class="fa fa-rss fa-3x"></i></a>
+            <a class="url" href="http://ca.linkedin.com/pub/jennifer-tesolin/2b/5bb/3a6" target="_blank" rel="nofollow"><i class="fa fa-linkedin fa-3x"></i></a>
+            <a href="https://plus.google.com/109759985952910616281?rel=author" rel="nofollow"></a><a class="url" href="https://plus.google.com/109759985952910616281" target="_blank" rel="me"><i class="fa fa-google-plus fa-3x"></i></a>
+            <a class="u-email url" href="mailto:jtesolin@gmail.com" target="_blank" rel="me"><i class="fa fa-envelope fa-3x"></i></a>
+          </span>
+        </p>
+        </div>
+        </div>
+        </div>
+      </footer>
+
+<script type="text/javascript" src="/js/combined.js"></script>
+
+    </body>
+</html>

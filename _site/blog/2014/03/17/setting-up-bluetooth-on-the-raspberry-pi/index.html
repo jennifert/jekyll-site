@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Setting up Bluetooth on the raspberry pi - Jennifer Tesolin </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Setting up a bluetooth dongle can be quite interesting when using Raspmbc. Here is a guide on setting up.">
+    
+    <link rel="canonical" href="https://www.jenntesolin.com/blog/2014/03/17/setting-up-bluetooth-on-the-raspberry-pi/">
+    <link type="text/plain" rel="author" href="/humans.txt" />
+    <link rel="author" href="https://plus.google.com/109759985952910616281?rel=author" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/combined.css">
+    <link rel='alternate' type='application/atom+xml' title='Atom 0.3' href='http://localhost:4000/feed.xml'>
+    
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    
+    <meta name="application-name" content="Setting up Bluetooth on the raspberry pi - Jennifer Tesolin"/>
+    <meta name="msapplication-TileColor" content="#000000"/>
+    <meta name="msapplication-square70x70logo" content="imgs/tiny.png"/>
+    <meta name="msapplication-square150x150logo" content="imgs/square.png"/>
+    <meta name="msapplication-wide310x150logo" content="imgs/wide.png"/>
+    <meta name="msapplication-square310x310logo" content="imgs/large.png"/>
+
+       
+      <!--Social Media-->
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:site" content="@jenntes" />
+      <meta name="og:type" content="article" />
+      <meta name="og:title" content="Setting up Bluetooth on the raspberry pi" />
+      <meta name="og:url" content="/blog/2014/03/17/setting-up-bluetooth-on-the-raspberry-pi/" />
+      <!--<meta name="og:image" content="{featured image}" />-->
+      <meta name="og:description" content="Setting up a bluetooth dongle can be quite interesting when using Raspmbc. Here is a guide on setting up." />
+      <meta name="og:site_name" content="Jennifer Tesolin's Blog" />
+
+      
+      <!-- <meta property="og:site_name" content="Jennifer Tesolin" />
+      <meta property="fb:admins" content="Facebook numberic ID" /> -->
+
+   <!--Google and preload next-->
+     <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44673213-1', 'jenntesolin.com');
+  ga('send', 'pageview');
+  </script>
+
+   <!-- replace with jekyll tags/gem -->
+  <link rel="prefetch" href="/blog/" />
+  <link rel="next" href="/blog/"/>
+
+
+</head>
+
+
+    <body>
+
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Home</a>
+        </div>
+        <div class="collapse navbar-collapse">
+      
+      <ul class="nav navbar-nav">
+        <li ><a href="/about/">About</a></li>
+        <li class="active" ><a href="/blog/">Blog</a></li>
+        <li ><a href="/photos/">Photos</a></li>
+      </ul>
+
+      <form role="search" method="get" class="navbar-form navbar-right form-inline" action="/search.html">
+          <div class="form-group" id="searchdiv">
+            <input type="search" id="searchbox" name="searchbox" class="form-control search" placeholder="Search ... ">
+            <label class="hide">Search for:</label>
+          </div>
+          <button type="submit" class="btn btn-success search"> <i class="fa fa-search"></i></button>
+      </form>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="post h-entry">
+
+  <header class="post-header">
+    <h1 class="p-name">Setting up Bluetooth on the raspberry pi</h1>
+    <p class="meta"><time class="dt-published">Mar 17, 2014</time></p>
+  </header>
+
+  <article class="post-content e-content p-name">
+  <p>Setting up a bluetooth dongle can be quite interesting when using Raspmbc. Here is a guide on setting up.<!--more--></p>
+<p><strong>Requirements:</strong></p>
+<ul>
+<li>Raspberry pi</li>
+<li>Bluetooth dongle (<a href="https://www.modmypi.com/nano-bluethooth-dongle?filter_name=bluetooth" target="_blank" rel="nofollow">I used this one from ModMyPi</a>)</li>
+<li>Wifi or ethernet connected</li>
+</ul>
+<p><strong>Steps:</strong></p>
+<p>I found the <a href="http://www.ctheroux.com/2012/08/a-step-by-step-guide-to-setup-a-bluetooth-keyboard-and-mouse-on-the-raspberry-pi/" target="_blank" rel="nofollow">following guide</a> very helpful, however kept running into errors.</p>
+<p>To fix it, run the following command after rebooting and before in place of installing bluetooth:</p>
+<p><code>apt-get install obex-data-server<br />
+apt-get ​install bluetooth bluez-utils blueman bluez-compat</code></p>
+<p>If you have tried in the past to install bluetooth, but its still broken, run the below command:</p>
+<p><code>sudo dpkg --configure -a</code></p>
+<p>Unfortunately, there where problems pairing the device with the error message being:</p>
+<code>Creating device failed: org.bluez.Error.AuthenticationRejected: Authentication Rejected</code>
+<p>So following another article, it is recommended to type in:</p>
+<p><code>sudo nano /usr/bin/bluez-simple-agent</code> </p>
+<p>Now, in this file, change 'KeyboardDisplay' with 'DisplayYesNo'.</p>
+<p><strong>Resources</strong></p>
+<ul>
+<li><a href="http://www.ctheroux.com/2012/08/a-step-by-step-guide-to-setup-a-bluetooth-keyboard-and-mouse-on-the-raspberry-pi/" target="_blank" rel="nofollow">Step by step Guide for setting up keyboard and mouse on Pi</a></li>
+<li><a href="http://www.correlatedcontent.com/blog/bluetooth-keyboard-on-the-raspberry-pi/" target="_blank" rel="nofollow">Bluetooth keyboard on the Pi.</a></li>
+</ul>
+<p><strong>Note:</strong></p>
+<p>Some bluetooth items will not work on Raspmbc such as audio. It has been suggested (Raspberry pi official forums) to instead use OpenELEC or Xbian. </p>
+
+  </article>
+
+</div>
+    </div>
+
+          
+      <footer>
+        <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12">
+           <p class="vcard text-muted">
+          &copy; 2017 <span class="fn">Jennifer Tesolin</span>
+          <span class="pull-right">
+            <a  class="url" href="https://github.com/jennifert?tab=repositories" target="_blank" rel="nofollow"><i class="fa fa-github fa-3x"></i></a>
+            <a class="url" href="https://twitter.com/jenntes" target="_blank" rel="nofollow"><i class="fa fa-twitter fa-3x"></i></a>
+            <a class="url" href="https://www.flickr.com/photos/68631186@N06/sets/" target="_blank" rel="nofollow"><i class="fa fa-flickr fa-3x"></i></a>
+            <a class="url" href="/feed.xml" rel="nofollow"><i class="fa fa-rss fa-3x"></i></a>
+            <a class="url" href="http://ca.linkedin.com/pub/jennifer-tesolin/2b/5bb/3a6" target="_blank" rel="nofollow"><i class="fa fa-linkedin fa-3x"></i></a>
+            <a href="https://plus.google.com/109759985952910616281?rel=author" rel="nofollow"></a><a class="url" href="https://plus.google.com/109759985952910616281" target="_blank" rel="me"><i class="fa fa-google-plus fa-3x"></i></a>
+            <a class="u-email url" href="mailto:jtesolin@gmail.com" target="_blank" rel="me"><i class="fa fa-envelope fa-3x"></i></a>
+          </span>
+        </p>
+        </div>
+        </div>
+        </div>
+      </footer>
+
+<script type="text/javascript" src="/js/combined.js"></script>
+
+    </body>
+</html>

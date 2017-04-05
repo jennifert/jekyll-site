@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Jekyll: Easy searching with JSON and jQuery - Jennifer Tesolin </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Jekyll is a great tool to build web sites, unfortunately there is no built in search. This post will describe how to create one a basic search using JSON and jQuery.">
+    
+    <link rel="canonical" href="https://www.jenntesolin.com/blog/2015/05/22/Jekyll-Custom-Easy-Search-jquery/">
+    <link type="text/plain" rel="author" href="/humans.txt" />
+    <link rel="author" href="https://plus.google.com/109759985952910616281?rel=author" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/combined.css">
+    <link rel='alternate' type='application/atom+xml' title='Atom 0.3' href='http://localhost:4000/feed.xml'>
+    
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    
+    <meta name="application-name" content="Jekyll: Easy searching with JSON and jQuery - Jennifer Tesolin"/>
+    <meta name="msapplication-TileColor" content="#000000"/>
+    <meta name="msapplication-square70x70logo" content="imgs/tiny.png"/>
+    <meta name="msapplication-square150x150logo" content="imgs/square.png"/>
+    <meta name="msapplication-wide310x150logo" content="imgs/wide.png"/>
+    <meta name="msapplication-square310x310logo" content="imgs/large.png"/>
+
+       
+      <!--Social Media-->
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:site" content="@jenntes" />
+      <meta name="og:type" content="article" />
+      <meta name="og:title" content="Jekyll: Easy searching with JSON and jQuery" />
+      <meta name="og:url" content="/blog/2015/05/22/Jekyll-Custom-Easy-Search-jquery/" />
+      <!--<meta name="og:image" content="{featured image}" />-->
+      <meta name="og:description" content="Jekyll is a great tool to build web sites, unfortunately there is no built in search. This post will describe how to create one a basic search using JSON and jQuery." />
+      <meta name="og:site_name" content="Jennifer Tesolin's Blog" />
+
+      
+      <!-- <meta property="og:site_name" content="Jennifer Tesolin" />
+      <meta property="fb:admins" content="Facebook numberic ID" /> -->
+
+   <!--Google and preload next-->
+     <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44673213-1', 'jenntesolin.com');
+  ga('send', 'pageview');
+  </script>
+
+   <!-- replace with jekyll tags/gem -->
+  <link rel="prefetch" href="/blog/" />
+  <link rel="next" href="/blog/"/>
+
+
+</head>
+
+
+    <body>
+
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Home</a>
+        </div>
+        <div class="collapse navbar-collapse">
+      
+      <ul class="nav navbar-nav">
+        <li ><a href="/about/">About</a></li>
+        <li class="active" ><a href="/blog/">Blog</a></li>
+        <li ><a href="/photos/">Photos</a></li>
+      </ul>
+
+      <form role="search" method="get" class="navbar-form navbar-right form-inline" action="/search.html">
+          <div class="form-group" id="searchdiv">
+            <input type="search" id="searchbox" name="searchbox" class="form-control search" placeholder="Search ... ">
+            <label class="hide">Search for:</label>
+          </div>
+          <button type="submit" class="btn btn-success search"> <i class="fa fa-search"></i></button>
+      </form>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="post h-entry">
+
+  <header class="post-header">
+    <h1 class="p-name">Jekyll: Easy searching with JSON and jQuery</h1>
+    <p class="meta"><time class="dt-published">May 22, 2015</time></p>
+  </header>
+
+  <article class="post-content e-content p-name">
+  <p>Jekyll is a great tool to build web sites, unfortunately there is no built in search. This post will describe how to create one a basic search using JSON and jQuery.<!--more--></p>
+
+<p>This search works great for users using your site to search (like the one above this post). Unfortunately, with this method, Google does not understand that this is a site search. If having your search show up in Google results, this may not be for you.</p>
+
+<h3 id="step-1-create-searchjson">Step 1: Create search.json</h3>
+<p>There are quite a few methods to create a search.json file. For me, I wanted to use built in Jekyll methods (no plugins). For that, I based the code from <a href="http://jekyllsnippets.com/excluding-jsonify-your-site/">JSONify your Jekyll Site</a> as well as other aspects of my site. The new code will look for attributes in my post like this sample from my drafts template:</p>
+
+<script src="https://gist.github.com/jennifert/db65203ca69138aefd9b.js"></script>
+
+<p>Here is a sample of my final code. Pressing on the image will take you to the file in GitHub:</p>
+
+<script src="https://gist.github.com/jennifert/38c507876ee4459abeda.js"></script>
+
+<h3 id="step-2-update-your-html-code">Step 2: Update your HTML code</h3>
+
+<p>Next, we need to update the search form :</p>
+
+<script src="https://gist.github.com/jennifert/87d3263c84d6c0d537f8.js"></script>
+
+<h3 id="step-3-create-your-searchjson-page">Step 3: Create your search.json page</h3>
+
+<p>Thirdly, we need to create a basic html page that basically has our title, and a div to hold the jQuery results. Here is the code:</p>
+
+<script src="https://gist.github.com/jennifert/96c00c28c41360c13350.js"></script>
+
+<h3 id="step-4-add-the-jquery-to-your-site">Step 4: Add the jQuery to your site</h3>
+
+<p>To query the search.json, I used jQuery’s <code>getJSON</code> method. For this, you will need the below code first:</p>
+
+<ul>
+  <li><a href="http://stackoverflow.com/questions/3390930/any-way-to-make-jquery-inarray-case-insensitive">Extend inArray to be case insensitive</a></li>
+  <li><a href="http://stackoverflow.com/questions/9501690/javascript-documentation-on-getparameterbyname">Get parameter by name</a></li>
+</ul>
+
+<h4 id="function-1">Function 1:</h4>
+<script src="https://gist.github.com/jennifert/f7fe005c96c5a48a7506.js"></script>
+
+<h4 id="function-2">Function 2:</h4>
+<script src="https://gist.github.com/jennifert/2464a76ee1a83da91534.js"></script>
+
+<p>This wrapped up the post on how to easily add a search to your Jekyll site.</p>
+
+<h3 id="resources">Resources</h3>
+
+<p>Below are other search alternatives, and built in jQuery code that helped in my development.</p>
+
+<ul>
+  <li><a href="https://developmentseed.org/blog/2011/09/09/jekyll-github-pages/">Using Jekyll and GitHub Pages for Our Site</a></li>
+  <li><a href="http://stackoverflow.com/questions/11887929/how-do-i-loop-through-tags-in-a-jekyll-post">Stack overflow: How do I loop through tags</a></li>
+  <li><a href="http://www.marran.com/tech/jquery-full-text-indexing-on-jekyll">jQuery Full-Text Indexing on Jekyll</a></li>
+  <li><a href="http://danreev.es/posts/jekyll-search-with-typeahead/">Search a Jekyll Blog With Typeahead.js</a></li>
+  <li><a href="http://jekyllsnippets.com/excluding-jsonify-your-site/">JSONify your Jekyll Site</a></li>
+</ul>
+
+  </article>
+
+</div>
+    </div>
+
+          
+      <footer>
+        <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12">
+           <p class="vcard text-muted">
+          &copy; 2017 <span class="fn">Jennifer Tesolin</span>
+          <span class="pull-right">
+            <a  class="url" href="https://github.com/jennifert?tab=repositories" target="_blank" rel="nofollow"><i class="fa fa-github fa-3x"></i></a>
+            <a class="url" href="https://twitter.com/jenntes" target="_blank" rel="nofollow"><i class="fa fa-twitter fa-3x"></i></a>
+            <a class="url" href="https://www.flickr.com/photos/68631186@N06/sets/" target="_blank" rel="nofollow"><i class="fa fa-flickr fa-3x"></i></a>
+            <a class="url" href="/feed.xml" rel="nofollow"><i class="fa fa-rss fa-3x"></i></a>
+            <a class="url" href="http://ca.linkedin.com/pub/jennifer-tesolin/2b/5bb/3a6" target="_blank" rel="nofollow"><i class="fa fa-linkedin fa-3x"></i></a>
+            <a href="https://plus.google.com/109759985952910616281?rel=author" rel="nofollow"></a><a class="url" href="https://plus.google.com/109759985952910616281" target="_blank" rel="me"><i class="fa fa-google-plus fa-3x"></i></a>
+            <a class="u-email url" href="mailto:jtesolin@gmail.com" target="_blank" rel="me"><i class="fa fa-envelope fa-3x"></i></a>
+          </span>
+        </p>
+        </div>
+        </div>
+        </div>
+      </footer>
+
+<script type="text/javascript" src="/js/combined.js"></script>
+
+    </body>
+</html>

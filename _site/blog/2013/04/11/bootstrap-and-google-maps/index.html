@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Bootstrap and Google Maps API - Jennifer Tesolin </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Information and source code to explain how to add a Google map to a Bootstrap Modal.">
+    
+    <link rel="canonical" href="https://www.jenntesolin.com/blog/2013/04/11/bootstrap-and-google-maps/">
+    <link type="text/plain" rel="author" href="/humans.txt" />
+    <link rel="author" href="https://plus.google.com/109759985952910616281?rel=author" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/combined.css">
+    <link rel='alternate' type='application/atom+xml' title='Atom 0.3' href='http://localhost:4000/feed.xml'>
+    
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    
+    <meta name="application-name" content="Bootstrap and Google Maps API - Jennifer Tesolin"/>
+    <meta name="msapplication-TileColor" content="#000000"/>
+    <meta name="msapplication-square70x70logo" content="imgs/tiny.png"/>
+    <meta name="msapplication-square150x150logo" content="imgs/square.png"/>
+    <meta name="msapplication-wide310x150logo" content="imgs/wide.png"/>
+    <meta name="msapplication-square310x310logo" content="imgs/large.png"/>
+
+       
+      <!--Social Media-->
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:site" content="@jenntes" />
+      <meta name="og:type" content="article" />
+      <meta name="og:title" content="Bootstrap and Google Maps API" />
+      <meta name="og:url" content="/blog/2013/04/11/bootstrap-and-google-maps/" />
+      <!--<meta name="og:image" content="{featured image}" />-->
+      <meta name="og:description" content="Information and source code to explain how to add a Google map to a Bootstrap Modal." />
+      <meta name="og:site_name" content="Jennifer Tesolin's Blog" />
+
+      
+      <!-- <meta property="og:site_name" content="Jennifer Tesolin" />
+      <meta property="fb:admins" content="Facebook numberic ID" /> -->
+
+   <!--Google and preload next-->
+     <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44673213-1', 'jenntesolin.com');
+  ga('send', 'pageview');
+  </script>
+
+   <!-- replace with jekyll tags/gem -->
+  <link rel="prefetch" href="/blog/" />
+  <link rel="next" href="/blog/"/>
+
+
+</head>
+
+
+    <body>
+
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Home</a>
+        </div>
+        <div class="collapse navbar-collapse">
+      
+      <ul class="nav navbar-nav">
+        <li ><a href="/about/">About</a></li>
+        <li class="active" ><a href="/blog/">Blog</a></li>
+        <li ><a href="/photos/">Photos</a></li>
+      </ul>
+
+      <form role="search" method="get" class="navbar-form navbar-right form-inline" action="/search.html">
+          <div class="form-group" id="searchdiv">
+            <input type="search" id="searchbox" name="searchbox" class="form-control search" placeholder="Search ... ">
+            <label class="hide">Search for:</label>
+          </div>
+          <button type="submit" class="btn btn-success search"> <i class="fa fa-search"></i></button>
+      </form>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="post h-entry">
+
+  <header class="post-header">
+    <h1 class="p-name">Bootstrap and Google Maps API</h1>
+    <p class="meta"><time class="dt-published">Apr 11, 2013</time></p>
+  </header>
+
+  <article class="post-content e-content p-name">
+  <p>This post contains some information and two samples of Bootstrap (modals) and Google maps. For both samples, stack overflow posts (below under resources) were of great assistance. I hope all these resources in one place will help someone else.<!--more--></p>
+<p><strong>UPDATE :</strong></p>
+<p>November 5, 2013: A new post is available to demo <a href="http://jenntesolin.com/blog/2013/11/05/bootstrap-3-and-google-maps/">Bootstrap 3 with Google Maps</a>.</p>
+<p><del>October 26, 2013: After fixing the demos from moving hosts, I realized that the below demos will not work for the latest version of bootstrap. There will be a new post with updated code. In the mean time, please be aware that bootstrap 2.X is required.</del></p>
+<p><b>Demos:</b></p>
+<ul>
+<li><a title="Voew single map" href="http://www.jenntesolin.com/demos/single-map.html" target="_blank">Single Map</a></li>
+<li><a href="http://www.jenntesolin.com/demos/multi-map.html" target="_blank">Many maps</a> (using one modal)</li>
+<li><a href="https://github.com/jennifert/JavaScript-Demos/tree/master/GoogleMaps/BootstrapV2" title="Download Code">Download Code</a></li>
+</ul>
+<p><b>Resources</b></p>
+<ul>
+<li><a title="Latitude and Longitude of a Point" href="http://itouchmap.com/latlong.html" target="_blank" rel="nofollow">Address to Latitude and Longitude</a>: enter a full address of the coordinates you wish to find, and press "go".</li>
+<li><span style="text-decoration: underline;">Stack Overflow posts:</span><br />
+<a href="http://stackoverflow.com/questions/8239372/google-maps-open-info-window-by-default" target="_blank" rel="nofollow">http://stackoverflow.com/questions/8239372/google-maps-open-info-window-by-default</a><br />
+<a href="http://stackoverflow.com/questions/11742839/showing-a-google-map-in-a-modal-created-with-twitter-bootstrap" target="_blank" rel="nofollow">http://stackoverflow.com/questions/11742839/showing-a-google-map-in-a-modal-created-with-twitter-bootstrap</a><br />
+<a href="http://stackoverflow.com/questions/10626885/passing-data-to-a-bootstrap-modal/10635652#10635652" target="_blank" rel="nofollow">http://stackoverflow.com/questions/10626885/passing-data-to-a-bootstrap-modal/10635652#10635652</a><br />
+<a href="http://stackoverflow.com/questions/8812268/grey-boxes-appear-in-parts-of-embedded-google-map-in-modal-box" target="_blank" rel="nofollow">http://stackoverflow.com/questions/8812268/grey-boxes-appear-in-parts-of-embedded-google-map-in-modal-box</a></li>
+<li><a href="http://blog.codebusters.pl/en/entry/google-maps-in-hidden-div" target="_blank" rel="nofollow">Google maps in hidden div</a>: shows to to fix improper cross browser display</li>
+</ul>
+
+  </article>
+
+</div>
+    </div>
+
+          
+      <footer>
+        <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12">
+           <p class="vcard text-muted">
+          &copy; 2017 <span class="fn">Jennifer Tesolin</span>
+          <span class="pull-right">
+            <a  class="url" href="https://github.com/jennifert?tab=repositories" target="_blank" rel="nofollow"><i class="fa fa-github fa-3x"></i></a>
+            <a class="url" href="https://twitter.com/jenntes" target="_blank" rel="nofollow"><i class="fa fa-twitter fa-3x"></i></a>
+            <a class="url" href="https://www.flickr.com/photos/68631186@N06/sets/" target="_blank" rel="nofollow"><i class="fa fa-flickr fa-3x"></i></a>
+            <a class="url" href="/feed.xml" rel="nofollow"><i class="fa fa-rss fa-3x"></i></a>
+            <a class="url" href="http://ca.linkedin.com/pub/jennifer-tesolin/2b/5bb/3a6" target="_blank" rel="nofollow"><i class="fa fa-linkedin fa-3x"></i></a>
+            <a href="https://plus.google.com/109759985952910616281?rel=author" rel="nofollow"></a><a class="url" href="https://plus.google.com/109759985952910616281" target="_blank" rel="me"><i class="fa fa-google-plus fa-3x"></i></a>
+            <a class="u-email url" href="mailto:jtesolin@gmail.com" target="_blank" rel="me"><i class="fa fa-envelope fa-3x"></i></a>
+          </span>
+        </p>
+        </div>
+        </div>
+        </div>
+      </footer>
+
+<script type="text/javascript" src="/js/combined.js"></script>
+
+    </body>
+</html>

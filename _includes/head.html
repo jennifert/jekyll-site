@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width">
     {% if page.summary %}<meta name="description" content="{{ page.summary }}">{% else %}<meta name="description" content="{{ site.description }}">{% endif %}
     
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <link type="text/plain" rel="author" href="{{ "/humans.txt" | prepend: site.url }}" />
+    <link rel="canonical" href="https://www.jenntesolin.com{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
+    <link type="text/plain" rel="author" href="/humans.txt" />
     <link rel="author" href="https://plus.google.com/109759985952910616281?rel=author" />
 
     <!-- Custom CSS -->
@@ -32,7 +32,7 @@
       <meta name="twitter:site" content="@jenntes" />
       <meta name="og:type" content="article" />
       <meta name="og:title" content="{{ page.title }}" />
-      <meta name="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+      <meta name="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}" />
       <!--<meta name="og:image" content="{featured image}" />-->
       <meta name="og:description" content="{{ page.summary }}" />
       <meta name="og:site_name" content="{{ site.title }}'s Blog" />
@@ -56,7 +56,7 @@
    {% include google_analytics.html %}
 
    <!-- replace with jekyll tags/gem -->
-  <link rel="prefetch" href="blog/" />
+  <link rel="prefetch" href="/blog/" />
   <link rel="next" href="/blog/"/>
 
 

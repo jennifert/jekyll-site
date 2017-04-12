@@ -1,1 +1,5 @@
 _posts/2014-05-14-welcome-to-jekyll.markdown
+node_modules/
+*.gem
+Gemfile.lock
+

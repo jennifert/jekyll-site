@@ -1,7 +1,11 @@
 Changelog
 ===========
 
-##phase 2 Updates:
+## phase 2 Updates:
+
+May 19, 2017
+- New posts slipped in!
+- Added message on grunt post to notify of new verison.
 
 January 5, 2017
 - New post!

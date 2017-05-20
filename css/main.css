@@ -54,6 +54,10 @@ h2.lead { font: normal normal 1.125em "Roboto",Arial,Verdana,sans-serif; color: 
   margin: 0 auto;
 }
 
+.error{
+  color: #ff0000;
+}
+
 /* Carousel base class */
 /*.carousel {
   height: 400px;

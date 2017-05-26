@@ -3,6 +3,12 @@ Changelog
 
 ## phase 2 Updates:
 
+May 26, 2017
+- Updated git links to point to proper repo or gist
+- more typos fixed.
+- removed duplicate mime type links in IIS post.
+- Updated gitignore now that repo is private.
+
 May 19, 2017
 - New posts slipped in!
 - Added message on grunt post to notify of new verison.

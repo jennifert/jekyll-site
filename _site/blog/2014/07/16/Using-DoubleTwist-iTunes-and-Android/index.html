@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> How to use Double Twist to sync your iTunes library to a droid - Jennifer Tesolin </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="A guide on syncing files from your iTunes library to an android device.">
+    
+    <link rel="canonical" href="https://www.jenntesolin.com/blog/2014/07/16/Using-DoubleTwist-iTunes-and-Android/">
+    <link type="text/plain" rel="author" href="/humans.txt" />
+    <link rel="author" href="https://plus.google.com/109759985952910616281?rel=author" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/combined.css">
+    <link rel='alternate' type='application/atom+xml' title='Atom 0.3' href='http://localhost:4000/feed.xml'>
+    
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    
+    <meta name="application-name" content="How to use Double Twist to sync your iTunes library to a droid - Jennifer Tesolin"/>
+    <meta name="msapplication-TileColor" content="#000000"/>
+    <meta name="msapplication-square70x70logo" content="imgs/tiny.png"/>
+    <meta name="msapplication-square150x150logo" content="imgs/square.png"/>
+    <meta name="msapplication-wide310x150logo" content="imgs/wide.png"/>
+    <meta name="msapplication-square310x310logo" content="imgs/large.png"/>
+
+       
+      <!--Social Media-->
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:site" content="@jenntes" />
+      <meta name="og:type" content="article" />
+      <meta name="og:title" content="How to use Double Twist to sync your iTunes library to a droid" />
+      <meta name="og:url" content="/blog/2014/07/16/Using-DoubleTwist-iTunes-and-Android/" />
+      <!--<meta name="og:image" content="{featured image}" />-->
+      <meta name="og:description" content="A guide on syncing files from your iTunes library to an android device." />
+      <meta name="og:site_name" content="Jennifer Tesolin's Blog" />
+
+      
+      <!-- <meta property="og:site_name" content="Jennifer Tesolin" />
+      <meta property="fb:admins" content="Facebook numberic ID" /> -->
+
+   <!--Google and preload next-->
+     <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44673213-1', 'jenntesolin.com');
+  ga('send', 'pageview');
+  </script>
+
+   <!-- replace with jekyll tags/gem -->
+  <link rel="prefetch" href="/blog/" />
+  <link rel="next" href="/blog/"/>
+
+
+</head>
+
+
+    <body>
+
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Home</a>
+        </div>
+        <div class="collapse navbar-collapse">
+      
+      <ul class="nav navbar-nav">
+        <li ><a href="/about/">About</a></li>
+        <li class="active" ><a href="/blog/">Blog</a></li>
+        <li ><a href="/photos/">Photos</a></li>
+      </ul>
+
+      <form role="search" method="get" class="navbar-form navbar-right form-inline" action="/search/">
+          <div class="form-group" id="searchdiv">
+            <input type="search" id="searchbox" name="searchbox" class="form-control search" placeholder="Search ... ">
+            <label class="hide">Search for:</label>
+          </div>
+          <button type="submit" class="btn btn-success search"> <i class="fa fa-search"></i></button>
+      </form>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="post h-entry">
+
+  <header class="post-header">
+    <h1 class="p-name">How to use Double Twist to sync your iTunes library to a droid</h1>
+    <p class="meta"><time class="dt-published">Jul 16, 2014</time></p>
+  </header>
+
+  <article class="post-content e-content p-name">
+  <p>This post describes how you can sync your current iTunes media files to your android device. This tutorial was written and tested on Mac os X mavericks and a Nexus 5.<!--more--></p>
+
+<h2 id="clean-up-your-current-itunes-library">Clean up your current iTunes library.</h2>
+
+<p>Before moving any media files from an iTunes library to Android to play in any player, it’s best to get unlocked copies. For me the fastest (and legal non time consuming way) was to get iTunes music match enabled. Once it has finished setting up,  <a href="http://computers.tutsplus.com/tutorials/how-to-remove-drm-from-your-music-with-itunes-match--mac-59271" rel="nofollow">follow this article on creating playlists</a> to find locked files, and more.</p>
+
+<h4 id="fix-with-itunes-match-playlists">Fix with iTunes Match playlists</h4>
+
+<p>All playlists had media kind music, then in the first one added I cloud status ineligible.  For music, this means that the bit rate used to import the media was under 92 kps and a match was not found in the iTunes Library. The best way to solve this error is to reimport from your CD if you want to keep using iCloud or iTunes.</p>
+
+<p>The next two playlists are similar to each other. Once you have your playlists, select option and delete the files, but do NOT check delete from iCloud. Make sure to move those files to your trash. You can then select all songs and re-download.</p>
+
+<p>With my music from iTunes being quite large I set the music to re-download files while I was at work.</p>
+
+<p>Once you have those files re-downloaded, go to view &gt; show duplicates. Make sure that they are indeed duplicates and then delete from iCloud and iTunes.</p>
+
+<h4 id="remove-duplicate-songs">Remove duplicate songs</h4>
+
+<p>Next step is to find the duplicates in your music folder for iTunes using finder.</p>
+
+<p>Note: This did not help my duplicate music problem in the double twist desktop application, but its best to check anyways. As always, make sure you have a backup</p>
+
+<p>Once your sure your duplicates are gone, set up double twist on your computer.</p>
+
+<h2 id="set-up-double-twist-on-your-computer">Set-Up Double Twist on your computer.</h2>
+
+<h4 id="download-applications-to-mobile-and-desktop-devices">Download applications to mobile and desktop devices.</h4>
+<p>You will need to download for both desktop/laptop and mobile device. The files for the desktop can be downloaded from <a href="https://www.doubletwist.com/">the official website</a>. The mobile version is available from the <a href="https://play.google.com/store/apps/details?id=com.doubleTwist.androidPlayer" rel="nofollow">play store</a>. I just went ahead and the air sync add on since I do this often. With air sync go to mobile settings and get your four digit pin and enter on your desktop. You should now see your device their, if not, on you device select the option to broadcast. All add-ons are in-app purchases.</p>
+
+<h4 id="set-up-desktop-app">Set up desktop App</h4>
+
+<p>Once installed, open the DoubleTwsit application. Choose your iTunes folder, the. Let it do its thing. A few times I had to close then reset program on desktop to see all playlists and files after editing in iTunes.</p>
+
+<p>Now select your device, choose your settings and sync. Be sure to note and fix any issues. These are usually being your file is locked by apple.</p>
+
+<p>That’s it!  It works pretty well but just note any adjustments to your playlist needs to be made in iTunes. Edits from double twist do not carry over.</p>
+
+<h2 id="notes">Notes:</h2>
+
+<p>Con:</p>
+
+<ul>
+  <li>when you purchase airplay add on, you can no longer sync wired even when its disabled.</li>
+  <li>can ONLY use iTunes playlist. They have no way to sync changes made in the phone application back to the iTunes library.</li>
+  <li>Video playlists do not go to next item.</li>
+</ul>
+
+<p>Pro:</p>
+
+<ul>
+  <li>easy way to use an android phone with your Mac.</li>
+  <li>Will take all iTunes playlists (as long as file is unlocked).</li>
+</ul>
+
+<p>Bugs encountered</p>
+
+<ul>
+  <li>even though no duplicates are in iTunes duplicate view, the library sometimes duplicates the files  (not in playlist but in the library view in music). I had no duplicates in finder.</li>
+  <li>hangs or sometimes crashes  on opening the desktop app.</li>
+</ul>
+
+  </article>
+
+</div>
+    </div>
+
+          
+      <footer>
+        <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12">
+           <p class="vcard text-muted">
+          &copy; 2017 <span class="fn">Jennifer Tesolin</span>
+          <span class="pull-right">
+            <a  class="url" href="https://github.com/jennifert?tab=repositories" target="_blank" rel="nofollow"><i class="fa fa-github fa-3x"></i></a>
+            <a class="url" href="https://twitter.com/jenntes" target="_blank" rel="nofollow"><i class="fa fa-twitter fa-3x"></i></a>
+            <a class="url" href="https://www.flickr.com/photos/68631186@N06/sets/" target="_blank" rel="nofollow"><i class="fa fa-flickr fa-3x"></i></a>
+            <a class="url" href="/feed.xml" rel="nofollow"><i class="fa fa-rss fa-3x"></i></a>
+            <a class="url" href="http://ca.linkedin.com/pub/jennifer-tesolin/2b/5bb/3a6" target="_blank" rel="nofollow"><i class="fa fa-linkedin fa-3x"></i></a>
+            <a href="https://plus.google.com/109759985952910616281?rel=author" rel="nofollow"></a><a class="url" href="https://plus.google.com/109759985952910616281" target="_blank" rel="me"><i class="fa fa-google-plus fa-3x"></i></a>
+            <a class="u-email url" href="mailto:jtesolin@gmail.com" target="_blank" rel="me"><i class="fa fa-envelope fa-3x"></i></a>
+          </span>
+        </p>
+        </div>
+        </div>
+        </div>
+      </footer>
+
+<script type="text/javascript" src="/js/combined.js"></script>
+
+    </body>
+</html>

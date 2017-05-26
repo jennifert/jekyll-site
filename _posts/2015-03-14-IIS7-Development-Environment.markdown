@@ -86,7 +86,7 @@ Lastly, create a mysql user and database. Be sure to use a strong password here 
 ### Install the URL rewrite plug-in for IIS. Then restart server
 Go to the [Microsoft Site](http://www.iis.net/downloads/microsoft/url-rewrite) to download the latest version.
 
-The step will allow you to use "Prety URLs" on your blog.
+The step will allow you to use "Pretty URLs" on your blog.
 
 ### Download and install WordPress
 [WordPress.org](http://wordpress.org/download/) always has the latest versions (4.1.1 at the time of writing). Also, check out the [translations](https://make.wordpress.org/polyglots/teams/) to download WordPress in your language, though some of these ay not be the latest.
@@ -119,11 +119,10 @@ If you are not able to see content like fonts, JSON, videos, etc., you may need 
 + [JSON](http://www.uipress.com/add-json-handler-support-in-iis-7/)
 + [web Fonts](http://codingstill.com/2013/01/set-mime-types-for-web-fonts-in-iis/)
 + [HTML5 and CSS3](http://docs.composite.net/Layout/LayoutFAQ?q=Can+I+use+HTML5+and+CSS3+related+files+like+.svg%2C+.woff+and+.ogg%3F)
-+ [other web font mimes](http://codingstill.com/2013/01/set-mime-types-for-web-fonts-in-iis/)
 
-Finally, if they are not above, they may be mentioned at:
+If they are not above, they may be mentioned at: [List of Common MIME types](http://www.serverintellect.com/support/iis/mime-types/).
 
-[List of Common MIME types](http://www.serverintellect.com/support/iis/mime-types/)
+[My Sample Web.config](https://gist.github.com/jennifert/27e1c3e587e64fb75149f1bb3b1b340c)
 
 ### Resources
 + [How do I change permissions on wwroot](http://stackoverflow.com/a/4920620)

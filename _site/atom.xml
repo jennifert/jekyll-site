@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-05-26T19:20:58-04:00</updated><id>http://localhost:4000/</id><title type="html">Jennifer Tesolin</title><subtitle>This is Jennifer Tesolin's personal web site. Located on this site are tutorials and tips for web developers.</subtitle><author><name>Jennifer Tesolin</name><email>jtesolin@gmail.com</email></author><entry><title type="html">Quick Tip: WordPress and Campaign Monitor</title><link href="http://localhost:4000/blog/2017/01/06/quick-tip-word-press-and-campaign-monitor/" rel="alternate" type="text/html" title="Quick Tip: WordPress and Campaign Monitor" /><published>2017-01-06T12:30:30-05:00</published><updated>2017-01-06T12:30:30-05:00</updated><id>http://localhost:4000/blog/2017/01/06/quick-tip-word-press-and-campaign-monitor</id><content type="html" xml:base="http://localhost:4000/blog/2017/01/06/quick-tip-word-press-and-campaign-monitor/">&lt;p&gt;Just a quick and easy way to integrate your campaign monitor list. Note: this post first appeared Apr 18, 2013, and has been updated to reflect the most recent information.&lt;!--more--&gt;&lt;/p&gt;
+&lt;h3&gt;Adding a subscribe form to your site&lt;/h3&gt;
+&lt;p&gt;The easiest way, is to use the WordPress text widget, and then paste in the campaign monitor built form code into it. To get a form, go to your list in campaign monitor, and click &quot;Grow your audience&quot;. Next, click &quot;Copy/paste a form to your site&quot;. Select the list(s) that you want, and then click generate code.  This will provide the form code to put into your blog. You can later customize the settings like confirmation, thank you note, etc.&lt;/p&gt;
+&lt;h3&gt;E-mail subscribers&lt;/h3&gt;
+&lt;p&gt;&lt;b&gt;Campaign Monitor automation (suggested)&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;When this post was first typed out, the &quot;automation&quot; functionality was not yet in Campaign Monitor. The Automation functionality in Campaign Monitor can read and parse RSS feeds. First, make sure to add the &quot;&lt;a href=&quot;https://www.campaignmonitor.com/create/rss-to-email/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;RSS to Email&quot;&lt;/a&gt; tags into your template, and &lt;a href=&quot;https://help.campaignmonitor.com/topic.aspx?t=868&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;create your list&lt;/a&gt; (as you normally would). Next &lt;a href=&quot;https://help.campaignmonitor.com/topic.aspx?t=212&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;follow Campaign Monitor's guide&lt;/a&gt; for email automation, using the list and template mentioned earlier. That's it!&lt;/p&gt;
+&lt;p&gt;This way is suggested, as its using the Campaign monitor directly, and you are not adding bulk to your theme files and site.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Older way (not suggested)&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Add the &lt;a title=&quot;Campaign Monitor Wrapper for PHP&quot; href=&quot;http://campaignmonitor.github.io/createsend-php/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;api wrapper&lt;/a&gt; into the themes directory for you to be able to access the functionality. Next, use the &quot;create a draft campaign&quot; and &quot;Sending a draft campaign to send an email. This code should go into your functions.php file like below:&lt;/p&gt;
+&lt;code&gt;function email_alert()  {&lt;br&gt;
+    //campaign monitor code&lt;br&gt;
+}&lt;br&gt;
+add_filter ( 'publish_post', 'email_alert' );&lt;/code&gt;
+&lt;p&gt;Resource:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://wordpress.org/support/topic/add_action-with-publish_post&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Wordpress.org support: Publish actions&lt;/a&gt;&lt;/p&gt;</content><author><name>Jennifer Tesolin</name></author><category term="wordpress" /><category term="PHP" /><summary type="html">Just a quick and easy way to integrate your campaign monitor list. Note: this post first appeared Apr 18, 2013, and has been updated to reflect the most recent information. Adding a subscribe form to your site The easiest way, is to use the WordPress text widget, and then paste in the campaign monitor built form code into it. To get a form, go to your list in campaign monitor, and click &quot;Grow your audience&quot;. Next, click &quot;Copy/paste a form to your site&quot;. Select the list(s) that you want, and then click generate code.  This will provide the form code to put into your blog. You can later customize the settings like confirmation, thank you note, etc. E-mail subscribers Campaign Monitor automation (suggested) When this post was first typed out, the &quot;automation&quot; functionality was not yet in Campaign Monitor. The Automation functionality in Campaign Monitor can read and parse RSS feeds. First, make sure to add the &quot;RSS to Email&quot; tags into your template, and create your list (as you normally would). Next follow Campaign Monitor's guide for email automation, using the list and template mentioned earlier. That's it! This way is suggested, as its using the Campaign monitor directly, and you are not adding bulk to your theme files and site. Older way (not suggested) Add the api wrapper into the themes directory for you to be able to access the functionality. Next, use the &quot;create a draft campaign&quot; and &quot;Sending a draft campaign to send an email. This code should go into your functions.php file like below: function email_alert() { //campaign monitor code } add_filter ( 'publish_post', 'email_alert' ); Resource: Wordpress.org support: Publish actions</summary></entry><entry><title type="html">Top 6 resources that you may find at your local library</title><link href="http://localhost:4000/blog/2017/01/06/top-6-library-resources/" rel="alternate" type="text/html" title="Top 6 resources that you may find at your local library" /><published>2017-01-06T09:16:30-05:00</published><updated>2017-01-06T09:16:30-05:00</updated><id>http://localhost:4000/blog/2017/01/06/top-6-library-resources</id><content type="html" xml:base="http://localhost:4000/blog/2017/01/06/top-6-library-resources/">&lt;p&gt;The library now has more services than just book for video lending. This post describes what can be found in the city of Toronto, Canada. Be sure to check out your cities branch as well, as some of the services described below can be found in other major Canadian (and U.S.) cities.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;The below is my top 6 list (in no particular order). Feel free to agree or disagree. :)&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.torontopubliclibrary.ca/lynda&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Lynda subscription:&lt;/a&gt;&lt;/strong&gt; is an online video course centre that covers a few areas of study.  Typically it would cost over 200 per year. One cravat: cannot figure out how to login from phone.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.torontopubliclibrary.ca/safari&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Safari catalog:&lt;/a&gt;&lt;/strong&gt; provides access to all of their tech books.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.torontopubliclibrary.ca/search.jsp?N=&amp;amp;Ns=p_pub_date_sort&amp;amp;Nso=0&amp;amp;Ntt=%22maker+programs%22+%2B+%22computer+%26+library+training%22&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Digital classes:&lt;/a&gt;&lt;/strong&gt; many off the Toronto libraries have classes in: DJIng, green screen, Inkscape, gimp, beginner HTML and CSS, Intro to 3D design and more. What’s pretty cool, is that they use free programs that are great alternatives to paid programs.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Speaking of 3D design, libraries have access to &lt;a href=&quot;http://www.torontopubliclibrary.ca/using-the-library/computer-services/innovation-spaces/3D-design-print.jsp&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;3D printers&lt;/a&gt;!&lt;/strong&gt; Just take one of their certification classes which are offered for free at various branches. Just be sure to take the certification class first!&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.torontopubliclibrary.ca/using-the-library/computer-services/innovation-spaces/recording-studio.jsp&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Rent a studio&lt;/a&gt; for Video or Audio production&lt;/strong&gt; Two branches has a digital recording studio complete with green screen and computers with software to edit!&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.torontopubliclibrary.ca/museum-arts-passes/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Museum and other passes:&lt;/a&gt;&lt;/strong&gt; borrow tickets to the ROM, science centre, AGO, and more. Though its first come first serve, and unfortunately, Casa Loma is not offered. The passes are good for 2 adults and up to 5 children, which can save a lot of money.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Also, whats great, is that you can use these services even if you work in Toronto, not just live. &lt;a href=&quot;http://www.torontopubliclibrary.ca/using-the-library/your-library-card/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Visit their site to see the requirements for a library card&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Check these out, and &lt;a href=&quot;https://twitter.com/jenntes&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;let me know&lt;/a&gt; if I missed anything.&lt;/p&gt;</content><author><name>Jennifer Tesolin</name></author><category term="library" /><summary type="html">The library now has more services than just book for video lending. This post describes what can be found in the city of Toronto, Canada. Be sure to check out your cities branch as well, as some of the services described below can be found in other major Canadian (and U.S.) cities.</summary></entry><entry><title type="html">Top 5 additions from the console games that would improve Pokemon Go</title><link href="http://localhost:4000/blog/2016/08/24/top-5-console-additions-pokemon-go/" rel="alternate" type="text/html" title="Top 5 additions from the console games that would improve Pokemon Go" /><published>2016-08-24T06:12:56-04:00</published><updated>2016-08-24T06:12:56-04:00</updated><id>http://localhost:4000/blog/2016/08/24/top-5-console-additions-pokemon-go</id><content type="html" xml:base="http://localhost:4000/blog/2016/08/24/top-5-console-additions-pokemon-go/">&lt;p&gt;Pokemon Go is a great idea for a game but as someone who has played the console games in the past there are quite a few things that seem to be missing. Here is a list of concepts that I feel can help improve the gameplay. &lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;This is just my opinion. Feel free to agree or disagree. :)&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;The Pokemon day care&lt;/strong&gt; - some people use this to level up, but most people use this gameplay feature to breed Pokemon to create their own eggs (pass on parent moves and IVs)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Pokemon fossils&lt;/strong&gt; at Pokestops - especially since the nearby feature is so broken. in the games you can find fossils in various ways to bring back to life extinct Pokemon. It would be great if pokestops dropped fossils similar to eggs, where you walk to bring them back to life. Would make things easier and more fun than waiting for extremely rare encounters.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;A way to have a set location as a Pokemon centre&lt;/strong&gt; - In the console games, a Pokemon Centre is set up in each city, and is a free way to heal your team without using potions. Would be neat if you can set a few locations (such as your house or work/school) as one, and if you are around this area you can click a button (say once every hour) and all of your Pokemon will be healed.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Bring Pokemon abilities into play&lt;/strong&gt; - Abilities can affect things in battle, or in other areas of the game. For example if your Pikachu has static, you will encounter more electric Pokemon, meanwhile, if your Magmar has Flame Body, your hatch eggs faster in 1/2 the time.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Allow Pokemon you have with you to fight wild Pokemon&lt;/strong&gt; -  This makes it easier to catch for example because the wild Pokemon would not be at full health, and may be sleeping or have another status condition.  In the console games, it is always suggested to leave a pokemon in the red HP wise, and have it sleeping to increase your catch rate.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;What concepts would you like to see? Do you agree with the above? Sound out to me on Twitter &lt;a href=&quot;https://twitter.com/jenntes&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;@jenntes&lt;/a&gt;.&lt;/p&gt;</content><author><name>Jennifer Tesolin</name></author><category term="PokemonGo" /><summary type="html">Pokemon Go is a great idea for a game but as someone who has played the console games in the past there are quite a few things that seem to be missing. Here is a list of concepts that I feel can help improve the gameplay.</summary></entry><entry><title type="html">Quick tip: Comparing integer variables using PHP</title><link href="http://localhost:4000/blog/2016/06/14/compare-integars-php/" rel="alternate" type="text/html" title="Quick tip: Comparing integer variables using PHP" /><published>2016-06-14T15:00:21-04:00</published><updated>2016-06-14T15:00:21-04:00</updated><id>http://localhost:4000/blog/2016/06/14/compare-integars-php</id><content type="html" xml:base="http://localhost:4000/blog/2016/06/14/compare-integars-php/">&lt;p&gt;This post describes how to compare variables that have integars using PHP.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;To properly compare variables in PHP, we are taking a look at the &lt;code&gt;intval&lt;/code&gt; function. If you try to compare variables without this function, you can run into troubles, such as your script returning that they are &lt;b&gt;NOT&lt;/b&gt; the same.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+&amp;lt;?php&lt;br /&gt;
+$a=5;&lt;br /&gt;
+$b='5';&lt;br /&gt;
+if (intval($a)==intval($b)){ &lt;br /&gt;
+	echo 'it's the same'; &lt;br /&gt;
+}&lt;br /&gt;
+?&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;resources&quot;&gt;Resources&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://php.net/manual/en/function.intval.php&quot; target=&quot;_blank&quot;&gt;intval Function on Php.net&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Jennifer Tesolin</name></author><category term="php" /><summary type="html">This post describes how to compare variables that have integars using PHP.</summary></entry><entry><title type="html">Quick tip: Change your iTunes media view mode</title><link href="http://localhost:4000/blog/2016/06/12/itunes-view-change/" rel="alternate" type="text/html" title="Quick tip: Change your iTunes media view mode" /><published>2016-06-12T15:00:21-04:00</published><updated>2016-06-12T15:00:21-04:00</updated><id>http://localhost:4000/blog/2016/06/12/itunes-view-change</id><content type="html" xml:base="http://localhost:4000/blog/2016/06/12/itunes-view-change/">&lt;p&gt;In the latest iTunes release, there has been quite a few tweaks to the interface. One option that has moved is the change view in playlist. This post describes how to change this.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;The latest version defaults all playlist views to “playlist”, which is fine for most people, but I am not a fan of cover art so the “songs view” (which is basically a list) is my favorite.&lt;/p&gt;
+
+&lt;p&gt;To change this click on “View” &amp;gt; “View as” &amp;gt; “Songs”. After songs is selected, you should see just a list of songs.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/wp-content/uploads/2016/06/itunesView.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/wp-content/uploads/2016/06/itunesView-Thumb.png&quot; alt=&quot;Preview of instructions&quot; align=&quot;middle&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name>Jennifer Tesolin</name></author><category term="php" /><summary type="html">In the latest iTunes release, there has been quite a few tweaks to the interface. One option that has moved is the change view in playlist. This post describes how to change this.</summary></entry><entry><title type="html">Configure Jekyll on Micosoft Azure or Github pages</title><link href="http://localhost:4000/blog/2016/02/04/jekyll-on-azure/" rel="alternate" type="text/html" title="Configure Jekyll on Micosoft Azure or Github pages" /><published>2016-02-04T07:38:21-05:00</published><updated>2016-02-04T07:38:21-05:00</updated><id>http://localhost:4000/blog/2016/02/04/jekyll-on-azure</id><content type="html" xml:base="http://localhost:4000/blog/2016/02/04/jekyll-on-azure/">&lt;p&gt;Sometimes hosting can be expensive, and some reputable hosts have free but limited hosting. This post described how to configure Github pages and Microsoft Azure.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;Just a note before getting started, personally I use plugins with Jekyll, so I have 2 repositories: 1) For development (which I connect to Azure), and 2) For the live site (Github pages). This is because when using the built in Jekyll server my custom JSON/jQuery search does not work there. Also, azure does not allow domain names to be configured for free.&lt;/p&gt;
+
+&lt;h2 id=&quot;github-pages&quot;&gt;GitHub Pages&lt;/h2&gt;
+
+&lt;p&gt;If your using a custom/personal domain with Github pages, you will need a “CNAME” file. It should have your domain written like the below example.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;www.jenntesolin.com&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The Github pages are the best to follow for setting up, so please for the rest of Github Pages guide:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://pages.github.com/&quot;&gt;https://pages.github.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This walks you through with prompts and changes with your Github set-up.&lt;/p&gt;
+
+&lt;h2 id=&quot;azure&quot;&gt;Azure&lt;/h2&gt;
+
+&lt;p&gt;First, make sure you have a “.deployment” file pointing to your final complied website. If your using the basic Jekyll set-up, it would be:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;[config]&lt;br /&gt;
+project = _site&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://gist.github.com/jennifert/24cae4c07a69fe6be9207b578b1c7e2b&quot;&gt;.deployment Gist Sample&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Also, I have a &lt;a href=&quot;https://gist.github.com/jennifert/27e1c3e587e64fb75149f1bb3b1b340c&quot;&gt;web.config&lt;/a&gt; file set up to read JSON, media and font file media types. Alternatively, you can check out this list of &lt;a href=&quot;http://www.serverintellect.com/support/iis/mime-types/&quot;&gt;common MIME types&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To set-up your host, head on over to the &lt;a href=&quot;https://azure.microsoft.com/en-us/free/&quot;&gt;Azure site&lt;/a&gt; and click “Start now”. This will bring you to a sign in page which will require you to sign up with your Microsoft Account (Outlook, Hotmail, etc.).&lt;/p&gt;
+
+&lt;p&gt;Next, follow the prompts to set up your free offer. Unfortunately, at the time of writing mine had already expired so I just clicked on the “Portal button”.&lt;/p&gt;
+
+&lt;p&gt;From the left hand menu click “App services” to get to the screen to “Add”. Now, enter in your web site name, and choose a server close to you. Once your information is entered, click “Create”.&lt;/p&gt;
+
+&lt;p&gt;You will need to wait a bit for your host to be created, so maybe grab a coffee and come back. The new site will be on the dashboard. to see your server information click on the website name you created.&lt;/p&gt;
+
+&lt;p&gt;In this example, I am connecting to my Github account that I use for development. If you wish, you can always just configure FTP (and other things like programming versions of languages like .Net, PHP, etc.) by accessing it in your &lt;a href=&quot;https://azure.microsoft.com/en-us/documentation/articles/web-sites-configure/&quot;&gt;panel&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Click on “Publishing” under “Continuous deployment” to set up your web application and it will being up various providers. Pick Github then follow the prompts to authorize Microsoft to access your Github account.&lt;/p&gt;
+
+&lt;p&gt;Next, select which repository you would like to connect to and click “OK”. In this example, I chose my “jekyll-site” repository. Grab another coffee or give your email a quick check, as the two services will need a bit of time to connect and serve from the branch you connected to (in my case, I just chose “Master”).&lt;/p&gt;
+
+&lt;p&gt;Finally, once its connected, check out the site at the URL provided.&lt;/p&gt;</content><author><name>Jennifer Tesolin</name></author><category term="Jekyll" /><category term="Github Pages" /><category term="Azure" /><summary type="html">Sometimes hosting can be expensive, and some reputable hosts have free but limited hosting. This post described how to configure Github pages and Microsoft Azure.</summary></entry><entry><title type="html">Fix pagination after upgrading from Jekyll 2 to Jekyll 3</title><link href="http://localhost:4000/blog/2015/10/28/fix-jekyll-pagination-upgrade-to-3/" rel="alternate" type="text/html" title="Fix pagination after upgrading from Jekyll 2 to Jekyll 3" /><published>2015-10-28T02:58:21-04:00</published><updated>2015-10-28T02:58:21-04:00</updated><id>http://localhost:4000/blog/2015/10/28/fix-jekyll-pagination-upgrade-to-3</id><content type="html" xml:base="http://localhost:4000/blog/2015/10/28/fix-jekyll-pagination-upgrade-to-3/">&lt;p&gt;In Jekyll 3, pagination is deprecated. This post describes how to resolve the error: “&lt;strong&gt;Deprecation: You appear to have pagination turned on, but you haven’t included the &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll-paginate&lt;/code&gt; gem. Ensure you have &lt;code class=&quot;highlighter-rouge&quot;&gt;gems: [jekyll-paginate]&lt;/code&gt; in your configuration file&lt;/strong&gt;.” &lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;First, make sure you have the gem installed by typing in your terminal:
+&lt;code&gt;gem install jekyll-paginate&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Next, open &lt;code&gt;_config.yml&lt;/code&gt;, add add the following line:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;gems :&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;- jekyll-paginate&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, when you run &lt;code&gt;jekyll serve&lt;/code&gt; or &lt;code&gt;jekyll build&lt;/code&gt; the error message should no longer be there.&lt;/p&gt;</content><author><name>Jennifer Tesolin</name></author><category term="Jekyll" /><summary type="html">In Jekyll 3, pagination is deprecated. This post describes how to resolve the error: “Deprecation: You appear to have pagination turned on, but you haven’t included the jekyll-paginate gem. Ensure you have gems: [jekyll-paginate] in your configuration file.”</summary></entry><entry><title type="html">Jekyll: The configuration file</title><link href="http://localhost:4000/blog/2015/08/08/jekyll-config-file/" rel="alternate" type="text/html" title="Jekyll: The configuration file" /><published>2015-08-08T06:00:00-04:00</published><updated>2015-08-08T06:00:00-04:00</updated><id>http://localhost:4000/blog/2015/08/08/jekyll-config-file</id><content type="html" xml:base="http://localhost:4000/blog/2015/08/08/jekyll-config-file/">&lt;p&gt;The Jekyll configuration file houses important information for your site. This post highlights some options being used in this site, with a basic explanation of what it does.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;This file has quite a few areas of editing, especially if you want to override some of the &lt;a href=&quot;http://jekyllrb.com/docs/configuration/#front-matter-defaults&quot;&gt;default Jekyll options&lt;/a&gt;. Here is a &lt;a href=&quot;https://gist.github.com/jennifert/de156dc7b792a3f3a0e4b63aa66e768a&quot;&gt;jekyll config sample&lt;/a&gt; of my &lt;code&gt;_config.yml&lt;/code&gt; from my GitHub repository. There are 3 main sections, which are explain in more detail below.&lt;/p&gt;
+
+&lt;h3 id=&quot;site-settings&quot;&gt;Site Settings&lt;/h3&gt;
+
+&lt;p&gt;This section define what and where your site is.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;title: This is usually your company name, etc.&lt;/li&gt;
+  &lt;li&gt;description: is used to fill in the meta-tag for description.&lt;/li&gt;
+  &lt;li&gt;baseurl: As the official docs put it “serves the site from specified URL”. Do NOT include your host name.&lt;/li&gt;
+  &lt;li&gt;url: the url of your blog&lt;/li&gt;
+  &lt;li&gt;timezone: What time zone your in. Be sure to use a format such as: America/Toronto, or America/New_York.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;build-settings&quot;&gt;Build Settings&lt;/h3&gt;
+
+&lt;p&gt;This section will tell Jekyll how to and what files to sue to generate your production site.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;exclude:  this section tells Jekyll what not to include in your build. Format is: [file1, file2]&lt;/li&gt;
+  &lt;li&gt;markdown: Which markdown flavor you will use with your site&lt;/li&gt;
+  &lt;li&gt;markdown_ext:  file extensions you may use for markdown files.&lt;/li&gt;
+  &lt;li&gt;permalink: what your website links will look like. For example: /blog/:year/:month/:day/:title/&lt;/li&gt;
+  &lt;li&gt;paginate: how many articles do you want to see per page (as an integer number)&lt;/li&gt;
+  &lt;li&gt;paginate_path: what site link format your paginated results will be. In format: “blog/page:num”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;author-information&quot;&gt;Author information&lt;/h3&gt;
+
+&lt;p&gt;This section is used to display information on the company/site owner using information such as name, email, twitter handle, Github repository, location, etc. The sub information must be 1 tab under “&lt;code&gt;author:&lt;/code&gt;”&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;author :
+&amp;nbsp;&amp;nbsp;&amp;nbsp;name : Jennifer Tesolin&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;email : jtesolin@gmail.com&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;location : Toronto (Canada)&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;github : jennifert&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;twitter : jenntes&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;issues-encountered&quot;&gt;Issues encountered&lt;/h3&gt;
+&lt;p&gt;Unfortunately, it seems like new elements can not be created and used in other files. For example, when converting this site to Jekyll, I was unable add other social network item I entered under the author section to then use the links in the footer include and humans.txt file.&lt;/p&gt;
+
+&lt;h3 id=&quot;additional-information-and-elements&quot;&gt;Additional information and elements&lt;/h3&gt;
+
+&lt;p&gt;The &lt;a href=&quot;http://jekyllrb.com/docs/configuration/&quot;&gt;Configuration Docs&lt;/a&gt; from the Official JekyllRB site is a must read. They include a ton of useful information and other tags that you can use in your file.&lt;/p&gt;
+
+&lt;h3 id=&quot;bonus-git-ignore-for-jekyll&quot;&gt;Bonus: Git ignore for Jekyll&lt;/h3&gt;
+
+&lt;p&gt;Here is a sample of my git ignore file:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://gist.github.com/jennifert/cfb4991f5352c67f85291c1047817241&quot;&gt;.gitignore sample&lt;/a&gt;&lt;/p&gt;</content><author><name>Jennifer Tesolin</name></author><category term="Jekyll" /><category term="YAML" /><summary type="html">The Jekyll configuration file houses important information for your site. This post highlights some options being used in this site, with a basic explanation of what it does.</summary></entry><entry><title type="html">Jekyll: Easy searching with JSON and jQuery</title><link href="http://localhost:4000/blog/2015/05/22/Jekyll-Custom-Easy-Search-jquery/" rel="alternate" type="text/html" title="Jekyll: Easy searching with JSON and jQuery" /><published>2015-05-22T17:34:21-04:00</published><updated>2015-05-22T17:34:21-04:00</updated><id>http://localhost:4000/blog/2015/05/22/Jekyll-Custom-Easy-Search-jquery</id><content type="html" xml:base="http://localhost:4000/blog/2015/05/22/Jekyll-Custom-Easy-Search-jquery/">&lt;p&gt;Jekyll is a great tool to build web sites, unfortunately there is no built in search. This post will describe how to create one a basic search using JSON and jQuery.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;This search works great for users using your site to search (like the one above this post). Unfortunately, with this method, Google does not understand that this is a site search. If having your search show up in Google results, this may not be for you.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-1-create-searchjson&quot;&gt;Step 1: Create search.json&lt;/h3&gt;
+&lt;p&gt;There are quite a few methods to create a search.json file. For me, I wanted to use built in Jekyll methods (no plugins). For that, I based the code from &lt;a href=&quot;http://jekyllsnippets.com/excluding-jsonify-your-site/&quot;&gt;JSONify your Jekyll Site&lt;/a&gt; as well as other aspects of my site. The new code will look for attributes in my post like this sample from my drafts template:&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/jennifert/db65203ca69138aefd9b.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Here is a sample of my final code. Pressing on the image will take you to the file in GitHub:&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/jennifert/38c507876ee4459abeda.js&quot;&gt;&lt;/script&gt;
+
+&lt;h3 id=&quot;step-2-update-your-html-code&quot;&gt;Step 2: Update your HTML code&lt;/h3&gt;
+
+&lt;p&gt;Next, we need to update the search form :&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/jennifert/87d3263c84d6c0d537f8.js&quot;&gt;&lt;/script&gt;
+
+&lt;h3 id=&quot;step-3-create-your-searchjson-page&quot;&gt;Step 3: Create your search.json page&lt;/h3&gt;
+
+&lt;p&gt;Thirdly, we need to create a basic html page that basically has our title, and a div to hold the jQuery results. Here is the code:&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/jennifert/96c00c28c41360c13350.js&quot;&gt;&lt;/script&gt;
+
+&lt;h3 id=&quot;step-4-add-the-jquery-to-your-site&quot;&gt;Step 4: Add the jQuery to your site&lt;/h3&gt;
+
+&lt;p&gt;To query the search.json, I used jQuery’s &lt;code&gt;getJSON&lt;/code&gt; method. For this, you will need the below code first:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/3390930/any-way-to-make-jquery-inarray-case-insensitive&quot;&gt;Extend inArray to be case insensitive&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/9501690/javascript-documentation-on-getparameterbyname&quot;&gt;Get parameter by name&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;function-1&quot;&gt;Function 1:&lt;/h4&gt;
+&lt;script src=&quot;https://gist.github.com/jennifert/f7fe005c96c5a48a7506.js&quot;&gt;&lt;/script&gt;
+
+&lt;h4 id=&quot;function-2&quot;&gt;Function 2:&lt;/h4&gt;
+&lt;script src=&quot;https://gist.github.com/jennifert/2464a76ee1a83da91534.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;This wrapped up the post on how to easily add a search to your Jekyll site.&lt;/p&gt;
+
+&lt;h3 id=&quot;resources&quot;&gt;Resources&lt;/h3&gt;
+
+&lt;p&gt;Below are other search alternatives, and built in jQuery code that helped in my development.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developmentseed.org/blog/2011/09/09/jekyll-github-pages/&quot;&gt;Using Jekyll and GitHub Pages for Our Site&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/11887929/how-do-i-loop-through-tags-in-a-jekyll-post&quot;&gt;Stack overflow: How do I loop through tags&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.marran.com/tech/jquery-full-text-indexing-on-jekyll&quot;&gt;jQuery Full-Text Indexing on Jekyll&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://danreev.es/posts/jekyll-search-with-typeahead/&quot;&gt;Search a Jekyll Blog With Typeahead.js&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jekyllsnippets.com/excluding-jsonify-your-site/&quot;&gt;JSONify your Jekyll Site&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Jennifer Tesolin</name></author><category term="Jekyll" /><category term="JSON" /><category term="jQuery" /><summary type="html">Jekyll is a great tool to build web sites, unfortunately there is no built in search. This post will describe how to create one a basic search using JSON and jQuery.</summary></entry><entry><title type="html">Jekyll: Setting up your development environment</title><link href="http://localhost:4000/blog/2015/03/17/Jekyll-Set-Up-Publish/" rel="alternate" type="text/html" title="Jekyll: Setting up your development environment" /><published>2015-03-17T15:34:21-04:00</published><updated>2015-03-17T15:34:21-04:00</updated><id>http://localhost:4000/blog/2015/03/17/Jekyll-Set-Up-Publish</id><content type="html" xml:base="http://localhost:4000/blog/2015/03/17/Jekyll-Set-Up-Publish/">&lt;p&gt;Jekyll is a static site generator that runs on NodeJS. Its a great alternative to WordPress that eliminates the need for databases.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;requirements&quot;&gt;Requirements&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.ruby-lang.org/en/downloads/&quot;&gt;Ruby&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rubygems.org/pages/download&quot;&gt;RubyGems&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://nodejs.org/&quot;&gt;NodeJS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;install-jekyll-dependencies&quot;&gt;Install Jekyll dependencies:&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;sudo gem update --system&lt;br /&gt;
+sudo gem update&lt;br /&gt;
+sudo gem install jekyll&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;If will be importing from WordPress or other location, you will also need:&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo gem install jekyll-import&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Note: If your a risk taker, the below command installs a pre release version. Please note these are NOT stable.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;gem install jekyll --pre&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;a-new-jekyll-instance-non-wordpress-instructions&quot;&gt;A new Jekyll instance (non-WordPress instructions)&lt;/h3&gt;
+
+&lt;p&gt;First, run the the below command, replacing “MySite” with the folder name for your site.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;jekyll new MySite&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Jekyll will now generate a site in the folder “MySite”. Here is what the directory will look like:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/wp-content/uploads/2015/jekyll1.png&quot; alt=&quot;Terminal screen that shows directory contents&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;_config.yml&lt;/code&gt; stores the website configuration data such as site name, description and base address.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;_includes&lt;/code&gt; is where you store portions of a file such as your menu, header, footer, and GA code.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;_layouts&lt;/code&gt;puts the pieces of the includes together for a post, page and index file.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;_posts&lt;/code&gt; is where posts for your site are stored in markdown or HTML format.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;_scss&lt;/code&gt; stores the files for SASS and CoffeeScriptfile. &lt;a href=&quot;http://jekyllrb.com/docs/assets/&quot;&gt;Read More in the Jekyll Docs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;about.md&lt;/code&gt; is the about page for your site.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;css&lt;/code&gt; self explanatory - stores your css files.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;feed.xml&lt;/code&gt; will have your rss feed. This generates on its own.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;index.html&lt;/code&gt; your site’s main page.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Once you have finished your changes, run the below commands:&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;cd MySite&lt;br /&gt;
+jekyll serve&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is a sample output:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/wp-content/uploads/2015/jekyll2.png&quot; alt=&quot;Terminal screen output of jekyll serve command&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then, browse to: &lt;a href=&quot;http://localhost:4000&quot;&gt;http://localhost:4000&lt;/a&gt;.  You can edit files, and Jekyll will make those updates behind the scene as soon as you save…just refresh to see your changes.&lt;/p&gt;
+
+&lt;h3 id=&quot;wordpress-import-instructions-wordpresscom-and-self-hosted&quot;&gt;Wordpress Import instructions (wordpress.com and self hosted)&lt;/h3&gt;
+&lt;p&gt;Create a folder for your site and use the terminal to change to the folder your your site will be (&lt;code&gt;cd foldername&lt;/code&gt;).&lt;/p&gt;
+
+&lt;p&gt;Make sure the upload folder and a copy of your &lt;a href=&quot;https://en.support.wordpress.com/export/&quot;&gt;WordPress export&lt;/a&gt; is at the root of your new site folder. For demo purposes, I will call it: &lt;code&gt;wordpress.xml.&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/wp-content/uploads/2015/jekyll3.png&quot; alt=&quot;Terminal screen output showing directory strcuture&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once this is set up, run the below command to import your wordpress instance:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;jekyll import wordpressdotcom --source wordpress.xml&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;If your upload folders are not downloaded in same structure, download your wp-content folder, and place at root of site (above “_site” folder Also, in my code, there were no references to the below folders, so they were deleted:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;_nav_menu_items&lt;/li&gt;
+  &lt;li&gt;attachments&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To see what your site looks like, run the command &lt;code&gt;jekyll serve&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;As with the non-WordPress import, any changes you make will be reflected in your development link.&lt;/p&gt;
+
+&lt;h3 id=&quot;drafts&quot;&gt;Drafts&lt;/h3&gt;
+
+&lt;p&gt;To wok on a post locally, but not moving it live, create a folder at the root called &lt;code&gt;_drafts&lt;/code&gt;. Next, add a markdown or html file without the address. Finally, run &lt;code&gt;jekyll server --watch --drafts&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/wp-content/uploads/2015/jekyll5.png&quot; alt=&quot;Terminal screen output showing draft folder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Changes can be made on the fly using this method as well. When ready to publish, move the file to &lt;code&gt;_posts&lt;/code&gt; and add a date.&lt;/p&gt;
+
+&lt;h3 id=&quot;publishing-your-new-site&quot;&gt;Publishing your new site&lt;/h3&gt;
+
+&lt;p&gt;The last step is in this process is to push your files on-line. Move into the root of &lt;code&gt;_site&lt;/code&gt;. These are the production ready files that should be moved to your server.&lt;/p&gt;
+
+&lt;p&gt;The first chunk of files below shows the root of my Jekyll site, while the second shows the production ready files. Note that some files from the root of the Jekyll site are not included. These are excluded in &lt;code&gt;_config.yml&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/wp-content/uploads/2015/jekyll4.png&quot; alt=&quot;Terminal screen output showing prduction folder contents&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Note: There will be separate posts on various items in the config file, how to get it running on Azure and finally, another on publishing to Github Pages, and CloudFlare.&lt;/p&gt;
+
+&lt;h3 id=&quot;youtube-demo&quot;&gt;Youtube Demo&lt;/h3&gt;
+
+&lt;p&gt;Here is a demo of the process to configure Ruby, and Jekyll on a system.&lt;/p&gt;
+
+&lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/SRmNM6VjhZk&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;resources&quot;&gt;Resources&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/a/4920620&quot;&gt;Jekyll Docs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://import.jekyllrb.com/docs/wordpressdotcom/&quot;&gt;Jekyll Import Docs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jekyllrb.com/docs/drafts/&quot;&gt;Jekyll Docs - Working with drafts&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Jennifer Tesolin</name></author><category term="Jekyll" /><category term="WordPress" /><summary type="html">Jekyll is a static site generator that runs on NodeJS. Its a great alternative to WordPress that eliminates the need for databases.</summary></entry></feed>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Updated: Raspberry Pi Media Server - Jennifer Tesolin </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="An updated guide to streaming content to your Raspberry Pi.">
+    
+    <link rel="canonical" href="https://www.jenntesolin.com/blog/2014/04/24/updated-raspberry-pi-media-server/">
+    <link type="text/plain" rel="author" href="/humans.txt" />
+    <link rel="author" href="https://plus.google.com/109759985952910616281?rel=author" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/combined.css">
+    <link rel='alternate' type='application/atom+xml' title='Atom 0.3' href='http://localhost:4000/feed.xml'>
+    
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    
+    <meta name="application-name" content="Updated: Raspberry Pi Media Server - Jennifer Tesolin"/>
+    <meta name="msapplication-TileColor" content="#000000"/>
+    <meta name="msapplication-square70x70logo" content="imgs/tiny.png"/>
+    <meta name="msapplication-square150x150logo" content="imgs/square.png"/>
+    <meta name="msapplication-wide310x150logo" content="imgs/wide.png"/>
+    <meta name="msapplication-square310x310logo" content="imgs/large.png"/>
+
+       
+      <!--Social Media-->
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:site" content="@jenntes" />
+      <meta name="og:type" content="article" />
+      <meta name="og:title" content="Updated: Raspberry Pi Media Server" />
+      <meta name="og:url" content="/blog/2014/04/24/updated-raspberry-pi-media-server/" />
+      <!--<meta name="og:image" content="{featured image}" />-->
+      <meta name="og:description" content="An updated guide to streaming content to your Raspberry Pi." />
+      <meta name="og:site_name" content="Jennifer Tesolin's Blog" />
+
+      
+      <!-- <meta property="og:site_name" content="Jennifer Tesolin" />
+      <meta property="fb:admins" content="Facebook numberic ID" /> -->
+
+   <!--Google and preload next-->
+     <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44673213-1', 'jenntesolin.com');
+  ga('send', 'pageview');
+  </script>
+
+   <!-- replace with jekyll tags/gem -->
+  <link rel="prefetch" href="/blog/" />
+  <link rel="next" href="/blog/"/>
+
+
+</head>
+
+
+    <body>
+
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Home</a>
+        </div>
+        <div class="collapse navbar-collapse">
+      
+      <ul class="nav navbar-nav">
+        <li ><a href="/about/">About</a></li>
+        <li class="active" ><a href="/blog/">Blog</a></li>
+        <li ><a href="/photos/">Photos</a></li>
+      </ul>
+
+      <form role="search" method="get" class="navbar-form navbar-right form-inline" action="/search/">
+          <div class="form-group" id="searchdiv">
+            <input type="search" id="searchbox" name="searchbox" class="form-control search" placeholder="Search ... ">
+            <label class="hide">Search for:</label>
+          </div>
+          <button type="submit" class="btn btn-success search"> <i class="fa fa-search"></i></button>
+      </form>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="post h-entry">
+
+  <header class="post-header">
+    <h1 class="p-name">Updated: Raspberry Pi Media Server</h1>
+    <p class="meta"><time class="dt-published">Apr 24, 2014</time></p>
+  </header>
+
+  <article class="post-content e-content p-name">
+  <p>After trying quite a few Raspberry Pi operating systems and configurations, the new <a title="Official site for the operating system" href="http://www.rasplex.com/" target="_blank" rel="nofollow">RasPlex</a> is my choice for my home media centre. RasPlex was the best system which supports out of the box: WiFi, Bluetooth, hdmi monitor with analog speakers, and more. The best thing is the entire process took only 15 minutes!<!--more--></p>
+<p><small>Note: This is an update to the <a title="A look at Raspmbc video streaming" href="http://jenntesolin.com/blog/2013/09/05/a-look-at-raspmbc-video-streaming/" target="_blank" rel="nofollow">Raspmbc set-up article</a>. RasPlex also requires the use of Plex Media Server which is also free, and easily connects to iTunes and various channels.<br /></small></p>
+<p><strong>Set-up the SD card</strong></p>
+<p>The first step is to <a title="Rasplex installer downlaod page" href="http://www.rasplex.com/get-started/rasplex-installers.html" target="_blank" rel="nofollow">download the installer</a> for your Operating System onto your computer. They have installers available for Mac, Linux, and Windows, please be sure to read the notes on how to mount the installer.</p>
+<p>Now, you select the version of RasPlex you want, and then select your SD card drive (check disk utility for the name if your not sure). Finally, press "update links", and when that is down "click download". It will ask you the location of the download, then when will display the download progress in the terminal. Once your all set-up, then press "Write SD card".</p>
+<p><a href="/wp-content/uploads/2014/04/Screen-Shot-2014-04-24-at-10.51.40-PM.png"> <img class="alignnone size-medium wp-image-609" src="/wp-content/uploads/2014/04/Screen-Shot-2014-04-24-at-10.51.40-PM-300x298.png" alt="Screen Shot 2014-04-24 at 10.51.40 PM" width="300" height="298" /></a></p>
+<p><strong>Set-Up your Raspberry Pi</strong></p>
+<p>Make sure all your devises (even Bluetooth and Wi-Fi) are connected, then boot your machine. Let it run the initial set-up, and reboot itself.</p>
+<p>Once it reboots, follow the on screen instructions for set-up (note that only your keyboard will work so far). Some of the set-up options include: Blue-tooth, WI-Fi, your Plex Media Server.</p>
+<p>When you see the menu, press the left keyboard arrow to get to your settings, this is where you can set-up your audio settings, ssh access, and more. At set-up it will choose HDMI audio, just select analog to use stereo speakers.</p>
+<p><a href="/wp-content/uploads/2014/04/IMG_1982.jpg"><img class="alignnone size-medium wp-image-608" src="/wp-content/uploads/2014/04/IMG_1982-300x199.jpg" alt="IMG_1982" width="300" height="199" /></a></p>
+<p>That's it! This this helps other people as well.</p>
+<p><strong>RasPlex Resources:</strong></p>
+<ul>
+<li><a href="https://github.com/RasPlex/RasPlex/wiki/Guides" target="_blank" rel="nofollow">RasPlex Github Guides Pages</a></li>
+<li><a href="http://www.rasplex.com/documentation/rasplex-setup-basics.html" target="_blank" rel="nofollow">RasPlex Set-Up Basics Documentation Page</a></li>
+</ul>
+<p><strong>Check out their YouTube Trailer</strong></p>
+
+<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/C-A4Kxq3V0I" allowfullscreen></iframe></div>
+  </article>
+
+</div>
+    </div>
+
+          
+      <footer>
+        <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12">
+           <p class="vcard text-muted">
+          &copy; 2017 <span class="fn">Jennifer Tesolin</span>
+          <span class="pull-right">
+            <a  class="url" href="https://github.com/jennifert?tab=repositories" target="_blank" rel="nofollow"><i class="fa fa-github fa-3x"></i></a>
+            <a class="url" href="https://twitter.com/jenntes" target="_blank" rel="nofollow"><i class="fa fa-twitter fa-3x"></i></a>
+            <a class="url" href="https://www.flickr.com/photos/68631186@N06/sets/" target="_blank" rel="nofollow"><i class="fa fa-flickr fa-3x"></i></a>
+            <a class="url" href="/feed.xml" rel="nofollow"><i class="fa fa-rss fa-3x"></i></a>
+            <a class="url" href="http://ca.linkedin.com/pub/jennifer-tesolin/2b/5bb/3a6" target="_blank" rel="nofollow"><i class="fa fa-linkedin fa-3x"></i></a>
+            <a href="https://plus.google.com/109759985952910616281?rel=author" rel="nofollow"></a><a class="url" href="https://plus.google.com/109759985952910616281" target="_blank" rel="me"><i class="fa fa-google-plus fa-3x"></i></a>
+            <a class="u-email url" href="mailto:jtesolin@gmail.com" target="_blank" rel="me"><i class="fa fa-envelope fa-3x"></i></a>
+          </span>
+        </p>
+        </div>
+        </div>
+        </div>
+      </footer>
+
+<script type="text/javascript" src="/js/combined.js"></script>
+
+    </body>
+</html>

@@ -22,26 +22,26 @@ Just a note before getting started, personally I use plugins with Jekyll, so I h
 
 ## GitHub Pages
 
-If your using a custom/personal domain with Github pages, you will need a "CNAME" file with your own domain name. Below is my example, you can also see the latest in my Github repository for my [live site](https://github.com/jennifert/jennifert.github.io/blob/master/CNAME).
+If your using a custom/personal domain with Github pages, you will need a "CNAME" file. It should have your domain written like the below example.
 
 <code>www.jenntesolin.com</code>
 
 The Github pages are the best to follow for setting up, so please for the rest of Github Pages guide:
 
-https://pages.github.com/
+[https://pages.github.com/](https://pages.github.com/)
 
-This walks you through with prompts and changes with your Github set-up. Here is the final repo for my pages site: 
-
-[https://github.com/jennifert/jennifert.github.io](https://github.com/jennifert/jennifert.github.io)
+This walks you through with prompts and changes with your Github set-up.
 
 ## Azure
 
-First, make sure you have a [".deployment"](https://github.com/jennifert/jekyll-site/blob/master/.deployment) file pointing to your final complied website. Here is a sample of my code:
+First, make sure you have a ".deployment" file pointing to your final complied website. If your using the basic Jekyll set-up, it would be:
 
 <code>[config]<br>
 project = _site</code>
 
-Also, I have a web.config file set up to read [JSON files](https://github.com/jennifert/jekyll-site/blob/master/web.config). You can also use this for other items such as [MIME types for web fonts](https://www.jenntesolin.com/blog/2015/03/14/IIS7-Development-Environment/).
+[.deployment Gist Sample](https://gist.github.com/jennifert/24cae4c07a69fe6be9207b578b1c7e2b)
+
+Also, I have a [web.config](https://gist.github.com/jennifert/27e1c3e587e64fb75149f1bb3b1b340c) file set up to read JSON, media and font file media types. Alternatively, you can check out this list of [common MIME types](http://www.serverintellect.com/support/iis/mime-types/).
 
 To set-up your host, head on over to the [Azure site](https://azure.microsoft.com/en-us/free/) and click "Start now". This will bring you to a sign in page which will require you to sign up with your Microsoft Account (Outlook, Hotmail, etc.).
 
@@ -53,8 +53,8 @@ You will need to wait a bit for your host to be created, so maybe grab a coffee 
 
 In this example, I am connecting to my Github account that I use for development. If you wish, you can always just configure FTP (and other things like programming versions of languages like .Net, PHP, etc.) by accessing it in your [panel](https://azure.microsoft.com/en-us/documentation/articles/web-sites-configure/).
 
-Click on "Publishing" under "Continous deployment" to set up your web application and it will being up various providers. Pick Github then follow the prompts to authorize Microsoft to access your Github account.
+Click on "Publishing" under "Continuous deployment" to set up your web application and it will being up various providers. Pick Github then follow the prompts to authorize Microsoft to access your Github account.
 
 Next, select which repository you would like to connect to and click "OK". In this example, I chose my "jekyll-site" repository. Grab another coffee or give your email a quick check, as the two services will need a bit of time to connect and serve from the branch you connected to (in my case, I just chose "Master").
 
-Finally, once its connected, check out the site at your URL: [http://jenntesolin.azurewebsites.net/](http://jenntesolin.azurewebsites.net/).
+Finally, once its connected, check out the site at the URL provided.

@@ -16,7 +16,7 @@ author: Jennifer Tesolin
 
 The Jekyll configuration file houses important information for your site. This post highlights some options being used in this site, with a basic explanation of what it does.<!--more-->
 
-This file has quite a few areas of editing, especially if you want to override some of the [default Jekyll options](http://jekyllrb.com/docs/configuration/#front-matter-defaults). Here is a [sample](https://github.com/jennifert/jekyll-site/blob/master/_config.yml) of my <code>_config.yml</code> from my GitHub repository. There are 3 main sections, which are explain in more detail below.
+This file has quite a few areas of editing, especially if you want to override some of the [default Jekyll options](http://jekyllrb.com/docs/configuration/#front-matter-defaults). Here is a [jekyll config sample](https://gist.github.com/jennifert/de156dc7b792a3f3a0e4b63aa66e768a) of my <code>_config.yml</code> from my GitHub repository. There are 3 main sections, which are explain in more detail below. 
 
 ### Site Settings
 
@@ -57,3 +57,9 @@ Unfortunately, it seems like new elements can not be created and used in other f
 ### Additional information and elements
 
 The [Configuration Docs](http://jekyllrb.com/docs/configuration/) from the Official JekyllRB site is a must read. They include a ton of useful information and other tags that you can use in your file.
+
+### Bonus: Git ignore for Jekyll
+
+Here is a sample of my git ignore file:
+
+[.gitignore sample](https://gist.github.com/jennifert/cfb4991f5352c67f85291c1047817241)

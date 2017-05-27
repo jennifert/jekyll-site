@@ -18,5 +18,3 @@ Any updates in this phase were on and before June 20, 2014, this was to my domai
 ### Phase 2
 
 Upcoming updates and bug fixes have been moved to the GitHub issues functionality. [This repository issue log](https://github.com/jennifert/jekyll-site/issues).
-
-Please source any blog posting you use from here. Thanks :)

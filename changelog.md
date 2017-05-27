@@ -8,7 +8,7 @@ May 26, 2017
 - more typos fixed.
 - removed duplicate mime type links in IIS post.
 - Updated gitignore now that repo is private.
-- Added githook
+- Added githook so that server will receive updates. Based on: https://gist.github.com/cowboy/619858
 
 May 19, 2017
 - New posts slipped in!

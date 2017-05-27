@@ -1,7 +1,7 @@
 jekyll-site
 ===========
 
-This is a port of my wordpress blog that has been moved to [Jekylll](http://jekyllrb.com/) via the [Jekyll Imports](http://import.jekyllrb.com/) plugin and is the development repository.
+This is my personal website with hooks to my server.
 
 The production URL is the same as before: [http://jenntesolin.com/](jenntesolin.com).
 

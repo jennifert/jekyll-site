@@ -80,6 +80,8 @@ Here is a list of other plugins that may be useful in your blog. Note that if yo
 +jekyll-feed
 +jekyll-paginate
 
+Mention: https://gist.github.com/jennifert/896428b15cd586f91fd36872a0bff1d5
+
 Check out these Jekyll tutorials for more on working with the Jekyll static site generator:
  
 <a href="https://jenntesolin.com/tutorial/2015/03/17/Jekyll-Set-Up-Publish.html">Set-Up Jekyll Publishing</a><br>

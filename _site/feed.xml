@@ -3,11 +3,10 @@
   <channel>
     <title>Jennifer Tesolin</title>
     <description>This is Jennifer Tesolin's personal web site. Located on this site are tutorials and tips for web developers.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 28 May 2017 15:05:22 -0400</pubDate>
-    <lastBuildDate>Sun, 28 May 2017 15:05:22 -0400</lastBuildDate>
-    <generator>Jekyll v3.3.0</generator>
+    <link>https://jenntesolin.com/</link>
+    <atom:link href="https://jenntesolin.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 28 May 2017 15:12:49 -0400</pubDate>
+    <lastBuildDate>Sun, 28 May 2017 15:12:49 -0400</lastBuildDate>
     
       <item>
         <title>Quick Tip: Highcharts credit in a new window</title>
@@ -28,8 +27,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 28 May 2017 10:34:00 -0400</pubDate>
-        <link>http://localhost:4000/blog/2017/05/28/basic-highcharts-rightclick/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2017/05/28/basic-highcharts-rightclick/</guid>
+        <link>https://jenntesolin.com/blog/2017/05/28/basic-highcharts-rightclick/</link>
+        <guid isPermaLink="true">https://jenntesolin.com/blog/2017/05/28/basic-highcharts-rightclick/</guid>
         
         <category>JavaScript</category>
         
@@ -59,8 +58,8 @@ add_filter ( 'publish_post', 'email_alert' );&lt;/code&gt;
 &lt;p&gt;&lt;a href=&quot;http://wordpress.org/support/topic/add_action-with-publish_post&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Wordpress.org support: Publish actions&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 06 Jan 2017 12:30:30 -0500</pubDate>
-        <link>http://localhost:4000/blog/2017/01/06/quick-tip-word-press-and-campaign-monitor/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2017/01/06/quick-tip-word-press-and-campaign-monitor/</guid>
+        <link>https://jenntesolin.com/blog/2017/01/06/quick-tip-word-press-and-campaign-monitor/</link>
+        <guid isPermaLink="true">https://jenntesolin.com/blog/2017/01/06/quick-tip-word-press-and-campaign-monitor/</guid>
         
         <category>wordpress</category>
         
@@ -90,8 +89,8 @@ add_filter ( 'publish_post', 'email_alert' );&lt;/code&gt;
 
 &lt;p&gt;Check these out, and &lt;a href=&quot;https://twitter.com/jenntes&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;let me know&lt;/a&gt; if I missed anything.&lt;/p&gt;</description>
         <pubDate>Fri, 06 Jan 2017 09:16:30 -0500</pubDate>
-        <link>http://localhost:4000/blog/2017/01/06/top-6-library-resources/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2017/01/06/top-6-library-resources/</guid>
+        <link>https://jenntesolin.com/blog/2017/01/06/top-6-library-resources/</link>
+        <guid isPermaLink="true">https://jenntesolin.com/blog/2017/01/06/top-6-library-resources/</guid>
         
         <category>library</category>
         
@@ -117,8 +116,8 @@ add_filter ( 'publish_post', 'email_alert' );&lt;/code&gt;
 &lt;p&gt;What concepts would you like to see? Do you agree with the above? Sound out to me on Twitter &lt;a href=&quot;https://twitter.com/jenntes&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;@jenntes&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Wed, 24 Aug 2016 06:12:56 -0400</pubDate>
-        <link>http://localhost:4000/blog/2016/08/24/top-5-console-additions-pokemon-go/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2016/08/24/top-5-console-additions-pokemon-go/</guid>
+        <link>https://jenntesolin.com/blog/2016/08/24/top-5-console-additions-pokemon-go/</link>
+        <guid isPermaLink="true">https://jenntesolin.com/blog/2016/08/24/top-5-console-additions-pokemon-go/</guid>
         
         <category>PokemonGo</category>
         
@@ -149,8 +148,8 @@ if (intval($a)==intval($b)){ &lt;br /&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 14 Jun 2016 15:00:21 -0400</pubDate>
-        <link>http://localhost:4000/blog/2016/06/14/compare-integars-php/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2016/06/14/compare-integars-php/</guid>
+        <link>https://jenntesolin.com/blog/2016/06/14/compare-integars-php/</link>
+        <guid isPermaLink="true">https://jenntesolin.com/blog/2016/06/14/compare-integars-php/</guid>
         
         <category>php</category>
         
@@ -170,8 +169,8 @@ if (intval($a)==intval($b)){ &lt;br /&gt;
 &lt;p&gt;&lt;a href=&quot;/wp-content/uploads/2016/06/itunesView.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/wp-content/uploads/2016/06/itunesView-Thumb.png&quot; alt=&quot;Preview of instructions&quot; align=&quot;middle&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 12 Jun 2016 15:00:21 -0400</pubDate>
-        <link>http://localhost:4000/blog/2016/06/12/itunes-view-change/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2016/06/12/itunes-view-change/</guid>
+        <link>https://jenntesolin.com/blog/2016/06/12/itunes-view-change/</link>
+        <guid isPermaLink="true">https://jenntesolin.com/blog/2016/06/12/itunes-view-change/</guid>
         
         <category>php</category>
         
@@ -226,8 +225,8 @@ project = _site&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Finally, once its connected, check out the site at the URL provided.&lt;/p&gt;
 </description>
         <pubDate>Thu, 04 Feb 2016 07:38:21 -0500</pubDate>
-        <link>http://localhost:4000/blog/2016/02/04/jekyll-on-azure/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2016/02/04/jekyll-on-azure/</guid>
+        <link>https://jenntesolin.com/blog/2016/02/04/jekyll-on-azure/</link>
+        <guid isPermaLink="true">https://jenntesolin.com/blog/2016/02/04/jekyll-on-azure/</guid>
         
         <category>Jekyll</category>
         
@@ -255,8 +254,8 @@ project = _site&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Now, when you run &lt;code&gt;jekyll serve&lt;/code&gt; or &lt;code&gt;jekyll build&lt;/code&gt; the error message should no longer be there.&lt;/p&gt;
 </description>
         <pubDate>Wed, 28 Oct 2015 02:58:21 -0400</pubDate>
-        <link>http://localhost:4000/blog/2015/10/28/fix-jekyll-pagination-upgrade-to-3/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2015/10/28/fix-jekyll-pagination-upgrade-to-3/</guid>
+        <link>https://jenntesolin.com/blog/2015/10/28/fix-jekyll-pagination-upgrade-to-3/</link>
+        <guid isPermaLink="true">https://jenntesolin.com/blog/2015/10/28/fix-jekyll-pagination-upgrade-to-3/</guid>
         
         <category>Jekyll</category>
         
@@ -321,8 +320,8 @@ project = _site&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://gist.github.com/jennifert/cfb4991f5352c67f85291c1047817241&quot;&gt;.gitignore sample&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 08 Aug 2015 06:00:00 -0400</pubDate>
-        <link>http://localhost:4000/blog/2015/08/08/jekyll-config-file/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2015/08/08/jekyll-config-file/</guid>
+        <link>https://jenntesolin.com/blog/2015/08/08/jekyll-config-file/</link>
+        <guid isPermaLink="true">https://jenntesolin.com/blog/2015/08/08/jekyll-config-file/</guid>
         
         <category>Jekyll</category>
         
@@ -390,8 +389,8 @@ project = _site&lt;/code&gt;&lt;/p&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Fri, 22 May 2015 17:34:21 -0400</pubDate>
-        <link>http://localhost:4000/blog/2015/05/22/Jekyll-Custom-Easy-Search-jquery/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2015/05/22/Jekyll-Custom-Easy-Search-jquery/</guid>
+        <link>https://jenntesolin.com/blog/2015/05/22/Jekyll-Custom-Easy-Search-jquery/</link>
+        <guid isPermaLink="true">https://jenntesolin.com/blog/2015/05/22/Jekyll-Custom-Easy-Search-jquery/</guid>
         
         <category>Jekyll</category>
         

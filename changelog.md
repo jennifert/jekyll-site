@@ -3,6 +3,11 @@ Changelog
 
 ## phase 2 Updates:
 
+May 28, 2017
+- new post
+- updated deploy file for future new search engine
+- updated about with email since github repo not used.
+
 May 26, 2017
 - Updated git links to point to proper repo or gist
 - more typos fixed.

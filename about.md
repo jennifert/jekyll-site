@@ -14,5 +14,6 @@ Other hobbies I enjoy are traveling, visiting with family and friends, watching 
 Some upcoming tutorials (in no particular order) are:
 
 * Creating a development environment on the Mac: a video and blog series. The posts are currently being written out and screen captured (will release a rough version first, so stay tuned). This will focus on Mac Sierra version of the operating system.
+* Creating a development environment on windows: a video to go with the blog post. Will be updated into a series as well. 
 
-Feel free to [create an issue](https://github.com/jennifert/jekyll-site/issues) if there is any content you want to see.
+Feel free to [send me an email](mailto:jtesolin@gmail.com) if there is any content you want to see, or any issues to fix.

@@ -5,15 +5,15 @@
     <description>This is Jennifer Tesolin's personal web site. Located on this site are tutorials and tips for web developers.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 28 May 2017 14:34:26 -0400</pubDate>
-    <lastBuildDate>Sun, 28 May 2017 14:34:26 -0400</lastBuildDate>
+    <pubDate>Sun, 28 May 2017 15:05:22 -0400</pubDate>
+    <lastBuildDate>Sun, 28 May 2017 15:05:22 -0400</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
-        <title>Quick Tip: Highcharts set-up right click</title>
-        <description>There is a great fiddle by Torstein Hønsi, that shows how to add a right click to the credits below a highchart.&lt;!--more--&gt;
+        <title>Quick Tip: Highcharts credit in a new window</title>
+        <description>&lt;p&gt;Here is a great fiddle by Torstein Hønsi, that shows how to have highcharts credits open in a new window/tab.&lt;!--more--&gt;&lt;/p&gt;
 
-&lt;b&gt;Note:&lt;/b&gt; if you are using for free, you MUST (in the below) re-add the text highcharts.com.
+&lt;p&gt;&lt;b&gt;Note:&lt;/b&gt; if you are using for free, you MUST (in the below) re-add the text highcharts.com (in place of your domain). If their domain is not seen, you will be against the license.&lt;/p&gt;
 
 &lt;script async src=&quot;//jsfiddle.net/G9h8z/1/embed/&quot;&gt;&lt;/script&gt;
 

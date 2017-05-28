@@ -5,9 +5,40 @@
     <description>This is Jennifer Tesolin's personal web site. Located on this site are tutorials and tips for web developers.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 28 May 2017 14:31:19 -0400</pubDate>
-    <lastBuildDate>Sun, 28 May 2017 14:31:19 -0400</lastBuildDate>
+    <pubDate>Sun, 28 May 2017 14:34:26 -0400</pubDate>
+    <lastBuildDate>Sun, 28 May 2017 14:34:26 -0400</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
+    
+      <item>
+        <title>Quick Tip: Highcharts set-up right click</title>
+        <description>There is a great fiddle by Torstein Hønsi, that shows how to add a right click to the credits below a highchart.&lt;!--more--&gt;
+
+&lt;b&gt;Note:&lt;/b&gt; if you are using for free, you MUST (in the below) re-add the text highcharts.com.
+
+&lt;script async src=&quot;//jsfiddle.net/G9h8z/1/embed/&quot;&gt;&lt;/script&gt;
+
+&lt;h3&gt;Resources:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;a href=&quot;https://www.highcharts.com/docs/getting-started/your-first-chart&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Highcharts.com - First chart&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href=&quot;http://jsfiddle.net/G9h8z/1/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;JS Fiddle for right click by Torstein Hønsi&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 28 May 2017 10:34:00 -0400</pubDate>
+        <link>http://localhost:4000/blog/2017/05/28/basic-highcharts-rightclick/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2017/05/28/basic-highcharts-rightclick/</guid>
+        
+        <category>JavaScript</category>
+        
+        <category>chart</category>
+        
+        
+        <category>Tutorial</category>
+        
+      </item>
     
       <item>
         <title>Quick Tip: WordPress and Campaign Monitor</title>
@@ -367,131 +398,6 @@ project = _site&lt;/code&gt;&lt;/p&gt;
         <category>JSON</category>
         
         <category>jQuery</category>
-        
-        
-        <category>Tutorial</category>
-        
-      </item>
-    
-      <item>
-        <title>Jekyll: Setting up your development environment</title>
-        <description>&lt;p&gt;Jekyll is a static site generator that runs on NodeJS. Its a great alternative to WordPress that eliminates the need for databases.&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;requirements&quot;&gt;Requirements&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.ruby-lang.org/en/downloads/&quot;&gt;Ruby&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rubygems.org/pages/download&quot;&gt;RubyGems&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://nodejs.org/&quot;&gt;NodeJS&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;install-jekyll-dependencies&quot;&gt;Install Jekyll dependencies:&lt;/h3&gt;
-
-&lt;p&gt;&lt;code&gt;sudo gem update --system&lt;br /&gt;
-sudo gem update&lt;br /&gt;
-sudo gem install jekyll&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;If will be importing from WordPress or other location, you will also need:&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;sudo gem install jekyll-import&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Note: If your a risk taker, the below command installs a pre release version. Please note these are NOT stable.&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;gem install jekyll --pre&lt;/code&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;a-new-jekyll-instance-non-wordpress-instructions&quot;&gt;A new Jekyll instance (non-WordPress instructions)&lt;/h3&gt;
-
-&lt;p&gt;First, run the the below command, replacing “MySite” with the folder name for your site.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;jekyll new MySite&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Jekyll will now generate a site in the folder “MySite”. Here is what the directory will look like:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/wp-content/uploads/2015/jekyll1.png&quot; alt=&quot;Terminal screen that shows directory contents&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code&gt;_config.yml&lt;/code&gt; stores the website configuration data such as site name, description and base address.&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;_includes&lt;/code&gt; is where you store portions of a file such as your menu, header, footer, and GA code.&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;_layouts&lt;/code&gt;puts the pieces of the includes together for a post, page and index file.&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;_posts&lt;/code&gt; is where posts for your site are stored in markdown or HTML format.&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;_scss&lt;/code&gt; stores the files for SASS and CoffeeScriptfile. &lt;a href=&quot;http://jekyllrb.com/docs/assets/&quot;&gt;Read More in the Jekyll Docs&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;about.md&lt;/code&gt; is the about page for your site.&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;css&lt;/code&gt; self explanatory - stores your css files.&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;feed.xml&lt;/code&gt; will have your rss feed. This generates on its own.&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;index.html&lt;/code&gt; your site’s main page.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Once you have finished your changes, run the below commands:&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;cd MySite&lt;br /&gt;
-jekyll serve&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Here is a sample output:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/wp-content/uploads/2015/jekyll2.png&quot; alt=&quot;Terminal screen output of jekyll serve command&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Then, browse to: &lt;a href=&quot;http://localhost:4000&quot;&gt;http://localhost:4000&lt;/a&gt;.  You can edit files, and Jekyll will make those updates behind the scene as soon as you save…just refresh to see your changes.&lt;/p&gt;
-
-&lt;h3 id=&quot;wordpress-import-instructions-wordpresscom-and-self-hosted&quot;&gt;Wordpress Import instructions (wordpress.com and self hosted)&lt;/h3&gt;
-&lt;p&gt;Create a folder for your site and use the terminal to change to the folder your your site will be (&lt;code&gt;cd foldername&lt;/code&gt;).&lt;/p&gt;
-
-&lt;p&gt;Make sure the upload folder and a copy of your &lt;a href=&quot;https://en.support.wordpress.com/export/&quot;&gt;WordPress export&lt;/a&gt; is at the root of your new site folder. For demo purposes, I will call it: &lt;code&gt;wordpress.xml.&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/wp-content/uploads/2015/jekyll3.png&quot; alt=&quot;Terminal screen output showing directory strcuture&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Once this is set up, run the below command to import your wordpress instance:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;jekyll import wordpressdotcom --source wordpress.xml&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;If your upload folders are not downloaded in same structure, download your wp-content folder, and place at root of site (above “_site” folder Also, in my code, there were no references to the below folders, so they were deleted:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;_nav_menu_items&lt;/li&gt;
-  &lt;li&gt;attachments&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;To see what your site looks like, run the command &lt;code&gt;jekyll serve&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;As with the non-WordPress import, any changes you make will be reflected in your development link.&lt;/p&gt;
-
-&lt;h3 id=&quot;drafts&quot;&gt;Drafts&lt;/h3&gt;
-
-&lt;p&gt;To wok on a post locally, but not moving it live, create a folder at the root called &lt;code&gt;_drafts&lt;/code&gt;. Next, add a markdown or html file without the address. Finally, run &lt;code&gt;jekyll server --watch --drafts&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/wp-content/uploads/2015/jekyll5.png&quot; alt=&quot;Terminal screen output showing draft folder&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Changes can be made on the fly using this method as well. When ready to publish, move the file to &lt;code&gt;_posts&lt;/code&gt; and add a date.&lt;/p&gt;
-
-&lt;h3 id=&quot;publishing-your-new-site&quot;&gt;Publishing your new site&lt;/h3&gt;
-
-&lt;p&gt;The last step is in this process is to push your files on-line. Move into the root of &lt;code&gt;_site&lt;/code&gt;. These are the production ready files that should be moved to your server.&lt;/p&gt;
-
-&lt;p&gt;The first chunk of files below shows the root of my Jekyll site, while the second shows the production ready files. Note that some files from the root of the Jekyll site are not included. These are excluded in &lt;code&gt;_config.yml&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/wp-content/uploads/2015/jekyll4.png&quot; alt=&quot;Terminal screen output showing prduction folder contents&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Note: There will be separate posts on various items in the config file, how to get it running on Azure and finally, another on publishing to Github Pages, and CloudFlare.&lt;/p&gt;
-
-&lt;h3 id=&quot;youtube-demo&quot;&gt;Youtube Demo&lt;/h3&gt;
-
-&lt;p&gt;Here is a demo of the process to configure Ruby, and Jekyll on a system.&lt;/p&gt;
-
-&lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/SRmNM6VjhZk&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;resources&quot;&gt;Resources&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/a/4920620&quot;&gt;Jekyll Docs&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://import.jekyllrb.com/docs/wordpressdotcom/&quot;&gt;Jekyll Import Docs&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://jekyllrb.com/docs/drafts/&quot;&gt;Jekyll Docs - Working with drafts&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 17 Mar 2015 15:34:21 -0400</pubDate>
-        <link>http://localhost:4000/blog/2015/03/17/Jekyll-Set-Up-Publish/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2015/03/17/Jekyll-Set-Up-Publish/</guid>
-        
-        <category>Jekyll</category>
-        
-        <category>WordPress</category>
         
         
         <category>Tutorial</category>

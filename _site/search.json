@@ -1,6 +1,16 @@
 [
     
     {
+      "title"    : "Quick Tip: Highcharts set-up right click",
+      "href"     : "/blog/2017/05/28/basic-highcharts-rightclick/",
+      "summary"     : "There is a great fiddle by Torstein Hønsi, that shows how to add a right click to the credits below a highchart.Note: if you are using for free, you MUST...",
+      "category" : ["Tutorial", null],
+      "tags"     : ["JavaScript","chart", null],
+      "date"     : "May 28, 2017"
+    }
+    ,
+    
+    {
       "title"    : "Quick Tip: WordPress and Campaign Monitor",
       "href"     : "/blog/2017/01/06/quick-tip-word-press-and-campaign-monitor/",
       "summary"     : "Just a quick and easy way to integrate your campaign monitor list. Note: this post first appeared Apr 18, 2013, and has been updated to reflect the most recent information.Adding a...",

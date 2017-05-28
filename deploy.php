@@ -8,4 +8,4 @@ if ( $_POST['payload'] ) {
   shell_exec( 'cd /var/www/_repo/;cp -fR deploy.php /var/www/jenntesolin.com/public_html/');
 }
 ?>
-Hello.
+Hello :)

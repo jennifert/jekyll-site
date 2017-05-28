@@ -8,6 +8,4 @@ if ( $_POST['payload'] ) {
   shell_exec( 'cd _site;cp -fR * /var/www/jenntesolin.com/public_html');
 }
 ?>
-Hello.
-
-:)
+Hello world.

@@ -4,7 +4,7 @@
     <title>{% if page.title %} {{ page.title }} - {{ site.title }} {% else %}{{ site.title }}{% endif %}</title>
     <meta name="viewport" content="width=device-width">
     {% if page.summary %}<meta name="description" content="{{ page.summary }}">{% else %}<meta name="description" content="{{ site.description }}">{% endif %}
-    
+
     <link rel="canonical" href="https://www.jenntesolin.com{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
     <link type="text/plain" rel="author" href="/humans.txt" />
     <link rel="author" href="https://plus.google.com/109759985952910616281?rel=author" />
@@ -12,13 +12,13 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ "/css/combined.css" | prepend: site.baseurl }}">
     <link rel='alternate' type='application/atom+xml' title='Atom 0.3' href='{{ "/feed.xml" | prepend: site.url }}'>
-    
+
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
       <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
       <![endif]-->
-    
+
     <meta name="application-name" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}"/>
     <meta name="msapplication-TileColor" content="#000000"/>
     <meta name="msapplication-square70x70logo" content="imgs/tiny.png"/>
@@ -26,7 +26,7 @@
     <meta name="msapplication-wide310x150logo" content="imgs/wide.png"/>
     <meta name="msapplication-square310x310logo" content="imgs/large.png"/>
 
-      {% if page.title %} 
+      {% if page.title %}
       <!--Social Media-->
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:site" content="@jenntes" />
@@ -37,7 +37,7 @@
       <meta name="og:description" content="{{ page.summary }}" />
       <meta name="og:site_name" content="{{ site.title }}'s Blog" />
 
-      {% else %} 
+      {% else %}
       <!--Social Media-->
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:site" content="@jenntes" />
@@ -49,11 +49,6 @@
       <meta name="og:site_name" content="{{ site.title }}'s Blog" />
 
       {% endif %}
-      <!-- <meta property="og:site_name" content="Jennifer Tesolin" />
-      <meta property="fb:admins" content="Facebook numberic ID" /> -->
-
-   <!--Google and preload next-->
-   {% include google_analytics.html %}
 
    <!-- replace with jekyll tags/gem -->
   <link rel="prefetch" href="/blog/" />

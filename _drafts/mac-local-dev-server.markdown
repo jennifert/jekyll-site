@@ -34,7 +34,7 @@ If you already have it installed, make sure its up to date.
 
 In order to use the build tools, the licenses must be accepted. Run the below commands in your terminal ("Utilities" > "Terminal"). Be sure to read and accept the agreements.
 
-<code> xcode-select --install<br>sudo xcodebuild -license</code>
+<code> xcode-select --install</code>
 
 ### Step 3: Check if Ruby is intsalled, then update the files
 
@@ -42,7 +42,7 @@ To check what version of Ruby you have, you will need to run the below command i
 
 <code>ruby -v</code>
 
-To update your ruby installation and gems to the latest version, run the below commands. Please note that multiple versions of Ruby are beyond the scope of this blog. If you want to run multiple versions, check out a project like RVM. 
+To update your ruby installation and gems to the latest version, run the below commands. Please note that multiple versions of Ruby are beyond the scope of this blog. If you want to run multiple versions, check out a project like RVM.
 
 ### Step 4: install homebrew
 
@@ -68,7 +68,7 @@ To install Jekyll, run the command:
 
 <code>gem install jekyll bundler</code>
 
-You can import your current WordPress posts, by first exporting your entire Wordpress blog using the WordPress tool to Export to an XML file. 
+You can import your current WordPress posts, by first exporting your entire Wordpress blog using the WordPress tool to Export to an XML file.
 
 Once your file is ready, you will need to install the Jekyll Importer by the below command:
 
@@ -83,7 +83,7 @@ Here is a list of other plugins that may be useful in your blog. Note that if yo
 Mention: https://gist.github.com/jennifert/896428b15cd586f91fd36872a0bff1d5
 
 Check out these Jekyll tutorials for more on working with the Jekyll static site generator:
- 
+
 <a href="https://jenntesolin.com/tutorial/2015/03/17/Jekyll-Set-Up-Publish.html">Set-Up Jekyll Publishing</a><br>
 <a href="https://jenntesolin.com/tutorial/2016/02/04/jekyll-on-azure.html">Configure on Azure or Github Pages</a><br>
 <a href="https://jenntesolin.com/tutorial/2015/08/08/jekyll-config-file.html">The configuration file</a><br>
@@ -98,9 +98,9 @@ To install GIT, just run the below commands and enter your information when requ
 
 ## Install Composer (Optional)
 
-Composer is a dependancy manager for PHP that will typically run in your development environment, then the resulting files can be sent to your production envirnment.
+Composer is a dependency manager for PHP that will typically run in your development environment, then the resulting files can be sent to your production environment.
 
-To istall Composer, run the command from the <a href="https://getcomposer.org/download/" target="_blank">Composer Download Page</a>. It should be in a box with various PHP commands to run form the terminal.
+To install Composer, run the command from the <a href="https://getcomposer.org/download/" target="_blank">Composer Download Page</a>. It should be in a box with various PHP commands to run form the terminal.
 
 <img src="/wp-content/uploads/2016/07/download_composer.png"/ alt="A screenshot of the Composer Download page">
 
@@ -184,7 +184,7 @@ Install MySQL (to a look at maria DB)
 
 	 for "mysql " commad:
 	 cd ; nano .bash_profile
-	export PATH="/usr/local/mysql/bin:$PATH" (close file) 
+	export PATH="/usr/local/mysql/bin:$PATH" (close file)
 	source ~/.bash_profile
 
 
@@ -192,7 +192,7 @@ Python:
 	brew update
 	brew upgrade
 	brew install python
-	brew install python3 
+	brew install python3
 
 	python 2.X:
 	python
@@ -225,12 +225,12 @@ Install asp.net
     npm install -g npm install jsdoc
 
     yo aspnet (for gulp, or alternatively for grunt:)
-    yo aspnet --grunt 
+    yo aspnet --grunt
 
     to restore project dependances: dnu restore
 
     then run dnu build
- 
+
     and finally to run server:  (based on info from commands > web in package.json)
     dnx web
 
@@ -252,9 +252,9 @@ gem install debase -v 0.2.1 or higher versions
 
 https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular1
 
-ADD in: 
+ADD in:
 
-- mention: https://www.getpostman.com/app/postman-osx 
+- mention: https://www.getpostman.com/app/postman-osx
 - check out the post: https://getgrav.org/blog/mac-os-x-apache-setup-ssl
 
 ### Resources

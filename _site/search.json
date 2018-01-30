@@ -371,11 +371,11 @@
     ,
     
     {
-      "title"    : "Installing Node JS and Grunt (on Mountain Lion)",
+      "title"    : "Installing Node JS and Grunt",
       "href"     : "/blog/2013/05/08/installing-node-js-and-grunt-on-mountain-lion/",
-      "summary"     : "Node JS is a new generation of server side software. This tutorial focuses on installing the platform, and provides resources for using Grunt. Warning: This was originally from May 8,...",
+      "summary"     : "Warning: This was originally from May 8, 2013 and is currently being re-written (this version will be removed once completed).For the latest Gruntfile.js and Package.json, check out my site skeleton...",
       "category" : ["Tutorial", null],
-      "tags"     : ["Grunt","node js", null],
+      "tags"     : ["Grunt","Node JS", null],
       "date"     : "May 8, 2013"
     }
     ,

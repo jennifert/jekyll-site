@@ -3,6 +3,11 @@ Changelog
 
 ## phase 2 Updates:
 
+April 18, 2018
+- updated node and grunt posting.
+- changed old ASP.net box to be Archer CMS.
+- deleted old nodejs/grunt post.
+
 May 28, 2017
 - new post
 - updated deploy file for future new search engine
@@ -166,7 +171,7 @@ May 21, 2014:
 - Moved long lists of posts to sub page
 - blog items have some html elements marked up. Will still need to style them
 
-May 15, 2014: 
+May 15, 2014:
 - Have sitemap generating based of rss feed template (how to generate items)
 - Have some of humans.txt being pulled from config, unfortunately other items cannot be pulled in.
 - copied by wp-contents file into folder.

@@ -1,6 +1,16 @@
 [
     
     {
+      "title"    : "Installing Node JS and Grunt",
+      "href"     : "/blog/2018/04/18/installing-node-js-and-grunt/",
+      "summary"     : "This tutorial focuses on installing the platform, and provides resources for using Grunt. This was originally from May 8, 2013 and has been re-written for the latest version of Node...",
+      "category" : ["Tutorial", null],
+      "tags"     : ["Grunt","Node JS", null],
+      "date"     : "Apr 18, 2018"
+    }
+    ,
+    
+    {
       "title"    : "Quick Tip: Highcharts credit in a new window",
       "href"     : "/blog/2017/05/28/basic-highcharts-rightclick/",
       "summary"     : "Here is a great fiddle by Torstein Hønsi, that shows how to have highcharts credits open in a new window/tab.Note: if you are using for free, you MUST (in the...",
@@ -367,16 +377,6 @@
       "category" : ["Tip", null],
       "tags"     : ["jQuery","time picker","ASP.net","Javascript", null],
       "date"     : "May 23, 2013"
-    }
-    ,
-    
-    {
-      "title"    : "Installing Node JS and Grunt",
-      "href"     : "/blog/2013/05/08/installing-node-js-and-grunt-on-mountain-lion/",
-      "summary"     : "Warning: This was originally from May 8, 2013 and is currently being re-written (this version will be removed once completed).For the latest Gruntfile.js and Package.json, check out my site skeleton...",
-      "category" : ["Tutorial", null],
-      "tags"     : ["Grunt","Node JS", null],
-      "date"     : "May 8, 2013"
     }
     ,
     

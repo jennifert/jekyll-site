@@ -36,7 +36,7 @@ In order to use the build tools, the licenses must be accepted. Run the below co
 
 <code> xcode-select --install</code>
 
-### Step 3: Check if Ruby is intsalled, then update the files
+### Step 3: Check if Ruby is installed, then update the files
 
 To check what version of Ruby you have, you will need to run the below command in the terminal:
 
@@ -201,20 +201,6 @@ Python:
 	3.x:
 	python3
 	pip3 install
-
-
-Install node
-
-    Re-direct old post to here (have anchor tag)
-
-    use text, but update everything for el captain and latest versions
-    https://jenntesolin.com/blog/2013/05/08/installing-node-js-and-grunt-on-mountain-lion/
-
-    (in project)
-    npm install grunt --save-dev
-    nom install
-
-    Create gist of package.js and grunt.js and link to there in source code of post and old post
 
 Install asp.net
 	http://docs.asp.net/en/latest/getting-started/installing-on-mac.html

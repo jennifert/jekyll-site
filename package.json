@@ -7,8 +7,8 @@
     "grunt-contrib-concat": "latest",
     "grunt-contrib-cssmin": "latest",
     "grunt-contrib-htmlmin": "latest",
-    "grunt-contrib-uglify": "^3.2.1",
+    "grunt-contrib-uglify": "^3.3.0",
     "grunt-contrib-watch": "latest",
-    "grunt-jekyll": "latest"
+    "grunt-jekyll": "^0.4.7"
   }
 }

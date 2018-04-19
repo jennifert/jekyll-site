@@ -242,6 +242,6 @@ ADD in:
 
 - mention: https://www.getpostman.com/app/postman-osx
 - check out the post: https://getgrav.org/blog/mac-os-x-apache-setup-ssl
-
+npm i npm
 ### Resources
 + https://donatstudios.com/PHP-in-OS-X-Yosemite

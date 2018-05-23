@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
       <loc>https://jenntesolin.com</loc>
-      <lastmod>2018-04-18</lastmod>
+      <lastmod>2018-05-23</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
@@ -14,7 +14,7 @@
     
        <url>
          <loc>https://jenntesolin.com/about/</loc>
-        <lastmod>2018-04-18</lastmod>
+        <lastmod>2018-05-23</lastmod>
          <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
@@ -311,6 +311,13 @@
       <url>
          <loc>https://jenntesolin.com/blog/2013/05/23/jquery-time-picker-issues-and-net/</loc>
         <lastmod>2013-05-23</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+      <url>
+         <loc>https://jenntesolin.com/blog/2013/05/08/installing-node-js-and-grunt-on-mountain-lion/</loc>
+        <lastmod>2013-05-08</lastmod>
          <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>

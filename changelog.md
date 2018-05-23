@@ -3,10 +3,14 @@ Changelog
 
 ## phase 2 Updates:
 
+May 23, 2018
+- removed Flickr references
+- Updated Ruby gems//latest jekyll version.
+
 April 18, 2018
 - updated node and grunt posting.
 - changed old ASP.net box to be Archer CMS.
-- deleted old nodejs/grunt post.
+- deleted old node js/grunt post.
 
 May 28, 2017
 - new post

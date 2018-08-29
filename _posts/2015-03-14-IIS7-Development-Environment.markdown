@@ -9,7 +9,7 @@ tags:
 - PHP
 - MySQL
 - WordPress
-summary: The proper way to  install PHP and mySQL on IIS 7.
+summary: How to enable IIS on Windows 7 for a web development environment.
 status: post
 type: post
 published: true
@@ -20,15 +20,15 @@ This post describes how to enable IIS on Windows 7, along with enabling MySql an
 
 Note: You will need Administrator Access.
 
-### Enable IIS 
-In order to avoid permission issues when trying to edit a file with your logged in account, create a folder in a directory outside of innetpub, ensuring that the full path has no spaces.
+### Enable IIS
+In order to avoid permission issues when trying to edit a file with your logged in account, create a folder in a directory outside of <code>innetpub</code>, ensuring that the full path has no spaces.
 
-For example: 
+For example:
 <code>C:\webroot\</code>
 
-Next, to fix the security settings, right click on the new folder and add permissions for any users with, ISR, IUSER and Networking (full access) 
+Next, to fix the security settings, right click on the new folder and add permissions for any users with, ISR, IUSER and Networking (full access)
 
-Now, use the following [guide](http://windows.microsoft.com/en-ca/windows7/install-internet-information-services-iis-7-5) to install IIS onto your machine. After first enabling, it will have your web root in the innetpub folder.
+Now, use the following [guide](http://windows.microsoft.com/en-ca/windows7/install-internet-information-services-iis-7-5) to install IIS onto your machine. After first enabling, it will have your web root in the <code>innetpub</code> folder.
 
 Since our folder is created, lets go ahead and relocate the server to use that!
 
@@ -91,7 +91,7 @@ The step will allow you to use "Pretty URLs" on your blog.
 ### Download and install WordPress
 [WordPress.org](http://wordpress.org/download/) always has the latest versions (4.1.1 at the time of writing). Also, check out the [translations](https://make.wordpress.org/polyglots/teams/) to download WordPress in your language, though some of these ay not be the latest.
 
-To use WordPress just for something like a blog, unzip into your webroot, and change the file name:
+To use WordPress just for something like a blog, unzip into your web root, and change the file name:
 <code>C:\webroot\blog</code>
 
 To have WordPress at the root, move all the files instead the unzipped "wordpress" folder right into your root.
@@ -99,7 +99,7 @@ To have WordPress at the root, move all the files instead the unzipped "wordpres
 
 Next, edit the file "wp-config.php" (you may need to rename the sample config).  Change the WordPress user name, password, and database to match what was created after installing MySql.
 
-Open up the [secret generatorr](https://api.wordpress.org/secret-key/1.1/salt/) to automatically generate secret keys. Paste this into your wp-config.php file.
+Open up the [secret generator](https://api.wordpress.org/secret-key/1.1/salt/) to automatically generate secret keys. Paste this into your wp-config.php file.
 
 Next, add the below line above the comment that asks you to stop editing:
 <code>define('FS_METHOD','direct');</code>. This will stop WordPress from asking your ftp information. Never use this external servers!
@@ -125,7 +125,7 @@ If they are not above, they may be mentioned at: [List of Common MIME types](htt
 [My Sample Web.config](https://gist.github.com/jennifert/27e1c3e587e64fb75149f1bb3b1b340c)
 
 ### Resources
-+ [How do I change permissions on wwroot](http://stackoverflow.com/a/4920620)
++ [How do I change permissions on wwwroot](http://stackoverflow.com/a/4920620)
 + [PHP.net Installation Docs](http://php.net/manual/en/install.windows.iis7.php)
 + [Security Recommendations](http://www.iis.net/learn/application-frameworks/install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis#PHP_Security_Recommendations_)
 + [WordPress: Editing wp.config.php](http://codex.wordpress.org/Editing_wp-config.php)

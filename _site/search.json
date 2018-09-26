@@ -1,6 +1,16 @@
 [
     
     {
+      "title"    : "Using iOS and Android devices together.",
+      "href"     : "/blog/2018/09/26/using-ios-and-android-together/",
+      "summary"     : "Using an android in an Apple envirnment can be a bit tricky, but here are some tricks and resources to help you out. This post is an update to one...",
+      "category" : ["Tutorial", null],
+      "tags"     : ["android","iCloud","iOS", null],
+      "date"     : "Sep 26, 2018"
+    }
+    ,
+    
+    {
       "title"    : "Installing Node JS and Grunt",
       "href"     : "/blog/2018/04/18/installing-node-js-and-grunt/",
       "summary"     : "This tutorial focuses on installing the platform, and provides resources for using Grunt. This was originally from May 8, 2013 and has been re-written for the latest version of Node...",
@@ -177,16 +187,6 @@
       "category" : ["Tutorial", null],
       "tags"     : ["Bootstrap","emmet", null],
       "date"     : "Mar 28, 2014"
-    }
-    ,
-    
-    {
-      "title"    : "Moving from an iOS Device to Android (iCloud)",
-      "href"     : "/blog/2014/03/18/moving-from-an-ios-device-to-android-icloud/",
-      "summary"     : "Admittedly moving from an iOS device to an android device can seem a bit daunting, especially if you use iCloud for all your syncing. Thankfully there are a few apps...",
-      "category" : ["Tutorial", null],
-      "tags"     : ["android","iCloud","iOS", null],
-      "date"     : "Mar 18, 2014"
     }
     ,
     

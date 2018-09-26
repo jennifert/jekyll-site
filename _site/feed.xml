@@ -5,8 +5,47 @@
     <description>This is Jennifer Tesolin's personal web site. Located on this site are tutorials and tips for web developers.</description>
     <link>https://jenntesolin.com/</link>
     <atom:link href="https://jenntesolin.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 29 Aug 2018 09:39:06 -0400</pubDate>
-    <lastBuildDate>Wed, 29 Aug 2018 09:39:06 -0400</lastBuildDate>
+    <pubDate>Wed, 26 Sep 2018 18:20:45 -0400</pubDate>
+    <lastBuildDate>Wed, 26 Sep 2018 18:20:45 -0400</lastBuildDate>
+    
+      <item>
+        <title>Using iOS and Android devices together.</title>
+        <description>&lt;p&gt;Using an android in an Apple envirnment can be a bit tricky, but here are some tricks and resources to help you out. This post is an update to one titled &quot;&lt;a href=&quot;https://web.archive.org/web/20180926122957/https://www.jenntesolin.com/blog/2014/03/18/moving-from-an-ios-device-to-android-icloud/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Moving from an iOS Device to Android (iCloud)&lt;/a&gt;&quot;.&lt;!--more--&gt;&lt;/p&gt;
+&lt;P&gt;
+  &lt;em&gt;Note: I am not in partnership or sponsered in anyway by the below programs, they are what I have researched and used over the past few years.&lt;/em&gt;
+&lt;/P&gt;
+&lt;p&gt;&lt;strong&gt;Calendar&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=org.dmfs.caldav.icloud&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;SmoothSync for Cloud Calendar&lt;/a&gt;: SmoothSync for Cloud Calendar syncs your iCloud calendars and reminders. Please note this is for Apple Calendars, it will not sync events from your Google Calendar to your Mac.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Contacts&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=org.dmfs.carddav.icloud&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;SmoothSync for Cloud Contacts&lt;/a&gt;: SmoothSync for Cloud Contacts syncs your iCloud contacts.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;iCloud Mail Sync&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The easiest way to sync  your settings is to use this &lt;a href=&quot;https://support.apple.com/en-us/HT202304&quot; title=&quot;Imap settings for icloud&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;IMAP email guide&lt;/a&gt; from apple. You will need to generate an app-specific password for your client. &lt;a href=&quot;https://www.androidcentral.com/how-set-your-icloud-email-account-android&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;AndroidCentral&lt;/a&gt; has a few notes on getting around any SSL issues (try TSL)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;iTunes Library Sync&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+  To sync your lirary, there are excellent products from JRT Studio to sync an dplay your files. Please note though, that the video files purchased in the iTunes store will not play properly on your android device.
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+  &lt;a href=&quot;http://www.jrtstudio.com/iSyncr-iTunes-for-Android&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;iSyncer&lt;/a&gt;: This program is used to move the files from your iTunes library to your device. You will need to download a copy on your android and a copy on your Mac.
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jrtstudio.com/RocketPlayer/Free-vs-premium-and-cloud&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Rocket player&lt;/a&gt;: this program will allow you to play your files and cast them, though you will need to have oth the free version and the premium license to play all file formats (alac, tta, ape, mpc, wav, flac, wv, wma).
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 26 Sep 2018 00:00:00 -0400</pubDate>
+        <link>https://jenntesolin.com/blog/2018/09/26/using-ios-and-android-together/</link>
+        <guid isPermaLink="true">https://jenntesolin.com/blog/2018/09/26/using-ios-and-android-together/</guid>
+        
+        <category>android</category>
+        
+        <category>iCloud</category>
+        
+        <category>iOS</category>
+        
+        
+        <category>Tutorial</category>
+        
+      </item>
     
       <item>
         <title>Installing Node JS and Grunt</title>
@@ -344,74 +383,6 @@ project = _site&lt;/code&gt;&lt;/p&gt;
         <guid isPermaLink="true">https://jenntesolin.com/blog/2015/10/28/fix-jekyll-pagination-upgrade-to-3/</guid>
         
         <category>Jekyll</category>
-        
-        
-        <category>Tutorial</category>
-        
-      </item>
-    
-      <item>
-        <title>Jekyll: The configuration file</title>
-        <description>&lt;p&gt;The Jekyll configuration file houses important information for your site. This post highlights some options being used in this site, with a basic explanation of what it does.&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;p&gt;This file has quite a few areas of editing, especially if you want to override some of the &lt;a href=&quot;http://jekyllrb.com/docs/configuration/#front-matter-defaults&quot;&gt;default Jekyll options&lt;/a&gt;. Here is a &lt;a href=&quot;https://gist.github.com/jennifert/de156dc7b792a3f3a0e4b63aa66e768a&quot;&gt;jekyll config sample&lt;/a&gt; of my &lt;code&gt;_config.yml&lt;/code&gt; from my GitHub repository. There are 3 main sections, which are explain in more detail below.&lt;/p&gt;
-
-&lt;h3 id=&quot;site-settings&quot;&gt;Site Settings&lt;/h3&gt;
-
-&lt;p&gt;This section define what and where your site is.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;title: This is usually your company name, etc.&lt;/li&gt;
-  &lt;li&gt;description: is used to fill in the meta-tag for description.&lt;/li&gt;
-  &lt;li&gt;baseurl: As the official docs put it “serves the site from specified URL”. Do NOT include your host name.&lt;/li&gt;
-  &lt;li&gt;url: the url of your blog&lt;/li&gt;
-  &lt;li&gt;timezone: What time zone your in. Be sure to use a format such as: America/Toronto, or America/New_York.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;build-settings&quot;&gt;Build Settings&lt;/h3&gt;
-
-&lt;p&gt;This section will tell Jekyll how to and what files to sue to generate your production site.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;exclude:  this section tells Jekyll what not to include in your build. Format is: [file1, file2]&lt;/li&gt;
-  &lt;li&gt;markdown: Which markdown flavor you will use with your site&lt;/li&gt;
-  &lt;li&gt;markdown_ext:  file extensions you may use for markdown files.&lt;/li&gt;
-  &lt;li&gt;permalink: what your website links will look like. For example: /blog/:year/:month/:day/:title/&lt;/li&gt;
-  &lt;li&gt;paginate: how many articles do you want to see per page (as an integer number)&lt;/li&gt;
-  &lt;li&gt;paginate_path: what site link format your paginated results will be. In format: “blog/page:num”&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;author-information&quot;&gt;Author information&lt;/h3&gt;
-
-&lt;p&gt;This section is used to display information on the company/site owner using information such as name, email, twitter handle, Github repository, location, etc. The sub information must be 1 tab under “&lt;code&gt;author:&lt;/code&gt;”&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;author :
-&amp;nbsp;&amp;nbsp;&amp;nbsp;name : Jennifer Tesolin&lt;br /&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;email : jtesolin@gmail.com&lt;br /&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;location : Toronto (Canada)&lt;br /&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;github : jennifert&lt;br /&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;twitter : jenntes&lt;/code&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;issues-encountered&quot;&gt;Issues encountered&lt;/h3&gt;
-&lt;p&gt;Unfortunately, it seems like new elements can not be created and used in other files. For example, when converting this site to Jekyll, I was unable add other social network item I entered under the author section to then use the links in the footer include and humans.txt file.&lt;/p&gt;
-
-&lt;h3 id=&quot;additional-information-and-elements&quot;&gt;Additional information and elements&lt;/h3&gt;
-
-&lt;p&gt;The &lt;a href=&quot;http://jekyllrb.com/docs/configuration/&quot;&gt;Configuration Docs&lt;/a&gt; from the Official JekyllRB site is a must read. They include a ton of useful information and other tags that you can use in your file.&lt;/p&gt;
-
-&lt;h3 id=&quot;bonus-git-ignore-for-jekyll&quot;&gt;Bonus: Git ignore for Jekyll&lt;/h3&gt;
-
-&lt;p&gt;Here is a sample of my git ignore file:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://gist.github.com/jennifert/cfb4991f5352c67f85291c1047817241&quot;&gt;.gitignore sample&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 08 Aug 2015 06:00:00 -0400</pubDate>
-        <link>https://jenntesolin.com/blog/2015/08/08/jekyll-config-file/</link>
-        <guid isPermaLink="true">https://jenntesolin.com/blog/2015/08/08/jekyll-config-file/</guid>
-        
-        <category>Jekyll</category>
-        
-        <category>YAML</category>
         
         
         <category>Tutorial</category>

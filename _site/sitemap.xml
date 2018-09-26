@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
       <loc>https://jenntesolin.com</loc>
-      <lastmod>2018-08-29</lastmod>
+      <lastmod>2018-09-26</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
@@ -14,7 +14,7 @@
     
        <url>
          <loc>https://jenntesolin.com/about/</loc>
-        <lastmod>2018-08-29</lastmod>
+        <lastmod>2018-09-26</lastmod>
          <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
@@ -48,6 +48,13 @@
   
   
   
+    
+      <url>
+         <loc>https://jenntesolin.com/blog/2018/09/26/using-ios-and-android-together/</loc>
+        <lastmod>2018-09-26</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
     
       <url>
          <loc>https://jenntesolin.com/blog/2018/04/18/installing-node-js-and-grunt/</loc>
@@ -171,13 +178,6 @@
       <url>
          <loc>https://jenntesolin.com/blog/2014/03/28/sticky-footer-with-fixed-navbar-example-with-bootstrap-3-and-emmet/</loc>
         <lastmod>2014-03-28</lastmod>
-         <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-      </url>
-    
-      <url>
-         <loc>https://jenntesolin.com/blog/2014/03/18/moving-from-an-ios-device-to-android-icloud/</loc>
-        <lastmod>2014-03-18</lastmod>
          <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>

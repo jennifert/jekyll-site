@@ -3,6 +3,13 @@ Changelog
 
 ## phase 2 Updates:
 
+October 3, 2018
+- added new categories page
+- changed index page from search to categories.
+
+September 26, 2018
+- new post
+
 May 23, 2018
 - removed Flickr references
 - Updated Ruby gems//latest jekyll version.
@@ -15,7 +22,7 @@ April 18, 2018
 May 28, 2017
 - new post
 - updated deploy file for future new search engine
-- updated about with email since github repo not used.
+- updated about with email since GitHub repo not used.
 
 May 26, 2017
 - Updated git links to point to proper repo or gist
@@ -26,12 +33,12 @@ May 26, 2017
 
 May 19, 2017
 - New posts slipped in!
-- Added message on grunt post to notify of new verison.
+- Added message on grunt post to notify of new version.
 
 January 5, 2017
 - New post!
 - Updated about us page to add more information on upcoming post series.
-- fixed wordpress tip on page 3 (display X number of posts)
+- fixed Wordpress tip on page 3 (display X number of posts)
 
 February 4, 2016
 - New post!

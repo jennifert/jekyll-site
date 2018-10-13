@@ -1,7 +1,9 @@
 Changelog
 ===========
+## Minor updates:
 
-## phase 2 Updates:
+October 12, 2018
+- added link to gists on homepage
 
 October 3, 2018
 - added new categories page
@@ -19,6 +21,7 @@ April 18, 2018
 - changed old ASP.net box to be Archer CMS.
 - deleted old node js/grunt post.
 
+## phase 2 Updates:
 May 28, 2017
 - new post
 - updated deploy file for future new search engine

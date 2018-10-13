@@ -1,4 +1,4 @@
----
+command---
 layout: post
 title: "Setting up your Mac computer for local development and programming"
 date: 2016-08-24 22:23:21
@@ -102,7 +102,7 @@ Composer is a dependency manager for PHP that will typically run in your develop
 
 To install Composer, run the command from the <a href="https://getcomposer.org/download/" target="_blank">Composer Download Page</a>. It should be in a box with various PHP commands to run form the terminal.
 
-<img src="/wp-content/uploads/2016/07/download_composer.png"/ alt="A screenshot of the Composer Download page">
+<img src="https://jenntesolin.nyc3.digitaloceanspaces.com/blog/download_composer.png" alt="A screenshot of the Composer Download page">
 
 After running the commands, use the below to enable globally on your system:
 <code>mv composer.phar /usr/local/bin/composer</code>
@@ -112,13 +112,13 @@ To verify that it worked, type the below command to see your version:
 
 ###Using Composer to install Dependancies
 
-This will use Composer to install files needed for <a href="http://www.slimframework.com/" target="_blank">Slim 3</a> as an example. The demo video uses Xampp as a temporary measure as the videos for fixing Apache (described below) where not yet comepleted.
+This will use Composer to install files needed for <a href="http://www.slimframework.com/" target="_blank">Slim 3</a> as an example. The demo video uses Xampp as a temporary measure as the videos for fixing Apache (described below) where not yet completed.
 
-From your project folder run the below command to add Slim as a dependancy:
+From your project folder run the below command to add Slim as a dependency:
 
 <code>composer require slim/slim "^3.0"</code>
 
-Once completed, follow the steps in the "<a href="http://www.slimframework.com/docs/tutorial/first-app.html" target="_blank">First Application</a>" tutorial to get started. Please be sure to update the path for the "<code>require '../vendor/autoload.php';</code>" to your directory. In the video, my require simily has: <code>require 'vendor/autoload.php';</code>
+Once completed, follow the steps in the "<a href="http://www.slimframework.com/docs/tutorial/first-app.html" target="_blank">First Application</a>" tutorial to get started. Please be sure to update the path for the "<code>require '../vendor/autoload.php';</code>" to your directory. In the video, my require has: <code>require 'vendor/autoload.php';</code>
 
 ## Enable apache
 On Mac computers apache comes pre-installed though has to be run from the terminal (in Snow Leopard and before, there was a web panel installed). To see if its running, go to: <a href="http://localhost" target="_blank">http://localhost</a>. If you see an error, here are some commands to help you get started (they will need to be run from the terminal).
@@ -141,7 +141,7 @@ Next, we will create a <code>username.conf</code> file (or edit if it already ex
 
 <code>sudo nano /etc/apache2/users/username.conf</code>
 
-The file will open in terminal, in a program called nano. Copy and paste the below text into the terminal program, and then type "Control" and the "X" key to quite. TYpe "Y" to save your changes.
+The file will open in terminal, in a program called nano. Copy and paste the below text into the terminal program, and then type "Control" and the "X" key to quit. Type "Y" to save your changes.
 
 <!--to do: make sure directory tags are encoded-->
 <code><Directory "/Users/username/Sites/"><br>
@@ -175,10 +175,10 @@ Enable PHP
 	make sure index.php is on your DirectoryIndex
 	edit /usr/local/php/php.ini to your liking (date/time, mysql)
 
-	make refernce to: http://blog.g-design.net/post/137712472685/configuring-apache-and-php-after-updating-to-os-x
+	make reference to: http://blog.g-design.net/post/137712472685/configuring-apache-and-php-after-updating-to-os-x
 	https://getgrav.org/blog/mac-os-x-apache-setup-ssl
 
-Install MySQL (to a look at maria DB)
+Install MySQL (to a look at Maria DB)
 	http://dev.mysql.com/downloads/mysql/
 	 Mac OS X 10.11 (x86, 64-bit), DMG Archive
 

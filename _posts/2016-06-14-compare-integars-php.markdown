@@ -14,7 +14,7 @@ published: true
 author: Jennifer Tesolin
 ---
 
-This post describes how to compare variables that have integars using PHP.<!--more--> 
+This post describes how to compare variables that have integers using PHP.<!--more--> 
 
 To properly compare variables in PHP, we are taking a look at the <code>intval</code> function. If you try to compare variables without this function, you can run into troubles, such as your script returning that they are <b>NOT</b> the same.
 

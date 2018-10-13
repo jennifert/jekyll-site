@@ -1,6 +1,11 @@
 Changelog
 ===========
+
 ## Minor updates:
+
+October 13, 2018
+- Moved all images from folder to digital ocean spaces (set as CDN)
+- went through all posts and fixed typos.
 
 October 12, 2018
 - added link to gists on homepage
@@ -14,7 +19,7 @@ September 26, 2018
 
 May 23, 2018
 - removed Flickr references
-- Updated Ruby gems//latest jekyll version.
+- Updated Ruby gems//latest Jekyll version.
 
 April 18, 2018
 - updated node and grunt posting.

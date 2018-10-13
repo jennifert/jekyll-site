@@ -5,8 +5,8 @@
     <description>This is Jennifer Tesolin's personal web site. Located on this site are tutorials and tips for web developers.</description>
     <link>https://jenntesolin.com/</link>
     <atom:link href="https://jenntesolin.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 12 Oct 2018 20:02:51 -0400</pubDate>
-    <lastBuildDate>Fri, 12 Oct 2018 20:02:51 -0400</lastBuildDate>
+    <pubDate>Sat, 13 Oct 2018 13:12:09 -0400</pubDate>
+    <lastBuildDate>Sat, 13 Oct 2018 13:12:09 -0400</lastBuildDate>
     
       <item>
         <title>Using iOS and Android devices together.</title>
@@ -54,9 +54,9 @@
   &lt;em&gt;This was originally from May 8, 2013 and has been re-written for the latest version of Node and Grunt.&lt;/em&gt;
 &lt;/p&gt;
 &lt;p&gt;Step 1: Download the latest stable binary from &lt;a title=&quot;Node JS web site&quot; href=&quot;https://nodejs.org/en/download/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;nodejs.org&lt;/a&gt;. On production serers is recommended to use the latest STABLE version. The default settings will be fine.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/wp-content/uploads/2018/04/nodejs-home.png&quot;&gt;&lt;img alt=&quot;NodeJS.com homepage&quot; src=&quot;/wp-content/uploads/2018/04/nodejs-home_thumb.png&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/nodejs-home.png&quot;&gt;&lt;img alt=&quot;NodeJS.com homepage&quot; src=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/nodejs-home_thumb.png&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Step 2: Verify your path as per installer message: Make sure that &lt;strong&gt;/usr/local/bin&lt;/strong&gt; is in your $PATH.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/wp-content/uploads/2013/05/Screen-Shot-2013-05-07-at-9.38.02-PM.png&quot;&gt;&lt;img class=&quot;alignnone size-medium wp-image-167&quot; alt=&quot;Installer screenshot after intsall is successful&quot; src=&quot;/wp-content/uploads/2013/05/Screen-Shot-2013-05-07-at-9.38.02-PM-300x211.png&quot; width=&quot;300&quot; height=&quot;211&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/Screen-Shot-2013-05-07-at-9.38.02-PM.png&quot;&gt;&lt;img class=&quot;alignnone size-medium wp-image-167&quot; alt=&quot;Installer screenshot after intsall is successful&quot; src=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/Screen-Shot-2013-05-07-at-9.38.02-PM-300x211.png&quot; width=&quot;300&quot; height=&quot;211&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Note: I found this Stackoverflow post useful: &lt;a href=&quot;https://stackoverflow.com/questions/42323485/set-environment-variables-on-mac-os-x-sierra#42323635&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://stackoverflow.com&lt;/a&gt;. Please note to check that the path in the installer is shown in case it differs between versions. For my install, the path was correctly set.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;GRUNT SET-UP&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Step 1: Installing Grunt on your machine globally.&lt;/p&gt;
@@ -67,7 +67,7 @@
 &lt;p&gt;Step 2: Create a package.json file&lt;/p&gt;
 &lt;p&gt;go into your project directory, and run the below command. You can use the default settings, as the text file will be edited. My output is below.&lt;/p&gt;
 &lt;code&gt;npm init&lt;/code&gt;
-&lt;p&gt;&lt;a href=&quot;/wp-content/uploads/2013/05/Screen-Shot-2013-05-07-at-10.53.38-PM.png&quot;&gt;&lt;img class=&quot;alignnone size-medium wp-image-182&quot; alt=&quot;run npm init&quot; src=&quot;/wp-content/uploads/2013/05/Screen-Shot-2013-05-07-at-10.53.38-PM-300x158.png&quot; width=&quot;300&quot; height=&quot;158&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/Screen-Shot-2013-05-07-at-10.53.38-PM.png&quot;&gt;&lt;img class=&quot;alignnone size-medium wp-image-182&quot; alt=&quot;run npm init&quot; src=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/Screen-Shot-2013-05-07-at-10.53.38-PM-300x158.png&quot; width=&quot;300&quot; height=&quot;158&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Open your favourite text editor, and edit the file &quot;package.json&quot; replace the text so it reads similar to the below:&lt;/p&gt;
 &lt;code&gt;{&lt;br&gt;
   &quot;name&quot;: &quot;demo-project&quot;,&lt;br&gt;
@@ -253,7 +253,7 @@ add_filter ( 'publish_post', 'email_alert' );&lt;/code&gt;
     
       <item>
         <title>Quick tip: Comparing integer variables using PHP</title>
-        <description>&lt;p&gt;This post describes how to compare variables that have integars using PHP.&lt;!--more--&gt;&lt;/p&gt;
+        <description>&lt;p&gt;This post describes how to compare variables that have integers using PHP.&lt;!--more--&gt;&lt;/p&gt;
 
 &lt;p&gt;To properly compare variables in PHP, we are taking a look at the &lt;code&gt;intval&lt;/code&gt; function. If you try to compare variables without this function, you can run into troubles, such as your script returning that they are &lt;b&gt;NOT&lt;/b&gt; the same.&lt;/p&gt;
 
@@ -291,7 +291,7 @@ if (intval($a)==intval($b)){ &lt;br /&gt;
 
 &lt;p&gt;To change this click on “View” &amp;gt; “View as” &amp;gt; “Songs”. After songs is selected, you should see just a list of songs.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/wp-content/uploads/2016/06/itunesView.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/wp-content/uploads/2016/06/itunesView-Thumb.png&quot; alt=&quot;Preview of instructions&quot; align=&quot;middle&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/itunesView.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/itunesView-Thumb.png&quot; alt=&quot;Preview of instructions&quot; align=&quot;middle&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 12 Jun 2016 15:00:21 -0400</pubDate>
         <link>https://jenntesolin.com/blog/2016/06/12/itunes-view-change/</link>

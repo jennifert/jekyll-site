@@ -8,7 +8,7 @@ tags:
 - wordpress
 - jekyll
 - php
-summary: Various ways to move wordpress - for example between hosts or to Jekyll.
+summary: Various ways to move Wordpress - for example between hosts or to Jekyll.
 status: publish
 type: post
 published: true
@@ -20,7 +20,7 @@ This post will describe various ways to move WordPress, either to a different se
 This includes all plugins, theses, posts, etc.
 
 - download a copy of the database and save somewhere. Make a copy as a backup.
-- do a search in the sql file for the current domain URL and replace with the new domain or 'localhost' 
+- do a search in the sql file for the current domain URL and replace with the new domain or 'localhost'
 - update the site location in the wp-config file.
 - import the MySQL database and add the user at the new location.
 - upload your WordPress files and test.

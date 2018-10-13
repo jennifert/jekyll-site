@@ -44,13 +44,13 @@ First, run the the below command, replacing "MySite" with the folder name for yo
 
 Jekyll will now generate a site in the folder "MySite". Here is what the directory will look like:
 
-<img src="/wp-content/uploads/2015/jekyll1.png" alt="Terminal screen that shows directory contents">
+<img src="https://jenntesolin.nyc3.digitaloceanspaces.com/blog/jekyll1.png" alt="Terminal screen that shows directory contents">
 
 - <code>_config.yml</code> stores the website configuration data such as site name, description and base address.
-- <code>_includes</code> is where you store portions of a file such as your menu, header, footer, and GA code. 
+- <code>_includes</code> is where you store portions of a file such as your menu, header, footer, and GA code.
 - <code>_layouts</code>puts the pieces of the includes together for a post, page and index file.
 - <code>_posts</code> is where posts for your site are stored in markdown or HTML format.
-- <code>_scss</code> stores the files for SASS and CoffeeScriptfile. [Read More in the Jekyll Docs](http://jekyllrb.com/docs/assets/) 
+- <code>_scss</code> stores the files for SASS and CoffeeScriptfile. [Read More in the Jekyll Docs](http://jekyllrb.com/docs/assets/)
 - <code>about.md</code> is the about page for your site.
 - <code>css</code> self explanatory - stores your css files.
 - <code>feed.xml</code> will have your rss feed. This generates on its own.
@@ -63,16 +63,16 @@ jekyll serve</code>
 
 Here is a sample output:
 
-<img src="/wp-content/uploads/2015/jekyll2.png" alt="Terminal screen output of jekyll serve command">
+<img src="https://jenntesolin.nyc3.digitaloceanspaces.com/blog/jekyll2.png" alt="Terminal screen output of jekyll serve command">
 
 Then, browse to: [http://localhost:4000](http://localhost:4000).  You can edit files, and Jekyll will make those updates behind the scene as soon as you save...just refresh to see your changes.
 
 ### Wordpress Import instructions (wordpress.com and self hosted)
-Create a folder for your site and use the terminal to change to the folder your your site will be (<code>cd foldername</code>). 
+Create a folder for your site and use the terminal to change to the folder your your site will be (<code>cd foldername</code>).
 
 Make sure the upload folder and a copy of your [WordPress export](https://en.support.wordpress.com/export/) is at the root of your new site folder. For demo purposes, I will call it: <code>wordpress.xml.</code>
 
-<img src="/wp-content/uploads/2015/jekyll3.png" alt="Terminal screen output showing directory strcuture">
+<img src="https://jenntesolin.nyc3.digitaloceanspaces.com/blog/jekyll3.png" alt="Terminal screen output showing directory strcuture">
 
 Once this is set up, run the below command to import your wordpress instance:
 
@@ -91,7 +91,7 @@ As with the non-WordPress import, any changes you make will be reflected in your
 
 To wok on a post locally, but not moving it live, create a folder at the root called <code>_drafts</code>. Next, add a markdown or html file without the address. Finally, run <code>jekyll server --watch --drafts</code>
 
-<img src="/wp-content/uploads/2015/jekyll5.png" alt="Terminal screen output showing draft folder">
+<img src="https://jenntesolin.nyc3.digitaloceanspaces.com/blog/jekyll5.png" alt="Terminal screen output showing draft folder">
 
 Changes can be made on the fly using this method as well. When ready to publish, move the file to <code>_posts</code> and add a date.
 
@@ -101,7 +101,7 @@ The last step is in this process is to push your files on-line. Move into the ro
 
 The first chunk of files below shows the root of my Jekyll site, while the second shows the production ready files. Note that some files from the root of the Jekyll site are not included. These are excluded in <code>_config.yml</code>
 
-<img src="/wp-content/uploads/2015/jekyll4.png" alt="Terminal screen output showing prduction folder contents">
+<img src="https://jenntesolin.nyc3.digitaloceanspaces.com/blog/jekyll4.png" alt="Terminal screen output showing production folder contents">
 
 Note: There will be separate posts on various items in the config file, how to get it running on Azure and finally, another on publishing to Github Pages, and CloudFlare.
 

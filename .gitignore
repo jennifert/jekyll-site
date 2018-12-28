@@ -1,4 +1,24 @@
-node_modules/
-*.gem
-Gemfile.locks
+# OS X / Windows Files
 .DS_Store
+Thumbs.db
+
+# NODE
+.node_modules
+node_modules
+*/node_modules
+/node_modules/*
+npm-debug.log
+package-lock.json
+.env
+
+# JEKYLL
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+Gemfile.lock
+.rvmrc
+*.gem
+
+#PHP - Future
+#composer.phar
+#/vendor/

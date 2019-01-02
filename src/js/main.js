@@ -1,23 +1,3 @@
-/*fixes from bootstrap site*/
-      /*fix win phone*/
-      if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
-        var msViewportStyle = document.createElement('style');
-        msViewportStyle.appendChild(
-          document.createTextNode(
-            '@-ms-viewport{width:auto!important}'
-          )
-        );
-        document.querySelector('head').appendChild(msViewportStyle);
-      }
-
-      /*fix android*/
-      var nua = navigator.userAgent;
-      var is_android = ((nua.indexOf('Mozilla/5.0') > -1 && nua.indexOf('Android ') > -1 && nua.indexOf('AppleWebKit') > -1) && !(nua.indexOf('Chrome') > -1));
-      if(is_android) {
-          $('select.form-control').removeClass('form-control').css('width', '100%');
-      }
-      /*end fixes from bootstrap site*/
-
 /*extend inArray*/
 (function($){
     $.extend({
@@ -58,7 +38,7 @@
 
     jQuery.noConflict();
     jQuery(document).ready(function($){
-        
+
 
         /*
         *function to help get query sting.
@@ -82,7 +62,7 @@
           $.getJSON('/search.json', function(data) {
             $('div#results').append('<section class="col-xs-12 col-sm-6 col-md-12">');
             $.each(data, function(key, val){
-              
+
               /*values to variable to use more than once.*/
               var blogTitle = val.title;
               var blogCategory = val.category;
@@ -101,9 +81,9 @@
               } else {
                   /*result not found. Do NOT increment count here.*/
               }
-              
+
             }); /*end for each*/
-              
+
               $('h1#searchHeader').after('<h2 class="lead"><strong class="text-danger">'+ count+'</strong> results were found for the search for <strong class="text-danger">'+ searchedFor+'</strong></h2>');
               $('div#rbuildResults').append('</section>');
 
@@ -133,12 +113,12 @@
 
               for (var j in blogTags) {
                 if (blogTags[j]  === null){
-                } else {  
+                } else {
                   results = results + ' <span class="label label-primary taggedPost"><a href="/search/?searchbox='+blogTags[j]+'">' + blogTags[j] + '</a></span> ';
                 }
-                
+
               }
-           
+
             results = results + '</div>'+
             '</article>';
 
@@ -147,10 +127,6 @@
       /*end search function*/
 
        getSearchResults('/search.json');
-
-          
-          
-
 
     });
     /*end jquery functions*/

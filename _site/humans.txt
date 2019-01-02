@@ -3,12 +3,12 @@ Developer: Jennifer Tesolin
 Site: jtesolin@gmail.com
 Twitter: jenntes
 Github: jennifert
-Location: Toronto, Canada
+Location: America/Toronto
 
 /* SITE */
-Last update: 2018/10/30
+Last update: 2014/06/11
 Language:English
 DocType: HTML5
-Standards: HTML5, CSS, JS
+Standards: HTML5, CSS
 Components: HTML5 Shiv, jQuery, Jekyll, Grunt
-Software: Atom, Sketch, Affinity Photo, Notepad++, Sublime, Github Desktop
+IDE: Sublime, Forklift, Photoshop

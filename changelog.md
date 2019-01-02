@@ -3,9 +3,6 @@ Changelog
 
 ## Minor updates:
 
-December 28, 2018
-- updated humans.txt
-
 October 13, 2018
 - Moved all images from folder to digital ocean spaces (set as CDN)
 - went through all posts and fixed typos.

@@ -1,17 +1,39 @@
 {
-  "name": "jenntesolin.com",
+  "name": "jekyll-site",
   "version": "3.0.0",
-  "author": "Jennifer Tesolin",
-  "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-concat": "latest",
-    "grunt-contrib-cssmin": "^3.0.0",
-    "grunt-contrib-htmlmin": "^3.0.0",
-    "grunt-contrib-uglify": "^3.4.0",
-    "grunt-contrib-watch": "^1.1.0",
-    "grunt-jekyll": "^0.4.7"
+  "description": "jekyll-site ===========",
+  "main": "index.js",
+  "scripts": {
+    "lint": "jshint src/js/main.js",
+    "uglify": "uglifyjs src/js/main.js -o dist/js/main.min.js",
+    "cssmin": "cleancss src/css/main.css -o dist/css/main.min.css",
+    "del:css": "del-cli dist/css/combined.css",
+    "del:js": "del-cli dist/js/combined.js",
+    "concat:css": "cat dist/css/* > dist/css/combined.css",
+    "concat:js": "cat dist/js/* > dist/js/combined.js",
+    "build:css": "npm run cssmin && npm run del:css  && npm run concat:css",
+    "build:js": "npm run uglify && npm run del:js  && npm run concat:js",
+    "build": "npm run build:css && npm run build:js",
+    "watch:js": "onchange 'src/js/main.js' -- npm run build:js",
+    "watch:css": "onchange 'src/css/main.css' -- npm run build:css"
   },
-  "dependencies": {
-    "npm": "^5.10.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jennifert/jekyll-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/jennifert/jekyll-site/issues"
+  },
+  "homepage": "https://github.com/jennifert/jekyll-site#readme",
+  "devDependencies": {
+    "clean-css-cli": "^4.2.1",
+    "del-cli": "^1.1.0",
+    "jshint": "^2.9.7",
+    "onchange": "^5.2.0",
+    "parallelshell": "^3.0.2",
+    "uglify-js": "^3.4.9"
   }
 }

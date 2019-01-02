@@ -6,9 +6,9 @@ Github: jennifert
 Location: America/Toronto
 
 /* SITE */
-Last update: 2014/06/11
+Last update: 2019-01-02 17:00:47 -0500
 Language:English
 DocType: HTML5
 Standards: HTML5, CSS
-Components: HTML5 Shiv, jQuery, Jekyll, Grunt
-IDE: Sublime, Forklift, Photoshop
+Components: Jekyll, NPM Build, jQuery, Bootstrap 3.7
+Software: Atom, Github Desktop and Hooks, Affinity Photo

@@ -9,9 +9,9 @@ Github: {{ site.author.github }}
 Location: {{ site.timezone }}
 
 /* SITE */
-Last update: 2014/06/11
+Last update: {{ site.time }}
 Language:English
 DocType: HTML5
 Standards: HTML5, CSS
-Components: HTML5 Shiv, jQuery, Jekyll, Grunt
-IDE: Sublime, Forklift, Photoshop
+Components: Jekyll, NPM Build, jQuery, Bootstrap 3.7
+Software: Atom, Github Desktop and Hooks, Affinity Photo

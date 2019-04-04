@@ -3,6 +3,10 @@ Changelog
 
 ## Minor updates:
 
+April 3, 2019
+- remove Google + items
+- fixed typos from blog post
+
 October 13, 2018
 - Moved all images from folder to digital ocean spaces (set as CDN)
 - went through all posts and fixed typos.

@@ -5,12 +5,12 @@
     <description>This is Jennifer Tesolin's personal web site. Located on this site are tutorials and tips for web developers.</description>
     <link>https://jenntesolin.com/</link>
     <atom:link href="https://jenntesolin.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 02 Jan 2019 16:54:44 -0500</pubDate>
-    <lastBuildDate>Wed, 02 Jan 2019 16:54:44 -0500</lastBuildDate>
+    <pubDate>Wed, 03 Apr 2019 23:05:47 -0400</pubDate>
+    <lastBuildDate>Wed, 03 Apr 2019 23:05:47 -0400</lastBuildDate>
     
       <item>
         <title>Using iOS and Android devices together.</title>
-        <description>&lt;p&gt;Using an android in an Apple envirnment can be a bit tricky, but here are some tricks and resources to help you out. This post is an update to one titled &quot;&lt;a href=&quot;https://web.archive.org/web/20180926122957/https://www.jenntesolin.com/blog/2014/03/18/moving-from-an-ios-device-to-android-icloud/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Moving from an iOS Device to Android (iCloud)&lt;/a&gt;&quot;.&lt;!--more--&gt;&lt;/p&gt;
+        <description>&lt;p&gt;Using an android in an Apple environment can be a bit tricky, but here are some tricks and resources to help you out. This post is an update to one titled &quot;Moving from an iOS Device to Android (iCloud)&quot;.&lt;!--more--&gt;&lt;/p&gt;
 &lt;P&gt;
   &lt;em&gt;Note: I am not in partnership or sponsered in anyway by the below programs, they are what I have researched and used over the past few years.&lt;/em&gt;
 &lt;/P&gt;
@@ -22,7 +22,7 @@
 &lt;p&gt;The easiest way to sync  your settings is to use this &lt;a href=&quot;https://support.apple.com/en-us/HT202304&quot; title=&quot;Imap settings for icloud&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;IMAP email guide&lt;/a&gt; from apple. You will need to generate an app-specific password for your client. &lt;a href=&quot;https://www.androidcentral.com/how-set-your-icloud-email-account-android&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;AndroidCentral&lt;/a&gt; has a few notes on getting around any SSL issues (try TSL)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;iTunes Library Sync&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;
-  To sync your lirary, there are excellent products from JRT Studio to sync an dplay your files. Please note though, that the video files purchased in the iTunes store will not play properly on your android device.
+  To sync your library, there are excellent products from JRT Studio to sync and play your files. Please note though, that the video files purchased in the iTunes store will not play on your android device due to the DRM used.
 &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;

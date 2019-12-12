@@ -1,6 +1,46 @@
 [
     
     {
+      "title"    : "Installing Git and Github on your Mac",
+      "href"     : "/blog/2019/12/12/git-github/",
+      "summary"     : "This post describes how to install git and github on your mac installation. There are two common ways to install. Both methods are described below. Please note the first way...",
+      "category" : ["Tutorial","Mac_Web", null],
+      "tags"     : ["git","github","homebrew", null],
+      "date"     : "Dec 12, 2019"
+    }
+    ,
+    
+    {
+      "title"    : "Jekyll: Setting up your development environment",
+      "href"     : "/blog/2019/12/11/Jekyll-Set-Up-Publish/",
+      "summary"     : "Jekyll is a static site generator that runs on NodeJS. Its a great alternative to WordPress that eliminates the need for databases. This post was originally written on March 17,...",
+      "category" : ["Tutorial","Mac_Web", null],
+      "tags"     : ["Jekyll","WordPress","Ruby", null],
+      "date"     : "Dec 11, 2019"
+    }
+    ,
+    
+    {
+      "title"    : "Installing Homebrew and Fixing Ruby on your Mac",
+      "href"     : "/blog/2019/12/10/mac-ruby/",
+      "summary"     : "This post describes how to install homebrew, and use it to fix your Ruby install. Enable Ruby First up, let&#39;s enable Ruby. We are installing Ruby first as other items...",
+      "category" : ["Tutorial","Mac_Web", null],
+      "tags"     : ["Ruby", null],
+      "date"     : "Dec 10, 2019"
+    }
+    ,
+    
+    {
+      "title"    : "Setting up your Mac computer for local development and programming",
+      "href"     : "/blog/2019/12/02/mac-local-dev-server/",
+      "summary"     : "Mac computers are great for programming, and many development software and Utilities are free to get set up and running. This post describes how to set up your mac for...",
+      "category" : ["Tutorial","Series", null],
+      "tags"     : ["Mac","Apache","PHP","MySQL","Node","Ruby", null],
+      "date"     : "Dec 2, 2019"
+    }
+    ,
+    
+    {
       "title"    : "Using iOS and Android devices together.",
       "href"     : "/blog/2018/09/26/using-ios-and-android-together/",
       "summary"     : "Using an android in an Apple environment can be a bit tricky, but here are some tricks and resources to help you out. This post is an update to one...",
@@ -14,7 +54,7 @@
       "title"    : "Installing Node JS and Grunt",
       "href"     : "/blog/2018/04/18/installing-node-js-and-grunt/",
       "summary"     : "This tutorial focuses on installing the platform, and provides resources for using Grunt. This was originally from May 8, 2013 and has been re-written for the latest version of Node...",
-      "category" : ["Tutorial", null],
+      "category" : ["Tutorial","Mac_Web", null],
       "tags"     : ["Grunt","Node JS", null],
       "date"     : "Apr 18, 2018"
     }
@@ -117,16 +157,6 @@
       "category" : ["Tutorial", null],
       "tags"     : ["Jekyll","JSON","jQuery", null],
       "date"     : "May 22, 2015"
-    }
-    ,
-    
-    {
-      "title"    : "Jekyll: Setting up your development environment",
-      "href"     : "/blog/2015/03/17/Jekyll-Set-Up-Publish/",
-      "summary"     : "Jekyll is a static site generator that runs on NodeJS. Its a great alternative to WordPress that eliminates the need for databases.Requirements Ruby RubyGems NodeJSInstall Jekyll dependencies:sudo gem update --systemsudo...",
-      "category" : ["Tutorial", null],
-      "tags"     : ["Jekyll","WordPress", null],
-      "date"     : "Mar 17, 2015"
     }
     ,
     

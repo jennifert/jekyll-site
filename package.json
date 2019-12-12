@@ -1,7 +1,7 @@
 {
   "name": "jekyll-site",
   "version": "3.0.0",
-  "description": "jekyll-site ===========",
+  "description": "JennTesolin.com's Jekyll site",
   "main": "index.js",
   "scripts": {
     "lint": "jshint src/js/main.js",
@@ -29,11 +29,11 @@
   },
   "homepage": "https://github.com/jennifert/jekyll-site#readme",
   "devDependencies": {
-    "clean-css-cli": "^4.2.1",
+    "clean-css-cli": "^4.3.0",
     "del-cli": "^1.1.0",
-    "jshint": "^2.10.2",
+    "jshint": "^2.10.3",
     "onchange": "^5.2.0",
     "parallelshell": "^3.0.2",
-    "uglify-js": "^3.5.3"
+    "uglify-js": "^3.7.1"
   }
 }

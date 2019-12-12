@@ -5,8 +5,452 @@
     <description>This is Jennifer Tesolin's personal web site. Located on this site are tutorials and tips for web developers.</description>
     <link>https://jenntesolin.com/</link>
     <atom:link href="https://jenntesolin.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 03 Apr 2019 23:05:47 -0400</pubDate>
-    <lastBuildDate>Wed, 03 Apr 2019 23:05:47 -0400</lastBuildDate>
+    <pubDate>Thu, 12 Dec 2019 14:28:20 -0500</pubDate>
+    <lastBuildDate>Thu, 12 Dec 2019 14:28:20 -0500</lastBuildDate>
+    
+      <item>
+        <title>Installing Git and Github on your Mac</title>
+        <description>&lt;p&gt;
+	This post describes how to install git and github on your mac installation. There are two common ways to install. Both methods are described below. Please note the first way requires homebrew. &lt;!--more--&gt;
+&lt;/p&gt;
+
+&lt;h3&gt;Installing with homebrew&lt;/h3&gt;
+
+&lt;p&gt;
+	To install GIT, just run the below commands and enter your information when requested. Brew update/upgrade is being run to show best practice. Files should always be updated before trying to run commands.
+&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;brew update&lt;br&gt;brew upgrade&lt;br&gt;brew install git&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;
+	A quick way to install github, is to enter the below command in your terminal using brew casks. Casks basically give yo a way to install software without the DMG files.
+&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;brew cask install github&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3&gt;Installing with DMG files&lt;/h3&gt;
+
+&lt;p&gt;
+	Go to the Git site at &lt;a hrf=&quot;https://git-scm.com/download/mac&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer noopener&quot;&gt;https://git-scm.com/download/mac&lt;/a&gt;.
+&lt;/p&gt;
+
+&lt;p&gt;
+	Alternatively, if you use github, you can download the &lt;a hrf=&quot;https://desktop.github.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer noopener&quot;&gt;github desktop DMG&lt;/a&gt; file, then install the git command line tools from the app itself.
+&lt;/p&gt;
+
+&lt;p&gt;
+	To install the git command line tools from within the GitHub application, click on the app name &quot;GitHub Desktop&quot;, then choose &quot;Install command line tool&quot;.
+&lt;/p&gt;
+
+&lt;img src=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/github-cmd-tools.png&quot; alt=&quot;Image showing location of command line tools install on Github Desktop Application&quot; /&gt;
+</description>
+        <pubDate>Thu, 12 Dec 2019 06:18:00 -0500</pubDate>
+        <link>https://jenntesolin.com/blog/2019/12/12/git-github/</link>
+        <guid isPermaLink="true">https://jenntesolin.com/blog/2019/12/12/git-github/</guid>
+        
+        <category>git</category>
+        
+        <category>github</category>
+        
+        <category>homebrew</category>
+        
+        
+        <category>Tutorial</category>
+        
+        <category>Mac_Web</category>
+        
+      </item>
+    
+      <item>
+        <title>Jekyll: Setting up your development environment</title>
+        <description>&lt;p&gt;
+  Jekyll is a static site generator that runs on NodeJS. Its a great alternative to WordPress that eliminates the need for databases.&lt;!--more--&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;em&gt;This post was originally written on March 17, 2015. It has been updated for Mac OS Catalina.&lt;/em&gt;
+&lt;/p&gt;
+&lt;h3&gt;Requirements&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;a href=&quot;/blog/2019/12/12/mac-ruby/&quot;&gt;Ruby&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Install Jekyll dependencies:&lt;/h3&gt;
+&lt;p&gt;
+  To install Jekyll, run the command:
+&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;gem install jekyll bundler&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;
+  You can import your current WordPress posts, by first exporting your entire Wordpress blog using the WordPress tool to Export to an XML file.
+&lt;/p&gt;
+
+&lt;p&gt;
+  Once your file is ready, you will need to install the Jekyll Importer by the below command:
+&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;gem install jekyll-import&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;
+  Here is a list of other plugins that may be useful in your blog.
+&lt;/p&gt;
+&lt;!--TODO: Get a link to the pages of these Jekyll plugins--&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;a href=&quot;https://github.com/JesseHerrick/jekyll-angular&quot; target=&quot;_blank&quot;  rel=&quot;nofollow noreferrer noopener&quot;&gt;jekyll-angular&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href=&quot;https://github.com/jekyll/jekyll-feed&quot; target=&quot;_blank&quot;  rel=&quot;nofollow noreferrer noopener&quot;&gt;jekyll-feed&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href=&quot;https://jekyllrb.com/docs/pagination/&quot; target=&quot;_blank&quot;  rel=&quot;nofollow noreferrer noopener&quot;&gt;jekyll-paginate&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;A new Jekyll instance&lt;/h3&gt;
+
+&lt;p&gt;
+  &lt;em&gt;Skip to next section to impot your wordpress blog.&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+  First, run the the below command, replacing &quot;my-site-name&quot; with the folder name for your site.
+&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;jekyll new my-site-name&lt;br /&gt;cd my-new-site-name&lt;br /&gt;bundle exec jekyll serve&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;
+  Sample output for running &lt;code&gt;jekyll new my-site-name&lt;/code&gt;.
+&lt;/p&gt;
+&lt;img src=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/jekyll-new-cmd1.png&quot; target=&quot;Terminal output for commands to serve site&quot; /&gt;
+
+&lt;p&gt;
+  Jekyll will now generate a site in the folder &quot;&lt;code&gt;my-site-name&lt;/code&gt;&quot;.
+&lt;/p&gt;
+&lt;p&gt;
+  To override the default jekyll theme, you will need ot create two folders as seen in the list below. These are &lt;code&gt;assets&lt;/code&gt;, &lt;code&gt;sass&lt;/code&gt;, &lt;code&gt;_includes&lt;/code&gt; and &lt;code&gt;_layouts&lt;/code&gt;. For more information check out &lt;a href=&quot;https://jekyllrb.com/docs/themes/#overriding-theme-defaults&quot;  target=&quot;_blank&quot; rel=&quot;nofollow noreferrer noopener&quot;&gt;overriding theme defaults&lt;/a&gt;.
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;code&gt;_config.yml&lt;/code&gt; stores the website configuration data such as site name, description and base address. Check out &lt;a href=&quot;https://gist.github.com/jennifert/de156dc7b792a3f3a0e4b63aa66e768a&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer noopener&quot;&gt;my sample config file&lt;/a&gt;.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;code&gt;_posts&lt;/code&gt; is where posts for your site are stored in markdown or HTML format. Check out &lt;a href=&quot;https://gist.githubusercontent.com/jennifert/896428b15cd586f91fd36872a0bff1d5/raw/acedbfb817fb90e6ce0fb713043edae79c93f448/jekyll-post.markdown&quot; target=&quot;_blank&quot;  rel=&quot;nofollow noreferrer noopener&quot;&gt;my sample post formatting&lt;/a&gt;.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;code&gt;_sites&lt;/code&gt; This is where the pages will be built into for your production build.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;code&gt;about.md&lt;/code&gt; is the about page for your site.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;code&gt;feed.xml&lt;/code&gt; will have your rss feed. This generates on its own.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;code&gt;index.md&lt;/code&gt; your site's main page.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;code&gt;404.html&lt;/code&gt; your sites &quot;page not found&quot; file.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;code&gt;gemfile&lt;/code&gt; a list of ruby plugins installed
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;code&gt;assets&lt;/code&gt; where you can store your js and other files
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;code&gt;sass&lt;/code&gt; your sass code
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;code&gt;_includes&lt;/code&gt; is where you store portions of a file such as your menu, header, footer, and analytics code.
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;code&gt;_layouts&lt;/code&gt;puts the pieces of the includes together for a post, page and index file.
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;cd my-site-name&lt;br&gt;bundle exec jekyll serve&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;
+  Then, browse to: &lt;a href=&quot;http://localhost:4000&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer noopener&quot;&gt;http://localhost:4000&lt;/a&gt;.  You can edit files, and Jekyll will make those updates behind the scene as soon as you save...just refresh to see your changes.
+&lt;/p&gt;
+
+&lt;p&gt;
+  Below is what the directory will look like in the terminal, as well as the ouput running the &lt;code&gt;serve&lt;/code&gt;command to preview your site locally:
+&lt;/p&gt;
+&lt;img src=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/jekyll-new-cmd2.png&quot; alt=&quot;Jekyll serve command terminal output&quot; /&gt;
+
+&lt;h3&gt;Wordpress Import instructions (wordpress.com and self hosted)&lt;/h3&gt;
+&lt;p&gt;
+  Click one of the links below to check out the awesome docs at Jekyll RB.
+&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;a href=&quot;http://import.jekyllrb.com/docs/wordpressdotcom/&quot; rel=&quot;nofollow noreferrer noopener&quot; target=&quot;_blank&quot;&gt;Jekyll Import Docs: Wordpress.com&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href=&quot;http://import.jekyllrb.com/docs/wordpress/&quot; rel=&quot;nofollow noreferrer noopener&quot; target=&quot;_blank&quot;&gt;Jekyll Import Docs: Wordpress (self install)&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Drafts&lt;/h3&gt;
+
+&lt;p&gt;
+  To wok on a post locally, but not moving it live, create a folder at the root called &lt;code&gt;_drafts&lt;/code&gt;. Next, add a markdown or html file without the address. Finally, run the below in your temrinal:
+&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;bundle exec jekyll serve --drafts&lt;/code&gt;&lt;/pre&gt;
+
+&lt;img src=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/jekyll5.png&quot; alt=&quot;Terminal screen output showing draft folder&quot;&gt; &lt;!-- TODO: update screenshot --&gt;
+
+&lt;p&gt;
+  Changes can be made on the fly using this method as well. When ready to publish, move the file to &lt;code&gt;_posts&lt;/code&gt; and add a date.
+&lt;/p&gt;
+
+&lt;h3&gt;Publishing your new site&lt;/h3&gt;
+
+&lt;p&gt;
+  The last step is in this process is to push your files on-line. First, instead of &lt;code&gt;jekyll serve&lt;/code&gt; you will want to run &lt;code&gt;jekyll build&lt;/code&gt; like below. This replaces all of your development links with what your production link. &lt;a href=&quot;/blog/2015/08/08/jekyll-config-file/&quot;&gt;Check out how to set your configuration.&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;bundle exec jekyll build&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;
+  Move into the root of &lt;code&gt;_site&lt;/code&gt;. These are the production ready files that should be moved to your server.
+&lt;/p&gt;
+
+&lt;p&gt;
+  The first chunk of files below shows the root of my Jekyll site, while the second shows the production ready files. Note that some files from the root of the Jekyll site are not included. These are excluded in &lt;code&gt;_config.yml&lt;/code&gt;
+&lt;/p&gt;
+
+&lt;img src=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/jekyll-build-cmd.png&quot; alt=&quot;Terminal screen output showing production folder contents&quot;&gt;
+
+&lt;p&gt;
+  Note that if you use GitHub pages, you will need to compile the files on your computer first  then commit your files to the master branch.
+&lt;/p&gt;
+
+&lt;h3&gt;Resources&lt;/h3&gt;
+
+&lt;p&gt;
+  Check out these Jekyll tutorials for more on working with the Jekyll static site generator:
+&lt;/p&gt;
+
+&lt;ul&gt;
+
+  &lt;li&gt;
+    &lt;a href=&quot;/blog/2016/02/04/jekyll-on-azure/&quot;&gt;Configure on Azure or Github Pages&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href=&quot;/blog/2015/08/08/jekyll-config-file/&quot;&gt;The configuration file&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href=&quot;/blog/2015/10/28/fix-jekyll-pagination-upgrade-to-3/&quot;&gt;Fix pagination after upgrading (V2 to V3)&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href=&quot;/blog/2015/05/22/Jekyll-Custom-Easy-Search-jquery/&quot;&gt;Easy searching with JSON and jQuery&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href=&quot;http://stackoverflow.com/a/4920620&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer noopener&quot;&gt;Jekyll on Stack Overflow&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href=&quot;http://import.jekyllrb.com/docs/wordpressdotcom/&quot; rel=&quot;nofollow noreferrer noopener&quot; target=&quot;_blank&quot;&gt;Jekyll Import Docs: Wordpress.com&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href=&quot;http://import.jekyllrb.com/docs/wordpress/&quot; rel=&quot;nofollow noreferrer noopener&quot; target=&quot;_blank&quot;&gt;Jekyll Import Docs: Wordpress (self install)&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href=&quot;http://jekyllrb.com/docs/drafts/&quot; rel=&quot;nofollow noreferrer noopener&quot; target=&quot;_blank&quot;&gt;Jekyll Docs - Working with drafts&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href=&quot;http://jekyllrb.com/docs/troubleshooting/#installation-problems&quot; rel=&quot;nofollow noreferrer noopener&quot; target=&quot;_blank&quot;&gt;Jekyll Docs - Installation Problems&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 11 Dec 2019 15:30:21 -0500</pubDate>
+        <link>https://jenntesolin.com/blog/2019/12/11/Jekyll-Set-Up-Publish/</link>
+        <guid isPermaLink="true">https://jenntesolin.com/blog/2019/12/11/Jekyll-Set-Up-Publish/</guid>
+        
+        <category>Jekyll</category>
+        
+        <category>WordPress</category>
+        
+        <category>Ruby</category>
+        
+        
+        <category>Tutorial</category>
+        
+        <category>Mac_Web</category>
+        
+      </item>
+    
+      <item>
+        <title>Installing Homebrew and Fixing Ruby on your Mac</title>
+        <description>&lt;p&gt;
+	This post describes how to install homebrew, and use it to fix your Ruby install. &lt;!--more--&gt;
+&lt;/p&gt;
+
+&lt;h3&gt;Enable Ruby&lt;/h3&gt;
+
+&lt;p&gt;
+	First up, let's enable Ruby. We are installing Ruby first as other items needed for development and installation require it.
+&lt;/p&gt;
+
+&lt;h4&gt;Step 1: Install X-code, and check to make sure that its the latest&lt;/h4&gt;
+
+&lt;p&gt;
+	To install x-Code, head over to the app store then click: &quot;categories&quot; &gt; &quot;development&quot;. It is typically near the top of the free downloads. Click the download button, then go grab a snack.... it clocks in at about 8GB so it may take awhile to download and install.
+&lt;/p&gt;
+
+&lt;p&gt;
+	If you already have it installed, make sure its up to date.
+&lt;/p&gt;
+
+&lt;h4&gt;Step 2: Accept the license agreements&lt;/h4&gt;
+
+&lt;p&gt;
+	In order to use the build tools, the licenses must be accepted. Run the below commands in your terminal (&quot;Utilities&quot; &gt; &quot;Terminal&quot;). Be sure to read and accept the agreements.
+&lt;/p&gt;
+
+&lt;!-- TODO: Make sure this is still the proper code --&gt;
+
+&lt;pre&gt;&lt;code&gt;xcode-select --install&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4&gt;Step 3: Check if Ruby is installed, then update the files&lt;/h4&gt;
+
+&lt;p&gt;
+	To check what version of Ruby you have, you will need to run the below command in the terminal:
+&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ruby -v&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;
+	To update your ruby installation and gems to the latest version, run the below commands. Please note that multiple versions of Ruby are beyond the scope of this blog. If you want to run multiple versions, check out a project like RVM (&lt;a href=&quot;https://stackoverflow.com/a/58316584&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer noopener&quot;&gt;Stack Overflow post: fixing Ruby&lt;/a&gt;).
+&lt;/p&gt;
+
+&lt;h3&gt;Install homebrew&lt;/h3&gt;
+
+&lt;p&gt;
+	Homebrew is basically a package manager for the Mac, and in this being used to fix the default Ruby version that comes with the Mac. It will also be used further into the tutorial to install other development items.
+&lt;/p&gt;
+
+&lt;p&gt;
+	Go to the homebrew site (&lt;a href=&quot;https://brew.sh/&quot; rel=&quot;nofollow noreferrer noopener&quot;&gt;brew.sh&lt;/a&gt;) and check out the latest download code and run in in the terminal. It should look something like this:
+&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;img src=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/homebrew-site.jpg&quot; alt=&quot;Homebrew website&quot; /&gt;
+
+&lt;p&gt;
+	Once the install has completed, its best to run the below commands to make sure your installation is okay and has the latest files.
+&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;brew doctor&lt;br&gt;brew update&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;
+	Please note that Homebrew commands are easiest for fixing Ruby, however, as mentioned above, some prefer Ruby Version Manager (RVM) to switch Ruby versions.
+&lt;/p&gt;
+
+&lt;h4&gt;Updating Homebrew packages&lt;/h4&gt;
+
+&lt;p&gt;
+	To update packages, you will need to run an update, and upgrade like below:
+&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Brew update&lt;br /&gt;brew upgrade&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3&gt;Update Ruby and installed gems.&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;brew install ruby&lt;br&gt;sudo gem update --system&lt;br&gt;sudo gem update&lt;/code&gt;&lt;/pre&gt; &lt;!-- double check - should not need sudo --&gt;
+
+&lt;h3&gt;Resources&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+		&lt;a href=&quot;https://brew.sh/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer noopener&quot;&gt;Homebrew homepage&lt;/a&gt;
+	&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/a/58316584&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer noopener&quot;&gt;Stack Overflow post: fixing Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 10 Dec 2019 15:50:00 -0500</pubDate>
+        <link>https://jenntesolin.com/blog/2019/12/10/mac-ruby/</link>
+        <guid isPermaLink="true">https://jenntesolin.com/blog/2019/12/10/mac-ruby/</guid>
+        
+        <category>Ruby</category>
+        
+        
+        <category>Tutorial</category>
+        
+        <category>Mac_Web</category>
+        
+      </item>
+    
+      <item>
+        <title>Setting up your Mac computer for local development and programming</title>
+        <description>&lt;p&gt;Mac computers are great for programming, and many development software and Utilities are free to get set up and running. This post describes how to set up your mac for programming and web development from enabling PHP, Ruby, node and more. &lt;!--more--&gt;&lt;/p&gt;
+&lt;p&gt;To really understand what goes on in web development, you need to understand what goes on behind the scenes on your server environment. This would mean taking the time to install and enable the tools, servers and other things you will use by hand alongside or in place of solutions such as XAMPP or MAMP.&lt;/p&gt;
+
+&lt;!-- TODO: try to just use tag - Mac_Web to generate once all created--&gt;
+&lt;p&gt;
+	&lt;em&gt;Note: it is recommaned to start with the tutorial &quot;Installing Homebrew and Fixing Ruby on your Mac&quot; before following instructions in the Git and Github tutorial.&lt;/em&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+		Apache
+	&lt;/li&gt;
+	&lt;li&gt;
+		ASP.net
+	&lt;/li&gt;
+	&lt;li&gt;
+		Composer
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href=&quot;/blog/2019/12/12/git-github/&quot;&gt;Git and Github&lt;/a&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href=&quot;/blog/2019/12/11/Jekyll-Set-Up-Publish/&quot;&gt;Jekyll&lt;/a&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href=&quot;/blog/2019/12/10/mac-ruby/&quot;&gt;Installing Homebrew and Fixing Ruby on your Mac&lt;/a&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		MySql/Maria DB
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href=&quot;/blog/2018/04/18/installing-node-js-and-grunt/&quot;&gt;Node JS&lt;/a&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		PHP
+	&lt;/li&gt;
+	&lt;li&gt;
+		Python
+	&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 02 Dec 2019 15:40:21 -0500</pubDate>
+        <link>https://jenntesolin.com/blog/2019/12/02/mac-local-dev-server/</link>
+        <guid isPermaLink="true">https://jenntesolin.com/blog/2019/12/02/mac-local-dev-server/</guid>
+        
+        <category>Mac</category>
+        
+        <category>Apache</category>
+        
+        <category>PHP</category>
+        
+        <category>MySQL</category>
+        
+        <category>Node</category>
+        
+        <category>Ruby</category>
+        
+        
+        <category>Tutorial</category>
+        
+        <category>Series</category>
+        
+      </item>
     
       <item>
         <title>Using iOS and Android devices together.</title>
@@ -131,6 +575,8 @@ npm install&lt;/code&gt;
         
         <category>Tutorial</category>
         
+        <category>Mac_Web</category>
+        
       </item>
     
       <item>
@@ -248,144 +694,6 @@ add_filter ( 'publish_post', 'email_alert' );&lt;/code&gt;
         
         
         <category>Games</category>
-        
-      </item>
-    
-      <item>
-        <title>Quick tip: Comparing integer variables using PHP</title>
-        <description>&lt;p&gt;This post describes how to compare variables that have integers using PHP.&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;p&gt;To properly compare variables in PHP, we are taking a look at the &lt;code&gt;intval&lt;/code&gt; function. If you try to compare variables without this function, you can run into troubles, such as your script returning that they are &lt;b&gt;NOT&lt;/b&gt; the same.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;
-&amp;lt;?php&lt;br /&gt;
-$a=5;&lt;br /&gt;
-$b='5';&lt;br /&gt;
-if (intval($a)==intval($b)){ &lt;br /&gt;
-	echo 'it's the same'; &lt;br /&gt;
-}&lt;br /&gt;
-?&amp;gt;&lt;/code&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;resources&quot;&gt;Resources&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://php.net/manual/en/function.intval.php&quot; target=&quot;_blank&quot;&gt;intval Function on Php.net&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 14 Jun 2016 15:00:21 -0400</pubDate>
-        <link>https://jenntesolin.com/blog/2016/06/14/compare-integars-php/</link>
-        <guid isPermaLink="true">https://jenntesolin.com/blog/2016/06/14/compare-integars-php/</guid>
-        
-        <category>php</category>
-        
-        
-        <category>Tutorial</category>
-        
-      </item>
-    
-      <item>
-        <title>Quick tip: Change your iTunes media view mode</title>
-        <description>&lt;p&gt;In the latest iTunes release, there has been quite a few tweaks to the interface. One option that has moved is the change view in playlist. This post describes how to change this.&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;p&gt;The latest version defaults all playlist views to “playlist”, which is fine for most people, but I am not a fan of cover art so the “songs view” (which is basically a list) is my favorite.&lt;/p&gt;
-
-&lt;p&gt;To change this click on “View” &amp;gt; “View as” &amp;gt; “Songs”. After songs is selected, you should see just a list of songs.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/itunesView.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/itunesView-Thumb.png&quot; alt=&quot;Preview of instructions&quot; align=&quot;middle&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 12 Jun 2016 15:00:21 -0400</pubDate>
-        <link>https://jenntesolin.com/blog/2016/06/12/itunes-view-change/</link>
-        <guid isPermaLink="true">https://jenntesolin.com/blog/2016/06/12/itunes-view-change/</guid>
-        
-        <category>php</category>
-        
-        
-        <category>Tutorial</category>
-        
-      </item>
-    
-      <item>
-        <title>Configure Jekyll on Micosoft Azure or Github pages</title>
-        <description>&lt;p&gt;Sometimes hosting can be expensive, and some reputable hosts have free but limited hosting. This post described how to configure Github pages and Microsoft Azure.&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;p&gt;Just a note before getting started, personally I use plugins with Jekyll, so I have 2 repositories: 1) For development (which I connect to Azure), and 2) For the live site (Github pages). This is because when using the built in Jekyll server my custom JSON/jQuery search does not work there. Also, azure does not allow domain names to be configured for free.&lt;/p&gt;
-
-&lt;h2 id=&quot;github-pages&quot;&gt;GitHub Pages&lt;/h2&gt;
-
-&lt;p&gt;If your using a custom/personal domain with Github pages, you will need a “CNAME” file. It should have your domain written like the below example.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;www.jenntesolin.com&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;The Github pages are the best to follow for setting up, so please for the rest of Github Pages guide:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://pages.github.com/&quot;&gt;https://pages.github.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;This walks you through with prompts and changes with your Github set-up.&lt;/p&gt;
-
-&lt;h2 id=&quot;azure&quot;&gt;Azure&lt;/h2&gt;
-
-&lt;p&gt;First, make sure you have a “.deployment” file pointing to your final complied website. If your using the basic Jekyll set-up, it would be:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;[config]&lt;br /&gt;
-project = _site&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://gist.github.com/jennifert/24cae4c07a69fe6be9207b578b1c7e2b&quot;&gt;.deployment Gist Sample&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Also, I have a &lt;a href=&quot;https://gist.github.com/jennifert/27e1c3e587e64fb75149f1bb3b1b340c&quot;&gt;web.config&lt;/a&gt; file set up to read JSON, media and font file media types. Alternatively, you can check out this list of &lt;a href=&quot;http://www.serverintellect.com/support/iis/mime-types/&quot;&gt;common MIME types&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;To set-up your host, head on over to the &lt;a href=&quot;https://azure.microsoft.com/en-us/free/&quot;&gt;Azure site&lt;/a&gt; and click “Start now”. This will bring you to a sign in page which will require you to sign up with your Microsoft Account (Outlook, Hotmail, etc.).&lt;/p&gt;
-
-&lt;p&gt;Next, follow the prompts to set up your free offer. Unfortunately, at the time of writing mine had already expired so I just clicked on the “Portal button”.&lt;/p&gt;
-
-&lt;p&gt;From the left hand menu click “App services” to get to the screen to “Add”. Now, enter in your web site name, and choose a server close to you. Once your information is entered, click “Create”.&lt;/p&gt;
-
-&lt;p&gt;You will need to wait a bit for your host to be created, so maybe grab a coffee and come back. The new site will be on the dashboard. to see your server information click on the website name you created.&lt;/p&gt;
-
-&lt;p&gt;In this example, I am connecting to my Github account that I use for development. If you wish, you can always just configure FTP (and other things like programming versions of languages like .Net, PHP, etc.) by accessing it in your &lt;a href=&quot;https://azure.microsoft.com/en-us/documentation/articles/web-sites-configure/&quot;&gt;panel&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Click on “Publishing” under “Continuous deployment” to set up your web application and it will being up various providers. Pick Github then follow the prompts to authorize Microsoft to access your Github account.&lt;/p&gt;
-
-&lt;p&gt;Next, select which repository you would like to connect to and click “OK”. In this example, I chose my “jekyll-site” repository. Grab another coffee or give your email a quick check, as the two services will need a bit of time to connect and serve from the branch you connected to (in my case, I just chose “Master”).&lt;/p&gt;
-
-&lt;p&gt;Finally, once its connected, check out the site at the URL provided.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 04 Feb 2016 07:38:21 -0500</pubDate>
-        <link>https://jenntesolin.com/blog/2016/02/04/jekyll-on-azure/</link>
-        <guid isPermaLink="true">https://jenntesolin.com/blog/2016/02/04/jekyll-on-azure/</guid>
-        
-        <category>Jekyll</category>
-        
-        <category>Github Pages</category>
-        
-        <category>Azure</category>
-        
-        
-        <category>Tutorial</category>
-        
-      </item>
-    
-      <item>
-        <title>Fix pagination after upgrading from Jekyll 2 to Jekyll 3</title>
-        <description>&lt;p&gt;In Jekyll 3, pagination is deprecated. This post describes how to resolve the error: “&lt;strong&gt;Deprecation: You appear to have pagination turned on, but you haven’t included the &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll-paginate&lt;/code&gt; gem. Ensure you have &lt;code class=&quot;highlighter-rouge&quot;&gt;gems: [jekyll-paginate]&lt;/code&gt; in your configuration file&lt;/strong&gt;.” &lt;!--more--&gt;&lt;/p&gt;
-
-&lt;p&gt;First, make sure you have the gem installed by typing in your terminal:
-&lt;code&gt;gem install jekyll-paginate&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Next, open &lt;code&gt;_config.yml&lt;/code&gt;, add add the following line:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;gems :&lt;br /&gt;
-&amp;nbsp;&amp;nbsp;- jekyll-paginate&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Now, when you run &lt;code&gt;jekyll serve&lt;/code&gt; or &lt;code&gt;jekyll build&lt;/code&gt; the error message should no longer be there.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 28 Oct 2015 02:58:21 -0400</pubDate>
-        <link>https://jenntesolin.com/blog/2015/10/28/fix-jekyll-pagination-upgrade-to-3/</link>
-        <guid isPermaLink="true">https://jenntesolin.com/blog/2015/10/28/fix-jekyll-pagination-upgrade-to-3/</guid>
-        
-        <category>Jekyll</category>
-        
-        
-        <category>Tutorial</category>
         
       </item>
     

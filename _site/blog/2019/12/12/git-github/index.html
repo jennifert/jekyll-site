@@ -4,11 +4,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title> Page not found (404) - Jennifer Tesolin </title>
+    <title> Installing Git and Github on your Mac - Jennifer Tesolin </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="This is Jennifer Tesolin's personal web site. Located on this site are tutorials and tips for web developers.">
+    <meta name="description" content="This post describes how to install git and github on your mac installation.">
 
-    <link rel="canonical" href="https://www.jenntesolin.com/404/">
+    <link rel="canonical" href="https://www.jenntesolin.com/blog/2019/12/12/git-github/">
     <link type="text/plain" rel="author" href="/humans.txt" />
     <!-- <link rel="author" href="https://plus.google.com/109759985952910616281?rel=author" /> -->
 
@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="/dist/css/combined.css">
     <link rel='alternate' type='application/atom+xml' title='Atom 0.3' href='https://jenntesolin.com/feed.xml'>
 
-    <meta name="application-name" content="Page not found (404) - Jennifer Tesolin"/>
+    <meta name="application-name" content="Installing Git and Github on your Mac - Jennifer Tesolin"/>
     <meta name="msapplication-TileColor" content="#000000"/>
     <meta name="msapplication-square70x70logo" content="imgs/tiny.png"/>
     <meta name="msapplication-square150x150logo" content="imgs/square.png"/>
@@ -28,9 +28,9 @@
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:site" content="@jenntes" />
       <meta name="og:type" content="article" />
-      <meta name="og:title" content="Page not found (404)" />
-      <meta name="og:url" content="/404/" />
-      <meta name="og:description" content="" />
+      <meta name="og:title" content="Installing Git and Github on your Mac" />
+      <meta name="og:url" content="/blog/2019/12/12/git-github/" />
+      <meta name="og:description" content="This post describes how to install git and github on your mac installation." />
       <meta name="og:site_name" content="Jennifer Tesolin's Blog" />
 
       
@@ -61,7 +61,7 @@
       
       <ul class="nav navbar-nav">
         <li ><a href="/about/">About</a></li>
-        <li ><a href="/blog/">Blog</a></li>
+        <li class="active" ><a href="/blog/">Blog</a></li>
         <li ><a href="/categories/">Categories</a></li>
         <li ><a href="/photos/">Photos</a></li>
       </ul>
@@ -79,26 +79,51 @@
 
 
     <div class="container-fluid">
-        <h1>Page not found (404)</h1>
+      <div class="post h-entry">
 
-  <p>Sorry, but the page you were trying to view does not exist.</p>
+  <header class="post-header">
+    <h1 class="p-name">Installing Git and Github on your Mac</h1>
+    <p class="meta"><time class="dt-published">Dec 12, 2019</time></p>
+  </header>
 
-<p>It looks like this was the result of either:</p>
+  <article class="post-content e-content p-name">
+  <p>
+	This post describes how to install git and github on your mac installation. There are two common ways to install. Both methods are described below. Please note the first way requires homebrew. <!--more-->
+</p>
 
-<ul>
-<li>a mistyped address</li>
-<li>an out-of-date link</li>
-</ul>
+<h3>Installing with homebrew</h3>
 
-  <h2>Latest Posting:</h2>
-  <ul class="posts">
-    
-      <li>
-        <span class="post-date">Dec 12, 2019</span>
-        <a class="post-link" href="/blog/2019/12/12/git-github/">Installing Git and Github on your Mac</a>
-      </li>
-    
-  </ul>
+<p>
+	To install GIT, just run the below commands and enter your information when requested. Brew update/upgrade is being run to show best practice. Files should always be updated before trying to run commands.
+</p>
+
+<pre><code>brew update<br>brew upgrade<br>brew install git</code></pre>
+
+<p>
+	A quick way to install github, is to enter the below command in your terminal using brew casks. Casks basically give yo a way to install software without the DMG files.
+</p>
+
+<pre><code>brew cask install github</code></pre>
+
+<h3>Installing with DMG files</h3>
+
+<p>
+	Go to the Git site at <a hrf="https://git-scm.com/download/mac" target="_blank" rel="nofollow noreferrer noopener">https://git-scm.com/download/mac</a>.
+</p>
+
+<p>
+	Alternatively, if you use github, you can download the <a hrf="https://desktop.github.com/" target="_blank" rel="nofollow noreferrer noopener">github desktop DMG</a> file, then install the git command line tools from the app itself.
+</p>
+
+<p>
+	To install the git command line tools from within the GitHub application, click on the app name "GitHub Desktop", then choose "Install command line tool".
+</p>
+
+<img src="https://jenntesolin.nyc3.digitaloceanspaces.com/blog/github-cmd-tools.png" alt="Image showing location of command line tools install on Github Desktop Application" />
+
+  </article>
+
+</div>
     </div>
 
     

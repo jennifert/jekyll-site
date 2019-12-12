@@ -1,7 +1,11 @@
 Changelog
 ===========
 
-## Minor updates:
+## Other updates:
+December 12, 2019
+- new blog posts
+- fixed images in some older posts (updated jekyll)
+- made sure links on homepage and new posts had proper noopener/norefer/nofollow
 
 April 3, 2019
 - remove Google + items

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Installing Homebrew and Fixing Ruby on your Mac - Jennifer Tesolin </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="This post describes how to install homebrew, and use it to fix your Ruby install">
+
+    <link rel="canonical" href="https://www.jenntesolin.com/blog/2019/12/10/mac-ruby/">
+    <link type="text/plain" rel="author" href="/humans.txt" />
+    <!-- <link rel="author" href="https://plus.google.com/109759985952910616281?rel=author" /> -->
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/dist/css/combined.css">
+    <link rel='alternate' type='application/atom+xml' title='Atom 0.3' href='https://jenntesolin.com/feed.xml'>
+
+    <meta name="application-name" content="Installing Homebrew and Fixing Ruby on your Mac - Jennifer Tesolin"/>
+    <meta name="msapplication-TileColor" content="#000000"/>
+    <meta name="msapplication-square70x70logo" content="imgs/tiny.png"/>
+    <meta name="msapplication-square150x150logo" content="imgs/square.png"/>
+    <meta name="msapplication-wide310x150logo" content="imgs/wide.png"/>
+    <meta name="msapplication-square310x310logo" content="imgs/large.png"/>
+
+      
+      <!--Social Media-->
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:site" content="@jenntes" />
+      <meta name="og:type" content="article" />
+      <meta name="og:title" content="Installing Homebrew and Fixing Ruby on your Mac" />
+      <meta name="og:url" content="/blog/2019/12/10/mac-ruby/" />
+      <meta name="og:description" content="This post describes how to install homebrew, and use it to fix your Ruby install" />
+      <meta name="og:site_name" content="Jennifer Tesolin's Blog" />
+
+      
+
+   <!-- replace with jekyll tags/gem -->
+  <link rel="prefetch" href="/blog/" />
+  <link rel="next" href="/blog/"/>
+
+
+</head>
+
+
+    <body>
+
+        <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Home</a>
+        </div>
+        <div class="collapse navbar-collapse">
+      
+      <ul class="nav navbar-nav">
+        <li ><a href="/about/">About</a></li>
+        <li class="active" ><a href="/blog/">Blog</a></li>
+        <li ><a href="/categories/">Categories</a></li>
+        <li ><a href="/photos/">Photos</a></li>
+      </ul>
+
+      <form role="search" method="get" class="navbar-form navbar-right form-inline" action="/search/">
+          <div class="form-group" id="searchdiv">
+            <input type="search" id="searchbox" name="searchbox" class="form-control search" placeholder="Search ... ">
+            <label class="hide">Search for:</label>
+          </div>
+          <button type="submit" class="btn btn-success search"> <i class="fa fa-search"></i></button>
+      </form>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+    <div class="container-fluid">
+      <div class="post h-entry">
+
+  <header class="post-header">
+    <h1 class="p-name">Installing Homebrew and Fixing Ruby on your Mac</h1>
+    <p class="meta"><time class="dt-published">Dec 10, 2019</time></p>
+  </header>
+
+  <article class="post-content e-content p-name">
+  <p>
+	This post describes how to install homebrew, and use it to fix your Ruby install. <!--more-->
+</p>
+
+<h3>Enable Ruby</h3>
+
+<p>
+	First up, let's enable Ruby. We are installing Ruby first as other items needed for development and installation require it.
+</p>
+
+<h4>Step 1: Install X-code, and check to make sure that its the latest</h4>
+
+<p>
+	To install x-Code, head over to the app store then click: "categories" > "development". It is typically near the top of the free downloads. Click the download button, then go grab a snack.... it clocks in at about 8GB so it may take awhile to download and install.
+</p>
+
+<p>
+	If you already have it installed, make sure its up to date.
+</p>
+
+<h4>Step 2: Accept the license agreements</h4>
+
+<p>
+	In order to use the build tools, the licenses must be accepted. Run the below commands in your terminal ("Utilities" > "Terminal"). Be sure to read and accept the agreements.
+</p>
+
+<!-- TODO: Make sure this is still the proper code -->
+
+<pre><code>xcode-select --install</code></pre>
+
+<h4>Step 3: Check if Ruby is installed, then update the files</h4>
+
+<p>
+	To check what version of Ruby you have, you will need to run the below command in the terminal:
+</p>
+
+<pre><code>ruby -v</code></pre>
+
+<p>
+	To update your ruby installation and gems to the latest version, run the below commands. Please note that multiple versions of Ruby are beyond the scope of this blog. If you want to run multiple versions, check out a project like RVM (<a href="https://stackoverflow.com/a/58316584" target="_blank" rel="nofollow noreferrer noopener">Stack Overflow post: fixing Ruby</a>).
+</p>
+
+<h3>Install homebrew</h3>
+
+<p>
+	Homebrew is basically a package manager for the Mac, and in this being used to fix the default Ruby version that comes with the Mac. It will also be used further into the tutorial to install other development items.
+</p>
+
+<p>
+	Go to the homebrew site (<a href="https://brew.sh/" rel="nofollow noreferrer noopener">brew.sh</a>) and check out the latest download code and run in in the terminal. It should look something like this:
+</p>
+
+<pre><code>/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</code></pre>
+
+<img src="https://jenntesolin.nyc3.digitaloceanspaces.com/blog/homebrew-site.jpg" alt="Homebrew website" />
+
+<p>
+	Once the install has completed, its best to run the below commands to make sure your installation is okay and has the latest files.
+</p>
+
+<pre><code>brew doctor<br>brew update</code></pre>
+
+<p>
+	Please note that Homebrew commands are easiest for fixing Ruby, however, as mentioned above, some prefer Ruby Version Manager (RVM) to switch Ruby versions.
+</p>
+
+<h4>Updating Homebrew packages</h4>
+
+<p>
+	To update packages, you will need to run an update, and upgrade like below:
+</p>
+
+<pre><code>Brew update<br />brew upgrade</code></pre>
+
+<h3>Update Ruby and installed gems.</h3>
+
+<pre><code>brew install ruby<br>sudo gem update --system<br>sudo gem update</code></pre> <!-- double check - should not need sudo -->
+
+<h3>Resources</h3>
+<ul>
+	<li>
+		<a href="https://brew.sh/" target="_blank" rel="nofollow noreferrer noopener">Homebrew homepage</a>
+	</li>
+	<li><a href="https://stackoverflow.com/a/58316584" target="_blank" rel="nofollow noreferrer noopener">Stack Overflow post: fixing Ruby</a></li>
+</ul>
+
+  </article>
+
+</div>
+    </div>
+
+    
+      <footer>
+        <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12">
+           <p class="vcard text-muted">
+          &copy; 2019 <span class="fn">Jennifer Tesolin</span>
+          <span class="pull-right">
+            <a  class="url" href="https://github.com/jennifert?tab=repositories" target="_blank" rel="nofollow"><i class="fa fa-github fa-3x"></i></a>
+            <a class="url" href="https://twitter.com/jenntes" target="_blank" rel="nofollow"><i class="fa fa-twitter fa-3x"></i></a>
+            <a class="url" href="/feed.xml" rel="nofollow"><i class="fa fa-rss fa-3x"></i></a>
+            <a class="url" href="http://ca.linkedin.com/pub/jennifer-tesolin/2b/5bb/3a6" target="_blank" rel="nofollow"><i class="fa fa-linkedin fa-3x"></i></a>
+            <a href="https://plus.google.com/109759985952910616281?rel=author" rel="nofollow"></a>
+            <!-- <a class="url" href="https://plus.google.com/109759985952910616281" target="_blank" rel="me"><i class="fa fa-google-plus fa-3x"></i></a> -->
+            <a class="u-email url" href="mailto:jtesolin@gmail.com" target="_blank" rel="me"><i class="fa fa-envelope fa-3x"></i></a>
+          </span>
+        </p>
+        </div>
+        </div>
+        </div>
+      </footer>
+
+<script type="text/javascript" src="/dist/js/combined.js"></script>
+
+
+    </body>
+</html>

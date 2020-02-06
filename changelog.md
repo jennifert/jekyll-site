@@ -2,6 +2,10 @@ Changelog
 ===========
 
 ## Other updates:
+February 5, 2019:
+- minor update to about page (email, techs used)
+- force git to re-pull
+
 December 12, 2019
 - new blog posts
 - fixed images in some older posts (updated jekyll)

@@ -16,7 +16,7 @@ published: true
 author: Jennifer Tesolin
 ---
 
-This post describes how to enable IIS on Windows 7, along with enabling MySql and Php.<!--more-->
+This post describes how to enable IIS on Windows 7, along with enabling MySql and Php. <!--more-->
 
 Note: You will need Administrator Access.
 

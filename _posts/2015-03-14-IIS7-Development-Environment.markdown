@@ -28,7 +28,7 @@ For example:
 
 Next, to fix the security settings, right click on the new folder and add permissions for any users with, ISR, IUSER and Networking (full access)
 
-Now, use the following [guide](http://windows.microsoft.com/en-ca/windows7/install-internet-information-services-iis-7-5) to install IIS onto your machine. After first enabling, it will have your web root in the <code>innetpub</code> folder.
+Now, use the following [guide](https://web.archive.org/web/20160620015739/http://windows.microsoft.com/en-ca/windows7/install-internet-information-services-iis-7-5) to install IIS onto your machine. After first enabling, it will have your web root in the <code>innetpub</code> folder.
 
 Since our folder is created, lets go ahead and relocate the server to use that!
 
@@ -129,3 +129,6 @@ If they are not above, they may be mentioned at: [List of Common MIME types](htt
 + [PHP.net Installation Docs](http://php.net/manual/en/install.windows.iis7.php)
 + [Security Recommendations](http://www.iis.net/learn/application-frameworks/install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis#PHP_Security_Recommendations_)
 + [WordPress: Editing wp.config.php](http://codex.wordpress.org/Editing_wp-config.php)
++ [How to Set Up SSL on IIS 7](https://docs.microsoft.com/en-us/iis/manage/configuring-security/how-to-set-up-ssl-on-iis)
++ [Set up IIS 7 to run a secure site locally - HTTPS](https://deanhume.com/set-up-iis-7-to-run-a-secure-site-locally-https/)
++ [Tip/Trick: Enabling SSL on IIS 7.0 Using Self-Signed Certificates](https://weblogs.asp.net/scottgu/tip-trick-enabling-ssl-on-iis7-using-self-signed-certificates)

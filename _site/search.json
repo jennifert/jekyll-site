@@ -163,7 +163,7 @@
     {
       "title"    : "Creating a development environment for IIS 7+",
       "href"     : "/blog/2015/03/14/IIS7-Development-Environment/",
-      "summary"     : "This post describes how to enable IIS on Windows 7, along with enabling MySql and Php.Note: You will need Administrator Access.Enable IISIn order to avoid permission issues when trying to...",
+      "summary"     : "This post describes how to enable IIS on Windows 7, along with enabling MySql and Php. Note: You will need Administrator Access.Enable IISIn order to avoid permission issues when trying...",
       "category" : ["Tutorial", null],
       "tags"     : ["IIS","PHP","MySQL","WordPress", null],
       "date"     : "Mar 14, 2015"

@@ -2,14 +2,22 @@ Changelog
 ===========
 
 ## Other updates:
-February 5, 2019:
+
+August 25, 2020:
+- updates to readme.
+- fixed broken links on "Creating a development environment for IIS 7+" and added more resource links.
+- update "Installing Node JS and Grunt" post to include proxy server set-up.
+- upgrade Jekyll and other gems to latest version
+- deleted old web.config as all links point to the gist now.
+
+February 5, 2020:
 - minor update to about page (email, techs used)
 - force git to re-pull
 
 December 12, 2019
 - new blog posts
 - fixed images in some older posts (updated jekyll)
-- made sure links on homepage and new posts had proper noopener/norefer/nofollow
+- made sure links on homepage and new posts had proper noopener/noreferrer/no follow
 
 April 3, 2019
 - remove Google + items

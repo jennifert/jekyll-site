@@ -3,7 +3,6 @@
 
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title> Creating a development environment for IIS 7+ - Jennifer Tesolin </title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="How to enable IIS on Windows 7 for a web development environment.">
@@ -87,7 +86,7 @@
   </header>
 
   <article class="post-content e-content p-name">
-  <p>This post describes how to enable IIS on Windows 7, along with enabling MySql and Php.<!--more--></p>
+  <p>This post describes how to enable IIS on Windows 7, along with enabling MySql and Php. <!--more--></p>
 
 <p>Note: You will need Administrator Access.</p>
 
@@ -99,7 +98,7 @@
 
 <p>Next, to fix the security settings, right click on the new folder and add permissions for any users with, ISR, IUSER and Networking (full access)</p>
 
-<p>Now, use the following <a href="http://windows.microsoft.com/en-ca/windows7/install-internet-information-services-iis-7-5">guide</a> to install IIS onto your machine. After first enabling, it will have your web root in the <code>innetpub</code> folder.</p>
+<p>Now, use the following <a href="https://web.archive.org/web/20160620015739/http://windows.microsoft.com/en-ca/windows7/install-internet-information-services-iis-7-5">guide</a> to install IIS onto your machine. After first enabling, it will have your web root in the <code>innetpub</code> folder.</p>
 
 <p>Since our folder is created, lets go ahead and relocate the server to use that!</p>
 
@@ -203,6 +202,9 @@ At the root: <code>http://localhost/wp-admin/install.php</code></p>
   <li><a href="http://php.net/manual/en/install.windows.iis7.php">PHP.net Installation Docs</a></li>
   <li><a href="http://www.iis.net/learn/application-frameworks/install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis#PHP_Security_Recommendations_">Security Recommendations</a></li>
   <li><a href="http://codex.wordpress.org/Editing_wp-config.php">WordPress: Editing wp.config.php</a></li>
+  <li><a href="https://docs.microsoft.com/en-us/iis/manage/configuring-security/how-to-set-up-ssl-on-iis">How to Set Up SSL on IIS 7</a></li>
+  <li><a href="https://deanhume.com/set-up-iis-7-to-run-a-secure-site-locally-https/">Set up IIS 7 to run a secure site locally - HTTPS</a></li>
+  <li><a href="https://weblogs.asp.net/scottgu/tip-trick-enabling-ssl-on-iis7-using-self-signed-certificates">Tip/Trick: Enabling SSL on IIS 7.0 Using Self-Signed Certificates</a></li>
 </ul>
 
   </article>
@@ -216,7 +218,7 @@ At the root: <code>http://localhost/wp-admin/install.php</code></p>
         <div class="row">
           <div class="col-xs-12">
            <p class="vcard text-muted">
-          &copy; 2019 <span class="fn">Jennifer Tesolin</span>
+          &copy; 2020 <span class="fn">Jennifer Tesolin</span>
           <span class="pull-right">
             <a  class="url" href="https://github.com/jennifert?tab=repositories" target="_blank" rel="nofollow"><i class="fa fa-github fa-3x"></i></a>
             <a class="url" href="https://twitter.com/jenntes" target="_blank" rel="nofollow"><i class="fa fa-twitter fa-3x"></i></a>

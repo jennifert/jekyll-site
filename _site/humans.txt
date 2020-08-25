@@ -1,6 +1,6 @@
 /* TEAM */
 Developer: Jennifer Tesolin
-Site: jtesolin@gmail.com
+Site: me@jenntesolin.com
 Twitter: jenntes
 Github: jennifert
 Location: America/Toronto

@@ -1,8 +1,6 @@
 Changelog
 ===========
 
-## Other updates:
-
 August 25, 2020:
 - updates to readme.
 - fixed broken links on "Creating a development environment for IIS 7+" and added more resource links.

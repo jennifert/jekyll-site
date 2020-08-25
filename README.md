@@ -2,6 +2,8 @@ JennTesolin.com
 ===========
 Welcome to the the [Jekyll](https://jekyllrb.com/) version of my site [http://jenntesolin.com/](jenntesolin.com).
 
+Jekyll Version: 4
+
 ## Updates
 
 Upcoming to the code are in the [changelog file](https://github.com/jennifert/jekyll-site/blob/master/changelog.md). Other updates as well as and bug fixes and site enhancements have been moved to the GitHub issues functionality. [This repository issue log](https://github.com/jennifert/jekyll-site/issues).

@@ -46,7 +46,7 @@ This section is used to display information on the company/site owner using info
 
 <code>author :
 &nbsp;&nbsp;&nbsp;name : Jennifer Tesolin<br>
-&nbsp;&nbsp;&nbsp;email : jtesolin@gmail.com<br>
+&nbsp;&nbsp;&nbsp;email : me@jenntesolin.com<br>
 &nbsp;&nbsp;&nbsp;location : Toronto (Canada)<br>
 &nbsp;&nbsp;&nbsp;github : jennifert<br>
 &nbsp;&nbsp;&nbsp;twitter : jenntes</code>

@@ -44,7 +44,7 @@ You will need to download for both desktop/laptop and mobile device. The files f
 
 #### Set up desktop App
 
-Once installed, open the DoubleTwsit application. Choose your iTunes folder, the. Let it do its thing. A few times I had to close then reset program on desktop to see all playlists and files after editing in iTunes.
+Once installed, open the DoubleTwist application. Choose your iTunes folder, the. Let it do its thing. A few times I had to close then reset program on desktop to see all playlists and files after editing in iTunes.
 
 Now select your device, choose your settings and sync. Be sure to note and fix any issues. These are usually being your file is locked by apple.
 
@@ -63,7 +63,7 @@ Pro:
 - easy way to use an android phone with your Mac.
 - Will take all iTunes playlists (as long as file is unlocked).
 
-Bugs encountered
+Bugs encountered:
 
-- even though no duplicates are in iTunes duplicate view, the library sometimes duplicates the files  (not in playlist but in the library view in music). I had no duplicates in finder. 
-- hangs or sometimes crashes  on opening the desktop app.
+- even though no duplicates are in iTunes duplicate view, the library sometimes duplicates the files (not in playlist but in the library view in music). I had no duplicates in finder. 
+- hangs or sometimes crashes on opening the desktop app.

@@ -6,7 +6,7 @@ categories:
 - Tutorial
 tags:
 - php
-summary: This post describes how to compare variables that have integars using PHP.
+summary: This post describes how to compare variables that have integers using PHP.
 
 status: post
 type: post

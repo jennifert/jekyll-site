@@ -40,9 +40,7 @@ author: Jennifer Tesolin
 	In order to use the build tools, the licenses must be accepted. Run the below commands in your terminal ("Utilities" > "Terminal"). Be sure to read and accept the agreements.
 </p>
 
-<!-- TODO: Make sure this is still the proper code -->
-
-<pre><code>xcode-select --install</code></pre>
+<pre><code>xcode-select --install<br>sudo xcodebuild -license</code></pre>
 
 <h4>Step 3: Check if Ruby is installed, then update the files</h4>
 
@@ -86,11 +84,11 @@ author: Jennifer Tesolin
 	To update packages, you will need to run an update, and upgrade like below:
 </p>
 
-<pre><code>Brew update<br />brew upgrade</code></pre>
+<pre><code>brew update<br />brew upgrade</code></pre>
 
 <h3>Update Ruby and installed gems.</h3>
 
-<pre><code>brew install ruby<br>sudo gem update --system<br>sudo gem update</code></pre> <!-- double check - should not need sudo -->
+<pre><code>brew install ruby<br>gem update --system<br>gem update</code></pre>
 
 <h3>Resources</h3>
 <ul>

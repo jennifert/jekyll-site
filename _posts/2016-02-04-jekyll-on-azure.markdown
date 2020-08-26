@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Configure Jekyll on Micosoft Azure or Github pages"
+title: "Configure Jekyll on Microsoft Azure or Github pages"
 date: 2016-02-04 12:38:21
 categories:
 - Tutorial

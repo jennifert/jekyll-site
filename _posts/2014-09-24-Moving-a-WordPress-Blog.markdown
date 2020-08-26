@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Moving a Wordpress blog"
+title:  "Moving a WordPress blog"
 date:   2014-09-24 19:00:00
 categories:
 - Tutorial
@@ -8,7 +8,7 @@ tags:
 - wordpress
 - jekyll
 - php
-summary: Various ways to move Wordpress - for example between hosts or to Jekyll.
+summary: Various ways to move WordPress - for example between hosts or to Jekyll.
 status: publish
 type: post
 published: true

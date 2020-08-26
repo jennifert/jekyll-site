@@ -5,8 +5,8 @@
     <description>This is Jennifer Tesolin's personal web site. Located on this site are tutorials and tips for web developers.</description>
     <link>https://jenntesolin.com/</link>
     <atom:link href="https://jenntesolin.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 25 Aug 2020 16:01:09 -0400</pubDate>
-    <lastBuildDate>Tue, 25 Aug 2020 16:01:09 -0400</lastBuildDate>
+    <pubDate>Tue, 25 Aug 2020 22:02:00 -0400</pubDate>
+    <lastBuildDate>Tue, 25 Aug 2020 22:02:00 -0400</lastBuildDate>
     
       <item>
         <title>Installing Git and Github on your Mac</title>
@@ -94,9 +94,8 @@
 &lt;pre&gt;&lt;code&gt;gem install jekyll-import&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;
-  Here is a list of other plugins that may be useful in your blog.
+  Here is a list of other plugins that may be useful in your blog:
 &lt;/p&gt;
-&lt;!--TODO: Get a link to the pages of these Jekyll plugins--&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;a href=&quot;https://github.com/JesseHerrick/jekyll-angular&quot; target=&quot;_blank&quot;  rel=&quot;nofollow noreferrer noopener&quot;&gt;jekyll-angular&lt;/a&gt;
@@ -109,10 +108,12 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;p&gt;There is a list over on the &lt;a href=&quot;https://jekyllrb.com/docs/plugins/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer noopener&quot;&gt;jekyll website&lt;/a&gt; (separated by category).&lt;/p&gt;
+
 &lt;h3&gt;A new Jekyll instance&lt;/h3&gt;
 
 &lt;p&gt;
-  &lt;em&gt;Skip to next section to impot your wordpress blog.&lt;/em&gt;
+  &lt;em&gt;Skip to next section to import your WordPress blog.&lt;/em&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -182,7 +183,7 @@
 &lt;/p&gt;
 &lt;img src=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/jekyll-new-cmd2.png&quot; alt=&quot;Jekyll serve command terminal output&quot; /&gt;
 
-&lt;h3&gt;Wordpress Import instructions (wordpress.com and self hosted)&lt;/h3&gt;
+&lt;h3&gt;WordPress Import instructions (wordpress.com and self hosted)&lt;/h3&gt;
 &lt;p&gt;
   Click one of the links below to check out the awesome docs at Jekyll RB.
 &lt;/p&gt;
@@ -199,12 +200,12 @@
 &lt;h3&gt;Drafts&lt;/h3&gt;
 
 &lt;p&gt;
-  To wok on a post locally, but not moving it live, create a folder at the root called &lt;code&gt;_drafts&lt;/code&gt;. Next, add a markdown or html file without the address. Finally, run the below in your temrinal:
+  To wok on a post locally, but not moving it live, create a folder at the root called &lt;code&gt;_drafts&lt;/code&gt;. Next, add a markdown or html file without the address. Finally, run the below in your terminal:
 &lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;bundle exec jekyll serve --drafts&lt;/code&gt;&lt;/pre&gt;
 
-&lt;img src=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/jekyll5.png&quot; alt=&quot;Terminal screen output showing draft folder&quot;&gt; &lt;!-- TODO: update screenshot --&gt;
+&lt;img src=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/jekyll5.png&quot; alt=&quot;Terminal screen output showing draft folder&quot;&gt;
 
 &lt;p&gt;
   Changes can be made on the fly using this method as well. When ready to publish, move the file to &lt;code&gt;_posts&lt;/code&gt; and add a date.
@@ -314,9 +315,7 @@
 	In order to use the build tools, the licenses must be accepted. Run the below commands in your terminal (&quot;Utilities&quot; &gt; &quot;Terminal&quot;). Be sure to read and accept the agreements.
 &lt;/p&gt;
 
-&lt;!-- TODO: Make sure this is still the proper code --&gt;
-
-&lt;pre&gt;&lt;code&gt;xcode-select --install&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;xcode-select --install&lt;br&gt;sudo xcodebuild -license&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h4&gt;Step 3: Check if Ruby is installed, then update the files&lt;/h4&gt;
 
@@ -360,11 +359,11 @@
 	To update packages, you will need to run an update, and upgrade like below:
 &lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;Brew update&lt;br /&gt;brew upgrade&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;brew update&lt;br /&gt;brew upgrade&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h3&gt;Update Ruby and installed gems.&lt;/h3&gt;
 
-&lt;pre&gt;&lt;code&gt;brew install ruby&lt;br&gt;sudo gem update --system&lt;br&gt;sudo gem update&lt;/code&gt;&lt;/pre&gt; &lt;!-- double check - should not need sudo --&gt;
+&lt;pre&gt;&lt;code&gt;brew install ruby&lt;br&gt;gem update --system&lt;br&gt;gem update&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h3&gt;Resources&lt;/h3&gt;
 &lt;ul&gt;
@@ -394,7 +393,7 @@
 
 &lt;!-- TODO: try to just use tag - Mac_Web to generate once all created--&gt;
 &lt;p&gt;
-	&lt;em&gt;Note: it is recommaned to start with the tutorial &quot;Installing Homebrew and Fixing Ruby on your Mac&quot; before following instructions in the Git and Github tutorial.&lt;/em&gt;
+	&lt;em&gt;Note: it is recommended to start with the tutorial &quot;Installing Homebrew and Fixing Ruby on your Mac&quot; before following instructions in the Git and Github tutorial.&lt;/em&gt;
 &lt;/p&gt;
 &lt;ul&gt;
 	&lt;li&gt;
@@ -456,14 +455,14 @@
         <title>Using iOS and Android devices together.</title>
         <description>&lt;p&gt;Using an android in an Apple environment can be a bit tricky, but here are some tricks and resources to help you out. This post is an update to one titled &quot;Moving from an iOS Device to Android (iCloud)&quot;.&lt;!--more--&gt;&lt;/p&gt;
 &lt;P&gt;
-  &lt;em&gt;Note: I am not in partnership or sponsered in anyway by the below programs, they are what I have researched and used over the past few years.&lt;/em&gt;
+  &lt;em&gt;Note: I am not in partnership or sponsored in anyway by the below programs, they are what I have researched and used over the past few years.&lt;/em&gt;
 &lt;/P&gt;
 &lt;p&gt;&lt;strong&gt;Calendar&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=org.dmfs.caldav.icloud&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;SmoothSync for Cloud Calendar&lt;/a&gt;: SmoothSync for Cloud Calendar syncs your iCloud calendars and reminders. Please note this is for Apple Calendars, it will not sync events from your Google Calendar to your Mac.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Contacts&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=org.dmfs.carddav.icloud&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;SmoothSync for Cloud Contacts&lt;/a&gt;: SmoothSync for Cloud Contacts syncs your iCloud contacts.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;iCloud Mail Sync&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The easiest way to sync  your settings is to use this &lt;a href=&quot;https://support.apple.com/en-us/HT202304&quot; title=&quot;Imap settings for icloud&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;IMAP email guide&lt;/a&gt; from apple. You will need to generate an app-specific password for your client. &lt;a href=&quot;https://www.androidcentral.com/how-set-your-icloud-email-account-android&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;AndroidCentral&lt;/a&gt; has a few notes on getting around any SSL issues (try TSL)&lt;/p&gt;
+&lt;p&gt;The easiest way to sync  your settings is to use this &lt;a href=&quot;https://support.apple.com/en-us/HT202304&quot; title=&quot;Imap settings for iCloud&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;IMAP email guide&lt;/a&gt; from apple. You will need to generate an app-specific password for your client. &lt;a href=&quot;https://www.androidcentral.com/how-set-your-icloud-email-account-android&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;AndroidCentral&lt;/a&gt; has a few notes on getting around any SSL issues (try TSL)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;iTunes Library Sync&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;
   To sync your library, there are excellent products from JRT Studio to sync and play your files. Please note though, that the video files purchased in the iTunes store will not play on your android device due to the DRM used.
@@ -497,10 +496,10 @@
 &lt;p&gt;
   &lt;em&gt;This was originally from May 8, 2013 and has been re-written for the latest version of Node and Grunt.&lt;/em&gt;
 &lt;/p&gt;
-&lt;p&gt;Step 1: Download the latest stable binary from &lt;a title=&quot;Node JS web site&quot; href=&quot;https://nodejs.org/en/download/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;nodejs.org&lt;/a&gt;. On production serers is recommended to use the latest STABLE version. The default settings will be fine.&lt;/p&gt;
+&lt;p&gt;Step 1: Download the latest stable binary from &lt;a title=&quot;Node JS web site&quot; href=&quot;https://nodejs.org/en/download/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;nodejs.org&lt;/a&gt;. On production servers is recommended to use the latest STABLE version. The default settings will be fine.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/nodejs-home.png&quot;&gt;&lt;img alt=&quot;NodeJS.com homepage&quot; src=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/nodejs-home_thumb.png&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Step 2: Verify your path as per installer message: Make sure that &lt;strong&gt;/usr/local/bin&lt;/strong&gt; is in your $PATH.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/Screen-Shot-2013-05-07-at-9.38.02-PM.png&quot;&gt;&lt;img class=&quot;alignnone size-medium wp-image-167&quot; alt=&quot;Installer screenshot after intsall is successful&quot; src=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/Screen-Shot-2013-05-07-at-9.38.02-PM-300x211.png&quot; width=&quot;300&quot; height=&quot;211&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/Screen-Shot-2013-05-07-at-9.38.02-PM.png&quot;&gt;&lt;img class=&quot;alignnone size-medium wp-image-167&quot; alt=&quot;Installer screenshot after install is successful&quot; src=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/Screen-Shot-2013-05-07-at-9.38.02-PM-300x211.png&quot; width=&quot;300&quot; height=&quot;211&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Note: I found this Stackoverflow post useful: &lt;a href=&quot;https://stackoverflow.com/questions/42323485/set-environment-variables-on-mac-os-x-sierra#42323635&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://stackoverflow.com&lt;/a&gt;. Please note to check that the path in the installer is shown in case it differs between versions. For my install, the path was correctly set.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;USE A PROXY WITH NODE&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;If you require the use of a proxy with node, you set it with the below (this to this post &lt;a href=&quot;https://jjasonclark.com/how-to-setup-node-behind-web-proxy/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;How to setup Node.js and Npm behind a corporate web proxy&lt;/a&gt;).&lt;/p&gt;
@@ -515,7 +514,7 @@
 &lt;p&gt;go into your project directory, and run the below command. You can use the default settings, as the text file will be edited. My output is below.&lt;/p&gt;
 &lt;code&gt;npm init&lt;/code&gt;
 &lt;p&gt;&lt;a href=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/Screen-Shot-2013-05-07-at-10.53.38-PM.png&quot;&gt;&lt;img class=&quot;alignnone size-medium wp-image-182&quot; alt=&quot;run npm init&quot; src=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/Screen-Shot-2013-05-07-at-10.53.38-PM-300x158.png&quot; width=&quot;300&quot; height=&quot;158&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Open your favourite text editor, and edit the file &quot;package.json&quot; replace the text so it reads similar to the below:&lt;/p&gt;
+&lt;p&gt;Open your favorite text editor, and edit the file &quot;package.json&quot; replace the text so it reads similar to the below:&lt;/p&gt;
 &lt;code&gt;{&lt;br&gt;
   &quot;name&quot;: &quot;demo-project&quot;,&lt;br&gt;
   &quot;version&quot;: &quot;0.0.1&quot;,&lt;br&gt;
@@ -663,9 +662,7 @@ add_filter ( 'publish_post', 'email_alert' );&lt;/code&gt;
   &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.torontopubliclibrary.ca/museum-arts-passes/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Museum and other passes:&lt;/a&gt;&lt;/strong&gt; borrow tickets to the ROM, science centre, AGO, and more. Though its first come first serve, and unfortunately, Casa Loma is not offered. The passes are good for 2 adults and up to 5 children, which can save a lot of money.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Also, whats great, is that you can use these services even if you work in Toronto, not just live. &lt;a href=&quot;http://www.torontopubliclibrary.ca/using-the-library/your-library-card/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Visit their site to see the requirements for a library card&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Check these out, and &lt;a href=&quot;https://twitter.com/jenntes&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;let me know&lt;/a&gt; if I missed anything.&lt;/p&gt;</description>
+&lt;p&gt;Also, whats great, is that you can use these services even if you work in Toronto, not just live. &lt;a href=&quot;http://www.torontopubliclibrary.ca/using-the-library/your-library-card/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Visit their site to see the requirements for a library card&lt;/a&gt;&lt;/p&gt;</description>
         <pubDate>Fri, 06 Jan 2017 09:16:30 -0500</pubDate>
         <link>https://jenntesolin.com/blog/2017/01/06/top-6-library-resources/</link>
         <guid isPermaLink="true">https://jenntesolin.com/blog/2017/01/06/top-6-library-resources/</guid>
@@ -679,19 +676,17 @@ add_filter ( 'publish_post', 'email_alert' );&lt;/code&gt;
     
       <item>
         <title>Top 5 additions from the console games that would improve Pokemon Go</title>
-        <description>&lt;p&gt;Pokemon Go is a great idea for a game but as someone who has played the console games in the past there are quite a few things that seem to be missing. Here is a list of concepts that I feel can help improve the gameplay. &lt;!--more--&gt;&lt;/p&gt;
+        <description>&lt;p&gt;Pokemon Go is a great idea for a game but as someone who has played the console games in the past there are quite a few things that seem to be missing. Here is a list of concepts that I feel can help improve the game play. &lt;!--more--&gt;&lt;/p&gt;
 
 &lt;p&gt;This is just my opinion. Feel free to agree or disagree. :)&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;The Pokemon day care&lt;/strong&gt; - some people use this to level up, but most people use this gameplay feature to breed Pokemon to create their own eggs (pass on parent moves and IVs)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;The Pokemon day care&lt;/strong&gt; - some people use this to level up, but most people use this game play feature to breed Pokemon to create their own eggs (pass on parent moves and IVs)&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Pokemon fossils&lt;/strong&gt; at Pokestops - especially since the nearby feature is so broken. in the games you can find fossils in various ways to bring back to life extinct Pokemon. It would be great if pokestops dropped fossils similar to eggs, where you walk to bring them back to life. Would make things easier and more fun than waiting for extremely rare encounters.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;A way to have a set location as a Pokemon centre&lt;/strong&gt; - In the console games, a Pokemon Centre is set up in each city, and is a free way to heal your team without using potions. Would be neat if you can set a few locations (such as your house or work/school) as one, and if you are around this area you can click a button (say once every hour) and all of your Pokemon will be healed.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Bring Pokemon abilities into play&lt;/strong&gt; - Abilities can affect things in battle, or in other areas of the game. For example if your Pikachu has static, you will encounter more electric Pokemon, meanwhile, if your Magmar has Flame Body, your hatch eggs faster in 1/2 the time.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Allow Pokemon you have with you to fight wild Pokemon&lt;/strong&gt; -  This makes it easier to catch for example because the wild Pokemon would not be at full health, and may be sleeping or have another status condition.  In the console games, it is always suggested to leave a pokemon in the red HP wise, and have it sleeping to increase your catch rate.&lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;p&gt;What concepts would you like to see? Do you agree with the above? Sound out to me on Twitter &lt;a href=&quot;https://twitter.com/jenntes&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;@jenntes&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Wed, 24 Aug 2016 06:12:56 -0400</pubDate>
         <link>https://jenntesolin.com/blog/2016/08/24/top-5-console-additions-pokemon-go/</link>

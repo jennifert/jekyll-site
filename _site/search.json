@@ -121,7 +121,7 @@
     ,
     
     {
-      "title"    : "Configure Jekyll on Micosoft Azure or Github pages",
+      "title"    : "Configure Jekyll on Microsoft Azure or Github pages",
       "href"     : "/blog/2016/02/04/jekyll-on-azure/",
       "summary"     : "Sometimes hosting can be expensive, and some reputable hosts have free but limited hosting. This post described how to configure Github pages and Microsoft Azure.Just a note before getting started,...",
       "category" : ["Tutorial", null],
@@ -171,7 +171,7 @@
     ,
     
     {
-      "title"    : "Moving a Wordpress blog",
+      "title"    : "Moving a WordPress blog",
       "href"     : "/blog/2014/09/24/Moving-a-WordPress-Blog/",
       "summary"     : "This post will describe various ways to move WordPress, either to a different server or to Jekyll. Steps to make an exact copyThis includes all plugins, theses, posts, etc. download...",
       "category" : ["Tutorial", null],
@@ -231,9 +231,9 @@
     ,
     
     {
-      "title"    : "Quick Tip: Wordpress Development Tips",
+      "title"    : "Quick Tip: WordPress Development Tips",
       "href"     : "/blog/2014/01/20/quick-tip-wordpress-development-tips/",
-      "summary"     : "1. Stop wordpress updater by ftp.As per the following post, &quot;Wordpress needs access to your web server&quot;, you can prevent work press for asking for your ftp credentials when requesting...",
+      "summary"     : "1. Stop WordPress updater by ftp.As per the following post, &quot;WordPress needs access to your web server&quot;, you can prevent work press for asking for your ftp credentials when requesting...",
       "category" : ["Tip", null],
       "tags"     : ["php","wordpress", null],
       "date"     : "Jan 20, 2014"
@@ -391,7 +391,7 @@
     ,
     
     {
-      "title"    : "Wordpress Quick-tip: Display x number of posts outside your blog.",
+      "title"    : "WordPress Quick-tip: Display x number of posts outside your blog.",
       "href"     : "/blog/2013/05/23/wordpress-quicktip-display-x-number-of-posts-outside-your-blog/",
       "summary"     : "Sometime, you want to display posts outside of WordPress. Here are some resources to help.From the Integrating WordPress in your Website codex file, the first place you start is to...",
       "category" : ["Tip", null],
@@ -441,7 +441,7 @@
     ,
     
     {
-      "title"    : "Planning a vaction to Japan",
+      "title"    : "Planning a vacation to Japan",
       "href"     : "/blog/2012/11/08/japan-trip-2011/",
       "summary"     : "PLANNING THE TRIPI love history, so I knew I wanted to see definitely Tokyo, and Kyoto. If time, I also really wanted to see Hiroshima and Mount Fuji. My parents...",
       "category" : ["Tip", null],

@@ -63,7 +63,7 @@ h2.lead {
 h1{
    margin-top: 66px;
   }
-
+/*
   .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -73,4 +73,11 @@ h1{
   padding: 0;
   position: absolute;
   width: 1px;
+}
+*/
+.navbar-default .navbar-nav > li > a{
+  color: #545454;
+}
+.badge{
+  background-color: #545454;
 }

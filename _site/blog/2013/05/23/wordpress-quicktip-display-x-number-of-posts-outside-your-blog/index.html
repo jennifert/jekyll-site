@@ -6,7 +6,8 @@
     <title> WordPress Quick-tip: Display x number of posts outside your blog. - Jennifer Tesolin </title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Describes how to display posts outside of the WordPress system.">
-
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+    
     <link rel="canonical" href="https://www.jenntesolin.com/blog/2013/05/23/wordpress-quicktip-display-x-number-of-posts-outside-your-blog/">
     <link type="text/plain" rel="author" href="/humans.txt" />
     <!-- <link rel="author" href="https://plus.google.com/109759985952910616281?rel=author" /> -->
@@ -194,7 +195,7 @@ while ($query->have_posts()) {<br>
         </div>
       </footer>
 
-<script type="text/javascript" src="/dist/js/combined.js"></script>
+<script src="/dist/js/combined.js"></script>
 
 
     </body>

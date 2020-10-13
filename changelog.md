@@ -5,6 +5,7 @@ October 13, 2020:
 - Fixed Json Mime handler link to UI Press, as well as "List of Common MIME types" link in post "Creating a development environment for IIS 7+"
 - In above post, added new link for "Configuring RSS with IIS" under mime types.
 - removed contact me button in header. One in footer is fine.
+- updated jquery version being used. 1.11 to 3.
 
 August 25, 2020:
 - updates to readme.

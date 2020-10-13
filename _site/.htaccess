@@ -1,0 +1,4 @@
+Header append X-Frame-Options: "SAMEORIGIN"
+<IfModule mod_headers.c> 
+  Header set X-XSS-Protection "1; mode=block" 
+</IfModule>

@@ -19,12 +19,12 @@
         <li {% if location == 'photos' %}class="active" {% endif %}><a href="/photos/">Photos</a></li>
       </ul>
 
-      <form role="search" method="get" class="navbar-form navbar-right form-inline" action="/search/">
+      <form role="search" id="SearchForm" method="get" class="navbar-form navbar-right form-inline" action="/search/">
           <div class="form-group" id="searchdiv">
-            <input type="search" id="searchbox" name="searchbox" class="form-control search" placeholder="Search ... ">
-            <label class="hide">Search for:</label>
+            <label class="sr-only" for="searchbox">Search for:</label>
+            <input type="search" id="searchbox" name="searchbox" class="form-control search" required>&nbsp;
           </div>
-          <button type="submit" class="btn btn-success search"> <i class="fa fa-search"></i></button>
+          <button type="submit" class="btn btn-success search" alt="Search now"><i class="fa fa-search"></i></button>
       </form>
         </div><!--/.nav-collapse -->
       </div>

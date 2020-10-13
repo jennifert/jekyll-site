@@ -3,15 +3,13 @@
         <div class="container-fluid">
         <div class="row">
           <div class="col-xs-12">
-           <p class="vcard text-muted">
+           <p class="vcard">
           &copy; {{ site.time | date: '%Y' }} <span class="fn">{{ site.author.name }}</span>
           <span class="pull-right">
-            <a  class="url" href="https://github.com/{{ site.author.github }}?tab=repositories" target="_blank" rel="nofollow"><i class="fa fa-github fa-3x"></i></a>
-            <a class="url" href="https://twitter.com/{{ site.author.twitter }}" target="_blank" rel="nofollow"><i class="fa fa-twitter fa-3x"></i></a>
-            <a class="url" href="{{ "/feed.xml" | prepend: site.baseurl }}" rel="nofollow"><i class="fa fa-rss fa-3x"></i></a>
-            <a class="url" href="http://ca.linkedin.com/pub/jennifer-tesolin/2b/5bb/3a6" target="_blank" rel="nofollow"><i class="fa fa-linkedin fa-3x"></i></a>
-            <a href="https://plus.google.com/109759985952910616281?rel=author" rel="nofollow"></a>
-            <a class="u-email url" href="mailto:me@jenntesolin.com" target="_blank" rel="me"><i class="fa fa-envelope fa-3x"></i></a>
+            <a  class="url" href="https://github.com/{{ site.author.github }}?tab=repositories" target="_blank" rel="nofollow" alt="My Github Repos"><i class="fa fa-github fa-3x"></i></a>
+            <a class="url" href="https://twitter.com/{{ site.author.twitter }}" target="_blank" rel="nofollow" alt="My Twitter Feed"><i class="fa fa-twitter fa-3x"></i></a>
+            <a class="url" href="{{ "/feed.xml" | prepend: site.baseurl }}" rel="nofollow" alt="Site RSS Feed"><i class="fa fa-rss fa-3x"></i></a>
+            <a class="url" href="http://ca.linkedin.com/pub/jennifer-tesolin/2b/5bb/3a6" target="_blank" rel="nofollow" alt="My LinkedIn Profile"><i class="fa fa-linkedin fa-3x"></i></a>
           </span>
         </p>
         </div>

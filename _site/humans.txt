@@ -6,7 +6,7 @@ Github: jennifert
 Location: America/Toronto
 
 /* SITE */
-Last update: 2020-08-25 22:02:00 -0400
+Last update: 2020-10-13 13:29:30 -0400
 Language:English
 DocType: HTML5
 Standards: HTML5, CSS

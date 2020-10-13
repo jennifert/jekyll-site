@@ -65,12 +65,12 @@
         <li ><a href="/photos/">Photos</a></li>
       </ul>
 
-      <form role="search" method="get" class="navbar-form navbar-right form-inline" action="/search/">
+      <form role="search" id="SearchForm" method="get" class="navbar-form navbar-right form-inline" action="/search/">
           <div class="form-group" id="searchdiv">
-            <input type="search" id="searchbox" name="searchbox" class="form-control search" placeholder="Search ... ">
-            <label class="hide">Search for:</label>
+            <label class="sr-only" for="searchbox">Search for:</label>
+            <input type="search" id="searchbox" name="searchbox" class="form-control search" required>&nbsp;
           </div>
-          <button type="submit" class="btn btn-success search"> <i class="fa fa-search"></i></button>
+          <button type="submit" class="btn btn-success search" alt="Search now"><i class="fa fa-search"></i></button>
       </form>
         </div><!--/.nav-collapse -->
       </div>
@@ -117,15 +117,13 @@
         <div class="container-fluid">
         <div class="row">
           <div class="col-xs-12">
-           <p class="vcard text-muted">
+           <p class="vcard">
           &copy; 2020 <span class="fn">Jennifer Tesolin</span>
           <span class="pull-right">
-            <a  class="url" href="https://github.com/jennifert?tab=repositories" target="_blank" rel="nofollow"><i class="fa fa-github fa-3x"></i></a>
-            <a class="url" href="https://twitter.com/jenntes" target="_blank" rel="nofollow"><i class="fa fa-twitter fa-3x"></i></a>
-            <a class="url" href="/feed.xml" rel="nofollow"><i class="fa fa-rss fa-3x"></i></a>
-            <a class="url" href="http://ca.linkedin.com/pub/jennifer-tesolin/2b/5bb/3a6" target="_blank" rel="nofollow"><i class="fa fa-linkedin fa-3x"></i></a>
-            <a href="https://plus.google.com/109759985952910616281?rel=author" rel="nofollow"></a>
-            <a class="u-email url" href="mailto:me@jenntesolin.com" target="_blank" rel="me"><i class="fa fa-envelope fa-3x"></i></a>
+            <a  class="url" href="https://github.com/jennifert?tab=repositories" target="_blank" rel="nofollow" alt="My Github Repos"><i class="fa fa-github fa-3x"></i></a>
+            <a class="url" href="https://twitter.com/jenntes" target="_blank" rel="nofollow" alt="My Twitter Feed"><i class="fa fa-twitter fa-3x"></i></a>
+            <a class="url" href="/feed.xml" rel="nofollow" alt="Site RSS Feed"><i class="fa fa-rss fa-3x"></i></a>
+            <a class="url" href="http://ca.linkedin.com/pub/jennifer-tesolin/2b/5bb/3a6" target="_blank" rel="nofollow" alt="My LinkedIn Profile"><i class="fa fa-linkedin fa-3x"></i></a>
           </span>
         </p>
         </div>

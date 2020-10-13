@@ -116,11 +116,12 @@ For issues, consult the [WordPress Docs](http://codex.wordpress.org/Installing_W
 ### Add Mime Types to IIS
 If you are not able to see content like fonts, JSON, videos, etc., you may need to add the mime type.
 
-+ [JSON](http://www.uipress.com/add-json-handler-support-in-iis-7/)
++ [JSON](https://web.archive.org/web/20180303023536/http://www.uipress.com/add-json-handler-support-in-iis-7/)
 + [web Fonts](http://codingstill.com/2013/01/set-mime-types-for-web-fonts-in-iis/)
 + [HTML5 and CSS3](http://docs.composite.net/Layout/LayoutFAQ?q=Can+I+use+HTML5+and+CSS3+related+files+like+.svg%2C+.woff+and+.ogg%3F)
++ [Configuring RSS with IIS](https://www.iandevlin.com/blog/2010/03/net/configuring-rss-with-iis/)
 
-If they are not above, they may be mentioned at: [List of Common MIME types](http://www.serverintellect.com/support/iis/mime-types/).
+If they are not above, they may be mentioned at: [List of Common MIME types](https://web.archive.org/web/20170917212327/http://www.serverintellect.com/support/iis/mime-types/).
 
 [My Sample Web.config](https://gist.github.com/jennifert/27e1c3e587e64fb75149f1bb3b1b340c)
 

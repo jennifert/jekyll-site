@@ -1,5 +1,9 @@
 Changelog
 ===========
+October 13, 2020:
+- Updates to make a bit more accessible
+- Fixed Json Mime handler link to UI Press, as well as "List of Common MIME types" link in post "Creating a development environment for IIS 7+"
+- In above post, added new link for "Configuring RSS with IIS" under mime types.
 
 August 25, 2020:
 - updates to readme.

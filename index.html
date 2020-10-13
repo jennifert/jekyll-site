@@ -8,7 +8,7 @@ layout: default
     Welcome to my website that features my portfolio consisting of Github Repositories and Photography, as well as tutorials that include tips and tricks for web development and at the odd times traveling.
   </p>
   <p>
-    <a class="btn btn-lg btn-primary" href="mailto:me@jenntesolin.com" role="button" target="_blank" rel="nofollow noreferrer noopener">Contact me</a>
+    <a class="btn btn-lg btn-primary" href="mailto:me@jenntesolin.com" target="_blank" rel="nofollow noreferrer noopener">Contact me</a>
   </p>
 </div>
 
@@ -16,6 +16,11 @@ layout: default
   <h1>{{ site.title }}</h1>
 </div>
 
+<div class="row">
+  <div class="col-xs-12">
+    <h2>Latest Posts</h2>
+  </div>
+</div>
 <div class="row">
 {% for post in site.posts limit:3 %}
 
@@ -27,7 +32,7 @@ layout: default
           <div class="col-xs-12">
                   <h3 class="blog-header">{{ post.title }}</h3>
                   <p class="blog-summary"> {{ post.content | split:'<!--more-->' | first }}</p>
-                  <p><a href="{{ post.url | prepend: site.baseurl }}" class="red">Read more...</a></p>
+                  <p><a href="{{ post.url | prepend: site.baseurl }}" class="red">Read more<span class="sr-only">: {{ post.title }} </span>...</a></p>
               <div>
                 <span class="badge blog-date"><time class="published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %-d, %Y" }}</time></span>
                 <div class="pull-right">
@@ -44,23 +49,26 @@ layout: default
   </div>
 
      <hr>
-
-    <!-- Site promos -->
+  <div class="row">
+    <div class="col-xs-12">
+      <h2>Github Repositories and Latest Series</h2>
+    </div>
+  </div>
 <div class="row">
   <div class="col-xs-4">
     <h3>Archer CMS</h3>
     <p>A github repo that is my MERN project for the Fall 2017 HackerYou Fullstack Master class. Heads up: this repo is currently for development enironments.</p>
-    <p><a class="btn btn-default" target="_blank" href="https://github.com/jennifert/archer-cms" role="button" rel="nofollow noreferrer noopener">View repo &raquo;</a></p>
+    <p><a class="btn btn-default" target="_blank" href="https://github.com/jennifert/archer-cms" rel="nofollow noreferrer noopener">View <span class="sr-only">Archer CMS</span> repo &raquo;</a></p>
   </div>
   <div class="col-xs-4">
    <h3>Mac: Development Set-up</h3>
     <p>This is a new series being published/updated that links to various tutorials for getting up and running in web development on your mac (using free software.)</p>
-    <p><a class="btn btn-default" href="/blog/2019/12/02/mac-local-dev-server/" role="button">View Series &raquo;</a></p>
+    <p><a class="btn btn-default" href="/blog/2019/12/02/mac-local-dev-server/">View Series<span class="sr-only"> on Mac Development Set-up</span>&raquo;</a></p>
   </div>
   <div class="col-xs-4">
    <h3>Github and Gists</h3>
     <p>Here are a few helpful repos and gists to get you started on your development journey.</p>
-    <p><a class="btn btn-default" target="_blank" href="https://github.com/jennifert/JavaScript-Demos" rel="nofollow noreferrer noopener" role="button">JavaScript demos &raquo;</a></p>
-    <p><a class="btn btn-default" target="_blank" href="https://gist.github.com/jennifert" rel="nofollow noreferrer noopener" role="button">Gists &raquo;</a></p>
+    <p><a class="btn btn-default" target="_blank" href="https://github.com/jennifert/JavaScript-Demos" rel="nofollow noreferrer noopener">JavaScript demos repo &raquo;</a></p>
+    <p><a class="btn btn-default" target="_blank" href="https://gist.github.com/jennifert" rel="nofollow noreferrer noopener">My Gists &raquo;</a></p>
   </div>
 </div>

@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
       <loc>https://jenntesolin.com</loc>
-      <lastmod>2020-10-13</lastmod>
+      <lastmod>2020-10-14</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
@@ -14,7 +14,7 @@
     
        <url>
          <loc>https://jenntesolin.com/about/</loc>
-        <lastmod>2020-10-13</lastmod>
+        <lastmod>2020-10-14</lastmod>
          <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
@@ -23,7 +23,7 @@
     
        <url>
          <loc>https://jenntesolin.com/categories/</loc>
-        <lastmod>2020-10-13</lastmod>
+        <lastmod>2020-10-14</lastmod>
          <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
@@ -57,6 +57,13 @@
   
   
   
+    
+      <url>
+         <loc>https://jenntesolin.com/blog/2020/10/14/great-apps-and-programs-for-web-development-revisted/</loc>
+        <lastmod>2020-10-14</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
     
       <url>
          <loc>https://jenntesolin.com/blog/2019/12/12/git-github/</loc>
@@ -87,8 +94,8 @@
       </url>
     
       <url>
-         <loc>https://jenntesolin.com/blog/2018/09/26/using-ios-and-android-together/</loc>
-        <lastmod>2018-09-26</lastmod>
+         <loc>https://jenntesolin.com/blog/2018/09/08/using-ios-and-android-together/</loc>
+        <lastmod>2018-09-08</lastmod>
          <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
@@ -178,6 +185,13 @@
       </url>
     
       <url>
+         <loc>https://jenntesolin.com/blog/2014/11/08/updated-raspberry-pi-media-server/</loc>
+        <lastmod>2014-11-08</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+      <url>
          <loc>https://jenntesolin.com/blog/2014/09/24/Moving-a-WordPress-Blog/</loc>
         <lastmod>2014-09-24</lastmod>
          <changefreq>monthly</changefreq>
@@ -187,13 +201,6 @@
       <url>
          <loc>https://jenntesolin.com/blog/2014/07/16/Using-DoubleTwist-iTunes-and-Android/</loc>
         <lastmod>2014-07-16</lastmod>
-         <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-      </url>
-    
-      <url>
-         <loc>https://jenntesolin.com/blog/2014/04/24/updated-raspberry-pi-media-server/</loc>
-        <lastmod>2014-04-24</lastmod>
          <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
@@ -234,6 +241,13 @@
       </url>
     
       <url>
+         <loc>https://jenntesolin.com/blog/2013/11/08/what-is-yql-and-how-to-you-use-it/</loc>
+        <lastmod>2013-11-08</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+      <url>
          <loc>https://jenntesolin.com/blog/2013/11/07/asp-net-menu-control-styling-with-bootstrap-nav/</loc>
         <lastmod>2013-11-07</lastmod>
          <changefreq>monthly</changefreq>
@@ -269,7 +283,7 @@
       </url>
     
       <url>
-         <loc>https://jenntesolin.com/blog/2013/09/05/raspbeerri-pi-list-of-projects-and-resources/</loc>
+         <loc>https://jenntesolin.com/blog/2013/09/05/raspberry-pi-list-of-projects-and-resources/</loc>
         <lastmod>2013-09-05</lastmod>
          <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -277,6 +291,13 @@
     
       <url>
          <loc>https://jenntesolin.com/blog/2013/09/05/a-look-at-raspmbc-video-streaming/</loc>
+        <lastmod>2013-09-05</lastmod>
+         <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
+    
+      <url>
+         <loc>https://jenntesolin.com/blog/2013/09/05/raspbeerri-pi-list-of-projects-and-resources/</loc>
         <lastmod>2013-09-05</lastmod>
          <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -299,13 +320,6 @@
       <url>
          <loc>https://jenntesolin.com/blog/2013/07/06/quick-tips-javascript-disable-in-firefox-23-and-a-cool-notepad-shortcut/</loc>
         <lastmod>2013-07-06</lastmod>
-         <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-      </url>
-    
-      <url>
-         <loc>https://jenntesolin.com/blog/2013/06/06/what-is-yql-and-how-to-you-use-it/</loc>
-        <lastmod>2013-06-06</lastmod>
          <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>

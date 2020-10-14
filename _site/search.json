@@ -1,6 +1,16 @@
 [
     
     {
+      "title"    : "Great apps and programs for web development",
+      "href"     : "/blog/2020/10/14/great-apps-and-programs-for-web-development-revisted/",
+      "summary"     : "Below is an updated list of different applications that you an use to create your projects in. This time, I tried to separate for paid, free, and subscriptions.This post is...",
+      "category" : ["Tip", null],
+      "tags"     : ["Apps", null],
+      "date"     : "Oct 14, 2020"
+    }
+    ,
+    
+    {
       "title"    : "Installing Git and Github on your Mac",
       "href"     : "/blog/2019/12/12/git-github/",
       "summary"     : "This post describes how to install git and github on your mac installation. There are two common ways to install. Both methods are described below. Please note the first way...",
@@ -42,11 +52,11 @@
     
     {
       "title"    : "Using iOS and Android devices together.",
-      "href"     : "/blog/2018/09/26/using-ios-and-android-together/",
+      "href"     : "/blog/2018/09/08/using-ios-and-android-together/",
       "summary"     : "Using an android in an Apple environment can be a bit tricky, but here are some tricks and resources to help you out. This post is an update to one...",
       "category" : ["Tutorial", null],
       "tags"     : ["android","iCloud","iOS", null],
-      "date"     : "Sep 26, 2018"
+      "date"     : "Sep 8, 2018"
     }
     ,
     
@@ -171,6 +181,16 @@
     ,
     
     {
+      "title"    : "Updated: Raspberry Pi Media Server",
+      "href"     : "/blog/2014/11/08/updated-raspberry-pi-media-server/",
+      "summary"     : "After trying quite a few Raspberry Pi operating systems and configurations, the new RasPlex is my choice for my home media centre. RasPlex was the best system which supports out...",
+      "category" : ["Tutorial", null],
+      "tags"     : ["plex","video streaming","Raspberri Pi", null],
+      "date"     : "Nov 8, 2014"
+    }
+    ,
+    
+    {
       "title"    : "Moving a WordPress blog",
       "href"     : "/blog/2014/09/24/Moving-a-WordPress-Blog/",
       "summary"     : "This post will describe various ways to move WordPress, either to a different server or to Jekyll. Steps to make an exact copyThis includes all plugins, theses, posts, etc. download...",
@@ -187,16 +207,6 @@
       "category" : ["Tutorial", null],
       "tags"     : ["android","iTunes", null],
       "date"     : "Jul 16, 2014"
-    }
-    ,
-    
-    {
-      "title"    : "Updated: Raspberry Pi Media Server",
-      "href"     : "/blog/2014/04/24/updated-raspberry-pi-media-server/",
-      "summary"     : "After trying quite a few Raspberry Pi operating systems and configurations, the new RasPlex is my choice for my home media centre. RasPlex was the best system which supports out...",
-      "category" : ["Tutorial", null],
-      "tags"     : ["plex","video streaming","Raspberri Pi", null],
-      "date"     : "Apr 24, 2014"
     }
     ,
     
@@ -225,7 +235,7 @@
       "href"     : "/blog/2014/03/17/setting-up-bluetooth-on-the-raspberry-pi/",
       "summary"     : "Setting up a bluetooth dongle can be quite interesting when using Raspmbc. Here is a guide on setting up.Requirements:Raspberry piBluetooth dongle (I used this one from ModMyPi)Wifi or ethernet connectedSteps:I...",
       "category" : ["Tutorial", null],
-      "tags"     : ["Raspberri Pi", null],
+      "tags"     : ["raspberry Pi", null],
       "date"     : "Mar 17, 2014"
     }
     ,
@@ -247,6 +257,16 @@
       "category" : ["Tip", null],
       "tags"     : ["Ubuntu", null],
       "date"     : "Jan 9, 2014"
+    }
+    ,
+    
+    {
+      "title"    : "What is YQL and how to you use it",
+      "href"     : "/blog/2013/11/08/what-is-yql-and-how-to-you-use-it/",
+      "summary"     : "Yahoo Explains yql as: &quot;an expressive SQL-like language that lets you query, filter, and join data across Web services. With YQL, apps run faster with fewer lines of code and a...",
+      "category" : ["Tutorial", null],
+      "tags"     : ["jquery","javascript","YQL", null],
+      "date"     : "Nov 8, 2013"
     }
     ,
     
@@ -302,7 +322,7 @@
     
     {
       "title"    : "Raspberry Pi: List of Projects and resources",
-      "href"     : "/blog/2013/09/05/raspbeerri-pi-list-of-projects-and-resources/",
+      "href"     : "/blog/2013/09/05/raspberry-pi-list-of-projects-and-resources/",
       "summary"     : "This post contains a list of resources and tips and tricks found while putting together my Raspmbc media centre.  Please note all links below are leaving this site.Raspberry PI InfoRaspberryPi.orgEquipmentQuick...",
       "category" : ["links", null],
       "tags"     : ["Raspberry Pi", null],
@@ -316,6 +336,16 @@
       "summary"     : "The Raspberry Pi Foundation described the pi as &quot;The Raspberry Pi is a credit-card sized computer that plugs into your TV and a keyboard. It’s a capable little PC which...",
       "category" : ["Tutorial", null],
       "tags"     : ["raspmbc","video streaming","Raspberry Pi", null],
+      "date"     : "Sep 5, 2013"
+    }
+    ,
+    
+    {
+      "title"    : "Raspberry Pi: List of Projects and resources",
+      "href"     : "/blog/2013/09/05/raspbeerri-pi-list-of-projects-and-resources/",
+      "summary"     : "This post contains a list of resources and tips and tricks found while putting together my Raspmbc media centre.  Please note all links below are leaving this site.Raspberry PI InfoRaspberryPi.orgEquipmentQuick...",
+      "category" : ["links", null],
+      "tags"     : ["Raspberry Pi", null],
       "date"     : "Sep 5, 2013"
     }
     ,
@@ -347,16 +377,6 @@
       "category" : ["Tip", null],
       "tags"     : ["apps", null],
       "date"     : "Jul 6, 2013"
-    }
-    ,
-    
-    {
-      "title"    : "What is YQL and how to you use it",
-      "href"     : "/blog/2013/06/06/what-is-yql-and-how-to-you-use-it/",
-      "summary"     : "Yahoo Explains yql as: &quot;an expressive SQL-like language that lets you query, filter, and join data across Web services. With YQL, apps run faster with fewer lines of code and a...",
-      "category" : ["Tutorial", null],
-      "tags"     : ["jquery","javascript","YQL", null],
-      "date"     : "Jun 6, 2013"
     }
     ,
     

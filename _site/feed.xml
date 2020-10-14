@@ -5,8 +5,70 @@
     <description>This is Jennifer Tesolin's personal web site. Located on this site are tutorials and tips for web developers.</description>
     <link>https://jenntesolin.com/</link>
     <atom:link href="https://jenntesolin.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 13 Oct 2020 18:07:38 -0400</pubDate>
-    <lastBuildDate>Tue, 13 Oct 2020 18:07:38 -0400</lastBuildDate>
+    <pubDate>Wed, 14 Oct 2020 19:50:14 -0400</pubDate>
+    <lastBuildDate>Wed, 14 Oct 2020 19:50:14 -0400</lastBuildDate>
+    
+      <item>
+        <title>Great apps and programs for web development</title>
+        <description>&lt;p&gt;Below is an updated list of different applications that you an use to create your projects in. This time, I tried to separate for paid, free, and subscriptions.&lt;/p&gt;&lt;!--more--&gt;
+&lt;p&gt;&lt;i&gt;This post is an updated version from: &lt;a href=&quot;https://jenntesolin.com/blog/2013/05/30/great-apps-and-programs-for-web-development/&quot;&gt;May 30, 2013&lt;/a&gt;.&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;Cross Platform Apps (free)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.sourcetreeapp.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Source tree &lt;/a&gt;- app to commit your source code&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://code.visualstudio.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Visual Studio Code&lt;/a&gt; - powerful text editor&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://netbeans.apache.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Netbeans&lt;/a&gt; - an IDE. Download the version based on language you typically use, or add extensions to do all types of work.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.virtualbox.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Virtual Box&lt;/a&gt;: Virtual PC creator&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cross Platform Apps (Subscription)&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;https://www.adobe.com/creativecloud.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Adobe Creative Suite&lt;/a&gt; - create/edit text, pdfs, videos, and more.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://www.jetbrains.com/phpstorm/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;PHP Storm&lt;/a&gt; - an IDE for php&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://www.jetbrains.com/webstorm/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Web Storm&lt;/a&gt;. an ide for web development (can be added as an extension to PHP Storm.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://nordvpn.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;NordVPN&lt;/a&gt;: VPN Service provider.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cross Platform Apps (paid)&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;https://cyberduck.io/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Cyberduck&lt;/a&gt; - file transfer program.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.sublimetext.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Sublime&lt;/a&gt; - text editor&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Windows Specific (free)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://notepad-plus-plus.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Notepad++&lt;/a&gt; - a slim text editor.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://winscp.net/eng/index.php&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;WinSCP&lt;/a&gt; - file transfer program.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mac Specific (paid)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.sketch.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Sketch&lt;/a&gt; - a design toolkit. After 1 year, if you want to update, you need to pay.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://affinity.serif.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Affinity Suite&lt;/a&gt; - Non subscription alternative to Adobe. Upgrades are included.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.binarynights.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Fork Lift&lt;/a&gt; - file manager and transfer client&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; Web Apps and automation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://yeoman.io/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Yeoman&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://pastebin.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Paste bin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://codesandbox.io/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Code Sandbox&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://codepen.io/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;CodePen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://sqlfiddle.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Sql Fiddle&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;iOS apps:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;JS anywhere&lt;/li&gt;
+&lt;li&gt;Draftcode&lt;/li&gt;
+&lt;li&gt;Pythonista&lt;/li&gt;
+&lt;li&gt;Textastic&lt;/li&gt;
+&lt;/ul&gt;</description>
+        <pubDate>Wed, 14 Oct 2020 16:00:00 -0400</pubDate>
+        <link>https://jenntesolin.com/blog/2020/10/14/great-apps-and-programs-for-web-development-revisted/</link>
+        <guid isPermaLink="true">https://jenntesolin.com/blog/2020/10/14/great-apps-and-programs-for-web-development-revisted/</guid>
+        
+        <category>Apps</category>
+        
+        
+        <category>Tip</category>
+        
+      </item>
     
       <item>
         <title>Installing Git and Github on your Mac</title>
@@ -475,9 +537,9 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Wed, 26 Sep 2018 00:00:00 -0400</pubDate>
-        <link>https://jenntesolin.com/blog/2018/09/26/using-ios-and-android-together/</link>
-        <guid isPermaLink="true">https://jenntesolin.com/blog/2018/09/26/using-ios-and-android-together/</guid>
+        <pubDate>Sat, 08 Sep 2018 15:00:00 -0400</pubDate>
+        <link>https://jenntesolin.com/blog/2018/09/08/using-ios-and-android-together/</link>
+        <guid isPermaLink="true">https://jenntesolin.com/blog/2018/09/08/using-ios-and-android-together/</guid>
         
         <category>android</category>
         
@@ -570,7 +632,7 @@ npm install&lt;/code&gt;
 &lt;p&gt;&lt;a href=&quot;http://net.tutsplus.com/tutorials/javascript-ajax/meeting-grunt-the-build-tool-for-javascript/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Meet Grunt: The Build Tool for JavaScript&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://web.archive.org/web/20170606003354/http://dailyjs.com/post/backbone-tutorial-1&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;DailyJS: Backbone.js Tutorial: Build Environment&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 18 Apr 2018 00:00:00 -0400</pubDate>
+        <pubDate>Wed, 18 Apr 2018 15:00:00 -0400</pubDate>
         <link>https://jenntesolin.com/blog/2018/04/18/installing-node-js-and-grunt/</link>
         <guid isPermaLink="true">https://jenntesolin.com/blog/2018/04/18/installing-node-js-and-grunt/</guid>
         
@@ -671,31 +733,6 @@ add_filter ( 'publish_post', 'email_alert' );&lt;/code&gt;
         
         
         <category>Technology</category>
-        
-      </item>
-    
-      <item>
-        <title>Top 5 additions from the console games that would improve Pokemon Go</title>
-        <description>&lt;p&gt;Pokemon Go is a great idea for a game but as someone who has played the console games in the past there are quite a few things that seem to be missing. Here is a list of concepts that I feel can help improve the game play. &lt;!--more--&gt;&lt;/p&gt;
-
-&lt;p&gt;This is just my opinion. Feel free to agree or disagree. :)&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;The Pokemon day care&lt;/strong&gt; - some people use this to level up, but most people use this game play feature to breed Pokemon to create their own eggs (pass on parent moves and IVs)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Pokemon fossils&lt;/strong&gt; at Pokestops - especially since the nearby feature is so broken. in the games you can find fossils in various ways to bring back to life extinct Pokemon. It would be great if pokestops dropped fossils similar to eggs, where you walk to bring them back to life. Would make things easier and more fun than waiting for extremely rare encounters.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;A way to have a set location as a Pokemon centre&lt;/strong&gt; - In the console games, a Pokemon Centre is set up in each city, and is a free way to heal your team without using potions. Would be neat if you can set a few locations (such as your house or work/school) as one, and if you are around this area you can click a button (say once every hour) and all of your Pokemon will be healed.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Bring Pokemon abilities into play&lt;/strong&gt; - Abilities can affect things in battle, or in other areas of the game. For example if your Pikachu has static, you will encounter more electric Pokemon, meanwhile, if your Magmar has Flame Body, your hatch eggs faster in 1/2 the time.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Allow Pokemon you have with you to fight wild Pokemon&lt;/strong&gt; -  This makes it easier to catch for example because the wild Pokemon would not be at full health, and may be sleeping or have another status condition.  In the console games, it is always suggested to leave a pokemon in the red HP wise, and have it sleeping to increase your catch rate.&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        <pubDate>Wed, 24 Aug 2016 06:12:56 -0400</pubDate>
-        <link>https://jenntesolin.com/blog/2016/08/24/top-5-console-additions-pokemon-go/</link>
-        <guid isPermaLink="true">https://jenntesolin.com/blog/2016/08/24/top-5-console-additions-pokemon-go/</guid>
-        
-        <category>PokemonGo</category>
-        
-        
-        <category>Games</category>
         
       </item>
     

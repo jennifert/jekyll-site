@@ -1,5 +1,10 @@
 Changelog
 ===========
+
+October 14, 2020:
+- New post! Slowly updating older ones. 
+- added YQL decommissioned to posts with YQL.
+
 October 13, 2020:
 - Updates to make a bit more accessible
 - Fixed Json Mime handler link to UI Press, as well as "List of Common MIME types" link in post "Creating a development environment for IIS 7+"

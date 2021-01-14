@@ -5,8 +5,8 @@
     <description>This is Jennifer Tesolin&apos;s personal web site. Located on this site are tutorials and tips for web developers.</description>
     <link>https://jenntesolin.com/</link>
     <atom:link href="https://jenntesolin.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 13 Jan 2021 19:30:32 -0500</pubDate>
-    <lastBuildDate>Wed, 13 Jan 2021 19:30:32 -0500</lastBuildDate>
+    <pubDate>Wed, 13 Jan 2021 19:50:15 -0500</pubDate>
+    <lastBuildDate>Wed, 13 Jan 2021 19:50:15 -0500</lastBuildDate>
     
       <item>
         <title>Installing Homebrew on Big Sur</title>
@@ -261,7 +261,7 @@ exec zsh&lt;/code&gt;&lt;/pre&gt;
 	A quick way to install github, is to enter the below command in your terminal using brew casks. Casks basically give yo a way to install software without the DMG files.
 &lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;brew cask install github&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;brew install --cask github&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h3&gt;Installing with DMG files&lt;/h3&gt;
 
@@ -736,7 +736,9 @@ exec zsh&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;
   &lt;em&gt;This was originally from May 8, 2013 and has been re-written for the latest version of Node and Grunt.&lt;/em&gt;
 &lt;/p&gt;
-&lt;p&gt;Step 1: Download the latest stable binary from &lt;a title=&quot;Node JS web site&quot; href=&quot;https://nodejs.org/en/download/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;nodejs.org&lt;/a&gt;. On production servers is recommended to use the latest STABLE version. The default settings will be fine.&lt;/p&gt;
+&lt;p&gt;Step 1:&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;If you installed with homebrew, skip to Proxy or Grunt step(s)&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Otherwise, Download the latest stable binary from &lt;a title=&quot;Node JS web site&quot; href=&quot;https://nodejs.org/en/download/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;nodejs.org&lt;/a&gt;. On production servers is recommended to use the latest STABLE version. The default settings will be fine.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/nodejs-home.png&quot;&gt;&lt;img alt=&quot;NodeJS.com homepage&quot; src=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/nodejs-home_thumb.png&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Step 2: Verify your path as per installer message: Make sure that &lt;strong&gt;/usr/local/bin&lt;/strong&gt; is in your $PATH.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/Screen-Shot-2013-05-07-at-9.38.02-PM.png&quot;&gt;&lt;img class=&quot;alignnone size-medium wp-image-167&quot; alt=&quot;Installer screenshot after install is successful&quot; src=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/Screen-Shot-2013-05-07-at-9.38.02-PM-300x211.png&quot; width=&quot;300&quot; height=&quot;211&quot; /&gt;&lt;/a&gt;&lt;/p&gt;

@@ -1,6 +1,16 @@
 [
     
     {
+      "title"    : "Installing Homebrew on Big Sur",
+      "href"     : "/blog/2021/01/13/mac-homebrew/",
+      "summary"     : "This post describes how to install homebrew, as as well as casks (software applications). Getting readyStep 1: Open Your Terminal program Search in launchpad or spotlight for &quot;Terminal.app&quot;Step 2: Accept...",
+      "category" : ["Tutorial","Mac_Web", null],
+      "tags"     : ["Ruby","Homebrew", null],
+      "date"     : "Jan 13, 2021"
+    }
+    ,
+    
+    {
       "title"    : "Great apps and programs for web development",
       "href"     : "/blog/2020/10/14/great-apps-and-programs-for-web-development-revisted/",
       "summary"     : "Below is an updated list of different applications that you an use to create your projects in. This time, I tried to separate for paid, free, and subscriptions.This post is...",
@@ -31,9 +41,9 @@
     ,
     
     {
-      "title"    : "Installing Homebrew and Fixing Ruby on your Mac",
+      "title"    : "Installing Homebrew and Fixing Ruby on your Mac (outdated)",
       "href"     : "/blog/2019/12/10/mac-ruby/",
-      "summary"     : "This post describes how to install homebrew, and use it to fix your Ruby install. Enable Ruby First up, let&#39;s enable Ruby. We are installing Ruby first as other items...",
+      "summary"     : "This post describes how to install homebrew, and use it to fix your Ruby install. This is an old version. Follow this link for the latest.Enable Ruby First up, let&#39;s...",
       "category" : ["Tutorial","Mac_Web", null],
       "tags"     : ["Ruby", null],
       "date"     : "Dec 10, 2019"

@@ -1,9 +1,5 @@
 Changelog
 ===========
-January 13, 2021:
-- Updated post! Installing Homebrew on a mac
-- Swapped old link for new post above
-- Updated Jekyll Version gemfile and _config.yml manually due to move to big sur.
 
 October 14, 2020:
 - New post! Slowly updating older ones. 

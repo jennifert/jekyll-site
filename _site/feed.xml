@@ -2,11 +2,184 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jennifer Tesolin</title>
-    <description>This is Jennifer Tesolin's personal web site. Located on this site are tutorials and tips for web developers.</description>
+    <description>This is Jennifer Tesolin&apos;s personal web site. Located on this site are tutorials and tips for web developers.</description>
     <link>https://jenntesolin.com/</link>
     <atom:link href="https://jenntesolin.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 14 Oct 2020 19:50:14 -0400</pubDate>
-    <lastBuildDate>Wed, 14 Oct 2020 19:50:14 -0400</lastBuildDate>
+    <pubDate>Wed, 13 Jan 2021 19:30:32 -0500</pubDate>
+    <lastBuildDate>Wed, 13 Jan 2021 19:30:32 -0500</lastBuildDate>
+    
+      <item>
+        <title>Installing Homebrew on Big Sur</title>
+        <description>&lt;p&gt;
+    This post describes how to install homebrew, as as well as casks (software applications).
+    &lt;!--more--&gt;
+&lt;/p&gt;
+&lt;h2&gt;Getting ready&lt;/h2&gt;
+&lt;p&gt;&lt;b&gt;Step 1: Open Your Terminal program&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;
+    Search in launchpad or spotlight for &quot;Terminal.app&quot;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Step 2: Accept the license agreements&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;
+    Copy and paste the below commands in your terminal. Be sure to read and accept the agreements.
+&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;xcode-select --install&lt;br&gt;sudo xcodebuild -license&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;b&gt;Step 3: Check if Ruby is installed, then update the files&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;
+    Make sure that you can run ruby from command line by typing:
+&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ruby -v&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2&gt;Install homebrew&lt;/h2&gt;
+
+&lt;p&gt;
+    Homebrew is basically a package manager for the Mac, and in this being used to fix the default Ruby version that
+    comes with the Mac. It will also be used further into the tutorial to install other development items.
+&lt;/p&gt;
+&lt;h3&gt;Copy Install Script&lt;/h3&gt;
+&lt;p&gt;
+    Go to the homebrew site (&lt;a href=&quot;https://brew.sh/&quot; rel=&quot;nofollow noreferrer noopener&quot;&gt;brew.sh&lt;/a&gt;) and check out
+    the latest download code and run in in the terminal. It should look something like this:
+&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&quot;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;!-- &lt;img src=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/homebrew-site.jpg&quot; alt=&quot;Homebrew website&quot; /&gt; --&gt;
+
+&lt;p&gt;
+    Once the install has completed, its best to run the below commands to make sure your installation is okay and has
+    the latest files.
+&lt;/p&gt;
+&lt;h3&gt;Test commands&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;brew doctor&lt;br&gt;brew update&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;h3&gt;Updating Homebrew packages&lt;/h3&gt;
+
+&lt;p&gt;
+    To update packages, you will need to run an update, and upgrade like below:
+&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;brew update&lt;br /&gt;brew upgrade&lt;/code&gt;&lt;/pre&gt;
+
+Once in awhile you may want to also clean up unneeded files by this command:
+&lt;pre&gt;&lt;code&gt;&lt;/code&gt;brew cleanup&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3&gt;Install some brew packages&lt;/h3&gt;
+&lt;p&gt;You can install a package (called Formulae) either in bulk or one at a time.&lt;/p&gt;
+&lt;p&gt;One at a time:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;brew install wget&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;Bulk:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;brew install wget node python@3&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;ffmpeg&lt;/h4&gt;
+
+&lt;p&gt;&lt;code&gt;ffmpeg&lt;/code&gt;: is a great library for converting videos, and more. I typically use on my own video files to convert or stream media files.&lt;/p&gt;
+&lt;p&gt;Default installation:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;brew tap homebrew-ffmpeg/ffmpeg
+brew install homebrew-ffmpeg/ffmpeg/ffmpeg&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Check out the homebrew github repo to see the options: &lt;a href=&quot;https://github.com/homebrew-ffmpeg/homebrew-ffmpeg/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer noopener&quot;&gt;ffmpeg Github repository&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4&gt;Mongo&lt;/h4&gt;
+&lt;p&gt;Installing the Mongo Database is similar to ffmpeg. Run the following steps:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;brew tap mongodb/brew
+brew install mongodb-community&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To run as background service:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;brew services start mongodb/brew/mongodb-community&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Run on demand (in terminal):&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;mongod --config /usr/local/etc/mongod.conf&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3&gt;Enable and Install Casks&lt;/h3&gt;
+&lt;p&gt;Casks is basically software that you can install directly from homebrew, instead of going to a site and downloading a file. I prefer casks, as it will also run a sha check (if available), and will output errors to your screen (if issues).&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;brew tap homebrew/cask-versions&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Unfortunately, I could not find a way to bulk install casks anymore, so you will need to run them one at a time. Underlined item is the cask.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;brew install --cask &lt;u&gt;firefox&lt;/u&gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;A list of great casks are below. To find more, the homebrew site has a huge database of ones available: &lt;a href=&quot;https://formulae.brew.sh/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer noopener&quot;&gt;Homebrew formulae&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For some installations, if they fail, retry after you enable it in: System Preferences → Security &amp; Privacy → General.&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;isyncr&lt;/li&gt;
+    &lt;li&gt;visual-studio&lt;/li&gt;
+    &lt;li&gt;visual-studio&lt;/li&gt;
+    &lt;li&gt;gog-galaxy&lt;/li&gt;
+    &lt;li&gt;origin&lt;/li&gt;
+    &lt;li&gt;virtualbox&lt;/li&gt;
+    &lt;li&gt;virtualbox-extension-pack&lt;/li&gt;
+    &lt;li&gt;backblaze&lt;/li&gt;
+    &lt;li&gt;backblaze-downloader&lt;/li&gt;
+    &lt;li&gt;malwarebytes&lt;/li&gt;
+    &lt;li&gt;dosbox-x&lt;/li&gt;
+    &lt;li&gt;skype&lt;/li&gt;
+    &lt;li&gt;github&lt;/li&gt;
+    &lt;li&gt;vlc&lt;/li&gt;
+    &lt;li&gt;handbrake&lt;/li&gt;
+    &lt;li&gt;iterm2&lt;/li&gt;
+    &lt;li&gt;spotify&lt;/li&gt;
+    &lt;li&gt;sequel-pro&lt;/li&gt;
+    &lt;li&gt;plexamp&lt;/li&gt;
+    &lt;li&gt;firefox&lt;/li&gt;
+    &lt;li&gt;keepassxc&lt;/li&gt;
+    &lt;li&gt;visual-studio-code&lt;/li&gt;
+    &lt;li&gt;calibre&lt;/li&gt;
+    &lt;li&gt;appcleaner&lt;/li&gt;
+    &lt;li&gt;tor-browser&lt;/li&gt;
+    &lt;li&gt;jetbrains-toolbox&lt;/li&gt;
+    &lt;li&gt;xampp&lt;/li&gt;
+    &lt;li&gt;google-chrome&lt;/li&gt;
+    &lt;li&gt;dash&lt;/li&gt;
+    &lt;li&gt;protonmail-bridge&lt;/li&gt;
+    &lt;li&gt;netbeans-php&lt;/li&gt;
+    &lt;li&gt;java (installs the openJDK)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you want to run multiple Java Versions, check out this guide: &lt;a href=&quot;https://dev.to/gabethere/installing-java-on-a-mac-using-homebrew-and-jevn-12m8&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer noopener&quot;&gt;Installing Java on a Mac using Homebrew and jevn-12m8&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Update Ruby and installed gems.&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;brew install ruby&lt;/code&gt;&lt;/pre&gt;
+
+Next, make sure you add Ruby to your shell configuration. Bellow is te shell for the default in Big Sur (fresh copy):
+
+&lt;pre&gt;&lt;code&gt;echo &apos;export PATH=&quot;/usr/local/opt/ruby/bin:$PATH&quot;&apos; &gt;&gt; ~/.zshrc&lt;br&gt;
+exec zsh&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;exec zsh&lt;/code&gt;: will restart your terminal so the path kicks in. If you do not ant to run this, simple type
+    &lt;code&gt;exit&lt;/code&gt;, then quit your terminal application. Next, restart it.
+&lt;/p&gt;
+&lt;p&gt;Next, update your ruby gems:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;gem update --system&lt;br&gt;gem update&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Or if you want to have multiple versions, follow this great digital ocean guide: &lt;a href=&quot;https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-macos&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer noopener&quot;&gt;https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-macos&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Resources&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;a href=&quot;https://brew.sh/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer noopener&quot;&gt;Homebrew homepage&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/a/58316584&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer noopener&quot;&gt;Stack Overflow
+            post: fixing Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        <pubDate>Wed, 13 Jan 2021 12:50:00 -0500</pubDate>
+        <link>https://jenntesolin.com/blog/2021/01/13/mac-homebrew/</link>
+        <guid isPermaLink="true">https://jenntesolin.com/blog/2021/01/13/mac-homebrew/</guid>
+        
+        <category>Ruby</category>
+        
+        <category>Homebrew</category>
+        
+        
+        <category>Tutorial</category>
+        
+        <category>Mac_Web</category>
+        
+      </item>
     
       <item>
         <title>Great apps and programs for web development</title>
@@ -212,7 +385,7 @@
     &lt;code&gt;feed.xml&lt;/code&gt; will have your rss feed. This generates on its own.
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;code&gt;index.md&lt;/code&gt; your site's main page.
+    &lt;code&gt;index.md&lt;/code&gt; your site&apos;s main page.
   &lt;/li&gt;
   &lt;li&gt;
     &lt;code&gt;404.html&lt;/code&gt; your sites &quot;page not found&quot; file.
@@ -350,36 +523,40 @@
       </item>
     
       <item>
-        <title>Installing Homebrew and Fixing Ruby on your Mac</title>
+        <title>Installing Homebrew and Fixing Ruby on your Mac (outdated)</title>
         <description>&lt;p&gt;
-	This post describes how to install homebrew, and use it to fix your Ruby install. &lt;!--more--&gt;
+	This post describes how to install homebrew, and use it to fix your Ruby install.
+	&lt;!--more--&gt;
 &lt;/p&gt;
-
+&lt;P&gt;&lt;b&gt;This is an old version. &lt;a href=&quot;/blog/2021/01/13/mac-homebrew/&quot;&gt;Follow this link for the latest.&lt;/a&gt;&lt;/b&gt;&lt;/P&gt;
 &lt;h3&gt;Enable Ruby&lt;/h3&gt;
 
 &lt;p&gt;
-	First up, let's enable Ruby. We are installing Ruby first as other items needed for development and installation require it.
+	First up, let&apos;s enable Ruby. We are installing Ruby first as other items needed for development and installation
+	require it.
 &lt;/p&gt;
 
 &lt;h4&gt;Step 1: Install X-code, and check to make sure that its the latest&lt;/h4&gt;
 
 &lt;p&gt;
-	To install x-Code, head over to the app store then click: &quot;categories&quot; &gt; &quot;development&quot;. It is typically near the top of the free downloads. Click the download button, then go grab a snack.... it clocks in at about 8GB so it may take awhile to download and install.
+	To install x-Code, head over to the app store then click: &quot;categories&quot; &amp;gt; &quot;development&quot;. It is typically near the
+	top of the free downloads. Click the download button, then go grab a snack.... it clocks in at about 8GB so it may
+	take awhile to download and install.
 &lt;/p&gt;
 
 &lt;p&gt;
 	If you already have it installed, make sure its up to date.
 &lt;/p&gt;
 
-&lt;h4&gt;Step 2: Accept the license agreements&lt;/h4&gt;
+&lt;h3&gt;Step 2: Accept the license agreements&lt;/h3&gt;
 
 &lt;p&gt;
-	In order to use the build tools, the licenses must be accepted. Run the below commands in your terminal (&quot;Utilities&quot; &gt; &quot;Terminal&quot;). Be sure to read and accept the agreements.
+	Copy and paste the below commands in your terminal. Be sure to read and accept the agreements.
 &lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;xcode-select --install&lt;br&gt;sudo xcodebuild -license&lt;/code&gt;&lt;/pre&gt;
 
-&lt;h4&gt;Step 3: Check if Ruby is installed, then update the files&lt;/h4&gt;
+&lt;h3&gt;Step 3: Check if Ruby is installed, then update the files&lt;/h3&gt;
 
 &lt;p&gt;
 	To check what version of Ruby you have, you will need to run the below command in the terminal:
@@ -451,6 +628,7 @@
       <item>
         <title>Setting up your Mac computer for local development and programming</title>
         <description>&lt;p&gt;Mac computers are great for programming, and many development software and Utilities are free to get set up and running. This post describes how to set up your mac for programming and web development from enabling PHP, Ruby, node and more. &lt;!--more--&gt;&lt;/p&gt;
+
 &lt;p&gt;To really understand what goes on in web development, you need to understand what goes on behind the scenes on your server environment. This would mean taking the time to install and enable the tools, servers and other things you will use by hand alongside or in place of solutions such as XAMPP or MAMP.&lt;/p&gt;
 
 &lt;!-- TODO: try to just use tag - Mac_Web to generate once all created--&gt;
@@ -474,7 +652,7 @@
 		&lt;a href=&quot;/blog/2019/12/11/Jekyll-Set-Up-Publish/&quot;&gt;Jekyll&lt;/a&gt;
 	&lt;/li&gt;
 	&lt;li&gt;
-		&lt;a href=&quot;/blog/2019/12/10/mac-ruby/&quot;&gt;Installing Homebrew and Fixing Ruby on your Mac&lt;/a&gt;
+		&lt;a href=&quot;/blog/2021/01/13/mac-homebrew/&quot;&gt;Installing Homebrew and Fixing Ruby on your Mac&lt;/a&gt;
 	&lt;/li&gt;
 	&lt;li&gt;
 		MySql/Maria DB
@@ -607,7 +785,7 @@ npm install&lt;/code&gt;
   // Default task(s).&lt;br&gt;
 &lt;br&gt;
 };&lt;/code&gt;
-&lt;p&gt;Check out the plugin's you can configure here: &lt;a href=&quot;http://gruntjs.com/sample-gruntfile&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://gruntjs.com/sample-gruntfile&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Check out the plugin&apos;s you can configure here: &lt;a href=&quot;http://gruntjs.com/sample-gruntfile&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://gruntjs.com/sample-gruntfile&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;
   My current grunt file:&lt;br /&gt;
   &lt;a href=&quot;https://gist.github.com/jennifert/9037731119d3b7200bb17229822c4fb8&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://gist.github.com/jennifert/9037731119d3b7200bb17229822c4fb8&lt;/a&gt;
@@ -619,10 +797,10 @@ npm install&lt;/code&gt;
 &lt;p&gt;&lt;strong&gt;Resources, and Additional sources used&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;For more grunt resources, check out the below.&lt;/p&gt;
 &lt;p&gt;
-  &lt;a href=&quot;https://tutsplus.com/tutorials/search/grunt&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Tutsplus.com's How-to tutorials&lt;/a&gt;
+  &lt;a href=&quot;https://tutsplus.com/tutorials/search/grunt&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Tutsplus.com&apos;s How-to tutorials&lt;/a&gt;
 &lt;/p&gt;
 &lt;p&gt;
-  &lt;a href=&quot;https://www.sitepoint.com/?s=grunt&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Sitepoint.com's How-to tutorials&lt;/a&gt;
+  &lt;a href=&quot;https://www.sitepoint.com/?s=grunt&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Sitepoint.com&apos;s How-to tutorials&lt;/a&gt;
 &lt;/p&gt;
 &lt;p&gt;
   &lt;a href=&quot;https://scotch.io/tutorials/a-simple-guide-to-getting-started-with-grunt&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;A Simple Guide to Getting Started With Grunt ― Scotch&lt;/a&gt;
@@ -685,14 +863,14 @@ npm install&lt;/code&gt;
 &lt;p&gt;The easiest way, is to use the WordPress text widget, and then paste in the campaign monitor built form code into it. To get a form, go to your list in campaign monitor, and click &quot;Grow your audience&quot;. Next, click &quot;Copy/paste a form to your site&quot;. Select the list(s) that you want, and then click generate code.  This will provide the form code to put into your blog. You can later customize the settings like confirmation, thank you note, etc.&lt;/p&gt;
 &lt;h3&gt;E-mail subscribers&lt;/h3&gt;
 &lt;p&gt;&lt;b&gt;Campaign Monitor automation (suggested)&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;When this post was first typed out, the &quot;automation&quot; functionality was not yet in Campaign Monitor. The Automation functionality in Campaign Monitor can read and parse RSS feeds. First, make sure to add the &quot;&lt;a href=&quot;https://www.campaignmonitor.com/create/rss-to-email/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;RSS to Email&quot;&lt;/a&gt; tags into your template, and &lt;a href=&quot;https://help.campaignmonitor.com/topic.aspx?t=868&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;create your list&lt;/a&gt; (as you normally would). Next &lt;a href=&quot;https://help.campaignmonitor.com/topic.aspx?t=212&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;follow Campaign Monitor's guide&lt;/a&gt; for email automation, using the list and template mentioned earlier. That's it!&lt;/p&gt;
+&lt;p&gt;When this post was first typed out, the &quot;automation&quot; functionality was not yet in Campaign Monitor. The Automation functionality in Campaign Monitor can read and parse RSS feeds. First, make sure to add the &quot;&lt;a href=&quot;https://www.campaignmonitor.com/create/rss-to-email/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;RSS to Email&quot;&lt;/a&gt; tags into your template, and &lt;a href=&quot;https://help.campaignmonitor.com/topic.aspx?t=868&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;create your list&lt;/a&gt; (as you normally would). Next &lt;a href=&quot;https://help.campaignmonitor.com/topic.aspx?t=212&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;follow Campaign Monitor&apos;s guide&lt;/a&gt; for email automation, using the list and template mentioned earlier. That&apos;s it!&lt;/p&gt;
 &lt;p&gt;This way is suggested, as its using the Campaign monitor directly, and you are not adding bulk to your theme files and site.&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;Older way (not suggested)&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;Add the &lt;a title=&quot;Campaign Monitor Wrapper for PHP&quot; href=&quot;http://campaignmonitor.github.io/createsend-php/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;api wrapper&lt;/a&gt; into the themes directory for you to be able to access the functionality. Next, use the &quot;create a draft campaign&quot; and &quot;Sending a draft campaign to send an email. This code should go into your functions.php file like below:&lt;/p&gt;
 &lt;code&gt;function email_alert()  {&lt;br&gt;
     //campaign monitor code&lt;br&gt;
 }&lt;br&gt;
-add_filter ( 'publish_post', 'email_alert' );&lt;/code&gt;
+add_filter ( &apos;publish_post&apos;, &apos;email_alert&apos; );&lt;/code&gt;
 &lt;p&gt;Resource:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://wordpress.org/support/topic/add_action-with-publish_post&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Wordpress.org support: Publish actions&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -706,33 +884,6 @@ add_filter ( 'publish_post', 'email_alert' );&lt;/code&gt;
         
         
         <category>Tip</category>
-        
-      </item>
-    
-      <item>
-        <title>Top 6 resources that you may find at your local library</title>
-        <description>&lt;p&gt;The library now has more services than just book for video lending. This post describes what can be found in the city of Toronto, Canada. Be sure to check out your cities branch as well, as some of the services described below can be found in other major Canadian (and U.S.) cities.&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;p&gt;The below is my top 6 list (in no particular order). Feel free to agree or disagree. :)&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.torontopubliclibrary.ca/lynda&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Lynda subscription:&lt;/a&gt;&lt;/strong&gt; is an online video course centre that covers a few areas of study.  Typically it would cost over 200 per year. One cravat: cannot figure out how to login from phone.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.torontopubliclibrary.ca/safari&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Safari catalog:&lt;/a&gt;&lt;/strong&gt; provides access to all of their tech books.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.torontopubliclibrary.ca/search.jsp?N=&amp;amp;Ns=p_pub_date_sort&amp;amp;Nso=0&amp;amp;Ntt=%22maker+programs%22+%2B+%22computer+%26+library+training%22&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Digital classes:&lt;/a&gt;&lt;/strong&gt; many off the Toronto libraries have classes in: DJIng, green screen, Inkscape, gimp, beginner HTML and CSS, Intro to 3D design and more. What’s pretty cool, is that they use free programs that are great alternatives to paid programs.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Speaking of 3D design, libraries have access to &lt;a href=&quot;http://www.torontopubliclibrary.ca/using-the-library/computer-services/innovation-spaces/3D-design-print.jsp&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;3D printers&lt;/a&gt;!&lt;/strong&gt; Just take one of their certification classes which are offered for free at various branches. Just be sure to take the certification class first!&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.torontopubliclibrary.ca/using-the-library/computer-services/innovation-spaces/recording-studio.jsp&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Rent a studio&lt;/a&gt; for Video or Audio production&lt;/strong&gt; Two branches has a digital recording studio complete with green screen and computers with software to edit!&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.torontopubliclibrary.ca/museum-arts-passes/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Museum and other passes:&lt;/a&gt;&lt;/strong&gt; borrow tickets to the ROM, science centre, AGO, and more. Though its first come first serve, and unfortunately, Casa Loma is not offered. The passes are good for 2 adults and up to 5 children, which can save a lot of money.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Also, whats great, is that you can use these services even if you work in Toronto, not just live. &lt;a href=&quot;http://www.torontopubliclibrary.ca/using-the-library/your-library-card/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Visit their site to see the requirements for a library card&lt;/a&gt;&lt;/p&gt;</description>
-        <pubDate>Fri, 06 Jan 2017 09:16:30 -0500</pubDate>
-        <link>https://jenntesolin.com/blog/2017/01/06/top-6-library-resources/</link>
-        <guid isPermaLink="true">https://jenntesolin.com/blog/2017/01/06/top-6-library-resources/</guid>
-        
-        <category>library</category>
-        
-        
-        <category>Technology</category>
         
       </item>
     

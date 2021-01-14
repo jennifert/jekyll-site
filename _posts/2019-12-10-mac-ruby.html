@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Installing Homebrew and Fixing Ruby on your Mac"
+title: "Installing Homebrew and Fixing Ruby on your Mac (outdated)"
 date: 2019-12-10 20:50:00
 categories:
 - Tutorial
@@ -15,34 +15,38 @@ published: true
 author: Jennifer Tesolin
 ---
 <p>
-	This post describes how to install homebrew, and use it to fix your Ruby install. <!--more-->
+	This post describes how to install homebrew, and use it to fix your Ruby install.
+	<!--more-->
 </p>
-
+<P><b>This is an old version. <a href="/blog/2021/01/13/mac-homebrew/">Follow this link for the latest.</a></b></P>
 <h3>Enable Ruby</h3>
 
 <p>
-	First up, let's enable Ruby. We are installing Ruby first as other items needed for development and installation require it.
+	First up, let's enable Ruby. We are installing Ruby first as other items needed for development and installation
+	require it.
 </p>
 
 <h4>Step 1: Install X-code, and check to make sure that its the latest</h4>
 
 <p>
-	To install x-Code, head over to the app store then click: "categories" > "development". It is typically near the top of the free downloads. Click the download button, then go grab a snack.... it clocks in at about 8GB so it may take awhile to download and install.
+	To install x-Code, head over to the app store then click: "categories" &gt; "development". It is typically near the
+	top of the free downloads. Click the download button, then go grab a snack.... it clocks in at about 8GB so it may
+	take awhile to download and install.
 </p>
 
 <p>
 	If you already have it installed, make sure its up to date.
 </p>
 
-<h4>Step 2: Accept the license agreements</h4>
+<h3>Step 2: Accept the license agreements</h3>
 
 <p>
-	In order to use the build tools, the licenses must be accepted. Run the below commands in your terminal ("Utilities" > "Terminal"). Be sure to read and accept the agreements.
+	Copy and paste the below commands in your terminal. Be sure to read and accept the agreements.
 </p>
 
 <pre><code>xcode-select --install<br>sudo xcodebuild -license</code></pre>
 
-<h4>Step 3: Check if Ruby is installed, then update the files</h4>
+<h3>Step 3: Check if Ruby is installed, then update the files</h3>
 
 <p>
 	To check what version of Ruby you have, you will need to run the below command in the terminal:

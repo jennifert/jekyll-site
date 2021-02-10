@@ -5,8 +5,8 @@
     <description>This is Jennifer Tesolin&apos;s personal web site. Located on this site are tutorials and tips for web developers.</description>
     <link>https://jenntesolin.com/</link>
     <atom:link href="https://jenntesolin.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 13 Jan 2021 19:52:27 -0500</pubDate>
-    <lastBuildDate>Wed, 13 Jan 2021 19:52:27 -0500</lastBuildDate>
+    <pubDate>Wed, 10 Feb 2021 14:13:16 -0500</pubDate>
+    <lastBuildDate>Wed, 10 Feb 2021 14:13:16 -0500</lastBuildDate>
     
       <item>
         <title>Installing Homebrew on Big Sur</title>
@@ -43,6 +43,9 @@
     Homebrew is basically a package manager for the Mac, and in this being used to fix the default Ruby version that
     comes with the Mac. It will also be used further into the tutorial to install other development items.
 &lt;/p&gt;
+&lt;img src=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1612979795/jenntesolin.com/blog/homebrew-site_mknkil.png&quot;
+    alt=&quot;Homebrew website&quot;  loading=&quot;lazy&quot; /&gt;
+
 &lt;h3&gt;Copy Install Script&lt;/h3&gt;
 &lt;p&gt;
     Go to the homebrew site (&lt;a href=&quot;https://brew.sh/&quot; rel=&quot;nofollow noreferrer noopener&quot;&gt;brew.sh&lt;/a&gt;) and check out
@@ -50,8 +53,6 @@
 &lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;/bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&quot;&lt;/code&gt;&lt;/pre&gt;
-
-&lt;!-- &lt;img src=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/homebrew-site.jpg&quot; alt=&quot;Homebrew website&quot; /&gt; --&gt;
 
 &lt;p&gt;
     Once the install has completed, its best to run the below commands to make sure your installation is okay and has
@@ -277,7 +278,7 @@ exec zsh&lt;/code&gt;&lt;/pre&gt;
 	To install the git command line tools from within the GitHub application, click on the app name &quot;GitHub Desktop&quot;, then choose &quot;Install command line tool&quot;.
 &lt;/p&gt;
 
-&lt;img src=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/github-cmd-tools.png&quot; alt=&quot;Image showing location of command line tools install on Github Desktop Application&quot; /&gt;
+&lt;img src=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1612979332/jenntesolin.com/blog/github-cmd-tools_lni0uq.png&quot; alt=&quot;Image showing location of command line tools install on Github Desktop Application&quot;  loading=&quot;lazy&quot; /&gt;
 </description>
         <pubDate>Thu, 12 Dec 2019 06:18:00 -0500</pubDate>
         <link>https://jenntesolin.com/blog/2019/12/12/git-github/</link>
@@ -360,7 +361,7 @@ exec zsh&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;
   Sample output for running &lt;code&gt;jekyll new my-site-name&lt;/code&gt;.
 &lt;/p&gt;
-&lt;img src=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/jekyll-new-cmd1.png&quot; target=&quot;Terminal output for commands to serve site&quot; /&gt;
+&lt;img src=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1612980085/jenntesolin.com/blog/jekyll-new-cmd1_t6pjkc.png&quot; target=&quot;&quot;  loading=&quot;lazy&quot; /&gt;
 
 &lt;p&gt;
   Jekyll will now generate a site in the folder &quot;&lt;code&gt;my-site-name&lt;/code&gt;&quot;.
@@ -416,7 +417,7 @@ exec zsh&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;
   Below is what the directory will look like in the terminal, as well as the ouput running the &lt;code&gt;serve&lt;/code&gt;command to preview your site locally:
 &lt;/p&gt;
-&lt;img src=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/jekyll-new-cmd2.png&quot; alt=&quot;Jekyll serve command terminal output&quot; /&gt;
+&lt;img src=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1612980085/jenntesolin.com/blog/jekyll-new-cmd2_kgpdsb.png&quot; alt=&quot;Jekyll serve command terminal output&quot;  loading=&quot;lazy&quot; /&gt;
 
 &lt;h3&gt;WordPress Import instructions (wordpress.com and self hosted)&lt;/h3&gt;
 &lt;p&gt;
@@ -440,7 +441,7 @@ exec zsh&lt;/code&gt;&lt;/pre&gt;
 
 &lt;pre&gt;&lt;code&gt;bundle exec jekyll serve --drafts&lt;/code&gt;&lt;/pre&gt;
 
-&lt;img src=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/jekyll5.png&quot; alt=&quot;Terminal screen output showing draft folder&quot;&gt;
+&lt;img src=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1612980794/jenntesolin.com/blog/jekyll-new-cmd2b_elcfqa.png&quot; alt=&quot;Terminal screen output showing draft folder&quot; loading=&quot;lazy&quot;&gt;
 
 &lt;p&gt;
   Changes can be made on the fly using this method as well. When ready to publish, move the file to &lt;code&gt;_posts&lt;/code&gt; and add a date.
@@ -462,7 +463,7 @@ exec zsh&lt;/code&gt;&lt;/pre&gt;
   The first chunk of files below shows the root of my Jekyll site, while the second shows the production ready files. Note that some files from the root of the Jekyll site are not included. These are excluded in &lt;code&gt;_config.yml&lt;/code&gt;
 &lt;/p&gt;
 
-&lt;img src=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/jekyll-build-cmd.png&quot; alt=&quot;Terminal screen output showing production folder contents&quot;&gt;
+&lt;img src=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1612980085/jenntesolin.com/blog/jekyll-new-cmd3_aie8s2.png&quot; alt=&quot;Terminal screen output showing production folder contents&quot; loading=&quot;lazy&quot;&gt;
 
 &lt;p&gt;
   Note that if you use GitHub pages, you will need to compile the files on your computer first  then commit your files to the master branch.
@@ -739,9 +740,9 @@ exec zsh&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Step 1:&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;If you installed with homebrew, skip to Proxy or Grunt step(s)&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;Otherwise, Download the latest stable binary from &lt;a title=&quot;Node JS web site&quot; href=&quot;https://nodejs.org/en/download/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;nodejs.org&lt;/a&gt;. On production servers is recommended to use the latest STABLE version. The default settings will be fine.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/nodejs-home.png&quot;&gt;&lt;img alt=&quot;NodeJS.com homepage&quot; src=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/nodejs-home_thumb.png&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;NodeJS.com homepage&quot; src=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1612981337/jenntesolin.com/blog/nodejs-home_hckxx5.png&quot; loading=&quot;lazy&quot; /&gt;&lt;/a&gt;
 &lt;p&gt;Step 2: Verify your path as per installer message: Make sure that &lt;strong&gt;/usr/local/bin&lt;/strong&gt; is in your $PATH.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/Screen-Shot-2013-05-07-at-9.38.02-PM.png&quot;&gt;&lt;img class=&quot;alignnone size-medium wp-image-167&quot; alt=&quot;Installer screenshot after install is successful&quot; src=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/Screen-Shot-2013-05-07-at-9.38.02-PM-300x211.png&quot; width=&quot;300&quot; height=&quot;211&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;alignnone size-medium wp-image-167&quot; alt=&quot;Installer screenshot after install is successful&quot; src=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1612981337/jenntesolin.com/blog/node_installer_aargfq.png&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Note: I found this Stackoverflow post useful: &lt;a href=&quot;https://stackoverflow.com/questions/42323485/set-environment-variables-on-mac-os-x-sierra#42323635&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://stackoverflow.com&lt;/a&gt;. Please note to check that the path in the installer is shown in case it differs between versions. For my install, the path was correctly set.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;USE A PROXY WITH NODE&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;If you require the use of a proxy with node, you set it with the below (this to this post &lt;a href=&quot;https://jjasonclark.com/how-to-setup-node-behind-web-proxy/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;How to setup Node.js and Npm behind a corporate web proxy&lt;/a&gt;).&lt;/p&gt;
@@ -755,7 +756,7 @@ exec zsh&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Step 2: Create a package.json file&lt;/p&gt;
 &lt;p&gt;go into your project directory, and run the below command. You can use the default settings, as the text file will be edited. My output is below.&lt;/p&gt;
 &lt;code&gt;npm init&lt;/code&gt;
-&lt;p&gt;&lt;a href=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/Screen-Shot-2013-05-07-at-10.53.38-PM.png&quot;&gt;&lt;img class=&quot;alignnone size-medium wp-image-182&quot; alt=&quot;run npm init&quot; src=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/Screen-Shot-2013-05-07-at-10.53.38-PM-300x158.png&quot; width=&quot;300&quot; height=&quot;158&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;alignnone size-medium wp-image-182&quot; alt=&quot;run npm init&quot; src=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1612981337/jenntesolin.com/blog/node-npm-init_swbv7j.png&quot;  loading=&quot;lazy&quot;  /&gt;&lt;/p&gt;
 &lt;p&gt;Open your favorite text editor, and edit the file &quot;package.json&quot; replace the text so it reads similar to the below:&lt;/p&gt;
 &lt;code&gt;{&lt;br&gt;
   &quot;name&quot;: &quot;demo-project&quot;,&lt;br&gt;
@@ -787,10 +788,9 @@ npm install&lt;/code&gt;
   // Default task(s).&lt;br&gt;
 &lt;br&gt;
 };&lt;/code&gt;
-&lt;p&gt;Check out the plugin&apos;s you can configure here: &lt;a href=&quot;http://gruntjs.com/sample-gruntfile&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://gruntjs.com/sample-gruntfile&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Check out the plugin&apos;s you can configure here: &lt;a href=&quot;http://gruntjs.com/sample-gruntfile&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Gruntjs.com&apos;s Sample Grunt File&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;
-  My current grunt file:&lt;br /&gt;
-  &lt;a href=&quot;https://gist.github.com/jennifert/9037731119d3b7200bb17229822c4fb8&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://gist.github.com/jennifert/9037731119d3b7200bb17229822c4fb8&lt;/a&gt;
+  &lt;a href=&quot;https://gist.github.com/jennifert/9037731119d3b7200bb17229822c4fb8&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;My current grunt file: From Github Gists&lt;/a&gt;
 &lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Re-install devDependencies or dependencies&lt;/strong&gt;&lt;/p&gt;

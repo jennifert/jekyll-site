@@ -221,16 +221,6 @@
     ,
     
     {
-      "title"    : "Removing cData from YQL queries",
-      "href"     : "/blog/2014/03/29/removing-cdata-from-yql-queries/",
-      "summary"     : "When pulling data from xml items using YQL and getJSON, your application will unfortunately not parse tags that have cdata. This post describe show to use the feed normalizer table...",
-      "category" : ["Tutorial", null],
-      "tags"     : ["yql", null],
-      "date"     : "Mar 29, 2014"
-    }
-    ,
-    
-    {
       "title"    : "Creating the Sticky footer with fixed navbar example with Bootstrap 3 using Emmet.IO",
       "href"     : "/blog/2014/03/28/sticky-footer-with-fixed-navbar-example-with-bootstrap-3-and-emmet/",
       "summary"     : "This post described how to use Emmet short codes to quickly create the bootstrap example: Sticky footer with fixed navbar using Bootstrap 3. Feel free to read and implement suggestions.In...",
@@ -267,16 +257,6 @@
       "category" : ["Tip", null],
       "tags"     : ["Ubuntu", null],
       "date"     : "Jan 9, 2014"
-    }
-    ,
-    
-    {
-      "title"    : "What is YQL and how to you use it",
-      "href"     : "/blog/2013/11/08/what-is-yql-and-how-to-you-use-it/",
-      "summary"     : "Yahoo Explains yql as: &quot;an expressive SQL-like language that lets you query, filter, and join data across Web services. With YQL, apps run faster with fewer lines of code and a...",
-      "category" : ["Tutorial", null],
-      "tags"     : ["jquery","javascript","YQL", null],
-      "date"     : "Nov 8, 2013"
     }
     ,
     
@@ -437,26 +417,6 @@
       "category" : ["Tip", null],
       "tags"     : ["jQuery","time picker","ASP.net","Javascript", null],
       "date"     : "May 23, 2013"
-    }
-    ,
-    
-    {
-      "title"    : "Installing Node JS and Grunt (on Mountain Lion)",
-      "href"     : "/blog/2013/05/08/installing-node-js-and-grunt-on-mountain-lion/",
-      "summary"     : "Node JS is a new generation of server side software. This tutorial focuses on installing the platform, and provides resources for using Grunt. Warning: This was originally from May 8,...",
-      "category" : ["Tutorial", null],
-      "tags"     : ["Grunt","node js", null],
-      "date"     : "May 8, 2013"
-    }
-    ,
-    
-    {
-      "title"    : "Bootstrap and Google Maps API",
-      "href"     : "/blog/2013/04/11/bootstrap-and-google-maps/",
-      "summary"     : "This post contains some information and two samples of Bootstrap (modals) and Google maps. For both samples, stack overflow posts (below under resources) were of great assistance. I hope all...",
-      "category" : ["Github", null],
-      "tags"     : ["Bootstrap","Google maps","Javascript", null],
-      "date"     : "Apr 11, 2013"
     }
     ,
     

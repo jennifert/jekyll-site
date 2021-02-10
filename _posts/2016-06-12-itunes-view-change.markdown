@@ -20,4 +20,4 @@ The latest version defaults all playlist views to “playlist”, which is fine 
 
 To change this click on “View” &gt; “View as” &gt; “Songs”. After songs is selected, you should see just a list of songs.
 
-<p><a href="https://jenntesolin.nyc3.digitaloceanspaces.com/blog/itunesView.png" target="_blank"><img src="https://jenntesolin.nyc3.digitaloceanspaces.com/blog/itunesView-Thumb.png" alt="Preview of instructions" align="middle"></a></p>
+<p><img src="https://res.cloudinary.com/dkeghqshh/image/upload/v1612983385/jenntesolin.com/blog/itunes-View-Thumb_f7aq61.png" alt="Preview of instructions" loading="lazy"></p>

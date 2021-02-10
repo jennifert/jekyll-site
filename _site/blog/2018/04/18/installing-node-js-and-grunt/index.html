@@ -6,7 +6,7 @@
     <title> Installing Node JS and Grunt - Jennifer Tesolin </title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="An update to al older post with updated Node JS and Grunt docs and set-up files.">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'"> -->
     
     <link rel="canonical" href="https://www.jenntesolin.com/blog/2018/04/18/installing-node-js-and-grunt/">
     <link type="text/plain" rel="author" href="/humans.txt" />
@@ -94,9 +94,9 @@
 <p>Step 1:</p>
 <p><b>If you installed with homebrew, skip to Proxy or Grunt step(s)</b></p>
 <p>Otherwise, Download the latest stable binary from <a title="Node JS web site" href="https://nodejs.org/en/download/" target="_blank" rel="nofollow">nodejs.org</a>. On production servers is recommended to use the latest STABLE version. The default settings will be fine.</p>
-<p><a href="https://jenntesolin.nyc3.digitaloceanspaces.com/blog/nodejs-home.png"><img alt="NodeJS.com homepage" src="https://jenntesolin.nyc3.digitaloceanspaces.com/blog/nodejs-home_thumb.png" border="0" /></a></p>
+<p><img alt="NodeJS.com homepage" src="https://res.cloudinary.com/dkeghqshh/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1612981337/jenntesolin.com/blog/nodejs-home_hckxx5.png" loading="lazy" /></a>
 <p>Step 2: Verify your path as per installer message: Make sure that <strong>/usr/local/bin</strong> is in your $PATH.</p>
-<p><a href="https://jenntesolin.nyc3.digitaloceanspaces.com/blog/Screen-Shot-2013-05-07-at-9.38.02-PM.png"><img class="alignnone size-medium wp-image-167" alt="Installer screenshot after install is successful" src="https://jenntesolin.nyc3.digitaloceanspaces.com/blog/Screen-Shot-2013-05-07-at-9.38.02-PM-300x211.png" width="300" height="211" /></a></p>
+<p><img class="alignnone size-medium wp-image-167" alt="Installer screenshot after install is successful" src="https://res.cloudinary.com/dkeghqshh/image/upload/v1612981337/jenntesolin.com/blog/node_installer_aargfq.png" loading="lazy" /></p>
 <p>Note: I found this Stackoverflow post useful: <a href="https://stackoverflow.com/questions/42323485/set-environment-variables-on-mac-os-x-sierra#42323635" target="_blank" rel="nofollow">https://stackoverflow.com</a>. Please note to check that the path in the installer is shown in case it differs between versions. For my install, the path was correctly set.</p>
 <p><strong>USE A PROXY WITH NODE</strong></p>
 <p>If you require the use of a proxy with node, you set it with the below (this to this post <a href="https://jjasonclark.com/how-to-setup-node-behind-web-proxy/" target="_blank" rel="nofollow">How to setup Node.js and Npm behind a corporate web proxy</a>).</p>
@@ -110,7 +110,7 @@
 <p>Step 2: Create a package.json file</p>
 <p>go into your project directory, and run the below command. You can use the default settings, as the text file will be edited. My output is below.</p>
 <code>npm init</code>
-<p><a href="https://jenntesolin.nyc3.digitaloceanspaces.com/blog/Screen-Shot-2013-05-07-at-10.53.38-PM.png"><img class="alignnone size-medium wp-image-182" alt="run npm init" src="https://jenntesolin.nyc3.digitaloceanspaces.com/blog/Screen-Shot-2013-05-07-at-10.53.38-PM-300x158.png" width="300" height="158" /></a></p>
+<p><img class="alignnone size-medium wp-image-182" alt="run npm init" src="https://res.cloudinary.com/dkeghqshh/image/upload/v1612981337/jenntesolin.com/blog/node-npm-init_swbv7j.png"  loading="lazy"  /></p>
 <p>Open your favorite text editor, and edit the file "package.json" replace the text so it reads similar to the below:</p>
 <code>{<br>
   "name": "demo-project",<br>
@@ -142,10 +142,9 @@ npm install</code>
   // Default task(s).<br>
 <br>
 };</code>
-<p>Check out the plugin's you can configure here: <a href="http://gruntjs.com/sample-gruntfile" target="_blank" rel="nofollow">http://gruntjs.com/sample-gruntfile</a>.</p>
+<p>Check out the plugin's you can configure here: <a href="http://gruntjs.com/sample-gruntfile" target="_blank" rel="nofollow">Gruntjs.com's Sample Grunt File</a>.</p>
 <p>
-  My current grunt file:<br />
-  <a href="https://gist.github.com/jennifert/9037731119d3b7200bb17229822c4fb8" target="_blank" rel="nofollow">https://gist.github.com/jennifert/9037731119d3b7200bb17229822c4fb8</a>
+  <a href="https://gist.github.com/jennifert/9037731119d3b7200bb17229822c4fb8" target="_blank" rel="nofollow">My current grunt file: From Github Gists</a>
 </p>
 
 <p><strong>Re-install devDependencies or dependencies</strong></p>

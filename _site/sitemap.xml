@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
       <loc>https://jenntesolin.com</loc>
-      <lastmod>2021-01-13</lastmod>
+      <lastmod>2021-02-10</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
@@ -14,7 +14,7 @@
     
        <url>
          <loc>https://jenntesolin.com/about/</loc>
-        <lastmod>2021-01-13</lastmod>
+        <lastmod>2021-02-10</lastmod>
          <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
@@ -23,7 +23,7 @@
     
        <url>
          <loc>https://jenntesolin.com/categories/</loc>
-        <lastmod>2021-01-13</lastmod>
+        <lastmod>2021-02-10</lastmod>
          <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
@@ -213,13 +213,6 @@
       </url>
     
       <url>
-         <loc>https://jenntesolin.com/blog/2014/03/29/removing-cdata-from-yql-queries/</loc>
-        <lastmod>2014-03-29</lastmod>
-         <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-      </url>
-    
-      <url>
          <loc>https://jenntesolin.com/blog/2014/03/28/sticky-footer-with-fixed-navbar-example-with-bootstrap-3-and-emmet/</loc>
         <lastmod>2014-03-28</lastmod>
          <changefreq>monthly</changefreq>
@@ -243,13 +236,6 @@
       <url>
          <loc>https://jenntesolin.com/blog/2014/01/09/quick-tip-fixing-ubuntu-12-04-network-issue/</loc>
         <lastmod>2014-01-09</lastmod>
-         <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-      </url>
-    
-      <url>
-         <loc>https://jenntesolin.com/blog/2013/11/08/what-is-yql-and-how-to-you-use-it/</loc>
-        <lastmod>2013-11-08</lastmod>
          <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
@@ -362,20 +348,6 @@
       <url>
          <loc>https://jenntesolin.com/blog/2013/05/23/jquery-time-picker-issues-and-net/</loc>
         <lastmod>2013-05-23</lastmod>
-         <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-      </url>
-    
-      <url>
-         <loc>https://jenntesolin.com/blog/2013/05/08/installing-node-js-and-grunt-on-mountain-lion/</loc>
-        <lastmod>2013-05-08</lastmod>
-         <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-      </url>
-    
-      <url>
-         <loc>https://jenntesolin.com/blog/2013/04/11/bootstrap-and-google-maps/</loc>
-        <lastmod>2013-04-11</lastmod>
          <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>

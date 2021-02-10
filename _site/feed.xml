@@ -5,8 +5,8 @@
     <description>This is Jennifer Tesolin&apos;s personal web site. Located on this site are tutorials and tips for web developers.</description>
     <link>https://jenntesolin.com/</link>
     <atom:link href="https://jenntesolin.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 10 Feb 2021 14:13:16 -0500</pubDate>
-    <lastBuildDate>Wed, 10 Feb 2021 14:13:16 -0500</lastBuildDate>
+    <pubDate>Wed, 10 Feb 2021 14:23:03 -0500</pubDate>
+    <lastBuildDate>Wed, 10 Feb 2021 14:23:03 -0500</lastBuildDate>
     
       <item>
         <title>Installing Homebrew on Big Sur</title>
@@ -581,7 +581,8 @@ exec zsh&lt;/code&gt;&lt;/pre&gt;
 
 &lt;pre&gt;&lt;code&gt;/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;&lt;/code&gt;&lt;/pre&gt;
 
-&lt;img src=&quot;https://jenntesolin.nyc3.digitaloceanspaces.com/blog/homebrew-site.jpg&quot; alt=&quot;Homebrew website&quot; /&gt;
+&lt;img src=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1612979795/jenntesolin.com/blog/homebrew-site_mknkil.png&quot;
+	alt=&quot;Homebrew website&quot; loading=&quot;lazy&quot; /&gt;
 
 &lt;p&gt;
 	Once the install has completed, its best to run the below commands to make sure your installation is okay and has the latest files.

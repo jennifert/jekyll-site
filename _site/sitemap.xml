@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
       <loc>https://jenntesolin.com</loc>
-      <lastmod>2021-02-10</lastmod>
+      <lastmod>2021-02-12</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
@@ -14,7 +14,7 @@
     
        <url>
          <loc>https://jenntesolin.com/about/</loc>
-        <lastmod>2021-02-10</lastmod>
+        <lastmod>2021-02-12</lastmod>
          <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>
@@ -23,7 +23,7 @@
     
        <url>
          <loc>https://jenntesolin.com/categories/</loc>
-        <lastmod>2021-02-10</lastmod>
+        <lastmod>2021-02-12</lastmod>
          <changefreq>monthly</changefreq>
         <priority>0.5</priority>
       </url>

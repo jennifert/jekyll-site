@@ -15,7 +15,6 @@ package-lock.json
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
-Gemfile.lock
 .rvmrc
 *.gem
 

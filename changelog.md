@@ -1,5 +1,13 @@
 Changelog
 ===========
+February 13, 2021:
+- New post! Jekyll on Digital ocean
+
+February 12, 2021:
+- Moved to Digital Ocean App Platform.
+- Added Gemlock file
+- added Ruby version to gem file 
+
 January 13, 2021:
 - Updated post! Installing Homebrew on a mac
 - Swapped old link for new post above

@@ -1,6 +1,16 @@
 [
     
     {
+      "title"    : "Jekyll Static Sites on the Digital App Platform",
+      "href"     : "/blog/2021/02/13/jekyll-on-digital-ocean/",
+      "summary"     : "This tutorial describes how to host your Jekyll static site (including plugins) on the new Digital Ocean App Platform.Requirements A github or gitlab account A Digital Ocean Account (can be...",
+      "category" : ["Tutorial", null],
+      "tags"     : ["Jekyll", null],
+      "date"     : "Feb 13, 2021"
+    }
+    ,
+    
+    {
       "title"    : "Installing Homebrew on Big Sur",
       "href"     : "/blog/2021/01/13/mac-homebrew/",
       "summary"     : "This post describes how to install homebrew, as as well as casks (software applications). Getting readyStep 1: Open Your Terminal program Search in launchpad or spotlight for &quot;Terminal.app&quot;Step 2: Accept...",

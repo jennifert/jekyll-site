@@ -5,8 +5,121 @@
     <description>This is Jennifer Tesolin&apos;s personal web site. Located on this site are tutorials and tips for web developers.</description>
     <link>https://jenntesolin.com/</link>
     <atom:link href="https://jenntesolin.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 12 Feb 2021 12:14:13 -0500</pubDate>
-    <lastBuildDate>Fri, 12 Feb 2021 12:14:13 -0500</lastBuildDate>
+    <pubDate>Sat, 13 Feb 2021 14:56:19 -0500</pubDate>
+    <lastBuildDate>Sat, 13 Feb 2021 14:56:19 -0500</lastBuildDate>
+    
+      <item>
+        <title>Jekyll Static Sites on the Digital App Platform</title>
+        <description>&lt;p&gt;This tutorial describes how to host your Jekyll static site (including plugins) on the new Digital Ocean App Platform.
+&lt;!--more--&gt;&lt;/p&gt;
+&lt;h3&gt;Requirements&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;A github or gitlab account&lt;/li&gt;
+    &lt;li&gt;A Digital Ocean Account (can be created for free)&lt;/li&gt;
+    &lt;li&gt;Your Jekyll site has a successful build on your local machine as well as your Ruby version in your GemFile&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Create your App&lt;/h3&gt;
+&lt;p&gt;The first step in creating the app, is to &lt;a href=&quot;https://www.digitalocean.com/products/app-platform/&quot; rel=&quot;nofollow noreferrer noopener&quot;&gt;access the Digital Ocean App Platform&lt;/a&gt;. Once your account you are logged into the platform, click on the &quot;Create App&quot; button as seen below.&lt;/p&gt;
+
+&lt;a href=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1613241465/jenntesolin.com/blog/jekyll-create-app-click-create-app-min_ooflmj.png&quot;&gt;&lt;img src=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1613241465/jenntesolin.com/blog/jekyll-create-app-click-create-app-min_ooflmj.png&quot;
+        loading=&quot;lazy&quot; alt=&quot;&quot; class=&quot;img-responsive&quot;&gt;&lt;/a&gt;
+
+&lt;h3&gt;Step 1: Select your source&lt;/h3&gt;
+&lt;p&gt;The App platform allows sources of github or gitlab. Choose one, and then let Digital Ocean have permission to access your repository. Make sure &quot;autodeploy&quot; is selected if you want your site updated whenever your commit code to your repository. Click &quot;next&quot; to move to the next step.&lt;/p&gt;
+&lt;a
+    href=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1613241465/jenntesolin.com/blog/jekyll-create-app-click-create-app-min_ooflmj.png&quot;&gt;&lt;img src=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1613241466/jenntesolin.com/blog/jekyll-create-app-step-1-min_cbcfzp.png&quot;
+        loading=&quot;lazy&quot; alt=&quot;&quot; class=&quot;img-responsive&quot;&gt;&lt;/a&gt;
+&lt;h3&gt;Step 2: Configure Your app&lt;/h3&gt;
+&lt;p&gt;In this section there are 3 steps you must ensure to hae a Jekyll site on the static platform:&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;Ensure static site is selected (it may default to web service)&lt;/li&gt;
+    &lt;li&gt;Ensure your build command matches is correct. If its not, click the &quot;edit&quot; button to make your changes, then &quot;close&quot; to save it.&lt;/li&gt;
+    &lt;li&gt;Make sure you update your output directory (where the files will be built&quot;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Now, click &quot;next&quot; to move to the next step.&lt;/p&gt;
+&lt;a
+    href=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1613241466/jenntesolin.com/blog/jekyll-create-app-step-2-min_iikqdw.png&quot;&gt;&lt;img
+        src=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1613241466/jenntesolin.com/blog/jekyll-create-app-step-2-min_iikqdw.png&quot;
+        loading=&quot;lazy&quot; alt=&quot;&quot; class=&quot;img-responsive&quot;&gt;&lt;/a&gt;
+&lt;h3&gt;Step 3: Name Your Static Site&lt;/h3&gt;
+&lt;p&gt;This is the name you will see on your dashboard, as well as becoming a part of what your live url will be (before a custom domain). Choose one, then click next.&lt;/p&gt;
+&lt;a
+    href=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1613241466/jenntesolin.com/blog/jekyll-create-app-step-3-min_g5hr0x.png&quot;&gt;&lt;img
+        src=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1613241466/jenntesolin.com/blog/jekyll-create-app-step-3-min_g5hr0x.png&quot;
+        loading=&quot;lazy&quot; alt=&quot;&quot; class=&quot;img-responsive&quot;&gt;&lt;/a&gt;
+&lt;h3&gt;Step 4: Finalize and Launch&lt;/h3&gt;
+&lt;p&gt;Starter plan should be selected by default, as its a static site. Make sure to select &quot;Starter plan&quot; if there is a different default selected. Finally click &quot;Launch Starter App&quot;.&lt;/p&gt;
+&lt;a
+    href=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1613241466/jenntesolin.com/blog/jekyll-create-app-step-4-min_g8jdgk.png&quot;&gt;&lt;img
+        src=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1613241466/jenntesolin.com/blog/jekyll-create-app-step-4-min_g8jdgk.png&quot;
+        loading=&quot;lazy&quot; alt=&quot;&quot; class=&quot;img-responsive&quot;&gt;&lt;/a&gt;
+&lt;h3&gt;Initial Deploy&lt;/h3&gt;
+&lt;p&gt;The page should now look similar to below that displays the current build status, as well as other information. click &quot;view logs&quot; in the build status message to see live output of your app being build.&lt;/p&gt;
+&lt;a
+    href=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1613241466/jenntesolin.com/blog/jekyll-create-app-initial-deploy-min_hod7n3.png&quot;&gt;&lt;img
+        src=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1613241466/jenntesolin.com/blog/jekyll-create-app-initial-deploy-min_hod7n3.png&quot;
+        loading=&quot;lazy&quot; alt=&quot;&quot; class=&quot;img-responsive&quot;&gt;&lt;/a&gt;
+&lt;h3&gt;Fixing a Build Error&lt;/h3&gt;
+&lt;p&gt;If your not building on a Linux machine, you may run into the error message about being on an unsupported platform.&lt;/p&gt;
+&lt;a
+    href=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1613241465/jenntesolin.com/blog/jekyll-create-app-initial-deploy-fail-log-min_ogiwk6.png&quot;&gt;&lt;img
+        src=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1613241465/jenntesolin.com/blog/jekyll-create-app-initial-deploy-fail-log-min_ogiwk6.png&quot;
+        loading=&quot;lazy&quot; alt=&quot;&quot; class=&quot;img-responsive&quot;&gt;&lt;/a&gt;
+&lt;p&gt;In the terminal, you will need to add the linux platform to your gemlock file as indicated in the instructions from the server log output. From my output, I needed to run  the below command. The image below shows the terminal output.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;bundle lock --add-platform x86_64-linux&lt;/code&gt;&lt;/pre&gt;
+&lt;a
+    href=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1613241465/jenntesolin.com/blog/jekyll-create-app-add-do-platform-bundle-min_lx2hrd.png&quot;&gt;&lt;img
+        src=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1613241465/jenntesolin.com/blog/jekyll-create-app-add-do-platform-bundle-min_lx2hrd.png&quot;
+        loading=&quot;lazy&quot; alt=&quot;&quot; class=&quot;img-responsive&quot;&gt;&lt;/a&gt;
+&lt;p&gt;Be sure to commit your changes to your remote repository. Your site should automatically start trying to build again. If you have &quot;auto deploy&quot; turned off, yu will need to manual;y deploy from the app platform interface.&lt;/p&gt;
+&lt;a
+    href=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1613241466/jenntesolin.com/blog/jekyll-create-app-redeploy-min_dnnutu.png&quot;&gt;&lt;img
+        src=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1613241466/jenntesolin.com/blog/jekyll-create-app-redeploy-min_dnnutu.png&quot;
+        loading=&quot;lazy&quot; alt=&quot;&quot; class=&quot;img-responsive&quot;&gt;&lt;/a&gt;
+&lt;p&gt;Click the &quot;view logs&quot; from the build message alert again to see the status. If it fails, (for example missing packages), be sure to add them to your bundle, then recommit your files.&lt;/p&gt;
+&lt;a
+    href=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1613241466/jenntesolin.com/blog/jekyll-create-app-redeploy-log-min_mi0lii.png&quot;&gt;&lt;img
+        src=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1613241466/jenntesolin.com/blog/jekyll-create-app-redeploy-log-min_mi0lii.png&quot;
+        loading=&quot;lazy&quot; alt=&quot;&quot; class=&quot;img-responsive&quot;&gt;&lt;/a&gt;
+&lt;p&gt;When you have a successful build, the interface will update with your live link. Click your digital ocean domain to have a look (if will be under your app name). For example, my link is: &lt;a href=&quot;https://jekyll-site-cick5.ondigitalocean.app/&quot;&gt;https://jekyll-site-cick5.ondigitalocean.app/&lt;/a&gt;&lt;/p&gt;
+&lt;a
+    href=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1613241466/jenntesolin.com/blog/jekyll-create-app-redeploy-sucess-min_qj4qp9.png&quot;&gt;&lt;img
+        src=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1613241466/jenntesolin.com/blog/jekyll-create-app-redeploy-sucess-min_qj4qp9.png&quot;
+        loading=&quot;lazy&quot; alt=&quot;&quot; class=&quot;img-responsive&quot;&gt;&lt;/a&gt;
+&lt;h3&gt;Configure your Custom Domain&lt;/h3&gt;
+&lt;p&gt;For this step, you will need to click the &quot;settings&quot; tab, then scroll down to the domains section and click the edit button.&lt;/p&gt;
+&lt;a
+    href=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1613241466/jenntesolin.com/blog/jekyll-create-app-settings-domain-configure-min_f6pwdf.png&quot;&gt;&lt;img
+        src=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1613241466/jenntesolin.com/blog/jekyll-create-app-settings-domain-configure-min_f6pwdf.png&quot;
+        loading=&quot;lazy&quot; alt=&quot;&quot; class=&quot;img-responsive&quot;&gt;&lt;/a&gt;
+&lt;p&gt;An &quot;add&quot; button will appear under your current site. Click the add button to proceed to the next step.&lt;/p&gt;
+&lt;a
+    href=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1613241465/jenntesolin.com/blog/jekyll-create-app-click-add-domain-configure-min_qvl2rj.png&quot;&gt;&lt;img
+        src=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1613241465/jenntesolin.com/blog/jekyll-create-app-click-add-domain-configure-min_qvl2rj.png&quot;
+        loading=&quot;lazy&quot; alt=&quot;&quot; class=&quot;img-responsive&quot;&gt;&lt;/a&gt;
+&lt;p&gt;You will be brought to a screen titled &quot;Add Domain&quot;. Fill in your domain name, and select how whether you want digital ocean to manage, or to add a CNAME (in my instance DNS is selected). For more information the differences check out: &lt;a href=&quot;https://www.digitalocean.com/docs/app-platform/how-to/manage-domains/&quot; rel=&quot;nofollow noreferrer noopener&quot;&gt;How to Manage Domains in App Platform&lt;/a&gt;.&lt;/p&gt;
+&lt;a
+    href=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1613241465/jenntesolin.com/blog/jekyll-create-app-assign-domain-done-min_pustuf.png&quot;&gt;&lt;img
+        src=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1613241465/jenntesolin.com/blog/jekyll-create-app-assign-domain-done-min_pustuf.png&quot;
+        loading=&quot;lazy&quot; alt=&quot;&quot; class=&quot;img-responsive&quot;&gt;&lt;/a&gt;
+&lt;p&gt;You will then be brought back to your settings in the domain section. You should now see &quot;pending&quot; for your custom domain. That&apos;s it! You just need to wait up to 72 hours to go through.&lt;/p&gt;
+&lt;h3&gt;Resources&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;https://github.com/jennifert/jekyll-site&quot; rel=&quot;nofollow noreferrer noopener&quot;&gt;My personal site&apos;s repo&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://devcenter.heroku.com/articles/ruby-versions&quot; rel=&quot;nofollow noreferrer noopener&quot;&gt;Select your Ruby Version&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://www.digitalocean.com/docs/app-platform/how-to/manage-domains/&quot;
+            rel=&quot;nofollow noreferrer noopener&quot;&gt;How to Manage Domains in App Platform&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        <pubDate>Sat, 13 Feb 2021 07:34:21 -0500</pubDate>
+        <link>https://jenntesolin.com/blog/2021/02/13/jekyll-on-digital-ocean/</link>
+        <guid isPermaLink="true">https://jenntesolin.com/blog/2021/02/13/jekyll-on-digital-ocean/</guid>
+        
+        <category>Jekyll</category>
+        
+        
+        <category>Tutorial</category>
+        
+      </item>
     
       <item>
         <title>Installing Homebrew on Big Sur</title>
@@ -856,37 +969,6 @@ npm install&lt;/code&gt;
         
         
         <category>Tutorial</category>
-        
-      </item>
-    
-      <item>
-        <title>Quick Tip: WordPress and Campaign Monitor</title>
-        <description>&lt;p&gt;Just a quick and easy way to integrate your campaign monitor list. Note: this post first appeared Apr 18, 2013, and has been updated to reflect the most recent information.&lt;!--more--&gt;&lt;/p&gt;
-&lt;h3&gt;Adding a subscribe form to your site&lt;/h3&gt;
-&lt;p&gt;The easiest way, is to use the WordPress text widget, and then paste in the campaign monitor built form code into it. To get a form, go to your list in campaign monitor, and click &quot;Grow your audience&quot;. Next, click &quot;Copy/paste a form to your site&quot;. Select the list(s) that you want, and then click generate code.  This will provide the form code to put into your blog. You can later customize the settings like confirmation, thank you note, etc.&lt;/p&gt;
-&lt;h3&gt;E-mail subscribers&lt;/h3&gt;
-&lt;p&gt;&lt;b&gt;Campaign Monitor automation (suggested)&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;When this post was first typed out, the &quot;automation&quot; functionality was not yet in Campaign Monitor. The Automation functionality in Campaign Monitor can read and parse RSS feeds. First, make sure to add the &quot;&lt;a href=&quot;https://www.campaignmonitor.com/create/rss-to-email/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;RSS to Email&quot;&lt;/a&gt; tags into your template, and &lt;a href=&quot;https://help.campaignmonitor.com/topic.aspx?t=868&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;create your list&lt;/a&gt; (as you normally would). Next &lt;a href=&quot;https://help.campaignmonitor.com/topic.aspx?t=212&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;follow Campaign Monitor&apos;s guide&lt;/a&gt; for email automation, using the list and template mentioned earlier. That&apos;s it!&lt;/p&gt;
-&lt;p&gt;This way is suggested, as its using the Campaign monitor directly, and you are not adding bulk to your theme files and site.&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;Older way (not suggested)&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;Add the &lt;a title=&quot;Campaign Monitor Wrapper for PHP&quot; href=&quot;http://campaignmonitor.github.io/createsend-php/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;api wrapper&lt;/a&gt; into the themes directory for you to be able to access the functionality. Next, use the &quot;create a draft campaign&quot; and &quot;Sending a draft campaign to send an email. This code should go into your functions.php file like below:&lt;/p&gt;
-&lt;code&gt;function email_alert()  {&lt;br&gt;
-    //campaign monitor code&lt;br&gt;
-}&lt;br&gt;
-add_filter ( &apos;publish_post&apos;, &apos;email_alert&apos; );&lt;/code&gt;
-&lt;p&gt;Resource:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://wordpress.org/support/topic/add_action-with-publish_post&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Wordpress.org support: Publish actions&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 06 Jan 2017 12:30:30 -0500</pubDate>
-        <link>https://jenntesolin.com/blog/2017/01/06/quick-tip-word-press-and-campaign-monitor/</link>
-        <guid isPermaLink="true">https://jenntesolin.com/blog/2017/01/06/quick-tip-word-press-and-campaign-monitor/</guid>
-        
-        <category>wordpress</category>
-        
-        <category>PHP</category>
-        
-        
-        <category>Tip</category>
         
       </item>
     

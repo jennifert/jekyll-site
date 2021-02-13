@@ -81,3 +81,9 @@ h1{
 .badge{
   background-color: #545454;
 }
+
+.fit-image{
+width: 100%;
+object-fit: cover;
+/* height: 300px; only if you want fixed height */
+}

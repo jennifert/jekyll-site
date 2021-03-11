@@ -5,8 +5,8 @@
     <description>This is Jennifer Tesolin&apos;s personal web site. Located on this site are tutorials and tips for web developers.</description>
     <link>https://jenntesolin.com/</link>
     <atom:link href="https://jenntesolin.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 13 Feb 2021 14:56:19 -0500</pubDate>
-    <lastBuildDate>Sat, 13 Feb 2021 14:56:19 -0500</lastBuildDate>
+    <pubDate>Thu, 11 Mar 2021 17:27:31 -0500</pubDate>
+    <lastBuildDate>Thu, 11 Mar 2021 17:27:31 -0500</lastBuildDate>
     
       <item>
         <title>Jekyll Static Sites on the Digital App Platform</title>
@@ -98,11 +98,27 @@
         src=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1613241465/jenntesolin.com/blog/jekyll-create-app-click-add-domain-configure-min_qvl2rj.png&quot;
         loading=&quot;lazy&quot; alt=&quot;&quot; class=&quot;img-responsive&quot;&gt;&lt;/a&gt;
 &lt;p&gt;You will be brought to a screen titled &quot;Add Domain&quot;. Fill in your domain name, and select how whether you want digital ocean to manage, or to add a CNAME (in my instance DNS is selected). For more information the differences check out: &lt;a href=&quot;https://www.digitalocean.com/docs/app-platform/how-to/manage-domains/&quot; rel=&quot;nofollow noreferrer noopener&quot;&gt;How to Manage Domains in App Platform&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You should first add your DNS or CNAME settings to your domain manager first, then wait 48-72 hours. Once it&apos;s populated, then add yoru custom domain. I updated everything at once, then n, and had to delete in the app platform, then re-add once everything was populated.&lt;/p&gt;
 &lt;a
     href=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1613241465/jenntesolin.com/blog/jekyll-create-app-assign-domain-done-min_pustuf.png&quot;&gt;&lt;img
         src=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1613241465/jenntesolin.com/blog/jekyll-create-app-assign-domain-done-min_pustuf.png&quot;
         loading=&quot;lazy&quot; alt=&quot;&quot; class=&quot;img-responsive&quot;&gt;&lt;/a&gt;
-&lt;p&gt;You will then be brought back to your settings in the domain section. You should now see &quot;pending&quot; for your custom domain. That&apos;s it! You just need to wait up to 72 hours to go through.&lt;/p&gt;
+&lt;p&gt;You will then be brought back to your settings in the domain section. You should now see &quot;pending&quot; for your custom domain. It will take about 24 hours for the app platform to configure the rest.&lt;/p&gt;
+&lt;p&gt;Once it successfully configures, you will see a success message and log details (if you click view more). &lt;/p&gt;
+&lt;a
+    href=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1615501159/jenntesolin.com/blog/jekyll-domain-success-primary_nz82gu.png&quot;&gt;&lt;img
+        src=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1615501159/jenntesolin.com/blog/jekyll-domain-success-primary_nz82gu.png&quot;
+        loading=&quot;lazy&quot; alt=&quot;&quot; class=&quot;img-responsive&quot;&gt;&lt;/a&gt;
+&lt;p&gt;Once you see &quot;Active&quot; as your status, repeat the steps to add &quot;www&quot; as a sub-domain (as seen below):&lt;/p&gt;
+&lt;a
+    href=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1615501159/jenntesolin.com/blog/jekyll-add-subdomain_b3eyds.png&quot;&gt;&lt;img
+        src=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1615501159/jenntesolin.com/blog/jekyll-add-subdomain_b3eyds.png&quot;
+        loading=&quot;lazy&quot; alt=&quot;&quot; class=&quot;img-responsive&quot;&gt;&lt;/a&gt;
+&lt;p&gt;That&apos;s it! You should now just need to wait for the domain to update.&lt;/p&gt;
+&lt;a
+    href=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1615501159/jenntesolin.com/blog/jekyll-subdomain-pending_iwwzw5.png&quot;&gt;&lt;img
+        src=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1615501159/jenntesolin.com/blog/jekyll-subdomain-pending_iwwzw5.png&quot;
+        loading=&quot;lazy&quot; alt=&quot;&quot; class=&quot;img-responsive&quot;&gt;&lt;/a&gt;
 &lt;h3&gt;Resources&lt;/h3&gt;
 &lt;ul&gt;
     &lt;li&gt;&lt;a href=&quot;https://github.com/jennifert/jekyll-site&quot; rel=&quot;nofollow noreferrer noopener&quot;&gt;My personal site&apos;s repo&lt;/a&gt;&lt;/li&gt;
@@ -110,9 +126,9 @@
     &lt;li&gt;&lt;a href=&quot;https://www.digitalocean.com/docs/app-platform/how-to/manage-domains/&quot;
             rel=&quot;nofollow noreferrer noopener&quot;&gt;How to Manage Domains in App Platform&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-        <pubDate>Sat, 13 Feb 2021 07:34:21 -0500</pubDate>
-        <link>https://jenntesolin.com/blog/2021/02/13/jekyll-on-digital-ocean/</link>
-        <guid isPermaLink="true">https://jenntesolin.com/blog/2021/02/13/jekyll-on-digital-ocean/</guid>
+        <pubDate>Thu, 11 Mar 2021 12:23:21 -0500</pubDate>
+        <link>https://jenntesolin.com/blog/2021/03/11/jekyll-on-digital-ocean/</link>
+        <guid isPermaLink="true">https://jenntesolin.com/blog/2021/03/11/jekyll-on-digital-ocean/</guid>
         
         <category>Jekyll</category>
         

@@ -1,5 +1,10 @@
 Changelog
 ===========
+March 11, 2021:
+- Changed post date to today due to site issues. 
+- updated Jekyll on Digital ocean post to add steps to help with sub domain.
+- updated npm and bundle packages.
+
 February 13, 2021:
 - New post! Jekyll on Digital ocean
 

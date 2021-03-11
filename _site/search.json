@@ -2,11 +2,11 @@
     
     {
       "title"    : "Jekyll Static Sites on the Digital App Platform",
-      "href"     : "/blog/2021/02/13/jekyll-on-digital-ocean/",
+      "href"     : "/blog/2021/03/11/jekyll-on-digital-ocean/",
       "summary"     : "This tutorial describes how to host your Jekyll static site (including plugins) on the new Digital Ocean App Platform.Requirements A github or gitlab account A Digital Ocean Account (can be...",
       "category" : ["Tutorial", null],
       "tags"     : ["Jekyll", null],
-      "date"     : "Feb 13, 2021"
+      "date"     : "Mar 11, 2021"
     }
     ,
     

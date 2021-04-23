@@ -1,14 +1,12 @@
 /* TEAM */
 Developer: Jennifer Tesolin
 Site: me@jenntesolin.com
-Twitter: jenntes
 Github: jennifert
-Location: America/Toronto
 
 /* SITE */
-Last update: 2021-04-22 21:01:54 -0400
+Last update: 2021-04-23 16:04:46 -0400
 Language:English
 DocType: HTML5
 Standards: HTML5, CSS
 Components: Jekyll, NPM Build Scripts, jQuery, Bootstrap 3.7
-Software: Atom, Github Desktop and Hooks, Affinity Photo
+Software: Atom, Sketch, Affinity Photo

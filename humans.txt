@@ -4,9 +4,7 @@ layout: null
 /* TEAM */
 Developer: {{ site.author.name }}
 Site: {{ site.author.email }}
-Twitter: {{ site.author.twitter }}
 Github: {{ site.author.github }}
-Location: {{ site.timezone }}
 
 /* SITE */
 Last update: {{ site.time }}
@@ -14,4 +12,4 @@ Language:English
 DocType: HTML5
 Standards: HTML5, CSS
 Components: Jekyll, NPM Build Scripts, jQuery, Bootstrap 3.7
-Software: Atom, Github Desktop and Hooks, Affinity Photo
+Software: Atom, Sketch, Affinity Photo

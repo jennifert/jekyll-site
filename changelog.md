@@ -1,5 +1,10 @@
 Changelog
 ===========
+
+April 22, 2021:
+- Updated bundles and npm
+- Fixed some older posts - added missing content
+
 March 11, 2021:
 - Changed post date to today due to site issues. 
 - updated Jekyll on Digital ocean post to add steps to help adding domain, then adding subdomain.

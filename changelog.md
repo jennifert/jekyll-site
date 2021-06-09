@@ -1,12 +1,16 @@
 Changelog
 ===========
 
+June 08, 2021:
+- Fixed links from older post
+
 April 22, 2021:
 - Updated bundles and npm
-- Fixed some older posts - added missing content
+- Fixed some older posts
+- added missing content
 
 March 11, 2021:
-- Changed post date to today due to site issues. 
+- Changed post date to today due to site issues.
 - updated Jekyll on Digital ocean post to add steps to help adding domain, then adding subdomain.
 - updated npm and bundle packages.
 
@@ -16,7 +20,7 @@ February 13, 2021:
 February 12, 2021:
 - Moved to Digital Ocean App Platform.
 - Added Gemlock file
-- added Ruby version to gem file 
+- added Ruby version to gem file
 
 January 13, 2021:
 - Updated post! Installing Homebrew on a mac
@@ -24,7 +28,7 @@ January 13, 2021:
 - Updated Jekyll Version gemfile and _config.yml manually due to move to big sur.
 
 October 14, 2020:
-- New post! Slowly updating older ones. 
+- New post! Slowly updating older ones.
 - added YQL decommissioned to posts with YQL.
 
 October 13, 2020:

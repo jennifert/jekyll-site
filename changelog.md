@@ -1,8 +1,13 @@
 Changelog
 ===========
+July 06, 2021:
+- Fixed links from older post
+
+July 05, 2021:
+- Fixed links from older post
 
 June 08, 2021:
-- Fixed links from older post
+- Fixed links from older posts
 
 April 22, 2021:
 - Updated bundles and npm

@@ -201,7 +201,7 @@
     ,
     
     {
-      "title"    : "Updated: Raspberry Pi Media Server",
+      "title"    : "Using Rasplex for your Media Server",
       "href"     : "/blog/2014/11/08/updated-raspberry-pi-media-server/",
       "summary"     : "After trying quite a few Raspberry Pi operating systems and configurations, the new RasPlex is my choice for my home media centre. RasPlex was the best system which supports out...",
       "category" : ["Tutorial", null],
@@ -233,7 +233,7 @@
     {
       "title"    : "Creating the Sticky footer with fixed navbar example with Bootstrap 3 using Emmet.IO",
       "href"     : "/blog/2014/03/28/sticky-footer-with-fixed-navbar-example-with-bootstrap-3-and-emmet/",
-      "summary"     : "This post described how to use Emmet short codes to quickly create the bootstrap example: Sticky footer with fixed navbar using Bootstrap 3. Feel free to read and implement suggestions.In...",
+      "summary"     : "This post described how to use Emmet short codes to quickly create the bootstrap example: Sticky footer with fixed navbar using Bootstrap 3. Feel free to read and implement suggestions.Step...",
       "category" : ["Tutorial", null],
       "tags"     : ["Bootstrap","emmet", null],
       "date"     : "Mar 28, 2014"
@@ -243,7 +243,7 @@
     {
       "title"    : "Setting up Bluetooth on the raspberry pi",
       "href"     : "/blog/2014/03/17/setting-up-bluetooth-on-the-raspberry-pi/",
-      "summary"     : "Setting up a bluetooth dongle can be quite interesting when using Raspmbc. Here is a guide on setting up.Requirements:Raspberry piBluetooth dongle (I used this one from ModMyPi)Wifi or ethernet connectedSteps:I...",
+      "summary"     : "Setting up a bluetooth dongle can be quite interesting when using Raspmbc. Here is a guide on setting up.Requirements:Raspberry piBluetooth dongleWifi or ethernet connectedSteps:I found the following guide very helpful,...",
       "category" : ["Tutorial", null],
       "tags"     : ["raspberry Pi", null],
       "date"     : "Mar 17, 2014"
@@ -303,7 +303,7 @@
     {
       "title"    : "Bootstrap 3 and Google Maps",
       "href"     : "/blog/2013/11/05/bootstrap-3-and-google-maps/",
-      "summary"     : "There are changes in Bootstrap 3 that stops Google maps from displaying correctly in modals, or tabs.  New demos have been created to show to to utilize in your code.Single...",
+      "summary"     : "Notes: This is an update to the older post using Bootstrap 2 with Google Maps. This post is outdated, and is in the queue for an overhaul. Check out github...",
       "category" : ["Tutorial", null],
       "tags"     : ["Bootstrap","Google maps","Javascript", null],
       "date"     : "Nov 5, 2013"

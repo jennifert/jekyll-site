@@ -35,11 +35,11 @@ Since our folder is created, lets go ahead and relocate the server to use that!
 Go in to the Default Web site and click: <code>Default Web Site > Manage Web Sites > Advanced Settings > Physical Path</code> Modify the path to be at the location you created at the top of this step.
 
 ### Install PHP
-Go back onto the "Turn Windows Features on or off" menu and  Expand "Application Development Features" and then enable the "CGI" check box.
+Go back into the "Turn Windows Features on or off" menu, then expand the category "Application Development Features". Finally, enable the "CGI" check box.
 
 Download the latest stable version for PHP (Non Thread Safe) and unzip into a directory so that the path is similar to: <code>c:\PHP5</code>
 
-Next, rename "php.ini-production" tp "php.ini". Open the file, and edit to match the items below:
+Next, rename "php.ini-production" to "php.ini". Open the file, and edit to match the items below:
 
 <code>extension_dir = "C:\PHP5\ext"<br>
 log_errors = On<br>
@@ -56,10 +56,10 @@ Now, in the IIS manager, left click once on your server name, and then select "H
 
 Click <code>Actions > Add Module Mapping</code> and then enter the following:
 
-<code>Request path: *.php<br>
-Module: FastCgiModule<br>
-Executable: c:\PHP5\php-cgi.exe<br>
-Name: PHP_via_FastCGI</code>
+<p>Request path: <kbd>*.php</kbd><br>
+Module: <kbd>FastCgiModule</kbd><br>
+Executable: <kbd>c:\PHP5\php-cgi.exe</kbd><br>
+Name: <kbd>PHP_via_FastCGI</kbd></p>
 
 In the same Window, Click <code>Request Restrictions > Mapping</code>. Next, check off "invoke handler only if request is mapped to", then click "File or Folder". Now, click  "OK" in all dialog boxes to accept changes.
 
@@ -86,7 +86,7 @@ Lastly, create a mysql user and database. Be sure to use a strong password here 
 ### Install the URL rewrite plug-in for IIS. Then restart server
 Go to the [Microsoft Site](http://www.iis.net/downloads/microsoft/url-rewrite) to download the latest version.
 
-The step will allow you to use "Pretty URLs" on your blog.
+This step will allow you to use "Pretty URLs" on your blog.
 
 ### Download and install WordPress
 [WordPress.org](http://wordpress.org/download/) always has the latest versions (4.1.1 at the time of writing). Also, check out the [translations](https://make.wordpress.org/polyglots/teams/) to download WordPress in your language, though some of these ay not be the latest.
@@ -127,7 +127,7 @@ If they are not above, they may be mentioned at: [List of Common MIME types](htt
 
 ### Resources
 + [How do I change permissions on wwwroot](http://stackoverflow.com/a/4920620)
-+ [PHP.net Installation Docs](http://php.net/manual/en/install.windows.iis7.php)
++ [PHP.net Installation Docs](https://web.archive.org/web/20160401063938/http://php.net/manual/en/install.windows.iis7.php)
 + [Security Recommendations](http://www.iis.net/learn/application-frameworks/install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis#PHP_Security_Recommendations_)
 + [WordPress: Editing wp.config.php](http://codex.wordpress.org/Editing_wp-config.php)
 + [How to Set Up SSL on IIS 7](https://docs.microsoft.com/en-us/iis/manage/configuring-security/how-to-set-up-ssl-on-iis)

@@ -101,19 +101,23 @@
   <li>baseurl: As the official docs put it “serves the site from specified URL”. Do NOT include your host name.</li>
   <li>url: the url of your blog</li>
   <li>timezone: What time zone your in. Be sure to use a format such as: America/Toronto, or America/New_York.</li>
+  <li>plugins: Any plugins that the site uses.</li>
 </ul>
 
 <h3 id="build-settings">Build Settings</h3>
 
-<p>This section will tell Jekyll how to and what files to sue to generate your production site.</p>
+<p>This section will tell Jekyll how to and what files to use to generate your production site.</p>
 
 <ul>
   <li>exclude:  this section tells Jekyll what not to include in your build. Format is: [file1, file2]</li>
-  <li>markdown: Which markdown flavor you will use with your site</li>
+  <li>markdown: Which markdown flavour you will use with your site</li>
   <li>markdown_ext:  file extensions you may use for markdown files.</li>
   <li>permalink: what your website links will look like. For example: /blog/:year/:month/:day/:title/</li>
   <li>paginate: how many articles do you want to see per page (as an integer number)</li>
   <li>paginate_path: what site link format your paginated results will be. In format: “blog/page:num”</li>
+  <li>gems: Jekyll specific gems included in the build file.</li>
+  <li>names: your site name</li>
+  <li>feed path: location of rss/atom file</li>
 </ul>
 
 <h3 id="author-information">Author information</h3>
@@ -128,7 +132,7 @@
 &nbsp;&nbsp;&nbsp;twitter : jenntes</code></p>
 
 <h3 id="issues-encountered">Issues encountered</h3>
-<p>Unfortunately, it seems like new elements can not be created and used in other files. For example, when converting this site to Jekyll, I was unable add other social network item I entered under the author section to then use the links in the footer include and humans.txt file.</p>
+<p>Unfortunately, it seems like new elements can not be created and used in other files. For example, when converting this site to Jekyll, I was unable add other social network item I entered under the author section to then use the links in the include/footer.html and humans.txt file.</p>
 
 <h3 id="additional-information-and-elements">Additional information and elements</h3>
 

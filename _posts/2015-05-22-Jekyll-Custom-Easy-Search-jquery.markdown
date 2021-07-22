@@ -17,10 +17,10 @@ author: Jennifer Tesolin
 
 Jekyll is a great tool to build web sites, unfortunately there is no built in search. This post will describe how to create one a basic search using JSON and jQuery.<!--more-->
 
-This search works great for users using your site to search (like the one above this post). Unfortunately, with this method, Google does not understand that this is a site search. If having your search show up in Google results, this may not be for you. 
+This search works great for users using your site to search (like the one above this post). Unfortunately, with this method, Google does not understand that this is a site search. If having your search show up in Google results, this may not be for you.
 
 ### Step 1: Create search.json
-There are quite a few methods to create a search.json file. For me, I wanted to use built in Jekyll methods (no plugins). For that, I based the code from [JSONify your Jekyll Site](http://jekyllsnippets.com/excluding-jsonify-your-site/) as well as other aspects of my site. The new code will look for attributes in my post like this sample from my drafts template: 
+There are quite a few methods to create a search.json file. For me, I wanted to use built in Jekyll methods (no plugins). For that, I based the code from [JSONify your Jekyll Site](https://web.archive.org/web/20180428084131/http://jekyllsnippets.com/excluding-jsonify-your-site/) as well as other aspects of my site. The new code will look for attributes in my post like this sample from my drafts template:
 
 <script src="https://gist.github.com/jennifert/db65203ca69138aefd9b.js"></script>
 
@@ -34,7 +34,7 @@ Next, we need to update the search form :
 
 <script src="https://gist.github.com/jennifert/87d3263c84d6c0d537f8.js"></script>
 
-### Step 3: Create your search.json page
+### Step 3: Create your search.html page
 
 Thirdly, we need to create a basic html page that basically has our title, and a div to hold the jQuery results. Here is the code:
 
@@ -53,14 +53,14 @@ To query the search.json, I used jQuery's <code>getJSON</code> method. For this,
 #### Function 2:
 <script src="https://gist.github.com/jennifert/2464a76ee1a83da91534.js"></script>
 
-This wrapped up the post on how to easily add a search to your Jekyll site.
+This wraps up the post on how to easily add a search to your Jekyll site.
 
 ### Resources
 
 Below are other search alternatives, and built in jQuery code that helped in my development.
 
-+ [Using Jekyll and GitHub Pages for Our Site](https://developmentseed.org/blog/2011/09/09/jekyll-github-pages/)
++ [Using Jekyll and GitHub Pages for Our Site](https://medium.com/devseed/using-jekyll-and-github-pages-for-our-site-a0267edf27fa)
 + [Stack overflow: How do I loop through tags](http://stackoverflow.com/questions/11887929/how-do-i-loop-through-tags-in-a-jekyll-post)
-+ [jQuery Full-Text Indexing on Jekyll](http://www.marran.com/tech/jquery-full-text-indexing-on-jekyll)
-+ [Search a Jekyll Blog With Typeahead.js](http://danreev.es/posts/jekyll-search-with-typeahead/)
-+ [JSONify your Jekyll Site](http://jekyllsnippets.com/excluding-jsonify-your-site/)
++ [jQuery Full-Text Indexing on Jekyll](https://web.archive.org/web/20180322140444/http://www.marran.com/tech/jquery-full-text-indexing-on-jekyll)
++ [Search a Jekyll Blog With Typeahead.js](https://danreev.es/writing/jekyll-search-with-typeahead-js)
++ [JSONify your Jekyll Site](https://web.archive.org/web/20180428084131/https://jekyllsnippets.com/excluding-jsonify-your-site/)

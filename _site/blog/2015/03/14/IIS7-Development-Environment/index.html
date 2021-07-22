@@ -106,11 +106,11 @@
 <p>Go in to the Default Web site and click: <code>Default Web Site &gt; Manage Web Sites &gt; Advanced Settings &gt; Physical Path</code> Modify the path to be at the location you created at the top of this step.</p>
 
 <h3 id="install-php">Install PHP</h3>
-<p>Go back onto the “Turn Windows Features on or off” menu and  Expand “Application Development Features” and then enable the “CGI” check box.</p>
+<p>Go back into the “Turn Windows Features on or off” menu, then expand the category “Application Development Features”. Finally, enable the “CGI” check box.</p>
 
 <p>Download the latest stable version for PHP (Non Thread Safe) and unzip into a directory so that the path is similar to: <code>c:\PHP5</code></p>
 
-<p>Next, rename “php.ini-production” tp “php.ini”. Open the file, and edit to match the items below:</p>
+<p>Next, rename “php.ini-production” to “php.ini”. Open the file, and edit to match the items below:</p>
 
 <p><code>extension_dir = "C:\PHP5\ext"<br />
 log_errors = On<br />
@@ -127,10 +127,10 @@ post_max_size = 8M[change 8M to what you want to upload in WordPress]</code></p>
 
 <p>Click <code>Actions &gt; Add Module Mapping</code> and then enter the following:</p>
 
-<p><code>Request path: *.php<br />
-Module: FastCgiModule<br />
-Executable: c:\PHP5\php-cgi.exe<br />
-Name: PHP_via_FastCGI</code></p>
+<p>Request path: <kbd>*.php</kbd><br />
+Module: <kbd>FastCgiModule</kbd><br />
+Executable: <kbd>c:\PHP5\php-cgi.exe</kbd><br />
+Name: <kbd>PHP_via_FastCGI</kbd></p>
 
 <p>In the same Window, Click <code>Request Restrictions &gt; Mapping</code>. Next, check off “invoke handler only if request is mapped to”, then click “File or Folder”. Now, click  “OK” in all dialog boxes to accept changes.</p>
 
@@ -157,7 +157,7 @@ extension=php_mysqli.dll</code></p>
 <h3 id="install-the-url-rewrite-plug-in-for-iis-then-restart-server">Install the URL rewrite plug-in for IIS. Then restart server</h3>
 <p>Go to the <a href="http://www.iis.net/downloads/microsoft/url-rewrite">Microsoft Site</a> to download the latest version.</p>
 
-<p>The step will allow you to use “Pretty URLs” on your blog.</p>
+<p>This step will allow you to use “Pretty URLs” on your blog.</p>
 
 <h3 id="download-and-install-wordpress">Download and install WordPress</h3>
 <p><a href="http://wordpress.org/download/">WordPress.org</a> always has the latest versions (4.1.1 at the time of writing). Also, check out the <a href="https://make.wordpress.org/polyglots/teams/">translations</a> to download WordPress in your language, though some of these ay not be the latest.</p>
@@ -201,7 +201,7 @@ At the root: <code>http://localhost/wp-admin/install.php</code></p>
 <h3 id="resources">Resources</h3>
 <ul>
   <li><a href="http://stackoverflow.com/a/4920620">How do I change permissions on wwwroot</a></li>
-  <li><a href="http://php.net/manual/en/install.windows.iis7.php">PHP.net Installation Docs</a></li>
+  <li><a href="https://web.archive.org/web/20160401063938/http://php.net/manual/en/install.windows.iis7.php">PHP.net Installation Docs</a></li>
   <li><a href="http://www.iis.net/learn/application-frameworks/install-and-configure-php-applications-on-iis/using-fastcgi-to-host-php-applications-on-iis#PHP_Security_Recommendations_">Security Recommendations</a></li>
   <li><a href="http://codex.wordpress.org/Editing_wp-config.php">WordPress: Editing wp.config.php</a></li>
   <li><a href="https://docs.microsoft.com/en-us/iis/manage/configuring-security/how-to-set-up-ssl-on-iis">How to Set Up SSL on IIS 7</a></li>

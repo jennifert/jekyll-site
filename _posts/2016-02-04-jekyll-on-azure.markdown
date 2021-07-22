@@ -41,7 +41,7 @@ project = _site</code>
 
 [.deployment Gist Sample](https://gist.github.com/jennifert/24cae4c07a69fe6be9207b578b1c7e2b)
 
-Also, I have a [web.config](https://gist.github.com/jennifert/27e1c3e587e64fb75149f1bb3b1b340c) file set up to read JSON, media and font file media types. Alternatively, you can check out this list of [common MIME types](http://www.serverintellect.com/support/iis/mime-types/).
+Also, I have a [web.config](https://gist.github.com/jennifert/27e1c3e587e64fb75149f1bb3b1b340c) file set up to read JSON, media and font file media types. Alternatively, you can check out this list of [common MIME types](https://web.archive.org/web/20170917212327/http://www.serverintellect.com/support/iis/mime-types/).
 
 To set-up your host, head on over to the [Azure site](https://azure.microsoft.com/en-us/free/) and click "Start now". This will bring you to a sign in page which will require you to sign up with your Microsoft Account (Outlook, Hotmail, etc.).
 

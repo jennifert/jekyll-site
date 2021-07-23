@@ -1,6 +1,10 @@
 Changelog
 ===========
 July 21, 2021:
+- fixed older blog links
+- fixed spelling  and grammar.
+
+July 21, 2021:
 - Re-section _config.yaml into 3 sections
 - fixed older blog links
 - fixed spelling  and grammar.

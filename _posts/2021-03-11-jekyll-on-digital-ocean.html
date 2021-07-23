@@ -6,7 +6,7 @@ categories:
 - Tutorial
 tags:
 - Jekyll
-summary: This tutorial describes how to host your Jekyll static site (including plugins) on the new Digital Ocean App Platform. 
+summary: This tutorial describes how to host your Jekyll static site (including plugins) on the new Digital Ocean App Platform.
 status: post
 type: post
 published: true
@@ -15,13 +15,13 @@ author: Jennifer Tesolin
 
 <p>This tutorial describes how to host your Jekyll static site (including plugins) on the new Digital Ocean App Platform.
 <!--more--></p>
-<h3>Requirements</h3>
+<h2>Requirements</h2>
 <ul>
     <li>A github or gitlab account</li>
     <li>A Digital Ocean Account (can be created for free)</li>
     <li>Your Jekyll site has a successful build on your local machine as well as your Ruby version in your GemFile</li>
 </ul>
-<h3>Create your App</h3>
+<h2>Create your App</h2>
 <p>The first step in creating the app, is to <a href="https://www.digitalocean.com/products/app-platform/" rel="nofollow noreferrer noopener">access the Digital Ocean App Platform</a>. Once your account you are logged into the platform, click on the "Create App" button as seen below.</p>
 
 <a href="https://res.cloudinary.com/dkeghqshh/image/upload/v1613241465/jenntesolin.com/blog/jekyll-create-app-click-create-app-min_ooflmj.png"><img src="https://res.cloudinary.com/dkeghqshh/image/upload/v1613241465/jenntesolin.com/blog/jekyll-create-app-click-create-app-min_ooflmj.png"
@@ -37,7 +37,7 @@ author: Jennifer Tesolin
 <ol>
     <li>Ensure static site is selected (it may default to web service)</li>
     <li>Ensure your build command matches is correct. If its not, click the "edit" button to make your changes, then "close" to save it.</li>
-    <li>Make sure you update your output directory (where the files will be built"</li>
+    <li>Make sure you update your output directory (where the files will be built).</li>
 </ol>
 <p>Now, click "next" to move to the next step.</p>
 <a
@@ -56,13 +56,13 @@ author: Jennifer Tesolin
     href="https://res.cloudinary.com/dkeghqshh/image/upload/v1613241466/jenntesolin.com/blog/jekyll-create-app-step-4-min_g8jdgk.png"><img
         src="https://res.cloudinary.com/dkeghqshh/image/upload/v1613241466/jenntesolin.com/blog/jekyll-create-app-step-4-min_g8jdgk.png"
         loading="lazy" alt="" class="img-responsive"></a>
-<h3>Initial Deploy</h3>
+<h2>Initial Deploy</h2>
 <p>The page should now look similar to below that displays the current build status, as well as other information. click "view logs" in the build status message to see live output of your app being build.</p>
 <a
     href="https://res.cloudinary.com/dkeghqshh/image/upload/v1613241466/jenntesolin.com/blog/jekyll-create-app-initial-deploy-min_hod7n3.png"><img
         src="https://res.cloudinary.com/dkeghqshh/image/upload/v1613241466/jenntesolin.com/blog/jekyll-create-app-initial-deploy-min_hod7n3.png"
         loading="lazy" alt="" class="img-responsive"></a>
-<h3>Fixing a Build Error</h3>
+<h2>Fixing a Build Error</h2>
 <p>If your not building on a Linux machine, you may run into the error message about being on an unsupported platform.</p>
 <a
     href="https://res.cloudinary.com/dkeghqshh/image/upload/v1613241465/jenntesolin.com/blog/jekyll-create-app-initial-deploy-fail-log-min_ogiwk6.png"><img
@@ -74,7 +74,7 @@ author: Jennifer Tesolin
     href="https://res.cloudinary.com/dkeghqshh/image/upload/v1613241465/jenntesolin.com/blog/jekyll-create-app-add-do-platform-bundle-min_lx2hrd.png"><img
         src="https://res.cloudinary.com/dkeghqshh/image/upload/v1613241465/jenntesolin.com/blog/jekyll-create-app-add-do-platform-bundle-min_lx2hrd.png"
         loading="lazy" alt="" class="img-responsive"></a>
-<p>Be sure to commit your changes to your remote repository. Your site should automatically start trying to build again. If you have "auto deploy" turned off, yu will need to manual;y deploy from the app platform interface.</p>
+<p>Be sure to commit your changes to your remote repository. Your site should automatically start trying to build again. If you have "auto deploy" turned off, you will need to manual;y deploy from the app platform interface.</p>
 <a
     href="https://res.cloudinary.com/dkeghqshh/image/upload/v1613241466/jenntesolin.com/blog/jekyll-create-app-redeploy-min_dnnutu.png"><img
         src="https://res.cloudinary.com/dkeghqshh/image/upload/v1613241466/jenntesolin.com/blog/jekyll-create-app-redeploy-min_dnnutu.png"
@@ -100,7 +100,7 @@ author: Jennifer Tesolin
     href="https://res.cloudinary.com/dkeghqshh/image/upload/v1613241465/jenntesolin.com/blog/jekyll-create-app-click-add-domain-configure-min_qvl2rj.png"><img
         src="https://res.cloudinary.com/dkeghqshh/image/upload/v1613241465/jenntesolin.com/blog/jekyll-create-app-click-add-domain-configure-min_qvl2rj.png"
         loading="lazy" alt="" class="img-responsive"></a>
-        
+
 <p>You will be brought to a screen titled "Add Domain". Fill in your domain name, and select how whether you want digital ocean to manage, or to add a CNAME (in my instance DNS is selected). For more information the differences check out: <a href="https://www.digitalocean.com/docs/app-platform/how-to/manage-domains/" rel="nofollow noreferrer noopener">How to Manage Domains in App Platform</a>.</p>
 <a
     href="https://res.cloudinary.com/dkeghqshh/image/upload/v1615504393/jenntesolin.com/blog/jekyll-create-app-assign-domain-configure-min_dtfoe2.png"><img
@@ -125,8 +125,7 @@ author: Jennifer Tesolin
         loading="lazy" alt="" class="img-responsive"></a>
 <h3>Resources</h3>
 <ul>
-    <li><a href="https://github.com/jennifert/jekyll-site" rel="nofollow noreferrer noopener">My personal site's repo</a></li>
-	<li><a href="https://devcenter.heroku.com/articles/ruby-versions" rel="nofollow noreferrer noopener">Select your Ruby Version</a></li>
-    <li><a href="https://www.digitalocean.com/docs/app-platform/how-to/manage-domains/"
-            rel="nofollow noreferrer noopener">How to Manage Domains in App Platform</a></li>
+  <li><a href="https://github.com/jennifert/jekyll-site" rel="nofollow noreferrer noopener">My personal site's repo</a></li>
+  <li><a href="https://devcenter.heroku.com/articles/ruby-versions" rel="nofollow noreferrer noopener">Select your Ruby Version</a></li>
+  <li><a href="https://www.digitalocean.com/docs/app-platform/how-to/manage-domains/" rel="nofollow noreferrer noopener">How to Manage Domains in App Platform</a></li>
 </ul>

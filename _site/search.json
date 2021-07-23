@@ -13,7 +13,7 @@
     {
       "title"    : "Installing Homebrew on Big Sur",
       "href"     : "/blog/2021/01/13/mac-homebrew/",
-      "summary"     : "This post describes how to install homebrew, as as well as casks (software applications). Getting readyStep 1: Open Your Terminal program Search in launchpad or spotlight for &quot;Terminal.app&quot;Step 2: Accept...",
+      "summary"     : "This post describes how to install homebrew, as as well as casks (software applications). Getting readyStep 1: Open Your Terminal programSearch in launchpad or spotlight for &quot;Terminal.app&quot;Step 2: Accept the...",
       "category" : ["Tutorial","Mac_Web", null],
       "tags"     : ["Ruby","Homebrew", null],
       "date"     : "Jan 13, 2021"
@@ -83,7 +83,7 @@
     {
       "title"    : "Installing Node JS and Grunt",
       "href"     : "/blog/2018/04/18/installing-node-js-and-grunt/",
-      "summary"     : "This tutorial focuses on installing the platform, and provides resources for using Grunt. This was originally from May 8, 2013 and has been re-written for the latest version of Node...",
+      "summary"     : "This tutorial focuses on installing the platform, and provides resources for using Grunt.This was originally from May 8, 2013 and has been re-written for the latest version of Node and...",
       "category" : ["Tutorial","Mac_Web", null],
       "tags"     : ["Grunt","Node JS", null],
       "date"     : "Apr 18, 2018"
@@ -113,7 +113,7 @@
     {
       "title"    : "Top 6 resources that you may find at your local library",
       "href"     : "/blog/2017/01/06/top-6-library-resources/",
-      "summary"     : "The library now has more services than just book for video lending. This post describes what can be found in the city of Toronto, Canada. Be sure to check out...",
+      "summary"     : "The library has more services than just book or disc lending. This post describes what can be found in the city of Toronto, Canada. Some of which are also available...",
       "category" : ["Technology", null],
       "tags"     : ["library", null],
       "date"     : "Jan 6, 2017"

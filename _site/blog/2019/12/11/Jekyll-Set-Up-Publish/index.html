@@ -94,16 +94,10 @@
   <em>This post was originally written on March 17, 2015. It has been updated for Mac OS Catalina.</em>
 </p>
 <h3>Requirements</h3>
-<ul>
-  <li>
-    <a href="/blog/2021/01/13/mac-homebrew/">Ruby</a>
-  </li>
-</ul>
+<p>To use Jekyll, you will need to have Ruby installed. Check out  the blog post <a href="/blog/2021/01/13/mac-homebrew/">Install homebrew on Big Sur</a> if your on a Mac. Otherwise, check out <a href="https://rubyinstaller.org/" target="_blank" rel="nofollow noreferrer noopener">Ruby Installer for Windows</a></p>
 
-<h3>Install Jekyll dependencies:</h3>
-<p>
-  To install Jekyll, run the command:
-</p>
+<h2>Install Jekyll dependencies:</h2>
+<p>To install Jekyll, run the command:</p>
 
 <pre><code>gem install jekyll bundler</code></pre>
 
@@ -112,7 +106,7 @@
 </p>
 
 <p>
-  Once your file is ready, you will need to install the Jekyll Importer by the below command:
+  Once your export file is ready, you will need to install the Jekyll Importer by the below command:
 </p>
 
 <pre><code>gem install jekyll-import</code></pre>
@@ -134,7 +128,7 @@
 
 <p>There is a list over on the <a href="https://jekyllrb.com/docs/plugins/" target="_blank" rel="nofollow noreferrer noopener">jekyll website</a> (separated by category).</p>
 
-<h3>A new Jekyll instance</h3>
+<h2>A new Jekyll instance</h2>
 
 <p>
   <em>Skip to next section to import your WordPress blog.</em>
@@ -155,7 +149,7 @@
   Jekyll will now generate a site in the folder "<code>my-site-name</code>".
 </p>
 <p>
-  To override the default jekyll theme, you will need ot create two folders as seen in the list below. These are <code>assets</code>, <code>sass</code>, <code>_includes</code> and <code>_layouts</code>. For more information check out <a href="https://jekyllrb.com/docs/themes/#overriding-theme-defaults"  target="_blank" rel="nofollow noreferrer noopener">overriding theme defaults</a>.
+  To override the default jekyll theme, you will need to create two folders as seen in the list below. These are <code>assets</code>, <code>sass</code>, <code>_includes</code> and <code>_layouts</code>. For more information check out <a href="https://jekyllrb.com/docs/themes/#overriding-theme-defaults"  target="_blank" rel="nofollow noreferrer noopener">overriding theme defaults</a>.
 </p>
 <ul>
   <li>
@@ -192,7 +186,7 @@
     <code>_includes</code> is where you store portions of a file such as your menu, header, footer, and analytics code.
   </li>
   <li>
-    <code>_layouts</code>puts the pieces of the includes together for a post, page and index file.
+    <code>_layouts</code> puts the pieces of the includes together for a post, page and index file.
   </li>
 </ul>
 
@@ -203,14 +197,12 @@
 </p>
 
 <p>
-  Below is what the directory will look like in the terminal, as well as the ouput running the <code>serve</code>command to preview your site locally:
+  Below is what the directory will look like in the terminal, as well as the output running the <code>serve</code>command to preview your site locally:
 </p>
 <img src="https://res.cloudinary.com/dkeghqshh/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1612980085/jenntesolin.com/blog/jekyll-new-cmd2_kgpdsb.png" alt="Jekyll serve command terminal output"  loading="lazy" />
 
-<h3>WordPress Import instructions (wordpress.com and self hosted)</h3>
-<p>
-  Click one of the links below to check out the awesome docs at Jekyll RB.
-</p>
+<h2>WordPress Import instructions</h2>
+<p>Click one of the links below to check out the awesome docs at Jekyll RB. Choose whether you have both wordpress.com or self hosted.</p>
 
 <ul>
   <li>
@@ -221,21 +213,27 @@
   </li>
 </ul>
 
-<h3>Drafts</h3>
+<h2>Drafts</h2>
 
-<p>
-  To wok on a post locally, but not moving it live, create a folder at the root called <code>_drafts</code>. Next, add a markdown or html file without the address. Finally, run the below in your terminal:
-</p>
+<p>To work on a post locally (but not moving it live), create a folder at the root called <code>_drafts</code>. Next, add a markdown or html file without the address.</p>
+<img src="https://res.cloudinary.com/dkeghqshh/image/upload/v1612980794/jenntesolin.com/blog/jekyll-new-cmd2b_elcfqa.png" alt="Terminal screen output showing draft folder" loading="lazy">
+<p>Finally, run the below in your terminal:</p>
 
 <pre><code>bundle exec jekyll serve --drafts</code></pre>
-
-<img src="https://res.cloudinary.com/dkeghqshh/image/upload/v1612980794/jenntesolin.com/blog/jekyll-new-cmd2b_elcfqa.png" alt="Terminal screen output showing draft folder" loading="lazy">
 
 <p>
   Changes can be made on the fly using this method as well. When ready to publish, move the file to <code>_posts</code> and add a date.
 </p>
 
-<h3>Publishing your new site</h3>
+<h2>Ruby 3.0+ Issues</h2>
+<p>
+  As per the <a href="https://github.com/github/pages-gem/issues/752" rel="nofollow noreferrer noopener" target="_blank">Jekllrb Github Issue</a> you may need to run the command:
+</p>
+<pre>
+  <code>bundle add webrick</code>
+</pre>
+
+<h2>Publishing your new site</h2>
 
 <p>
   The last step is in this process is to push your files on-line. First, instead of <code>jekyll serve</code> you will want to run <code>jekyll build</code> like below. This replaces all of your development links with what your production link. <a href="/blog/2015/08/08/jekyll-config-file/">Check out how to set your configuration.</a>
@@ -257,7 +255,7 @@
   Note that if you use GitHub pages, you will need to compile the files on your computer first  then commit your files to the master branch.
 </p>
 
-<h3>Resources</h3>
+<h2>Resources</h2>
 
 <p>
   Check out these Jekyll tutorials for more on working with the Jekyll static site generator:

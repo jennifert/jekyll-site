@@ -87,79 +87,63 @@
   </header>
 
   <article class="post-content e-content p-name">
-  <p>
-    This post describes how to install homebrew, as as well as casks (software applications).
-    <!--more-->
-</p>
+  <p>This post describes how to install homebrew, as as well as casks (software applications).
+    <!--more--></p>
 <h2>Getting ready</h2>
-<p><b>Step 1: Open Your Terminal program</b></p>
+<h3>Step 1: Open Your Terminal program</h3>
 
-<p>
-    Search in launchpad or spotlight for "Terminal.app"
-</p>
+<p>Search in launchpad or spotlight for "Terminal.app"</p>
 
-<p><b>Step 2: Accept the license agreements</b></p>
+<h3>Step 2: Accept the license agreements</h3>
 
-<p>
-    Copy and paste the below commands in your terminal. Be sure to read and accept the agreements.
-</p>
+<p>Copy and paste the below commands in your terminal. Be sure to read and accept the agreements.</p>
 
 <pre><code>xcode-select --install<br>sudo xcodebuild -license</code></pre>
 
-<p><b>Step 3: Check if Ruby is installed, then update the files</b></p>
+<h3>Step 3: Check if Ruby is installed, then update the files</h3>
 
-<p>
-    Make sure that you can run ruby from command line by typing:
-</p>
+<p>Make sure that you can run ruby from command line by typing:</p>
 
 <pre><code>ruby -v</code></pre>
 
 <h2>Install homebrew</h2>
 
-<p>
-    Homebrew is basically a package manager for the Mac, and in this being used to fix the default Ruby version that
-    comes with the Mac. It will also be used further into the tutorial to install other development items.
-</p>
+<p>Homebrew is basically a package manager for the Mac, and in this being used to fix the default Ruby version that
+    comes with the Mac. It will also be used further into the tutorial to install other development items.</p>
 <img src="https://res.cloudinary.com/dkeghqshh/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1612979795/jenntesolin.com/blog/homebrew-site_mknkil.png"
     alt="Homebrew website"  loading="lazy" />
 
 <h3>Copy Install Script</h3>
-<p>
-    Go to the homebrew site (<a href="https://brew.sh/" rel="nofollow noreferrer noopener">brew.sh</a>) and check out
-    the latest download code and run in in the terminal. It should look something like this:
-</p>
+<p>Go to the homebrew site (<a href="https://brew.sh/" rel="nofollow noreferrer noopener">brew.sh</a>) and check out
+    the latest download code and run in in the terminal. It should look something like this:</p>
 
 <pre><code>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</code></pre>
 
-<p>
-    Once the install has completed, its best to run the below commands to make sure your installation is okay and has
-    the latest files.
-</p>
-<h3>Test commands</h3>
-<pre><code>brew doctor<br>brew update</code></pre>
+<p>Once the install has completed, its best to run the below command to make sure your installation is okay and has
+    the latest files.</p>
+<pre><code>brew doctor</code></pre>
 
 
 <h3>Updating Homebrew packages</h3>
 
-<p>
-    To update packages, you will need to run an update, and upgrade like below:
-</p>
+<p>To update packages, you will need to run an update, and upgrade like below:</p>
 
 <pre><code>brew update<br />brew upgrade</code></pre>
 
-Once in awhile you may want to also clean up unneeded files by this command:
-<pre><code></code>brew cleanup</code></pre>
+<p>
+  Once in awhile you may want to also clean up unneeded files by this command:
+</p>
+<pre><code>brew cleanup</code></pre>
 
 <h3>Install some brew packages</h3>
 <p>You can install a package (called Formulae) either in bulk or one at a time.</p>
 <p>One at a time:</p>
-<pre><code>brew install wget</code></pre> 
-<p>Bulk:</p>
+<pre><code>brew install wget</code></pre>
+<p>Or many at once:</p>
 <pre><code>brew install wget node python@3</code></pre>
 <h4>ffmpeg</h4>
 
-<p><code>ffmpeg</code>: is a great library for converting videos, and more. I typically use on my own video files to convert or stream media files.</p>
-<p>Default installation:</p>
+<p>ffmpeg: is a great library for converting videos, and more. To install the with the default settings:</p>
 <pre><code>brew tap homebrew-ffmpeg/ffmpeg
 brew install homebrew-ffmpeg/ffmpeg/ffmpeg</code></pre>
 <p>Check out the homebrew github repo to see the options: <a href="https://github.com/homebrew-ffmpeg/homebrew-ffmpeg/" target="_blank" rel="nofollow noreferrer noopener">ffmpeg Github repository</a></p>
@@ -187,51 +171,41 @@ brew install mongodb-community</code></pre>
 <p>For some installations, if they fail, retry after you enable it in: System Preferences → Security & Privacy → General.</p>
 
 <ul>
-    <li>isyncr</li>
-    <li>visual-studio</li>
-    <li>visual-studio</li>
-    <li>gog-galaxy</li>
-    <li>origin</li>
-    <li>virtualbox</li>
-    <li>virtualbox-extension-pack</li>
-    <li>backblaze</li>
-    <li>backblaze-downloader</li>
-    <li>malwarebytes</li>
-    <li>dosbox-x</li>
-    <li>skype</li>
-    <li>github</li>
-    <li>vlc</li>
-    <li>handbrake</li>
-    <li>iterm2</li>
-    <li>spotify</li>
-    <li>sequel-pro</li>
-    <li>plexamp</li>
-    <li>firefox</li>
-    <li>keepassxc</li>
-    <li>visual-studio-code</li>
-    <li>calibre</li>
-    <li>appcleaner</li>
-    <li>tor-browser</li>
-    <li>jetbrains-toolbox</li>
-    <li>xampp</li>
-    <li>google-chrome</li>
-    <li>dash</li>
-    <li>protonmail-bridge</li>
-    <li>netbeans-php</li>
-    <li>java (installs the openJDK)</li>
+  <li>visual-studio</li>
+  <li>figma</li>
+  <li>valentina-studio</li>
+  <li>virtualbox</li>
+  <li>virtualbox-extension-pack</li>
+  <li>github</li>
+  <li>vlc</li>
+  <li>handbrake</li>
+  <li>iterm2</li>
+  <li>spotify</li>
+  <li>sequel-pro</li>
+  <li>firefox</li>
+  <li>keepassxc</li>
+  <li>visual-studio-code</li>
+  <li>calibre</li>
+  <li>appcleaner</li>
+  <li>tor-browser</li>
+  <li>jetbrains-toolbox</li>
+  <li>xampp</li>
+  <li>google-chrome</li>
+  <li>dash</li>
+  <li>netbeans</li>
+  <li>adoptopenjdk</li>
+  <li>postman</li>
 </ul>
 <p>If you want to run multiple Java Versions, check out this guide: <a href="https://dev.to/gabethere/installing-java-on-a-mac-using-homebrew-and-jevn-12m8" target="_blank" rel="nofollow noreferrer noopener">Installing Java on a Mac using Homebrew and jevn-12m8</a></p>
 <h3>Update Ruby and installed gems.</h3>
 
 <pre><code>brew install ruby</code></pre>
 
-Next, make sure you add Ruby to your shell configuration. Bellow is te shell for the default in Big Sur (fresh copy):
+<p>Next, make sure you add Ruby to your shell configuration. Below is the shell for the default in Big Sur:</p>
 
 <pre><code>echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.zshrc<br>
 exec zsh</code></pre>
-<p><code>exec zsh</code>: will restart your terminal so the path kicks in. If you do not ant to run this, simple type
-    <code>exit</code>, then quit your terminal application. Next, restart it.
-</p>
+<p><p><kbd>exec zsh</kbd>: will restart your terminal so the path kicks in. If you do not ant to run this, simple type <kbd>exit</kbd>, then quit your terminal application and reopen it.</p>
 <p>Next, update your ruby gems:</p>
 <pre><code>gem update --system<br>gem update</code></pre>
 <p>Or if you want to have multiple versions, follow this great digital ocean guide: <a href="https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-macos" target="_blank" rel="nofollow noreferrer noopener">https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-macos</a></p>
@@ -244,6 +218,7 @@ exec zsh</code></pre>
     <li><a href="https://stackoverflow.com/a/58316584" target="_blank" rel="nofollow noreferrer noopener">Stack Overflow
             post: fixing Ruby</a></li>
 </ul>
+
   </article>
 
 </div>

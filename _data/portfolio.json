@@ -1,0 +1,96 @@
+[
+  {
+    "id": 1,
+    "title": "Archer CMS",
+    "summary": "Fullstack CMS built with React 19, Vite, Express, and SQLite. Passport.js for auth.",
+    "repo": "https://github.com/jennifert/archer-cms",
+    "demo": "",
+    "tags": [
+      "JavaScript",
+      "MERN",
+      "CMS"
+    ],
+    "tech": [
+      "React",
+      "Node.js",
+      "MongoDB"
+    ],
+    "date": "2017-10-01",
+    "lastUpdated": "2025-06-30",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Beginner JavaScript Demos",
+    "summary": "Small demos using JavaScript libraries and technology. Started as a code area for demos I created.",
+    "repo": "https://github.com/jennifert/JavaScript-Demos",
+    "demo": "",
+    "tags": [
+      "JavaScript",
+      "Demos"
+    ],
+    "tech": [
+      "HTML",
+      "JS",
+      "DOM"
+    ],
+    "date": "2019-05-01",
+    "lastUpdated": "2020-12-30",
+    "featured": false
+  },
+  {
+    "id": 3,
+    "title": "Slim 3 YAML Search Web Service",
+    "summary": "A web service built using Slim 3 and the 'mnapoli/front-yaml' composer library to search in YAML tags in a folder _post.",
+    "repo": "https://github.com/jennifert/Slim-3-web-Service-with-Sample-TypeScript-client-side-code",
+    "demo": "",
+    "tags": [
+      "PHP",
+      "Slim",
+      "API"
+    ],
+    "tech": [
+      "PHP",
+      "Slim 3",
+      "Composer"
+    ],
+    "date": "2020-01-15",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "title": "Github Gists",
+    "summary": "Helpful gists to get started with development. Includes: NPM Build Scripts, Jekyll Config files, and more.",
+    "repo": "https://gist.github.com/jennifert",
+    "demo": "",
+    "tags": [
+      "Config",
+      "Snippets"
+    ],
+    "tech": [
+      "NPM",
+      "Jekyll",
+      "CLI"
+    ],
+    "date": "2021-03-01",
+    "featured": false
+  },
+  {
+    "id": 5,
+    "title": "Pokemon Team Builder",
+    "summary": "A modular Gen 1 Pok\u00e9mon team builder built with vanilla JavaScript, Vite, and Tailwind CSS.",
+    "repo": "https://github.com/jennifert/pokemon-builder-public",
+    "demo": "https://team-builder-app-7tqzs.ondigitalocean.app/",
+    "tags": [
+      "pokemon",
+      "javascript"
+    ],
+    "tech": [
+      "NPM",
+      "Javascript",
+      "Node"
+    ],
+    "date": "2025-07-09",
+    "featured": true
+  }
+]

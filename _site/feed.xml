@@ -5,8 +5,8 @@
     <description>This is Jennifer Tesolin&apos;s personal web site. Located on this site are tutorials and tips for web developers.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 10 Jul 2025 15:18:45 -0400</pubDate>
-    <lastBuildDate>Thu, 10 Jul 2025 15:18:45 -0400</lastBuildDate>
+    <pubDate>Thu, 10 Jul 2025 18:14:57 -0400</pubDate>
+    <lastBuildDate>Thu, 10 Jul 2025 18:14:57 -0400</lastBuildDate>
     
       <item>
         <title>Jekyll Static Sites on the Digital App Platform</title>

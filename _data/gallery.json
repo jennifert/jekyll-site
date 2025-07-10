@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Mayan Ruins",
+    "desc": "A structure at the Mayan ruins in Cozumel, Mexico.",
+    "src": "/imgs/gallery/mayan_ruins.jpg"
+  },
+  {
+    "title": "Tall Ship",
+    "desc": "A sail at dusk with Toronto in the horizon.",
+    "src": "/imgs/gallery/tall_ship.jpg"
+  },
+  {
+    "title": "Peace Arch",
+    "desc": "The Peace Arch at the Hiroshima Memorial Peace Park.",
+    "src": "/imgs/gallery/peace_arc.jpg"
+  }
+]

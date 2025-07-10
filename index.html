@@ -5,7 +5,8 @@ layout: default
 <div class="jumbotron hidden-xs">
   <h1>{{ site.title }}</h1>
   <p class="p-note">
-    Welcome to my website that features my portfolio consisting of Github Repositories and Photography, as well as tutorials that include tips and tricks for web development and at the odd times traveling.
+    Welcome to my website that features my portfolio consisting of Github Repositories and Photography, as well as
+    tutorials that include tips and tricks for web development and at the odd times traveling.
   </p>
 </div>
 
@@ -19,53 +20,78 @@ layout: default
   </div>
 </div>
 <div class="row">
-{% for post in site.posts limit:3 %}
+  {% for post in site.posts limit:3 %}
 
-{% if forloop.index == 3 %}
+  {% if forloop.index == 3 %}
   <div class="clearfix visible-xs-block col-md-4"></div>
-{% endif %}
+  {% endif %}
   <div class="col-xs-6 col-md-4">
     <div class="row">
-          <div class="col-xs-12">
-                  <h3 class="blog-header">{{ post.title }}</h3>
-                  <p class="blog-summary"> {{ post.content | split:'<!--more-->' | first }}</p>
-                  <p><a href="{{ post.url | prepend: site.baseurl }}" class="red">Read more<span class="sr-only">: {{ post.title }} </span>...</a></p>
-              <div>
-                <span class="badge blog-date"><time class="published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %-d, %Y" }}</time></span>
-                <div class="pull-right">
-                  {% for category in post.categories %}
-                    <span class="label label-primary taggedPost"><a href="/categories/index.html#{{ category }}">{{ category }}</a></span>
-                  {% endfor %}
-                </div>
-              </div>
-            </div>
+      <div class="col-xs-12">
+        <h3 class="blog-header">{{ post.title }}</h3>
+        <p class="blog-summary"> {{ post.content | split:'<!--more-->' | first }}</p>
+        <p><a href="{{ post.url | prepend: site.baseurl }}" class="red">Read more<span class="sr-only">: {{ post.title
+              }} </span>...</a></p>
+        <div>
+          <span class="badge blog-date"><time class="published" datetime="{{ post.date | date: " %Y-%m-%d" }}">{{
+              post.date | date: "%b %-d, %Y" }}</time></span>
+          <div class="pull-right">
+            {% for category in post.categories %}
+            <span class="label label-primary taggedPost"><a href="/categories/index.html#{{ category }}">{{ category
+                }}</a></span>
+            {% endfor %}
           </div>
-    </div>
-
-     {% endfor %}
-  </div>
-
-     <hr>
-  <div class="row">
-    <div class="col-xs-12">
-      <h2>Github Repositories and Latest Series</h2>
+        </div>
+      </div>
     </div>
   </div>
+
+  {% endfor %}
+</div>
+
+<hr>
 <div class="row">
-  <div class="col-xs-4">
-    <h3>Archer CMS</h3>
-    <p>A github repo that is my MERN project for the Fall 2017 HackerYou Fullstack Master class. Heads up: this repo is currently for development enironments.</p>
-    <p><a class="btn btn-default" target="_blank" href="https://github.com/jennifert/archer-cms" rel="nofollow noreferrer noopener">View <span class="sr-only">Archer CMS</span> repo &raquo;</a></p>
+  <div class="col-xs-12">
+    <h2>Github Repositories and Latest Series</h2>
   </div>
-  <div class="col-xs-4">
-   <h3>Mac: Development Set-up</h3>
-    <p>This is a new series being published/updated that links to various tutorials for getting up and running in web development on your mac (using free software.)</p>
-    <p><a class="btn btn-default" href="/blog/2019/12/02/mac-local-dev-server/">View Series<span class="sr-only"> on Mac Development Set-up</span>&raquo;</a></p>
+</div>
+<div class="row">
+  {% assign featured_projects = site.data.portfolio | where: "featured", true %}
+  {% assign sorted_projects = featured_projects | sort: "lastUpdated" %}
+  {% assign sorted_projects = sorted_projects | sort: "date" %}
+  {% assign sorted_projects = sorted_projects | reverse %}
+
+  {% for item in sorted_projects %}
+  <div class="col-xs-12 col-sm-6 col-md-4">
+    <h3>{{ item.title }}</h3>
+    <p>{{ item.summary }}</p>
+
+    {% if item.repo %}
+    <p>
+      <a class="btn btn-default" target="_blank" href="{{ item.repo }}" rel="nofollow noreferrer noopener">
+        View Repo <span class="sr-only">{{ item.title }}</span> &raquo;
+      </a>
+    </p>
+    {% endif %}
+
+    {% if item.demo %}
+    <p>
+      <a class="btn btn-default" target="_blank" href="{{ item.demo }}" rel="nofollow noreferrer noopener">
+        View Demo <span class="sr-only">{{ item.title }} Demo</span> &raquo;
+      </a>
+    </p>
+    {% endif %}
+
+    {% if item.tags %}
+    <p>
+      {% for tag in item.tags %}
+      <span class="label label-primary">{{ tag }}</span>
+      {% endfor %}
+    </p>
+    {% endif %}
+    <small class="text-muted">
+      Updated: {{ item.lastUpdated | default: item.date }}
+    </small>
   </div>
-  <div class="col-xs-4">
-   <h3>Github and Gists</h3>
-    <p>Here are a few helpful repos and gists to get you started on your development journey.</p>
-    <p><a class="btn btn-default" target="_blank" href="https://github.com/jennifert/JavaScript-Demos" rel="nofollow noreferrer noopener">JavaScript demos repo &raquo;</a></p>
-    <p><a class="btn btn-default" target="_blank" href="https://gist.github.com/jennifert" rel="nofollow noreferrer noopener">My Gists &raquo;</a></p>
-  </div>
+  {% endfor %}
 </div>

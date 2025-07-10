@@ -10,6 +10,7 @@ Changelog
 - Removed SCSS and all `sass`-related tooling; migrated to plain CSS.
 - Cleaned up old/unused gems, packages, and platform-specific scripts.
 - Created TODO.md for next steps.
+- added _data and scripts to sync gallery and portfolio projects
 
 ### 🛠 Build System Overhaul
 - Updated `package.json` scripts:

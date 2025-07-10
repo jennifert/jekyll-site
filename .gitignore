@@ -1,23 +1,29 @@
-# OS X / Windows Files
+# OS & editor junk
 .DS_Store
-Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
 
-# NODE
-.node_modules
-node_modules
-*/node_modules
-/node_modules/*
-npm-debug.log
-package-lock.json
-.env
+# Log & coverage files
+*.log
+coverage
 
-# JEKYLL
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+
+# Ruby / Jekyll artifacts
 .sass-cache/
 .jekyll-cache/
-.jekyll-metadata
-.rvmrc
-*.gem
+_site/
+.bundle/
+vendor/
+.ruby-version
 
-#PHP - Future
-#composer.phar
-#/vendor/
+
+# Build output
+dist/
+

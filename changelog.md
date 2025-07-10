@@ -1,5 +1,48 @@
 Changelog
 ===========
+
+## [3.5.0] - 2025-07-10
+
+### 🔧 General Refactor & Cleanup
+- Removed jQuery and replaced DOM operations with vanilla JavaScript.
+- Migrated custom `$.inArrayIn` usage to native `Array.prototype.includes`.
+- Refactored `main.js` to use `fetch()` and `querySelectorAll`/`forEach`.
+- Removed SCSS and all `sass`-related tooling; migrated to plain CSS.
+- Cleaned up old/unused gems, packages, and platform-specific scripts.
+- Created TODO.md for next steps.
+
+### 🛠 Build System Overhaul
+- Updated `package.json` scripts:
+  - Removed `scss`/`sass` tasks.
+  - Added `rimraf`-based clean step before builds.
+  - Ensured proper directory creation (`mkdir -p`) for JS/CSS/image tasks.
+  - Confirmed build pipeline works on macOS (no Windows-specific commands).
+- Consolidated `build`, `watch`, and `serve` commands for simplified usage.
+
+### 🧪 Linting & Testing
+- Integrated `eslint` and `stylelint` with custom config and autofix support.
+- Cleaned up JS and CSS to conform to latest linting standards.
+- Preserved `jest` support for potential JS unit tests.
+
+### ♿️ Accessibility (Removed for This Repo)
+- Removed `axe` integration due to build complexity and unused output.
+- Accessibility testing to be prioritized in future projects where needed.
+
+### ⚙️ Jekyll Config Updates
+- `_config.yml`:
+  - Added `dist` to `include`.
+  - Excluded development-only files:`node_modules`, etc.
+- Maintains default permalink, paginate, and feed settings.
+
+### 📁 Miscellaneous
+- Refined `.gitignore` to match new project structure.
+- Created `README.md` with:
+  - Shields for license, technologies used, and version.
+  - Detailed directory structure and usage notes.
+
+---
+
+## Version 3 Changelog
 July 21, 2021:
 - fixed older blog links
 - fixed spelling  and grammar.

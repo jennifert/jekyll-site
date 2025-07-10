@@ -1,0 +1,16 @@
+---
+layout: null
+permalink: /urls.txt
+---
+
+{%- assign base = "http://localhost:4000" -%}
+
+{%- for page in site.pages -%}
+  {%- unless page.url == "/404.html" or page.url == "/feed.xml" or page.url == "/urls.txt" or page.url contains "offline" -%}
+{{ base }}{{ page.url }}
+{% endunless %}
+{% endfor %}
+
+{%- for post in site.posts -%}
+{{ base }}{{ post.url }}
+{% endfor %}

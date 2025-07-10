@@ -7,7 +7,8 @@ timezone : "America/Toronto"
 plugins: [jekyll-paginate]
 
 # Build Settings
-exclude: [Gemfile, Gemfile.lock, README.md, vendor, bin,changelog.md,wordpress.xml,package.json,Gruntfile.js,node_modules, .ruby-version]
+include: [dist]
+exclude: [Gemfile, Gemfile.lock, README.md, vendor, bin,changelog.md,wordpress.xml,package.json,Gruntfile.js,node_modules, .ruby-version, scripts, results]
 markdown: kramdown
 markdown_ext:  markdown,mkdown,mkdn,mkd,md
 textile_ext:   textile

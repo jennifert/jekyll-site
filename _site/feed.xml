@@ -3,10 +3,10 @@
   <channel>
     <title>Jennifer Tesolin</title>
     <description>This is Jennifer Tesolin&apos;s personal web site. Located on this site are tutorials and tips for web developers.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 10 Jul 2025 19:17:20 -0400</pubDate>
-    <lastBuildDate>Thu, 10 Jul 2025 19:17:20 -0400</lastBuildDate>
+    <link>https://jekyll-app-tvn8m.ondigitalocean.app//</link>
+    <atom:link href="https://jekyll-app-tvn8m.ondigitalocean.app//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 10 Jul 2025 19:22:55 -0400</pubDate>
+    <lastBuildDate>Thu, 10 Jul 2025 19:22:55 -0400</lastBuildDate>
     
       <item>
         <title>Jekyll Static Sites on the Digital App Platform</title>
@@ -128,8 +128,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 11 Mar 2021 12:23:21 -0500</pubDate>
-        <link>http://localhost:4000/blog/2021/03/11/jekyll-on-digital-ocean/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2021/03/11/jekyll-on-digital-ocean/</guid>
+        <link>https://jekyll-app-tvn8m.ondigitalocean.app//blog/2021/03/11/jekyll-on-digital-ocean/</link>
+        <guid isPermaLink="true">https://jekyll-app-tvn8m.ondigitalocean.app//blog/2021/03/11/jekyll-on-digital-ocean/</guid>
         
         <category>Jekyll</category>
         
@@ -273,8 +273,8 @@ exec zsh&lt;/code&gt;&lt;/pre&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Wed, 13 Jan 2021 12:50:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/2021/01/13/mac-homebrew/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2021/01/13/mac-homebrew/</guid>
+        <link>https://jekyll-app-tvn8m.ondigitalocean.app//blog/2021/01/13/mac-homebrew/</link>
+        <guid isPermaLink="true">https://jekyll-app-tvn8m.ondigitalocean.app//blog/2021/01/13/mac-homebrew/</guid>
         
         <category>Ruby</category>
         
@@ -356,8 +356,8 @@ exec zsh&lt;/code&gt;&lt;/pre&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Wed, 14 Oct 2020 16:00:00 -0400</pubDate>
-        <link>http://localhost:4000/blog/2020/10/14/great-apps-and-programs-for-web-development-revisted/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2020/10/14/great-apps-and-programs-for-web-development-revisted/</guid>
+        <link>https://jekyll-app-tvn8m.ondigitalocean.app//blog/2020/10/14/great-apps-and-programs-for-web-development-revisted/</link>
+        <guid isPermaLink="true">https://jekyll-app-tvn8m.ondigitalocean.app//blog/2020/10/14/great-apps-and-programs-for-web-development-revisted/</guid>
         
         <category>Apps</category>
         
@@ -399,8 +399,8 @@ exec zsh&lt;/code&gt;&lt;/pre&gt;
 &lt;img src=&quot;https://res.cloudinary.com/dkeghqshh/image/upload/v1612975704/jenntesolin.com/blog/github-cmd-tools_lni0uq.png?w=750&amp;q=75&quot; alt=&quot;Image showing location of command line tools install on Github Desktop Application&quot; width=&quot;700&quot; height=&quot;504&quot; loading=&quot;lazy&quot; /&gt;
 </description>
         <pubDate>Thu, 12 Dec 2019 06:18:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/2019/12/12/git-github/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2019/12/12/git-github/</guid>
+        <link>https://jekyll-app-tvn8m.ondigitalocean.app//blog/2019/12/12/git-github/</link>
+        <guid isPermaLink="true">https://jekyll-app-tvn8m.ondigitalocean.app//blog/2019/12/12/git-github/</guid>
         
         <category>git</category>
         
@@ -623,8 +623,8 @@ exec zsh&lt;/code&gt;&lt;/pre&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Wed, 11 Dec 2019 15:30:21 -0500</pubDate>
-        <link>http://localhost:4000/blog/2019/12/11/Jekyll-Set-Up-Publish/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2019/12/11/Jekyll-Set-Up-Publish/</guid>
+        <link>https://jekyll-app-tvn8m.ondigitalocean.app//blog/2019/12/11/Jekyll-Set-Up-Publish/</link>
+        <guid isPermaLink="true">https://jekyll-app-tvn8m.ondigitalocean.app//blog/2019/12/11/Jekyll-Set-Up-Publish/</guid>
         
         <category>Jekyll</category>
         
@@ -731,8 +731,8 @@ exec zsh&lt;/code&gt;&lt;/pre&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 10 Dec 2019 15:50:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/2019/12/10/mac-ruby/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2019/12/10/mac-ruby/</guid>
+        <link>https://jekyll-app-tvn8m.ondigitalocean.app//blog/2019/12/10/mac-ruby/</link>
+        <guid isPermaLink="true">https://jekyll-app-tvn8m.ondigitalocean.app//blog/2019/12/10/mac-ruby/</guid>
         
         <category>Ruby</category>
         
@@ -787,8 +787,8 @@ exec zsh&lt;/code&gt;&lt;/pre&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 02 Dec 2019 15:40:21 -0500</pubDate>
-        <link>http://localhost:4000/blog/2019/12/02/mac-local-dev-server/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2019/12/02/mac-local-dev-server/</guid>
+        <link>https://jekyll-app-tvn8m.ondigitalocean.app//blog/2019/12/02/mac-local-dev-server/</link>
+        <guid isPermaLink="true">https://jekyll-app-tvn8m.ondigitalocean.app//blog/2019/12/02/mac-local-dev-server/</guid>
         
         <category>Mac</category>
         
@@ -836,8 +836,8 @@ exec zsh&lt;/code&gt;&lt;/pre&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 08 Sep 2018 15:00:00 -0400</pubDate>
-        <link>http://localhost:4000/blog/2018/09/08/using-ios-and-android-together/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/09/08/using-ios-and-android-together/</guid>
+        <link>https://jekyll-app-tvn8m.ondigitalocean.app//blog/2018/09/08/using-ios-and-android-together/</link>
+        <guid isPermaLink="true">https://jekyll-app-tvn8m.ondigitalocean.app//blog/2018/09/08/using-ios-and-android-together/</guid>
         
         <category>android</category>
         
@@ -923,8 +923,8 @@ npm install&lt;/code&gt;
 &lt;p&gt;&lt;a href=&quot;https://web.archive.org/web/20170606003354/http://dailyjs.com/post/backbone-tutorial-1&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;DailyJS: Backbone.js Tutorial: Build Environment&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 18 Apr 2018 15:00:00 -0400</pubDate>
-        <link>http://localhost:4000/blog/2018/04/18/installing-node-js-and-grunt/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/04/18/installing-node-js-and-grunt/</guid>
+        <link>https://jekyll-app-tvn8m.ondigitalocean.app//blog/2018/04/18/installing-node-js-and-grunt/</link>
+        <guid isPermaLink="true">https://jekyll-app-tvn8m.ondigitalocean.app//blog/2018/04/18/installing-node-js-and-grunt/</guid>
         
         <category>Grunt</category>
         
@@ -956,8 +956,8 @@ npm install&lt;/code&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 28 May 2017 10:34:00 -0400</pubDate>
-        <link>http://localhost:4000/blog/2017/05/28/basic-highcharts-rightclick/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2017/05/28/basic-highcharts-rightclick/</guid>
+        <link>https://jekyll-app-tvn8m.ondigitalocean.app//blog/2017/05/28/basic-highcharts-rightclick/</link>
+        <guid isPermaLink="true">https://jekyll-app-tvn8m.ondigitalocean.app//blog/2017/05/28/basic-highcharts-rightclick/</guid>
         
         <category>JavaScript</category>
         

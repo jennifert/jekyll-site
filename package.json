@@ -31,7 +31,7 @@
     "serve": "bundle exec jekyll serve --livereload",
     "watch": "npm-run-all --parallel watch:css watch:js watch:images",
     "start:watch": "npm run build && concurrently \"npm run serve\" \"npm run watch\"",
-    "start": "bundle exec jekyll build"
+    "start": "npm run build && bundle exec jekyll build"
   },
   "repository": {
     "type": "git",

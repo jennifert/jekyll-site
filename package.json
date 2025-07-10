@@ -1,7 +1,7 @@
 {
   "name": "jekyll-site",
   "version": "3.5.0",
-  "description": "JennTesolin.com on Jekyll =========== The [Jekyll](https://jekyllrb.com/) version of my site [http://jenntesolin.com/](jenntesolin.com).",
+  "description": "This is Jennifer Tesolin's personal web site. Located on this site are tutorials and tips for web developers.",
   "main": "index.html",
   "scripts": {
     "convert:gallery": "node scripts/convert-gallery.js",

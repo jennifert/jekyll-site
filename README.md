@@ -75,6 +75,21 @@ This will:
 
 ---
 
+## 🔄 Sync Docs
+
+### 🔄 Automation Docs
+
+See [`sync-between-nextjs-json.md`](sync-between-nextjs-json.md) for full details on all sync-related scripts.
+
+### 📘 Changelog
+See the full [Changelog](changelog.md) for version history and updates.
+
+### 🔁 Sync from Next.js
+
+See [`nextjs-sync-to-jekyll.md`](nextjs-sync-to-jekyll.md) for details on syncing blog files into Jekyll.
+
+---
+
 ## 🌐 DigitalOcean Deployment
 
 This project was originally designed to deploy via [DigitalOcean](https://www.digitalocean.com/) or similar hosts that support static HTML sites.

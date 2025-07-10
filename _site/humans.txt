@@ -4,7 +4,7 @@ Site: me@jenntesolin.com
 Github: jennifert
 
 /* SITE */
-Last update: 2025-07-10 19:25:35 -0400
+Last update: 2025-07-10 19:39:29 -0400
 Language:English
 DocType: HTML5
 Standards: HTML5, CSS

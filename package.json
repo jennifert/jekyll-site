@@ -6,6 +6,7 @@
   "scripts": {
     "convert:gallery": "node scripts/convert-gallery.js",
     "copy:images": "bash scripts/copy-images.sh",
+    "copy:imagesProd": "mkdir -p _site/imgs && cp -R imgs/* _site/imgs/",
     "prepare:images": "bash scripts/prepare-images.sh",
     "fetch:data": "mkdir -p _data && curl -s https://raw.githubusercontent.com/jennifert/nextjs-site/main/components/data/portfolio.json -o _data/portfolio.json && npm run convert:gallery",
     "fetch:all": "npm run fetch:data && npm run copy:images",
@@ -24,6 +25,7 @@
     "build:css": "mkdir -p dist/css && cp src/css/main.css dist/css/main.css && npm run cssfonts && npm run cssprefix && npm run cssmin",
     "build:js": "npm run lint:js && npm run copy:js",
     "build:site": "bundle exec jekyll build",
+    "build:ocean": "npm run clean && npm run lint:css && npm run build:css && npm run build:js && npm run build:site",
     "build": "npm run clean && npm run fetch:all && npm run lint:css && npm run build:css && npm run build:js && npm run build:site",
     "watch:css": "onchange 'src/css/**/*.css' -- npm run build:css",
     "watch:js": "onchange 'src/js/**/*.js' -- npm run build:js",
@@ -31,7 +33,7 @@
     "serve": "bundle exec jekyll serve --livereload",
     "watch": "npm-run-all --parallel watch:css watch:js watch:images",
     "start:watch": "npm run build && concurrently \"npm run serve\" \"npm run watch\"",
-    "start": "npm run clean && npm run lint:css && npm run build:css && npm run build:js && npm run build:site"
+    "start": "npm run build:ocean && npm run copy:imagesProd"
   },
   "repository": {
     "type": "git",

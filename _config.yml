@@ -8,7 +8,7 @@ plugins: [jekyll-paginate]
 
 # Build Settings
 include: [dist]
-exclude: [Gemfile, Gemfile.lock, README.md,changelog.md,package.json,Gruntfile.js,node_modules, .ruby-version, scripts]
+exclude: [Gemfile, Gemfile.lock, README.md,changelog.md,package.json,Gruntfile.js,node_modules, .ruby-version, scripts, unoptimized-imgs]
 markdown: kramdown
 markdown_ext:  markdown,mkdown,mkdn,mkd,md
 textile_ext:   textile

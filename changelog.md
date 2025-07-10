@@ -1,6 +1,11 @@
 Changelog
 ===========
 
+## [3.5.1] - 2025-07-10
+
+### 🔧 General Refactor & Cleanup
+- `_drafts` folder here will contain files that still need to be properly updated and tested for the blog. This is semi automated.
+
 ## [3.5.0] - 2025-07-10
 
 ### 🔧 General Refactor & Cleanup

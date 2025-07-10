@@ -2,13 +2,13 @@
 title: Jennifer Tesolin
 description: "This is Jennifer Tesolin's personal web site. Located on this site are tutorials and tips for web developers."
 baseurl: ""
-url: "https://jenntesolin.com"
+url: "https://jekyll-app-tvn8m.ondigitalocean.app/"
 timezone : "America/Toronto"
 plugins: [jekyll-paginate]
 
 # Build Settings
 include: [dist]
-exclude: [Gemfile, Gemfile.lock, README.md,changelog.md,package.json,Gruntfile.js,node_modules, .ruby-version, scripts, unoptimized-imgs]
+exclude: [Gemfile, Gemfile.lock, README.md,changelog.md,package.json,Gruntfile.js,node_modules, .ruby-version, scripts, unoptimized-imgs, _drafts, sync-between-nextjs-json.md,nextjs-sync-to-jekyll.md]
 markdown: kramdown
 markdown_ext:  markdown,mkdown,mkdn,mkd,md
 textile_ext:   textile

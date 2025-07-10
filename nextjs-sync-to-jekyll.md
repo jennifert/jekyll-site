@@ -48,6 +48,8 @@ Now you can run it from the root of `nextjs-site`:
 npm run sync:jekyll
 ```
 
+Here is the file in my gitrepo: [`scripts/sync-to-jekyll.js`](https://github.com/jennifert/nextjs-site/blob/main/scripts/sync-to-jekyll.js). Next, here are the blog posts its pulling from: [`pages/blog`](https://github.com/jennifert/nextjs-site/tree/main/pages/blog) 
+
 ---
 
 © Maintained by Jennifer Tesolin | GitHub: [@jennifert](https://github.com/jennifert)

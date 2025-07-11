@@ -2,7 +2,7 @@
 title: Jennifer Tesolin
 description: "This is Jennifer Tesolin's personal web site. Located on this site are tutorials and tips for web developers."
 baseurl: ""
-url: "https://jekyll-app-tvn8m.ondigitalocean.app/"
+url: "https://jekyll-app-kaxf2.ondigitalocean.app"
 timezone : "America/Toronto"
 plugins: [jekyll-paginate]
 

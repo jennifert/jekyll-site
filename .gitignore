@@ -18,7 +18,6 @@ pnpm-lock.yaml
 # Ruby / Jekyll artifacts
 .sass-cache/
 .jekyll-cache/
-_site/
 .bundle/
 vendor/
 .ruby-version

@@ -1,28 +1,5 @@
-# OS & editor junk
-.DS_Store
-*.swp
-*.swo
-.idea/
-.vscode/
-
-# Log & coverage files
-*.log
-coverage
-
-# Node.js dependencies
-node_modules/
-npm-debug.log*
-yarn.lock
-pnpm-lock.yaml
-
-# Ruby / Jekyll artifacts
-.sass-cache/
-.jekyll-cache/
-.bundle/
-vendor/
-.ruby-version
-
-
-# Build output
-dist/
-
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor

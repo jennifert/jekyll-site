@@ -1,5 +1,34 @@
-_site
-.sass-cache
-.jekyll-cache
+# Jekyll generated files
+_site/
+.jekyll-cache/
 .jekyll-metadata
-vendor
+.sass-cache/
+
+# Ruby and Bundler
+.bundle/
+vendor/bundle/
+*.gem
+
+# Testing and coverage
+coverage/
+.rspec_status
+
+# IDEs and editors
+.idea/
+.vscode/
+*.iml
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp

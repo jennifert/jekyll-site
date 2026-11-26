@@ -16,6 +16,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ### Fixed
 
+- Removed previously tracked Jekyll build output (`_site/`) from version control.
+- Removed previously tracked IntelliJ IDEA configuration (`.idea/`) from version control.
+
 ### Security
 
 ---

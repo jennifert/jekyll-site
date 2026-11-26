@@ -7,11 +7,14 @@ _site/
 # Ruby and Bundler
 .bundle/
 vendor/bundle/
+vendor/cache/
 *.gem
+
+# Optional frontend development tools
+node_modules/
 
 # Testing and coverage
 coverage/
-.rspec_status
 
 # IDEs and editors
 .idea/

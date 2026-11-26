@@ -12,6 +12,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - Established a fresh Jekyll 4.4.1 installation.
 - Configured and tested the Ruby development environment using WSL 2.
 - Established the project roadmap and development milestones.
+- Added Rake as a project dependency for future task automation.
+- Added .ruby-version to document the development Ruby version.
 
 ### Changed
 
@@ -22,6 +24,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - Established Markdown settings and front matter defaults.
 - Updated site metadata and author information.
 - Excluded development files and project documentation from production builds.
+- Simplified .gitignore for Ruby and Jekyll development.
+- Simplified the Gemfile and organized Ruby dependencies.
+- Updated the Jekyll Feed dependency constraint.
 
 ### Deprecated
 
@@ -31,6 +36,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - Legacy Bootstrap-based layouts and stylesheets.
 - Outdated JavaScript and Ruby plugins from the active implementation.
 - Legacy deployment configuration.
+- Removed unnecessary native Windows and JRuby-specific dependency declarations.
 
 ### Fixed
 

@@ -44,14 +44,22 @@ The legacy implementation will remain available throughout the rebuild.
 - [x] Transfer the fresh Jekyll scaffold.
 - [x] Test the local development server.
 - [x] Commit the initial scaffold.
-- [ ] Confirm scaffold commit is pushed.
-- [ ] Update README.
-- [ ] Establish project plan.
-- [ ] Review and update `.gitignore`.
-- [ ] Review Gemfile and dependency requirements.
-- [ ] Modernize `_config.yml`.
-- [ ] Review retained drafts and legacy documentation.
-- [ ] Establish GitHub milestones and issues.
+- [x] Confirm scaffold commit is pushed.
+- [x] Update README.
+- [x] Establish project plan.
+- [x] Review and update `.gitignore`.
+- [x] Review Gemfile and dependency requirements.
+- [x] Modernize `_config.yml`.
+- [x] Review retained drafts and legacy documentation.
+- [x] Establish GitHub milestones and issues.
+- [x] Restore historical changelog.
+- [x] Add `.ruby-version`.
+- [x] Add Rake as a project dependency.
+- [x] Verify Atom feed.
+- [x] Modernize humans.txt.
+- [x] Review robots.txt.
+- [ ] Verify production build.
+- [ ] Publish v4.0.0-alpha.1 pre-release.
 
 ### Documentation
 
@@ -158,7 +166,7 @@ The legacy implementation will remain available throughout the rebuild.
 
 ### Rake and Ruby Scripts
 
-- [ ] Add Rake to the project Gemfile.
+- [X] Add Rake to the project Gemfile.
 - [ ] Create Rakefile.
 - [ ] Establish build, serve and clean tasks.
 - [ ] Review original synchronization scripts.
@@ -249,7 +257,7 @@ The legacy implementation will remain available throughout the rebuild.
 - [ ] Complete project documentation.
 - [ ] Complete updated Jekyll tutorials.
 - [ ] Review README.
-- [ ] Establish new changelog.
+- [ ] Finalize changelog for stable release.
 - [ ] Preserve legacy branch.
 - [ ] Review default branch strategy.
 - [ ] Create Git version tag.

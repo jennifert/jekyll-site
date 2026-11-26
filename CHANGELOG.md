@@ -8,35 +8,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ### Added
 
-- Created the `rebuild` branch for the Jekyll 4.0 modernization.
-- Established a fresh Jekyll 4.4.1 installation.
-- Configured and tested the Ruby development environment using WSL 2.
-- Established the project roadmap and development milestones.
-- Added Rake as a project dependency for future task automation.
-- Added .ruby-version to document the development Ruby version.
-
 ### Changed
-
-- Replaced the legacy website structure with a fresh Jekyll scaffold.
-- Updated the README and project documentation.
-- Simplified the development and build process.- Modernized `_config.yml` with organized configuration sections.
-- Preserved the original blog permalink structure and Atom feed path.
-- Established Markdown settings and front matter defaults.
-- Updated site metadata and author information.
-- Excluded development files and project documentation from production builds.
-- Simplified .gitignore for Ruby and Jekyll development.
-- Simplified the Gemfile and organized Ruby dependencies.
-- Updated the Jekyll Feed dependency constraint.
 
 ### Deprecated
 
 ### Removed
-
-- Legacy Node.js and npm build pipeline.
-- Legacy Bootstrap-based layouts and stylesheets.
-- Outdated JavaScript and Ruby plugins from the active implementation.
-- Legacy deployment configuration.
-- Removed unnecessary native Windows and JRuby-specific dependency declarations.
 
 ### Fixed
 
@@ -44,9 +20,52 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ---
 
+## [4.0.0-alpha.1] - 2026-11-25
+
+### Added
+
+- Created the `rebuild` branch for the Jekyll 4.0 modernization.
+- Established a fresh Jekyll 4.4.1 installation.
+- Configured and tested the Ruby development environment using WSL 2.
+- Established the project roadmap, development milestones and issue tracking.
+- Added Rake as a project dependency for future task automation.
+- Added `.ruby-version` to document the development Ruby version.
+
+### Changed
+
+- Replaced the legacy website structure with a fresh Jekyll scaffold.
+- Updated the README and project documentation.
+- Simplified the development and build process.
+- Modernized `_config.yml` with organized configuration sections.
+- Preserved the original blog permalink structure and Atom feed path.
+- Established Markdown settings and front matter defaults.
+- Updated site metadata and author information.
+- Excluded development files and project documentation from production builds.
+- Simplified `.gitignore` for Ruby and Jekyll development.
+- Simplified the Gemfile and organized Ruby dependencies.
+- Updated the Jekyll Feed dependency constraint.
+- Modernized `humans.txt`.
+- Reviewed and retained crawler restrictions in `robots.txt`.
+- Restored historical changelog entries from 2014 through 2025.
+
+### Removed
+
+- Legacy Node.js and npm build pipeline.
+- Legacy Bootstrap-based layouts and stylesheets.
+- Outdated JavaScript and Ruby plugins from the active implementation.
+- Legacy deployment configuration.
+- Unnecessary native Windows and JRuby-specific dependency declarations.
+
+### Fixed
+
+- Resolved Minima author metadata compatibility issues.
+- Resolved Bundler platform deprecation warnings.
+
+---
+
 ## Legacy Versions
 
-The previous Jekyll implementation (v3.5.0 and earlier) is preserved on the `master` branch.
+The previous Jekyll implementation (v3.5.1 and earlier) is preserved on the `master` branch.
 
 Previous development history remains available through the repository's Git history.
 

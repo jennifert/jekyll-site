@@ -1,6 +1,6 @@
 /* TEAM */
 Developer: Jennifer Tesolin
-Site: http://localhost:4000
+Site: https://jenntesolin.com
 Email: me@jenntesolin.com
 GitHub: https://github.com/jennifert
 
@@ -13,5 +13,5 @@ Components: Jekyll, Liquid
 Software: IntelliJ IDEA, GitHub Desktop, Ubuntu (WSL 2)
 
 /* DEVELOPMENT */
-Environment: development
+Environment: production
 Repository: https://github.com/jennifert/jekyll-site

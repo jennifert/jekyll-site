@@ -2,14 +2,19 @@
 layout: null
 ---
 /* TEAM */
-Developer: {{ site.author.name }}
-Site: {{ site.author.email }}
-Github: {{ site.author.github }}
+Developer: {{ site.author }}
+Site: {{ site.url }}
+Email: {{ site.email }}
+GitHub: https://github.com/{{ site.github_username }}
 
 /* SITE */
-Last update: {{ site.time }}
-Language:English
-DocType: HTML5
-Standards: HTML5, CSS
-Components: Jekyll, NPM Build Scripts, jQuery, Bootstrap 3.7
-Software: Atom, Sketch, Affinity Photo
+Last update: {{ site.time | date: "%Y-%m-%d" }}
+Language: English (Canada)
+Doctype: HTML5
+Standards: HTML5, CSS, JavaScript
+Components: Jekyll, Liquid
+Software: IntelliJ IDEA, GitHub Desktop, Ubuntu (WSL 2)
+
+/* DEVELOPMENT */
+Environment: {{ jekyll.environment }}
+Repository: https://github.com/jennifert/jekyll-site

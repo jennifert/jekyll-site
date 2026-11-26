@@ -1,12 +1,17 @@
 /* TEAM */
-Developer: 
-Site: 
-Github: 
+Developer: Jennifer Tesolin
+Site: http://localhost:4000
+Email: me@jenntesolin.com
+GitHub: https://github.com/jennifert
 
 /* SITE */
-Last update: 2026-11-25 22:05:04 -0500
-Language:English
-DocType: HTML5
-Standards: HTML5, CSS
-Components: Jekyll, NPM Build Scripts, jQuery, Bootstrap 3.7
-Software: Atom, Sketch, Affinity Photo
+Last update: 2026-11-25
+Language: English (Canada)
+Doctype: HTML5
+Standards: HTML5, CSS, JavaScript
+Components: Jekyll, Liquid
+Software: IntelliJ IDEA, GitHub Desktop, Ubuntu (WSL 2)
+
+/* DEVELOPMENT */
+Environment: development
+Repository: https://github.com/jennifert/jekyll-site

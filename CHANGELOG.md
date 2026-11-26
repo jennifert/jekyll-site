@@ -17,7 +17,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 - Replaced the legacy website structure with a fresh Jekyll scaffold.
 - Updated the README and project documentation.
-- Simplified the development and build process.
+- Simplified the development and build process.- Modernized `_config.yml` with organized configuration sections.
+- Preserved the original blog permalink structure and Atom feed path.
+- Established Markdown settings and front matter defaults.
+- Updated site metadata and author information.
+- Excluded development files and project documentation from production builds.
 
 ### Deprecated
 

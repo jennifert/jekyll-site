@@ -1,98 +1,124 @@
 # JennTesolin.com – Jekyll Static Site
 
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
-[![Built with Jekyll](https://img.shields.io/badge/built%20with-Jekyll-blue)](https://jekyllrb.com/)
-[![Node.js](https://img.shields.io/badge/Node-20.x-brightgreen?logo=node.js)](https://nodejs.org/)
-[![Ruby](https://img.shields.io/badge/Ruby-3.4.1-red?logo=ruby)](https://www.ruby-lang.org/en/)
+[![Jekyll](https://img.shields.io/badge/Jekyll-4.4.1-red)](https://jekyllrb.com/)
+[![Ruby](https://img.shields.io/badge/Ruby-3.3.8-red)](https://www.ruby-lang.org/)
+[![Status](https://img.shields.io/badge/status-rebuilding-orange)]()
 
-This is the [Jekyll](https://jekyllrb.com/) version of [https://jenntesolin.com](https://jenntesolin.com), maintained as a static site with modern dev tooling for local development and optimized builds.  
-Primarily built for personal use, local previews, and publishing to platforms like DigitalOcean.
+A Jekyll implementation of [jenntesolin.com](https://jenntesolin.com), built as a personal website and a practical learning project exploring Ruby, Liquid, static site generation and modern web development.
 
----
+## Project Status
 
-## 📁 Project Structure
+The project is undergoing a complete rebuild for version 4.0.
 
-```
-jekyll-site/
-├── _config.yml          # Jekyll site configuration
-├── Gemfile              # Ruby gems required for Jekyll
-├── Gemfile.lock         # Locked versions of Ruby gems
-├── package.json         # Node.js dev dependencies and scripts
-├── dist/                # Final build output (CSS, JS, images)
-│   ├── css/
-│   ├── js/
-│   ├── imgs/
-│   ├── search.json
-│   ├── urls.txt
-│   └── ...
-├── src/                 # Source CSS and JS files
-│   ├── css/
-│   └── js/
-├── imgs/                # Images for the site
-├── _site/               # Jekyll's default output directory (not used for deployment)
-├── .gitignore           # Files excluded from Git
-├── README.md            # This file
-├── humans.txt           # About the developer (you!)
-└── feed.xml             # RSS/Atom feed
-```
+The original implementation is preserved on the `master` branch. Active development takes place on the `rebuild` branch, starting from a fresh Jekyll installation.
 
----
+The rebuild aims to simplify the previous architecture, remove unnecessary build dependencies and replace legacy functionality with modern Jekyll, Ruby, Liquid and vanilla JavaScript.
 
-## ⚙️ Dev and Build Setup
+## Project Goals
 
-### 1. Install Dependencies
+- Establish a clean, modern Jekyll foundation.
+- Replace Minima with Pico CSS.
+- Create reusable Liquid layouts and components.
+- Develop custom Ruby plugins.
+- Introduce Rake for development automation.
+- Migrate content and JSON data from the Next.js website.
+- Modernize website search using minimal vanilla JavaScript.
+- Improve accessibility, performance and maintainability.
+- Remove the dependency on a Node.js build pipeline.
+- Update existing Jekyll tutorials and publish new development articles.
 
-```bash
-bundle install        # Ruby gems (for Jekyll)
-npm install           # Node dev tools (ESLint, PostCSS, etc.)
-```
+## Technology Stack
 
-### 2. Run Locally
+### Current
 
-```bash
-npm run start
-```
+- Ruby 3.3.8
+- RubyGems 3.6.7
+- Jekyll 4.4.1
+- Bundler 4.1.1
+- Liquid
+- Minima (temporary default theme)
 
-This will:
-- Build the site (CSS, JS, images, and Jekyll output)
-- Launch the local Jekyll server with livereload
-- Watch for CSS/JS/image changes and rebuild as needed
+### Planned
 
----
+- Pico CSS
+- Modern CSS
+- Vanilla JavaScript
+- Custom Ruby plugins
+- Rake
+- Minitest
+- JSON and Markdown
 
-## 🔧 Build for Production
+## Development Environment
+
+The initial development environment has been successfully tested using Ubuntu on Windows Subsystem for Linux (WSL 2).
+
+Rake 13.4.2 is also installed locally and will be integrated into the project during a later development milestone.
+
+## Getting Started
+
+Clone the repository:
 
 ```bash
-npm run build
+git clone https://github.com/jennifert/jekyll-site.git
+cd jekyll-site
+git switch rebuild
 ```
 
-This will:
-- Clean the `dist/` folder
-- Lint and minify JS and CSS
-- Optimize images
-- Copy compiled assets into `dist/`
-- Build the Jekyll site into `_site/` using `bundle exec jekyll build`
+Install the Ruby dependencies:
 
----
+```bash
+bundle install
+```
 
-## 🔄 Sync Docs
+Start the local development server:
 
-### 🔄 Automation Docs
+```bash
+bundle exec jekyll serve --livereload
+```
 
-See [`sync-between-nextjs-json.md`](sync-between-nextjs-json.md) for full details on all sync-related scripts.
+Open http://localhost:4000 in your browser.
 
-### 📘 Changelog
-See the full [Changelog](changelog.md) for version history and updates.
+## Development Commands
 
-### 🔁 Sync from Next.js
+| Command | Description |
+|---|---|
+| `bundle install` | Install project dependencies |
+| `bundle exec jekyll serve` | Start the local development server |
+| `bundle exec jekyll serve --livereload` | Start with live reload |
+| `bundle exec jekyll serve --drafts` | Preview draft articles |
+| `bundle exec jekyll build` | Generate the static website |
+| `bundle exec jekyll clean` | Remove generated files and caches |
 
-See [`nextjs-sync-to-jekyll.md`](nextjs-sync-to-jekyll.md) for details on syncing blog files into Jekyll.
+## Production Build
 
----
+```bash
+JEKYLL_ENV=production bundle exec jekyll build
+```
 
-## 🌐 DigitalOcean Deployment
+The generated website is located in the `_site/` directory.
 
-This project was originally designed to deploy via [DigitalOcean](https://www.digitalocean.com/) or similar hosts that support static HTML sites.
+## Related Projects
 
-> 🔸 **Note:**  
-> The `[config]` block (`project = _site`) found in earlier versions was specific to DigitalOcean's App Platform deployment. It is **not required for GitHub** or other hosts unless specifically needed by a platform.
+- [Next.js Personal Website](https://github.com/jennifert/nextjs-site)
+- [Live Personal Website](https://jenntesolin.com)
+
+The Next.js website serves as a content and design reference for this rebuild.
+
+## Deployment
+
+Planned deployment options include:
+
+- GitHub Pages using a custom GitHub Actions build.
+- DigitalOcean App Platform.
+- Self-hosted static web hosting.
+
+Deployment documentation will be updated once the new build pipeline has been established and tested.
+
+## Project Roadmap
+
+See [project-plan.md](project-plan.md) for development milestones, planned functionality and documentation goals.
+
+## License
+
+ISC

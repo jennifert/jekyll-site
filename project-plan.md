@@ -58,8 +58,8 @@ The legacy implementation will remain available throughout the rebuild.
 - [x] Verify Atom feed.
 - [x] Modernize humans.txt.
 - [x] Review robots.txt.
-- [ ] Verify production build.
-- [ ] Publish v4.0.0-alpha.1 pre-release.
+- [x] Verify production build.
+- [x] Publish v4.0.0-alpha.1 pre-release.
 
 ### Documentation
 
